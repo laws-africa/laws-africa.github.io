@@ -3,8 +3,8 @@
 }
 
 .site-footer {
-  padding: 40px 0px;
-  margin-top: 40px;
+  padding: ($spacer * 4) 0px;
+  margin-top: $spacer * 5;
 
   background-color: $gray-200;
 }
