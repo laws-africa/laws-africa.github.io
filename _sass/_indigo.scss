@@ -1,0 +1,10 @@
+.bg-indigo-pale-blue {
+  background-color: lighten($indigo-blue, 60%);
+}
+
+.feature-icon {
+  display: block;
+  text-align: center;
+  font-size: 3em;
+  color: $gray-500;
+}
