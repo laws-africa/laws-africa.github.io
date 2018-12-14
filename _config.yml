@@ -2,6 +2,9 @@
 title: Laws.Africa
 timezone: Africa/Johannesburg
 collections:
+  people:
+    title: People
+    output: true
   posts:
     title: Posts
     output: true
