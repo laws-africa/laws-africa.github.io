@@ -35,8 +35,9 @@ layout: simple
       <h2 class="mb-4">The Laws.Africa Team</h2>
 
       <div class="row">
-        {% for person in site.people | sort:"position" %}
 
+        {% assign people = site.people | sort:"position" %}
+        {% for person in people %}
           <div class="col-lg-6">
             <div class="card mb-3">
               <div class="card-body">
