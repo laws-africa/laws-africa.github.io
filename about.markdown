@@ -1,7 +1,11 @@
 ---
-layout: about
 title: About Laws.Africa
-lead: We believe that the traditional approach to promoting free access to the law requires a fundamental shift. Firstly, putting documents online does not enable value creation and is not enough. Secondly, sourcing, consolidating and providing open access to the law sustainably requires a new business model for collaboration and partnerships.
+layout: about
+lead: We believe that the traditional approach to promoting free access to the law
+  requires a fundamental shift. Firstly, putting documents online does not enable
+  value creation and is not enough. Secondly, sourcing, consolidating and providing
+  open access to the law sustainably requires a new business model for collaboration
+  and partnerships.
 navbar_item: about
 ---
 
