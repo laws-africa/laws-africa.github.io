@@ -1,5 +1,5 @@
 ---
-title: Greg
+title: Greg Kempe
 date: 2018-12-14 13:43:00 +02:00
 position: 2
 role: Co-founder and Head of Technology
