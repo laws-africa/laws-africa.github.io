@@ -42,9 +42,11 @@ layout: simple
           <div class="col-lg-6">
             <div class="card mb-3">
               <div class="card-body">
-                <div class="media">
-                  <img src="/img/team/{{ person.slug }}.jpg" alt="{{ person.title }} headshot" class="mr-3 rounded" width="150">
-                  <div class="media-body">
+                <div class="row">
+                  <div class="col-md-4 mb-3">
+                    <img src="/img/team/{{ person.slug }}.jpg" alt="{{ person.title }} headshot" class="mr-3 rounded img-fluid">
+                  </div>
+                  <div class="col-md-8">
                     <h5 class="mt-0 mb-0">{{ person.title }}</h5>
                     <h6>{{ person.role }}</h6>
                     <h6><a href="mailto:{{ person.email }}">{{ person.email }}</a></h6>
