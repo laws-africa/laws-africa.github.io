@@ -2,7 +2,7 @@
 title: Greg
 date: 2018-12-14 13:43:00 +02:00
 position: 2
-role: Head of Technology
+role: Co-founder and Head of Technology
 email: greg@laws.africa
 ---
 
