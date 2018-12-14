@@ -1,6 +1,6 @@
 ---
-layout: slim
 title: Contact Us
+layout: slim
 navbar_item: contact
 ---
 
