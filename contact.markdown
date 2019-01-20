@@ -2,6 +2,7 @@
 title: Contact Us
 layout: slim
 navbar_item: contact
+header_class: bg-lawsafrica-pale-red
 ---
 
 You can email us at [info@laws.africa](mailto:info@laws.africa) or use the form below.
