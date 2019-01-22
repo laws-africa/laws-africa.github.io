@@ -1,0 +1,23 @@
+---
+layout: slim
+---
+
+{% for section in page.sections %}
+  {% assign sect = forloop.index %}
+  <section class="mt-4">
+    <h4 class="mb-3">{{ section.title }}</h4>
+    <div class="accordion" id="faq-s-{{ sect }}">
+
+      {% for faq in section.faqs %}
+        <div class="mb-2 border-bottom">
+          <h5 id="faq-q-{{ sect }}-{{ forloop.index }}">
+            <button class="btn btn-link btn-block text-left px-0" type="button" data-toggle="collapse" data-target="#faq-a-{{ sect }}-{{ forloop.index }}" aria-expanded="false" aria-controls="faq-a-{{ sect }}-{{ forloop.index }}" style="white-space:normal !important; word-wrap: break-word">{{ faq.question }}<i class="float-right fas fa-chevron-circle-down"></i></button>
+          </h5>
+          <div class="collapse" id="faq-a-{{ sect }}-{{ forloop.index }}" aria-labelledby="faq-q-{{ sect }}-{{ forloop.index }}" data-parent="#faq-s-{{ sect }}">
+            {{ faq.answer | markdownify }}
+          </div>
+        </div>
+      {% endfor %}
+
+  </section>
+{% endfor %}
