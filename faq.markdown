@@ -46,6 +46,9 @@ sections:
       all help to determine what tasks need to be done.\n\nWe will also email you
       when a new task is added that you can help out with. You can choose to do any
       task that you’re qualified to do."
+  - question: I have a question you haven't answered.
+    answer: 'Please [contact us](contact)  with your question and we’ll respond as
+      soon as possible. '
 layout: faq
 ---
 
