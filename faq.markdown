@@ -19,14 +19,19 @@ sections:
 
       1. Capture and revise legislation in Laws.Africa’s legislation collection.
       2. Identify, report and correct issues in the legislation collection.
-      Improve the quality of the collection by reviewing the work of other contributors.
-      3. Become a Laws.Africa domain specialist by contributing knowledge and legislative updates in subject-matter collections, such as the Environment or Health.
-      4. Send us legislation and regulations to add to Laws.Africa. See How to send legislation for information on how.
+      3. Improve the quality of the collection by reviewing the work of other contributors.
+      4. Become a Laws.Africa domain specialist by contributing knowledge and legislative updates in subject-matter collections, such as the Environment or Health.
+      5. Send us legislation and regulations to add to Laws.Africa. See How to send legislation for information on how.
   - question: 'How do I become a contributor? '
     answer: |-
-      You can become a contributor by signing up at https://laws.africa/contribute. We’ll help you learn what you need to know and get you started.
+      You can become a contributor by signing up at [contribute](contribute). We’ll help you learn what you need to know and get you started.
 
       You can also send us legislation and regulations to add to the collection. See How to send legislation for information on how. We will get in touch with you to process your contribution.
+  - question: I need a particular piece of legislation, but I don’t want to be a contributor.
+      What should I do?
+    answer: Please [contact us](contact) and let us know what legislation you are
+      looking for. We will work with you to determine the best way to prioritise adding
+      it to Laws.Africa.
 - title: Being a Contributor
   faqs:
   - question: What’s in it for me?
@@ -46,6 +51,43 @@ sections:
       all help to determine what tasks need to be done.\n\nWe will also email you
       when a new task is added that you can help out with. You can choose to do any
       task that you’re qualified to do."
+  - question: Do contributors get paid?
+    answer: |-
+      In general, contributors do not get paid.
+
+      Laws.Africa is a non-profit organisation. We believe that everyone should have free access to the law and your contributions help your community to achieve this.
+
+      Sometimes we may offer paid work for particular tasks. Such work is always dependent on available funding.
+  - question: When will my contributions get published?
+    answer: |-
+      All contributions need to be reviewed for quality.
+
+      One of our editors will work with you on your first few contributions. Once your contributions have been made, they will be published on the system after a final quality check by one of our editorial staff.
+  - question: Do you offer contributor training?
+    answer: |-
+      Yes. Our online guides and videos have detailed instructions on making contributions to the Laws.Africa system. They will help you understand how to use the system, and how the process of publishing legislation works.
+
+      Our community leaders are also available to schedule Skype calls to walk you through adding content and working with the Laws.Africa system.
+
+      We also organize workshops on how to use and contribute to Laws.Africa. Check [events](events) for events near you.
+- title: Contributing Legislative Documents
+  faqs:
+  - question: Can I send you legislation to add to Laws.Africa?
+    answer: |-
+      Yes, we welcome contributions of legislation to add to Laws.Africa. However, we cannot accept legislation from other legal publishers. It is best to share legislation as it was originally published in the government gazette.
+
+      You can send it to us in a number of ways, including:
+      - Depositing files on Dropbox
+      - Sending files via email
+      - Filling out a form on Laws.Africa
+  - question: If I send you legislation, what information do you need?
+    answer: |-
+      We prefer to receive a scanned PDF version, together with Word or text version of the legislation, if possible.
+
+      It will be helpful for us to know the following information relating to the files you contribute:
+      - Source of the document
+      - Assent date, gazette date, commencement dates (and commencement instruments)
+      - Other information: subsidiaries or related works
   - question: I have a question you haven't answered.
     answer: 'Please [contact us](contact)  with your question and we’ll respond as
       soon as possible. '
