@@ -1,5 +1,5 @@
 ---
-title: Send us Legislation
+title: Send Us Legislation
 date: 2019-01-25 10:50:00 +02:00
 header_class: bg-lawsafrica-pale-red
 lead: Share your legislation with us and we’ll help you put it online.
