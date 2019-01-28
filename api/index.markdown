@@ -2,7 +2,6 @@
 title: Content API
 lead: The Laws.Africa’s legislation commons is available as structured, machine-friendly
   Akoma Ntoso XML through the Laws.Africa Content API.
-layout: api/index
 navbar_item: api
 features:
 - title: Legislation in XML and HTML
@@ -19,8 +18,8 @@ features:
   text: Details of the amendments that have been applied to a piece legislation, including
     links and details of the amending work.
 - title: Publication and Promulgation
-  text: Dates and details of the initial publication, including gazette numbers, and
-    often with links to the gazette PDFs for reference purposes.
+  text: Dates and details of the initial publication, including gazette numbers, often
+    with links to the gazette PDFs for reference purposes.
 - title: Points in Time
   text: Historical points in time for previous amended versions of legislation, where
     available.
@@ -43,6 +42,7 @@ plans:
     * Full access to Laws.Africa content and data on a per-country basis.
     * Provide attribution to Laws.Africa.
     * Commercial support helps to maintain the commons and supports free access to the law, for everyone.
+layout: api/index
 ---
 
 <p class="lead">The Laws.Africa Content API makes it easy to consume and work with the machine-friendly, structured legislation in the Laws.Africa commons. In addition to legislation content, the API includes content for points in time, amendment information, automated Table of Contents generation, and original publication details.</p>
