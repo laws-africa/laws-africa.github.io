@@ -65,8 +65,8 @@ layout: simple
           {% for plan in page.plans %}
           <div class="card">
             <h5 class="card-header text-center">{{ plan.title }}</h5>
-            <div class="card-body text-center">
-              <p class="lead">{{ plan.description }}</p>
+            <div class="card-body">
+              <p class="lead text-center">{{ plan.description }}</p>
 
               {{ plan.details | markdownify }}
 
