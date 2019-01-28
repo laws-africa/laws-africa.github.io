@@ -1,27 +1,29 @@
 ---
 title: Content API
-lead: The Laws.Africa’s legislation commons is available as structured, machine-friendly Akoma Ntoso XML through the Laws.Africa Content API.
+lead: The Laws.Africa’s legislation commons is available as structured, machine-friendly
+  Akoma Ntoso XML through the Laws.Africa Content API.
 layout: api/index
 navbar_item: api
 features:
 - title: Legislation in XML and HTML
-  text: |-
-    Legislation content in machine-friendly, richly structured [Akoma Ntoso XML](http://www.akomantoso.org/) and HTML formats. Work with entire Acts, or focus only on the chapters and sections you need.
+  text: Legislation content in machine-friendly, richly structured [Akoma Ntoso XML](http://www.akomantoso.org/)
+    and HTML formats. Work with entire Acts, or focus only on the chapters and sections
+    you need.
 - title: Embeddable HTML
-  text: |-
-    Beautifully formatted HTML snippets with CSS styling ready to be added to your website or app.
+  text: Beautifully formatted HTML snippets with CSS styling ready to be added to
+    your website or app.
 - title: Tables of Contents
-  text: |-
-    Automated Tables of Contents that describe the chapters, parts, sections and schedules of legislation without needing to work directly with XML or HTML.
+  text: Automated Tables of Contents that describe the chapters, parts, sections and
+    schedules of legislation without needing to work directly with XML or HTML.
 - title: Amendments
-  text: |-
-    Details of the amendments that have been applied to a piece legislation, including links and details of the amending work.
+  text: Details of the amendments that have been applied to a piece legislation, including
+    links and details of the amending work.
 - title: Publication and Promulgation
-  text: |-
-    Dates and details of the initial publication, including gazette numbers, and often with links to the gazette PDFs for reference purposes.
+  text: Dates and details of the initial publication, including gazette numbers, and
+    often with links to the gazette PDFs for reference purposes.
 - title: Points in Time
-  text: |-
-    Historical points in time for previous amended versions of legislation, where available.
+  text: Historical points in time for previous amended versions of legislation, where
+    available.
 benefits: |-
   * The Laws.Africa commons is continuously updated by the community. This includes the maintenance of existing legislation and the addition of new countries and subject areas.
   * The same data model for all countries makes your work across Africa simpler.
