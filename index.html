@@ -4,30 +4,40 @@ layout: simple
 navbar_item: home
 ---
 
-<header>
+<header class="py-5 bg-light">
   <div class="container">
+    <h1 class="display-4">African Law, for Everyone</h1>
+
     <div class="row">
-      <div class="col-md-7 mx-auto text-center">
-        <img src="img/logo.png" class="img-fluid mb-5 mt-3">
+      <div class="col-8 col-md-3 offset-md-3 order-md-2">
+        <img src="img/logo.png" class="img-fluid mb-4 mt-4">
+      </div>
 
-        <h1 class="display-4">Transforming access to legislation in Africa</h1>
-
-        <p class="mt-5 lead">Sign up to our newsletter to find out when we launch</p>
-
-        <!-- Begin Mailchimp Signup Form -->
-        <form action="https://africa.us19.list-manage.com/subscribe/post?u=60b61dad66a60a0c85266a68c&amp;id=098ca0e4c8" method="post" name="mc-embedded-subscribe-form" target="_blank" class="col-md-8 mx-auto">
-          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_60b61dad66a60a0c85266a68c_098ca0e4c8" tabindex="-1" value=""></div>
-          <div class="input-group">
-            <input type="email" value="" name="EMAIL" class="form-control" placeholder="email address" required>
-            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-            <div class="input-group-append">
-              <input type="submit" value="Subscribe" name="subscribe" class="btn btn-secondary">
-            </div>
-          </div>
-        </form>
-        <!--End mc_embed_signup-->
+      <div class="col-md-6 order-md-1">
+        <p class="lead text-muted mb-4">The Laws.Africa legislation commons makes African legislation freely available to everyone. The commons is supported by the community and anyone can help out. You can also build apps and services using the machine-friendly Content API.</p>
+        <p><a href="https://edit.laws.africa" class="btn btn-primary">Explore the legislation commons →</a></p>
       </div>
     </div>
 
   </div>
 </header>
+
+<section class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-lg-4 offset-lg-2 mb-5">
+        <div class="mb-3"><i class="fa fa-pen fa-3x text-primary"></i></div>
+        <h5>Help Out or Make A Correction</h5>
+        <p>Anyone can join and help out. See what tasks need to be done, fix a problem, and help to build the commons for Africa.</p>
+        <a href="https://edit.laws.africa/" class="btn btn-primary" role="button">Help out</a>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-5">
+        <div class="mb-3"><i class="fa fa-code fa-3x text-primary"></i></div>
+        <h5>Build Apps and Services</h5>
+        <p>Use our machine-friendly Content API to build apps and services using African legislation in Akoma Ntoso XML.</p>
+        <a href="/api/" class="btn btn-primary" role="button">About our Content API</a>
+      </div>
+    </div>
+  </div>
+</section>
