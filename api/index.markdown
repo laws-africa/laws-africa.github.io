@@ -6,7 +6,7 @@ navbar_item: api
 features:
 - title: Legislation in XML and HTML
   text: |-
-    Legislation content in machine-friendly, richly structured Akoma Ntoso XML and HTML formats. Work with entire Acts, or focus only on the chapters and sections you need. 
+    Legislation content in machine-friendly, richly structured [Akoma Ntoso XML](http://www.akomantoso.org/) and HTML formats. Work with entire Acts, or focus only on the chapters and sections you need.
 - title: Embeddable HTML
   text: |-
     Beautifully formatted HTML snippets with CSS styling ready to be added to your website or app.
@@ -29,7 +29,7 @@ benefits: |-
   * Easy to work with: a simple REST API that provides JSON, XML and HTML. For many use cases, there is no need to work with XML directly.
 plans:
 - title: Non-Commercial and Research
-  description: Free for non-commercial uses.
+  description: FREE for non-commercial uses.
   details: |-
     * Non-profit, academic research, and education.
     * Creative Commons Attribution-NonCommercial-ShareAlike (CC-BY-NC-SA) licencing.
