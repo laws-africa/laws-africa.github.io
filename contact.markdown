@@ -10,7 +10,7 @@ Please see our list of [Frequently Asked Questions (FAQ)](/faq), email us, or us
 
 Email: [info@laws.africa](mailto:info@laws.africa)  
 
-** Address **  
+**Address**  
 DGRU  
 Faculty of Law, UCT  
 Cape Town, 7701  
