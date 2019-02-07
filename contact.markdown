@@ -6,8 +6,15 @@ lead: Get in touch with us.
 layout: slim
 ---
 
+Please see our list of [Frequently Asked Questions (FAQ)](/faq), email us, or use the form below.
 
-Please see our list of [Frequently Asked Questions (FAQ)](/faq), email us at [info@laws.africa](mailto:info@laws.africa) or use the form below.
+Email: [info@laws.africa](mailto:info@laws.africa)  
+
+** Address **  
+DGRU  
+Faculty of Law, UCT  
+Cape Town, 7701  
+South Africa
 
 <br>
 
