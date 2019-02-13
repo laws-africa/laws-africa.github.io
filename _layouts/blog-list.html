@@ -13,12 +13,15 @@ layout: slim
 </section>
 
 <section class="mb-5 py-3">
-  <div class="card-deck">
+  <div class="row">
 
-    {% assign posts = site.posts %}
-    {% for post in posts %}
-    <div class="card border-0"><a href="#"><img class="card-img-top mb-2" src="https://bootstrapshuffle.com/placeholder/pictures/bg_4-3.svg" alt=""></a>
-      <div class="card-body"><small class="text-muted">{{ post.date }}</small>
+    {% for post in site.posts %}
+    <div class="card border-0 col-lg-4">
+      <a href="/blog/{{ post.slug }}">
+        <img class="card-img-top mb-2" src="https://bootstrapshuffle.com/placeholder/pictures/bg_4-3.svg" alt="">
+      </a>
+      <div class="card-body">
+        <small class="text-muted">{{ post.author }}</small>
         <h5 class="card-title my-2"><a href="#">{{ post.title }}</a></h5>
         <p>{{ post.intro }}</p>
       </div>
@@ -27,4 +30,3 @@ layout: slim
 
   </div>
 </section>
-
