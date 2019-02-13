@@ -1,7 +1,9 @@
 ---
 title: Example blog 4
+layout: blog-post
 slug: example-blog-four
 author: Author Four
+printDate: 3 January 2019
 intro: Lorem ipsum dolor amet chicharrones VHS unicorn kombucha, narwhal you probably haven't heard of them lomo farm-to-table cloud bread adaptogen.
 ---
 

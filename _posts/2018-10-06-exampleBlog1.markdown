@@ -3,6 +3,7 @@ title: Example blog 1
 layout: blog-post
 slug: example-blog-one
 author: Author One
+printDate: 6 October 2018
 intro: Lorem ipsum dolor amet chicharrones VHS unicorn kombucha, narwhal you probably haven't heard of them lomo farm-to-table cloud bread adaptogen.
 ---
 
