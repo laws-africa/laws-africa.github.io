@@ -1,6 +1,7 @@
 ---
-title: Why I'm the Best Programmer Ever
-date: 2018-12-14 13:45:00 +02:00
+title: Example blog 3
+slug: example-blog-three
+author: Author Three
 intro: Lorem ipsum dolor amet chicharrones VHS unicorn kombucha, narwhal you probably haven't heard of them lomo farm-to-table cloud bread adaptogen.
 ---
 
