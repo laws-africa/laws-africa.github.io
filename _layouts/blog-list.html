@@ -9,7 +9,7 @@ layout: slim
 {% for post in site.posts %}
 <div class="card border-0 col-md-6 col-lg-4 mb-4">
   <a href="{{ post.url }}">
-    <img class="card-img-top mb-2" src="https://bootstrapshuffle.com/placeholder/pictures/bg_4-3.svg" alt="">
+    <img class="card-img-top mb-2" src="{{ site.baseurl }}/img/posts/{{ post.image }}" alt="{{ post.image }}">
   </a>
   <div class="card-body">
     <small class="text-muted">{{ post.author }}</small>
