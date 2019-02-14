@@ -4,7 +4,7 @@ layout: simple
 <div class="container">
   <div class="col-lg-8 mx-auto">
     <h2 class="text-center mt-5">{{ page.title }}</h2>
-    <p class="text-center">{{ page.printDate }}, by {{ page.author }}</p>
+    <p class="text-center">{{ page.date | date: "%d %B %Y" }}, by {{ page.author }}</p>
   </div>
   <div class="row">
     <div class="col-lg-8 mx-auto">
