@@ -2,11 +2,13 @@
 layout: simple
 ---
 <div class="container">
-  <h2 class="text-center mt-5">{{ page.title }}</h2>
-  <p class="text-center">{{ page.printDate }}, by {{ page.author }}</p>
+  <div class="col-lg-8 mx-auto">
+    <h2 class="text-center mt-5">{{ page.title }}</h2>
+    <p class="text-center">{{ page.printDate }}, by {{ page.author }}</p>
+  </div>
   <div class="row">
     <div class="col-lg-8 mx-auto">
-      <img class="img-fluid my-5" src="{{ site.baseurl }}/img/posts/{{ page.image }}" alt="{{ page.image }}">
+      <img class="img-fluid my-4" src="{{ site.baseurl }}/img/posts/{{ page.image }}" alt="{{ page.image }}">
       <p class="lead">{{ page.intro}}</p>
       {{ content }}
     </div>
