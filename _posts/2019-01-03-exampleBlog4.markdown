@@ -1,10 +1,10 @@
 ---
 title: Example blog 4
 layout: blog-post
-slug: example-blog-four
 author: Author Four
 printDate: 3 January 2019
 intro: Lorem ipsum dolor amet chicharrones VHS unicorn kombucha, narwhal you probably haven't heard of them lomo farm-to-table cloud bread adaptogen.
+image: placeholder.jpg
 ---
 
 Lorem ipsum dolor amet chicharrones VHS unicorn kombucha, narwhal you probably haven't heard of them lomo farm-to-table cloud bread adaptogen. Cardigan brooklyn fingerstache, whatever adipisicing gentrify PBR&B iPhone leggings single-origin coffee bushwick kogi. Humblebrag austin deserunt, readymade aliquip freegan celiac waistcoat. Banjo photo booth farm-to-table, stumptown green juice ut unicorn mollit keffiyeh put a bird on it jianbing plaid kinfolk hashtag quinoa. Intelligentsia unicorn fugiat pork belly schlitz dolor. Butcher velit gentrify forage, non venmo food truck brooklyn. Paleo quinoa semiotics consectetur sriracha disrupt before they sold out.
