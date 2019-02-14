@@ -2,16 +2,12 @@
 layout: simple
 ---
 
-<section class="py-5">
-  <div class="container text-center">
-    <h2>{{ page.title }}</h2>
-    <p>{{ page.printDate }}, by {{ page.author }}</p>
+<h2 class="text-center mt-5">{{ page.title }}</h2>
+<p class="text-center">{{ page.printDate }}, by {{ page.author }}</p>
+<div class="row">
+  <div class="col-lg-8 mx-auto">
     <img class="img-fluid my-5" src="https://bootstrapshuffle.com/placeholder/pictures/bg_16-9.svg" alt="">
-    <div class="row text-left">
-      <div class="col-lg-8 mx-auto">
-        <p class="lead">{{ page.intro}}</p>
-        {{ content }}
-      </div>
-    </div>
+    <p class="lead">{{ page.intro}}</p>
+    {{ content }}
   </div>
-</section>
+</div>
