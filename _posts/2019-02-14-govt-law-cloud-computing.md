@@ -1,6 +1,6 @@
 ---
 title: What Government and the Law can Learn from Cloud Computing’s Success
-date: 2017-08-15 00:00:00 +02:00
+date: 2019-02-14 00:00:00 +02:00
 author: Greg Kempe
 lead: 'The enormous impact of cloud computing on the pace of business innovation over
   the last ten years bears an important lesson for the law and the government: the
