@@ -3,7 +3,7 @@ title: What Government and the Law can Learn from Cloud Computing’s Success
 layout: blog-post
 author: Greg Kempe
 printDate: 15 August 2017
-intro: "The enormous impact of cloud computing on the pace of business innovation over the last ten years bears an important lesson for the law and the government: the significant value of shared, re-usable resources."
+lead: "The enormous impact of cloud computing on the pace of business innovation over the last ten years bears an important lesson for the law and the government: the significant value of shared, re-usable resources."
 image: bulldozer.jpg
 ---
 
