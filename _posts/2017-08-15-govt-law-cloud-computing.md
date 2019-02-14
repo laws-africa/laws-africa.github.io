@@ -1,13 +1,15 @@
 ---
 title: What Government and the Law can Learn from Cloud Computing’s Success
 date: 2017-08-15 00:00:00 +02:00
-layout: blog-post
 author: Greg Kempe
 lead: 'The enormous impact of cloud computing on the pace of business innovation over
   the last ten years bears an important lesson for the law and the government: the
   significant value of shared, re-usable resources.'
 image: bulldozer.jpg
+layout: blog-post
 ---
+
+*\[Originally published on the [OpenUp blog](https://openup.org.za/articles/govt-law-cloud-computing.html).\]*
 
 The enormous impact of cloud computing on the pace of business innovation over the last ten years bears an important lesson for the law and the government: the significant value of shared, re-usable resources.
 
@@ -22,11 +24,12 @@ Amazon CTO Werner Vogels is famous for [telling companies to stop spending money
 This **undifferentiated heavy lifting** was all the hard work that every business had to do before they could focus on the value created by their product or service.
 
 * It was **undifferentiated** because everyone had to do the same thing (buy and maintain hardware and everything required to run it).
+
 * It was **heavy lifting** because it was expensive and time-consuming.
 
 Businesses were spending a lot of time and money on something that neither differentiated them from their competitors nor added value for their customers.
 
-Cloud computing turned all that on its head. Anyone can now, in literally seconds, get basically as much hardware as they like, pay for it by the hour, and throw it away when they no longer need it. Amazon, Microsoft and Google do the heavy lifting for them. As a result, businesses can spend a much bigger portion of their time and money on their competitive edge, innovating for their customers. 
+Cloud computing turned all that on its head. Anyone can now, in literally seconds, get basically as much hardware as they like, pay for it by the hour, and throw it away when they no longer need it. Amazon, Microsoft and Google do the heavy lifting for them. As a result, businesses can spend a much bigger portion of their time and money on their competitive edge, innovating for their customers.
 
 ## The muck of consolidating law
 
@@ -36,13 +39,13 @@ In South Africa, as in almost every other African country and many others around
 
 Companies such as Lexis Nexis, Sabinet and Juta make a business out of taking the original acts from the Government Gazettes, re-capturing and typesetting them, consolidating them by applying amendments, and publishing them. A public function—disseminating the law—has been privatised.
 
-To work with and use the law, civil society, the government and the private sector must either perform these same laborious tasks or pay others who have performed them. 
+To work with and use the law, civil society, the government and the private sector must either perform these same laborious tasks or pay others who have performed them.
 
 **This is undifferentiated heavy lifting**.
 
 * It’s **undifferentiated** because anyone and everyone who needs up-to-date, consolidated laws must first go through this process. Doing so doesn't help companies differentiate themselves from their competition, since they all need to do the same work.
-* It’s **heavy lifting** because the process requires expertise, is laborious and time-consuming, and is thus expensive.
 
+* It’s **heavy lifting** because the process requires expertise, is laborious and time-consuming, and is thus expensive.
 
 ## How this hurts us
 
@@ -52,15 +55,20 @@ There's also the additional concern that everyone must and should have access to
 
 ## Stop wasting money
 
-Here’s what we can learn from cloud computing: **we must stop spending money on undifferentiated heavy lifting when it comes to the law**. 
+Here’s what we can learn from cloud computing: **we must stop spending money on undifferentiated heavy lifting when it comes to the law**.
 
 Every country needs a collection of its laws that is:
 
 * available to all, for free
+
 * [openly-licensed](http://opendefinition.org/) for commercial and non-commercial use
+
 * machine-friendly with rich metadata
+
 * up-to-date
+
 * consolidated, and available as it was at a particular point in time
+
 * trusted
 
 Such a collection will free up the private sector to differentiate themselves from their competition. It will lower costs for companies, the government and end users. It will lower the barrier to entry and promote innovation in the legal and justice domains.
@@ -77,7 +85,7 @@ An excellent starting point is the existing collections held by the private sect
 
 ## PDFs are not good enough
 
-The format of the collection is important. A collection of PDFs or webpages isn't sufficient. Cloud computing works because the utilities being sold are useful in a wide variety of contexts and industries. So, too, must these digital laws be machine-friendly and data-rich in order to be broadly useful, including for use-cases we don't yet know about. 
+The format of the collection is important. A collection of PDFs or webpages isn't sufficient. Cloud computing works because the utilities being sold are useful in a wide variety of contexts and industries. So, too, must these digital laws be machine-friendly and data-rich in order to be broadly useful, including for use-cases we don't yet know about.
 
 Machine-friendly formats are critical because there is so much more value in legislation beyond the “words on a page” that a PDF encapsulates. Legislators can write better laws if technology helps them understand the impact of potential changes; paralegals can provide better support if they have access to richly annotated legislation and cross-linked case law; citizens will have better access to justice if they understand more clearly how the law is woven into their day-to-day lives.
 
