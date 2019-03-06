@@ -222,8 +222,8 @@ description of the English expression of Act 55 of 1998 as at 2014-01-07.
   "subtype": null,
   "year": "1998",
   "number": "55",
-  "frbr_uri": "/act/1998/55",
-  "expression_frbr_uri": "/act/1998/55/eng@2005-10-03",
+  "frbr_uri": "/za/act/1998/55",
+  "expression_frbr_uri": "/za/act/1998/55/eng@2005-10-03",
   "publication_date": "1998-10-19",
   "publication_name": "Government Gazette",
   "publication_number": "19370",
@@ -244,9 +244,9 @@ description of the English expression of Act 55 of 1998 as at 2014-01-07.
       "date": "2014-01-17",
       "expressions": [
         {
-          "url": "https://api.laws.africa/v1/act/1998/55/eng@2014-01-17",
+          "url": "https://api.laws.africa/v1/za/act/1998/55/eng@2014-01-17",
           "language": "eng",
-          "expression_frbr_uri": "/act/1998/55/eng@2014-01-17",
+          "expression_frbr_uri": "/za/act/1998/55/eng@2014-01-17",
           "expression_date": "2014-01-17",
           "title": "Employment Equity Act, 1998"
         }
@@ -255,7 +255,7 @@ description of the English expression of Act 55 of 1998 as at 2014-01-07.
   ],
   "links": [
     {
-      "href": "https://api.laws.africa/v1/za-wc033/act/by-law/2005/beaches/eng.html",
+      "href": "https://api.laws.africa/v1/act/za/act/1998/55/eng@2014-01-17.html",
       "title": "HTML",
       "rel": "alternate",
       "mediaType": "text/html"
