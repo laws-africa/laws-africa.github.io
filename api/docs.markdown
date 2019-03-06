@@ -18,7 +18,7 @@ The API is a read-only API for listing and fetching published versions of legisl
 * get Akoma Ntoso XML for a work
 * get a human-friendly HTML version of a work
 
-When we use a URL such as ``/api/v1/frbr-uri/`` in this guide, the ``frbr-uri`` part is a full FRBR URI, such as ``/za/act/1998/84/eng``.
+When we use a URL such as ``/v1/frbr-uri/`` in this guide, the ``frbr-uri`` part is a full FRBR URI, such as ``/za/act/1998/84/eng``.
 {:.alert.alert-info}
 
 # Quick Start
