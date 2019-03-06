@@ -363,12 +363,12 @@ list of expressions available at that date, one for each available language.
 
 You can use the following date formats to request different expressions of a work.
 
-|Date Format     |Meaning                                            |Example Expression FRBR URI
-|---             |---                                                |---
-|``@``           |Very first expression of a work.                   |``/za/act/1998/55/eng@``
-|``@YYYY-MM-DD`` |Expression at the specific date.                   |``/za/act/1998/55/eng@2014-01-17``
-|``:YYYY-MM-DD`` |Most recent expression at or before a date.        |``/za/act/1998/55/eng:2015-01-01``
-|(none)          |The most recent expression at or before today's date. Equivalent to using ``:`` with today's date.|``/za/act/1998/55/eng``
+|Date Format                           |Meaning                                            |Example Expression FRBR URI
+|---                                   |---                                                |---
+|``@``                                 |Very first expression of a work.                   |``/za/act/1998/55/eng@``
+|<nobr><code>@YYYY-MM-DD</code></nobr> |Expression at the specific date.                   |``/za/act/1998/55/eng@2014-01-17``
+|<nobr><code>:YYYY-MM-DD</code></nobr> |Most recent expression at or before a date.        |``/za/act/1998/55/eng:2015-01-01``
+|(none)                                |The most recent expression at or before today's date. Equivalent to using ``:`` with today's date.|``/za/act/1998/55/eng``
 {:.table.table-striped.table-sm}
 
 The ``.format`` part of the FRBR URI is placed after the ``@YYYY-MM-DD`` part.
