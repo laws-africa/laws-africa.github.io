@@ -1,0 +1,22 @@
+.api-toc {
+  position: sticky;
+  top: 30px;
+}
+
+.api-docs {
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  h1, h2, h3 {
+    margin-top: 1.2em;
+  }
+}

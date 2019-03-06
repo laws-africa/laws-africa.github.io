@@ -27,13 +27,11 @@ layout: simple
 
       <div class="row">
         <div class="col-lg-3 d-none d-md-block mb-5">
-          <div class="list-group api-toc" id="toc">
-            <a href="/api/docs#quick-start" class="list-group-item list-group-item-action">Quick Start</a>
-            <a href="https://indigo.readthedocs.io/en/latest/" class="list-group-item list-group-item-action">Full documentation</a>
-          </div>
+          <ul class="list-unstyled api-toc" id="toc">
+          </ul>
         </div>
 
-        <div class="col-lg-9">
+        <div class="col-lg-9 api-docs" data-tocify="#toc">
           {{ content }}
         </div>
       </div>
