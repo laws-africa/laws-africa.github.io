@@ -2,13 +2,10 @@
 title: Content API Documentation
 lead: Use the Content API to easily fetch legislation in JSON, HTML and XML.
 navbar_item: api
-layout: slim
-header_class: bg-indigo-pale-blue
+layout: api/docs
 ---
 
-[← Content API Overview](/api/)
-
-## Quick Start
+# Quick Start
 
 First, sign up for a free Laws.Africa account at [https://edit.laws.africa/accounts/login/](https://edit.laws.africa/accounts/login/).
 
@@ -92,6 +89,6 @@ Finally, let's put that HTML into a webpage and include some stylesheets to make
   </div>
 </div>
 
-### Next steps
+# Next steps
 
 See the [Indigo API documentation](https://indigo.readthedocs.io/en/latest/) for full details of working with the Laws.Africa Content API.
