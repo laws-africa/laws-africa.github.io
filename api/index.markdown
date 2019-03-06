@@ -46,3 +46,19 @@ layout: api/index
 ---
 
 <p class="lead">The Laws.Africa Content API makes it easy to consume and work with the machine-friendly, structured legislation in the Laws.Africa commons. In addition to legislation content, the API includes content for points in time, amendment information, automated Table of Contents generation, and original publication details.</p>
+
+```html
+# Fetch Section 9 of Cape Town's Animal by-law
+$ curl -H "Authorization: Token <ACCESS_TOKEN>" \
+  https://api.laws.africa/v1/za-cpt/act/by-law/2011/animal/eng/main/section/9.html
+
+<section class="akn-section" id="section-9" data-id="section-9">
+  <h3>9. The rescue of stray dogs</h3>
+  <span class="akn-paragraph" id="section-9.paragraph-0" data-id="section-9.paragraph-0">
+    <span class="akn-content">
+      <span class="akn-p">A <span class="akn-term" data-refersTo="#term-person" id="trm236" data-id="trm236">person</span> who rescues a stray <span class="akn-term" data-refersTo="#term-dog" id="trm237" data-id="trm237">dog</span> shall report the date and time of the rescue and a description of the <span class="akn-term" data-refersTo="#term-dog" id="trm238" data-id="trm238">dog</span> to the <span class="akn-term" data-refersTo="#term-Council" id="trm239" data-id="trm239">Council</span> within twenty four hours.</span>
+    </span>
+  </span>
+</section>
+```
+{:.small.mt-4}
