@@ -294,7 +294,7 @@ The fields of the response are described in the table below.
 |updated_at         |Timestamp of when the work was last updated.                                       |ISO8601|
 |url                |URL for fetching details of this work.                                             |URL|
 |year               |Year of the work.                                                                  |String|
-{:.table.table-striped.table-compact}
+{:.table.table-striped.table-sm}
 
 ### Amendments
 
@@ -305,7 +305,7 @@ The fields of the ``amendments`` property of the response are described below.
 |amending_title     |Title of the amending work                                                         |String
 |amending_uri       |Work FRBR URI of the amending work                                                 |String
 |date               |Date on which the amendment takes place                                            |ISO8601
-{:.table.table-striped.table-compact}
+{:.table.table-striped.table-sm}
 
 ### Points in Time
 
@@ -320,7 +320,7 @@ The fields of the ``points_in_time`` property of the response are described belo
 |expression_frbr_uri|Unique Expression FRBR URI for this expression                                     |String
 |expression_date    |Date of this expression                                                            |ISO8601
 |title              |Title of the work, appropriate for the expression in the expression's language)    |String
-{:.table.table-striped.table-compact}
+{:.table.table-striped.table-sm}
 
 ## Akoma Ntoso
 
@@ -369,7 +369,7 @@ You can use the following date formats to request different expressions of a wor
 |``@YYYY-MM-DD`` |Expression at the specific date.                   |``/za/act/1998/55/eng@2014-01-17``
 |``:YYYY-MM-DD`` |Most recent expression at or before a date.        |``/za/act/1998/55/eng:2015-01-01``
 |(none)          |The most recent expression at or before today's date. Equivalent to using ``:`` with today's date.|``/za/act/1998/55/eng``
-{:.table.table-striped.table-compact}
+{:.table.table-striped.table-sm}
 
 The ``.format`` part of the FRBR URI is placed after the ``@YYYY-MM-DD`` part.
 
@@ -416,7 +416,7 @@ Each of these fields is described in the table below.
 |subcomponent     |The subcomponent of the component that this item is a part of, such as a chapter. (optional)|String
 |url              |The API URL for this item, which can be used to fetch XML, HTML and other details of just this part of the document.|String
 |children         |A possibly-empty array of TOC items that are children of this item.                |Array
-{:.table.table-striped.table-compact}
+{:.table.table-striped.table-sm}
 
 ## Parts, Chapters and Sections
 
