@@ -187,7 +187,7 @@ Not all responses support all formats, the documentation will be explicit about 
 
     GET https://api.laws.africa/v1/countries.json
 
-This returns a list of the countries and localities that Indigo knows about. It includes
+This returns a list of the countries and localities that Laws.Africa knows about. It includes
 links to the APIs for listing works for each country and locality.
 
 # Listing Works
@@ -340,7 +340,7 @@ Fetch the HTML version of a work by specify `.html` as the format extensions in 
 
 * Parameter ``coverpage``: should the response contain a generated coverpage? Use 1 for true, anything else for false. Default: 1.
 * Parameter ``standalone``: should the response by a full HTML document, including CSS, that can stand on its own? Use 1 for true, anything else for false. Default: false.
-* Parameter ``resolver``: the fully-qualified URL to use when resolving absolute references to other Akoma Ntoso documents. Use 'no' or 'none' to disable. Default is to use the Indigo resolver.
+* Parameter ``resolver``: the fully-qualified URL to use when resolving absolute references to other Akoma Ntoso documents. Use 'no' or 'none' to disable. Default is to use the Laws.Africa resolver.
 * Parameter ``media-url``: the fully-qualified URL prefix to use when generating links to media, such as images.
 
 For example, fetch the most recent applicable English HTML expression of ``/za/act/1998/55`` by calling:
@@ -385,7 +385,7 @@ the expression of the work closest to a particular date, use ``:`` instead.
 * Content types: JSON
 
 Get a description of the table of contents (TOC) of an act. This includes the chapters, parts, sections and schedules that make
-up the act, based on the structure captured by the Indigo editor.
+up the act, based on the structure captured by the Laws.Africa editor.
 
 Each item in the table of contents has this structure:
 
@@ -429,7 +429,7 @@ in various forms.
 
 # Using HTML Responses
 
-Indigo transforms Akoma Ntoso XML into HTML5 content that looks best when styled with
+Laws.Africa transforms Akoma Ntoso XML into HTML5 content that looks best when styled with
 [Indigo Web](https://github.com/laws-africa/indigo-web) stylesheets. You can link
 to the stylesheets provided by that package, or you can pull them into your website.
 
