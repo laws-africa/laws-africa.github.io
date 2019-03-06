@@ -25,9 +25,9 @@ When we use a URL such as ``/v1/frbr-uri/`` in this guide, the ``frbr-uri`` part
 
 First, sign up for a free Laws.Africa account at [https://edit.laws.africa/accounts/login/](https://edit.laws.africa/accounts/login/).
 
-Next, get your API token from [https://edit.laws.africa/accounts/profile/api/](https://edit.laws.africa/accounts/profile/api/). In the steps below, you'll need to replace `<YOUR_AUTH_TOKEN>` with your API token.
+Next, get your API token from [https://edit.laws.africa/accounts/profile/api/](https://edit.laws.africa/accounts/profile/api/).
 
-In the examples below, replace <code>YOUR_AUTH_TOKEN</code> with your personal API token.
+In the examples below, replace ``<YOUR_AUTH_TOKEN>`` with your personal API token.
 {:.alert.alert-info}
 
 Let's fetch the details of Cape Town's Animal by-law, in JSON format. This includes the title, publication details and a list of other
