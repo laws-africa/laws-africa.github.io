@@ -31,7 +31,7 @@ layout: simple
     </div>
   </section>
 
-  <section class="mb-5 py-3 bg-light">
+  <section class="py-3 bg-light">
     <div class="container">
       <h2 class="mb-4">The Laws.Africa Team</h2>
 
@@ -39,6 +39,7 @@ layout: simple
 
         {% assign people = site.people | sort:"position" %}
         {% for person in people %}
+        {% if person.group == 'core' %}
           <div class="col-lg-6">
             <div class="card mb-3">
               <div class="card-body">
@@ -56,6 +57,40 @@ layout: simple
               </div>
             </div>
           </div>
+        {% endif %}
+        {% endfor %}
+
+      </div>
+    </div>
+  </section>
+
+  <section class="mb-5 py-3 bg-light">
+    <div class="container">
+      <h2 class="mb-4">Contributors</h2>
+
+      <div class="row">
+
+        {% assign people = site.people | sort:"position" %}
+        {% for person in people %}
+        {% if person.group == 'contributors' %}
+        <div class="col-lg-6">
+          <div class="card mb-3">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-4 mb-3">
+                  <img src="/img/team/{{ person.slug }}.jpg" alt="{{ person.title }} headshot" class="mr-3 rounded img-fluid">
+                </div>
+                <div class="col-md-8">
+                  <h5 class="mt-0 mb-0">{{ person.title }}</h5>
+                  <h6>{{ person.role }}</h6>
+                  <h6><a href="mailto:{{ person.email }}">{{ person.email }}</a></h6>
+                  <p>{{ person }}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endif %}
         {% endfor %}
 
       </div>
