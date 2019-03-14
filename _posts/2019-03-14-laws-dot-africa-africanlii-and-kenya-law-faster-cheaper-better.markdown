@@ -17,7 +17,8 @@ Kenya is also, to our knowledge, the only country in Africa to use machine-frien
 ## Why Akoma Ntoso?
 
 Akoma Ntoso (or AKN) is an open, non-proprietary XML markup format for legislative documents. It was accepted as an [OASIS standard in 2018](https://www.oasis-open.org/news/announcements/akoma-ntoso-version-1-0-becomes-an-oasis-standard) and allows authors to capture the rich semantics and structure of legislation. When legislation is marked up with AKN, it’s machine-readable. This unlocks value and makes it faster and easier to publish legislation in multiple user-friendly formats, including online, mobile, ebook and hardcopy print. It also makes it easier for others to [re-use the legislation](https://laws.africa/2019/02/14/govt-law-cloud-computing.html) in a variety of apps and services.
-The Kenya Law challenge
+
+##The Kenya Law challenge
 
 The editorial team of Kenya Law are very experienced with Akoma Ntoso. They’ve been manually marking up their legislation with AKN for over 5 years and have a good understanding of both its strengths and the challenges it presents. Their AKN markup powers the [Laws of Kenya website](http://www.kenyalaw.org/lex//index.xql) as well as the production of print-ready, high-quality Laws of Kenya books and bound volumes.
 
@@ -38,7 +39,7 @@ Indigo’s Content API also simplifies the complexities of working with Akoma Nt
 
 ## Built in Africa, for Africa
 
-Indigo is open source software, built initially for AfricanLII and further developed and maintained by the Laws.Africa team in Cape Town, South Africa. AfricanLII is an umbrella organization, an overarching collegiate of 15 legal information institutes (LIIs) in Africa. By working with AfricanLII and with Kenya Law - AfricanLII’s most experienced member in the legislation consolidation domain - we’re expanding the skills and knowledge of working with Akoma Ntoso and Indigo in Africa. This reduces the cost of working with these technologies and grows the regional and global Akoma Ntoso community and applications ecosystems.
+Indigo is open source software, built initially for AfricanLII, and further developed and maintained by the Laws.Africa team in Cape Town, South Africa. AfricanLII is an umbrella organization, an overarching collegiate of 15 legal information institutes (LIIs) in Africa. By working with AfricanLII and with Kenya Law - AfricanLII’s most experienced member in the legislation consolidation domain - we’re expanding the skills and knowledge of working with Akoma Ntoso and Indigo in Africa. This reduces the cost of working with these technologies and grows the regional and global Akoma Ntoso community and applications ecosystems.
 
 ## Into the future together 
 
