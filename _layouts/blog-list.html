@@ -9,7 +9,7 @@ layout: slim
 {% for post in site.posts %}
 <div class="col-md-6 col-lg-4 mb-4">
   <a href="{{ post.url }}">
-    <img class="card-img-top mb-2" src="{{ site.baseurl }}/img/posts/{{ post.image }}" alt="{{ post.image }}">
+    <img class="card-img-top mb-2" src="{{ post.image }}">
   </a>
   <div>
     <small class="text-muted">{{ post.author }}</small>
