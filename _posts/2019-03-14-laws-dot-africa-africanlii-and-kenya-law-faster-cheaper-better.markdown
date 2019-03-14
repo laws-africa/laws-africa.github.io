@@ -23,8 +23,8 @@ The editorial team of Kenya Law are very experienced with Akoma Ntoso. They’ve
 
 However, their current system inhibits them in two significant ways.
 
-First, the manual process of marking up legislation with AKN is slow and error-prone.
-Second, it’s difficult for them to fully use the power of AKN and add new functionality, such as rich point-in-time navigation, to the Laws of Kenya website.
+* First, the manual process of marking up legislation with AKN is slow and error-prone.
+* Second, it’s difficult for them to fully use the power of AKN and add new functionality, such as rich point-in-time navigation, to the Laws of Kenya website.
 
 Kenya Law and Laws.Africa are collaborating to see how the Indigo platform could help them solve both of these problems.
 
@@ -50,4 +50,4 @@ Kenya Law possesses tremendous knowledge and expertise in legislation consolidat
 
 [Sign up to the Laws.Africa newsletter](https://africa.us19.list-manage.com/subscribe/post?u=60b61dad66a60a0c85266a68c&id=098ca0e4c8) and [read more about the Laws.Africa mission](https://laws.africa/about) if you’re interested in free access to the law in Africa.
 
-Attribution: Photo of Kenyans running the 2012 London Olympic Marathon by Sue Kellerman on Flickr.
+Attribution: Photo of Kenyans running the 2012 London Olympic Marathon by [Sue Kellerman on Flickr](https://www.flickr.com/photos/photosak/7766410784).
