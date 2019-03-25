@@ -5,7 +5,7 @@ position: 1
 email: mariya@laws.africa
 role: Co-founder
 group: core
-image: /img/team/mariya.jpg
+image: "/img/team/mariya.jpg"
 profile: mariyab85
 ---
 
