@@ -5,6 +5,7 @@ position: 3
 email: edith@laws.africa
 role: Software Developer and Legislation Domain Expert
 group: core
+image: /img/team/edith.jpg
 profile: edithv
 ---
 
