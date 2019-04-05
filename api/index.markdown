@@ -47,6 +47,8 @@ layout: api/index
 
 <p class="lead">The Laws.Africa Content API makes it easy to consume and work with the machine-friendly, structured legislation in the Laws.Africa commons. In addition to legislation content, the API includes content for points in time, amendment information, automated Table of Contents generation, and original publication details.</p>
 
+<a href="/api/detail" class="btn btn-primary">Features, Subscriptions and Pricing</a>
+
 ```html
 # Fetch Section 9 of Cape Town's Animal by-law
 $ curl -H "Authorization: Token <ACCESS_TOKEN>" \
