@@ -1,6 +1,6 @@
 ---
 title: Content API Documentation
-lead: Use the Content API to easily fetch legislation in JSON, HTML and XML.
+lead: Use the Laws.Africa Content API to use legislation in your website, app or research.
 navbar_item: api
 layout: api/docs
 ---

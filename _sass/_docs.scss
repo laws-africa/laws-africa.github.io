@@ -1,6 +1,10 @@
 .api-toc {
   position: sticky;
   top: 30px;
+
+  ul {
+    margin-bottom: 1em;
+  }
 }
 
 .api-docs {
