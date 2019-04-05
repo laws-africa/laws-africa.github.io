@@ -40,6 +40,20 @@ You can access content from more countries and localities (such as municipalitie
 
 We provide guidance and technical support to assist you with integrating your systems with the Content API. Please [get in touch](/contact) and we'll be happy to assist you.
 
+# Pricing and subscriptions
+
+## Pricing
+
+Access to the Laws.Africa Content API is free for most non-commercial purposes. This includes non-profit, academic research and education. Please [contact us](/contact) to upgrade your account or to discuss your use case.
+
+For commercial use cases, pricing and additional services, please [contact us](/contact).
+
+## Subscriptions
+
+Content API subscriptions are for a country or a municipality. Subscriptions are valid for a year and are renewed annually.
+
+Subscriptions give you access to national or local legislation via the Content API. This includes historical points in time (when available) and all updates to the legislation during the subscription period. Updates include amendments, corrections and additions to the legislation.
+
 # Licensing
 
 Laws.Africa content is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike (CC-BY-NC-SA) license](https://creativecommons.org/licenses/by-nc-sa/4.0/). This is a well-known, well-understood international license.
@@ -68,17 +82,3 @@ We recommend the following for providing attribution to Laws.Africa on your webs
 We welcome and fully support commercial uses of Laws.Africa content, under more relaxed terms than the CC-BY-NC-SA license. Please [contact us](/contact) to discuss your use cases.
 
 Commercial support helps to maintain the commons and supports free access to the law, for everyone.
-
-# Pricing and subscriptions
-
-## Pricing
-
-Access to the Laws.Africa Content API is free for most non-commercial purposes. This includes non-profit, academic research and education. Please [contact us](/contact) to upgrade your account or to discuss your use case.
-
-For commercial use cases, pricing and additional services, please [contact us](/contact).
-
-## Subscriptions
-
-Content API subscriptions are for a country or a municipality. Subscriptions are valid for a year and are renewed annually.
-
-Subscriptions give you access to national or local legislation via the Content API. This includes historical points in time that may be available, and all updates to the legislation during the period. Updates include amendments, corrections and additions to the legislation.
