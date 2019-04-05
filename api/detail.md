@@ -17,12 +17,12 @@ The Content API treats legislation **as data**, rather than as a PDF or a Word d
 
 Legislation and related information is available from the Laws.Africa Content API. This includes both the text of the legislation, and supporting information such as amendment and publication details.
 
-* **Legislation in XML and HTML** - Legislation content is available in machine-friendly, richly structured [Akoma Ntoso XML](http://www.akomantoso.org/) and HTML formats. Work with entire Acts, or focus only on the chapters and sections you need.
-* **Embeddable HTML** - Beautifully formatted HTML snippets with CSS styling ready to be added to your website or app. There is no need to work with XML for many use cases.
-* **Tables of Contents** - Automated Tables of Contents that describe the chapters, parts, sections and schedules of legislation without needing to work directly with XML or HTML.
-* **Amendments** - Details of the amendments that have been applied to a piece legislation, including links to, and details of, the amending work.
-* **Publication and Promulgation** - Dates and details of the initial publication, including gazette numbers, often with links to the gazette PDFs for reference purposes.
-* **Points in Time** - Historical points in time for previous amended versions of legislation, where available.
+* **Legislation in XML and HTML** — Legislation content is available in machine-friendly, richly structured [Akoma Ntoso XML](http://www.akomantoso.org/) and HTML formats. Work with entire Acts, or focus only on the chapters and sections you need.
+* **Embeddable HTML** — Beautifully formatted HTML snippets with CSS styling ready to be added to your website or app. There is no need to work with XML for many use cases.
+* **Tables of Contents** — Automated Tables of Contents that describe the chapters, parts, sections and schedules of legislation without needing to work directly with XML or HTML.
+* **Amendments** — Details of the amendments that have been applied to a piece legislation, including links to, and details of, the amending work.
+* **Publication and Promulgation** — Dates and details of the initial publication, including gazette numbers, with links to the gazette PDFs for reference purposes.
+* **Points in Time** — Historical points in time for previous amended versions of legislation, where available.
 
 See the [Content API technical documentation](/api/docs) for more details.
 
@@ -53,7 +53,7 @@ provided you follow these terms:
 
 * **Attribution** — You must give appropriate attribution to Laws.Africa and our contributors.
 * **Non-commercial** — You may not use the material for commercial purposes.
-* **Share-alike** - If you remix, transform, or build upon the content, you must distribute your contributions under the same license as the original.
+* **Share-alike** — If you remix, transform, or build upon the content, you must distribute your contributions under the same license as the original.
 
 We cannot revoke these freedoms as long as you follow the license terms.
 
