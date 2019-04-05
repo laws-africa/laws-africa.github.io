@@ -17,42 +17,22 @@ The Content API treats legislation **as data**, rather than as a PDF or a Word d
 
 Legislation and related information is available from the Laws.Africa Content API. This includes both the text of the legislation, and supporting information such as amendment and publication details.
 
-### Legislation in XML and HTML
+* **Legislation in XML and HTML** - Legislation content is available in machine-friendly, richly structured [Akoma Ntoso XML](http://www.akomantoso.org/) and HTML formats. Work with entire Acts, or focus only on the chapters and sections you need.
+* **Embeddable HTML** - Beautifully formatted HTML snippets with CSS styling ready to be added to your website or app. There is no need to work with XML for many use cases.
+* **Tables of Contents** - Automated Tables of Contents that describe the chapters, parts, sections and schedules of legislation without needing to work directly with XML or HTML.
+* **Amendments** - Details of the amendments that have been applied to a piece legislation, including links to, and details of, the amending work.
+* **Publication and Promulgation** - Dates and details of the initial publication, including gazette numbers, often with links to the gazette PDFs for reference purposes.
+* **Points in Time** - Historical points in time for previous amended versions of legislation, where available.
 
-Legislation content is available in machine-friendly, richly structured [Akoma Ntoso XML](http://www.akomantoso.org/) and HTML formats. Work with entire Acts, or focus only on the chapters and sections you need.
-
-### Embeddable HTML
-
-Beautifully formatted HTML snippets with CSS styling ready to be added to your website or app. There is no need to work with XML for many use cases.
-
-### Tables of Contents
-
-Automated Tables of Contents that describe the chapters, parts, sections and schedules of legislation without needing to work directly with XML or HTML.
-
-### Amendments
-
-Details of the amendments that have been applied to a piece legislation, including links to, and details of, the amending work.
-
-### Publication and Promulgation
-
-Dates and details of the initial publication, including gazette numbers, often with links to the gazette PDFs for reference purposes.
-
-### Points in Time
-
-Historical points in time for previous amended versions of legislation, where available.
-
+See the [Content API technical documentation](/api/docs) for more details.
 
 # Using the Content API
 
 It's easy for you or your developers to get started with the Content API's free tier. You can then contact us to upgrade your account for more content when you're ready.
 
-See the [Content API technical documentation](/api/docs).
-
-## Quick start
-
 To get started, follow our [Quick Start](/api/docs#quick-start) guide to sign up for a free account and get going. This will give your developers an idea of what's available from the API and what can be done with it.
 
-## Upgrading to more countries and localities
+## Additional countries and localities
 
 You can access content from more countries and localities (such as municipalities in South Africa) by [contacting us](/contact) to upgrade your account.
 
@@ -60,7 +40,7 @@ You can access content from more countries and localities (such as municipalitie
 
 We provide guidance and technical support to assist you with integrating your systems with the Content API. Please [get in touch](/contact) and we'll be happy to assist you.
 
-## Licensing
+# Licensing
 
 Laws.Africa content is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike (CC-BY-NC-SA) license](https://creativecommons.org/licenses/by-nc-sa/4.0/). This is a well-known, well-understood international license.
 
@@ -77,11 +57,11 @@ provided you follow these terms:
 
 We cannot revoke these freedoms as long as you follow the license terms.
 
-### Providing attribution
+## Providing attribution
 
 We recommend the following for providing attribution to Laws.Africa on your website or in your app:
 
-> Legislation provided by [Laws.Africa](https://laws.africa) and their contributors under a [CC-BY-NC-SA license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+*"Legislation provided by [Laws.Africa](https://laws.africa) and their contributors under a [CC-BY-NC-SA license](https://creativecommons.org/licenses/by-nc-sa/4.0/)."*
 
 ## Commercial uses
 
