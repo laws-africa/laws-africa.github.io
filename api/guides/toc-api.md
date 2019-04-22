@@ -188,6 +188,143 @@ Now you have a clickable Table of Contents alongside your HTML:
 
 # Fetching only a section, chapter or part of a work
 
-* using the TOC to load a section of a work
-    * URLs
+The Table of Contents API also makes it easier to fetch portions of a work, such as a particular chapter, part or section. You can do this by using the `url` attribute of the TOC entry. Not all entries have a URL, so be sure to check first.
 
+In this example we'll fetch the portion of the [Cape Town's Animal By-law](https://openbylaws.org.za/za-cpt/act/by-law/2011/animal/eng/) chosen by the user. Again, we'll assume that the Table of Contents JSON has been fetched and stored in the `toc` variable.
+
+We'll use the TOC to populate a `select` element and then respond to a change by loading the HTML into a `div`.
+
+```html
+<label>Choose a section:</label> <select id="toc-selector"></select>
+<div id="section-content" class="akoma-ntoso"></div>
+```
+
+```js
+var select = document.getElementById('toc-selector');
+
+// transform the TOC into options in a select
+function makeTocSelect(entries) {
+  entries.forEach(function(entry) {
+    if (entry.url) {
+      var option = document.createElement('option');
+      option.innerText = entry.title;
+      option.value = entry.url;
+      select.appendChild(option);
+    }
+
+    // include entries for this entry's children
+    if (entry.children) {
+      makeTocSelect(entry.children);
+    }
+  });
+}
+
+// selection changed, load the HTML
+function selectionChanged(e) {
+  var xhr = new XMLHttpRequest(),
+      container = document.getElementById('section-content'),
+      url = e.target.value + '.html',
+      // get your API token from https://edit.laws.africa/accounts/profile/api/
+      apiToken = 'YOUR API TOKEN';
+
+  xhr.open('GET', url);
+  xhr.setRequestHeader('Authorization', 'Token ' + apiToken);
+  xhr.onload = function() {
+    if (xhr.status === 200) {
+      container.innerHTML = xhr.responseText;
+    } else {
+      container.innerText = 'Request failed. Returned status of ' + xhr.status;
+    }
+  };
+  xhr.send();
+}
+
+// fetch content when the selection changes
+select.addEventListener('change', selectionChanged);
+
+// build the select options
+makeTocSelect(toc);
+```
+
+#### Live Demo
+
+You need to get your API token from [https://edit.laws.africa/accounts/profile/api/](https://edit.laws.africa/accounts/profile/api/)
+to use this demo.
+{:.alert.alert-info}
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web@2.0.0/css/akoma-ntoso.min.css">
+
+<div class="border p-2">
+  <div class="row mb-3">
+    <div class="col-md-6">
+      <input type="text" class="form-control" id="api-token" placeholder="Enter your API token" onkeyup="loadToc();">
+    </div>
+  </div>
+
+  <label>Choose a section:</label> <select id="toc-selector"></select>
+  <div id="section-content" class="akoma-ntoso"></div>
+</div>
+
+<script>
+var toc = [];
+var select = document.getElementById('toc-selector');
+
+function loadToc() {
+  var apiToken = document.getElementById('api-token').value;
+  if (apiToken && apiToken.length == 40 && toc.length == 0) {
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', 'https://api.laws.africa/v1/za-cpt/act/by-law/2011/animal/toc.json');
+    xhr.setRequestHeader('Authorization', 'Token ' + apiToken);
+    xhr.onload = function() {
+      if (xhr.status === 200) {
+        toc = JSON.parse(xhr.response).toc;
+        makeTocSelect(toc);
+      }
+    }
+    xhr.send();
+  }
+}
+
+// transform the TOC into options in a select
+function makeTocSelect(entries) {
+  entries.forEach(function(entry) {
+    if (entry.url) {
+      var option = document.createElement('option');
+      option.innerText = entry.title;
+      option.value = entry.url;
+      select.appendChild(option);
+    }
+
+    // include entries for this entry's children
+    if (entry.children) {
+      makeTocSelect(entry.children);
+    }
+  });
+}
+
+// selection changed, load the HTML
+function selectionChanged(e) {
+  var xhr = new XMLHttpRequest(),
+      container = document.getElementById('section-content'),
+      url = e.target.value + '.html',
+      // get your API token from https://edit.laws.africa/accounts/profile/api/
+      apiToken = document.getElementById('api-token').value;
+
+  xhr.open('GET', url);
+  xhr.setRequestHeader('Authorization', 'Token ' + apiToken);
+  xhr.onload = function() {
+    if (xhr.status === 200) {
+      container.innerHTML = xhr.responseText;
+    } else {
+      container.innerText = 'Request failed. Returned status of ' + xhr.status;
+    }
+  };
+  xhr.send();
+}
+
+// fetch content when the selection changes
+select.addEventListener('change', selectionChanged);
+
+// we build the select options above, once the API token is entered
+// makeTocSelect(toc);
+</script>
