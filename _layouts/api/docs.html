@@ -20,15 +20,19 @@ layout: simple
   <section class="mb-5 py-3">
     <div class="container">
       <div class="row">
-        <div class="col-lg-9 offset-lg-3">
-          <p><a href="/api/">← Content API Home</a></p>
-        </div>
-      </div>
+        <div class="col-lg-3 d-none d-md-block">
+          <aside class="sticky-sidebar">
+            <h5>Contents</h5>
+            <ul class="list-unstyled api-toc" id="toc"></ul>
 
-      <div class="row">
-        <div class="col-lg-3 d-none d-md-block mb-5">
-          <ul class="list-unstyled api-toc" id="toc">
-          </ul>
+            <hr class="my-4">
+
+            <h6>More resources</h6>
+            <ul class="list-unstyled">
+              <li><a href="/api/">Content API Home</a></li>
+              <li><a href="/api/detail">Subscriptions &amp; Pricing</a></li>
+            </ul>
+          </aside>
         </div>
 
         <div class="col-lg-9 api-docs" data-tocify="#toc">

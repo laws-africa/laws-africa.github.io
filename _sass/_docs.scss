@@ -1,10 +1,13 @@
-.api-toc {
+.sticky-sidebar {
   position: sticky;
   top: 30px;
+}
+
+.api-toc {
   line-height: 1.2;
 
   li {
-    margin-top: 0.3em;
+    margin-top: 0.5em;
   }
 }
 
