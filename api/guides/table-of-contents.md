@@ -1,6 +1,6 @@
 ---
-title: "API Guide: Using the Table of Contents API"
-lead: "Using the Laws.Africa Table of Contents API in your application."
+title: 'API Guide: Using the Table of Contents API'
+lead: Using the Laws.Africa Table of Contents API in your application.
 navbar_item: api
 tags: api_guide
 layout: api/docs
