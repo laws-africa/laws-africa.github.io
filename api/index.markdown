@@ -63,4 +63,4 @@ $ curl -H "Authorization: Token <ACCESS_TOKEN>" \
   </span>
 </section>
 ```
-{:.small.mt-4}
+{:.mt-4}
