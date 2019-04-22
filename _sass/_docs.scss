@@ -1,9 +1,13 @@
-.api-toc {
-  position: sticky;
-  top: 30px;
+.sidebar {
+  line-height: 1.2;
 
-  ul {
-    margin-bottom: 1em;
+  li {
+    margin-top: 0.5em;
+  }
+
+  &.sticky {
+    position: sticky;
+    top: 30px;
   }
 }
 
@@ -24,3 +28,20 @@
     margin-top: 1.2em;
   }
 }
+
+.highlighter-rouge > .highlight::before {
+  position: absolute;
+  right: 30px;
+  background-color: #cdcdcd;
+  width: 80px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-transform: uppercase;
+  font-size: 80%;
+  text-align: center;
+}
+.language-bash    > .highlight::before { content: "shell"; }
+.language-html    > .highlight::before { content: "html"; }
+.language-js      > .highlight::before { content: "javascript"; }
+.language-json    > .highlight::before { content: "json"; }
+.language-python  > .highlight::before { content: "python"; }

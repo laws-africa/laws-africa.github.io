@@ -55,7 +55,8 @@ $ curl -H "Authorization: Token <YOUR_AUTH_TOKEN>" \
 Finally, let's put that HTML into a webpage and include some stylesheets to make it look good:
 
 ```html
-<link rel="stylesheet" href="//indigo-web.openup.org.za/dist/1.0.1/css/akoma-ntoso.min.css" type="text/css">
+<link rel="stylesheet" type="text/css"
+      href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web/css/akoma-ntoso.min.css">
 
 <div class="akoma-ntoso">
   <section class="akn-section" id="section-3" data-id="section-3">
@@ -82,7 +83,7 @@ Finally, let's put that HTML into a webpage and include some stylesheets to make
 
 <div class="card mb-3">
   <div class="card-body">
-    <link rel="stylesheet" type="text/css" href="//indigo-web.openup.org.za/dist/1.0.1/css/akoma-ntoso.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web@2.0.0/css/akoma-ntoso.min.css">
 
     <div class="akoma-ntoso">
       <section class="akn-section" id="section-3" data-id="section-3">
