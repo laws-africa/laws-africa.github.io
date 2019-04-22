@@ -21,11 +21,20 @@ layout: simple
     <div class="container">
       <div class="row">
         <div class="col-lg-3 d-none d-md-block">
-          <aside class="sticky-sidebar">
+          <aside class="sidebar sticky">
             <h5>Contents</h5>
             <ul class="list-unstyled api-toc" id="toc"></ul>
 
             <hr class="my-4">
+
+            <h6>API Guides</h6>
+            <ul class="list-unstyled">
+            {% for p in site.pages %}
+              {% if p.tags contains 'api_guide' %}
+                <li><a href="{{ p.url }}">{{ p.title }}</a></li>
+              {% endif %}
+            {% endfor %}
+            </ul>
 
             <h6>More resources</h6>
             <ul class="list-unstyled">
