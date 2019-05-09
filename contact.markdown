@@ -8,7 +8,13 @@ layout: slim
 
 Please see our list of [Frequently Asked Questions (FAQ)](/faq), email us, or use the form below.
 
-Email: [info@laws.africa](mailto:info@laws.africa)  
+<img src="/img/social/email.svg" style="margin-right:15px"> Email us on [info@laws.africa](mailto:info@laws.africa)
+
+<img src="/img/social/twitter.svg" style="margin-right:15px"> Follow us on Twitter [@laws_africa](http://twitter.com/@laws_africa)
+
+<img src="/img/social/linkedin.svg" style="margin-right:15px"> Laws Africa on [LinkedIn](https://www.linkedin.com/company/laws-africa/)
+
+<img src="/img/social/youtube.svg" style="margin-right:15px"> See what we've been up to on [YouTube](https://www.youtube.com/channel/UCUFRw2pyZUq9ekMThYQ4kCQ)  
 
 **Address**  
 DGRU  
