@@ -25,18 +25,47 @@ navbar_item: home
 <section class="py-5">
   <div class="container">
     <div class="row">
-      <div class="col-md-6 col-lg-4 offset-lg-2 mb-5">
+      <div class="col-md-6 col-lg-4 offset-lg-2">
         <div class="mb-3"><i class="fa fa-pen fa-3x text-primary"></i></div>
         <h5>Help Out or Make A Correction</h5>
         <p>Anyone can join and help out. See what tasks need to be done, fix a problem, and help to build the commons for Africa.</p>
         <a href="https://edit.laws.africa/" class="btn btn-primary" role="button">Help out</a>
       </div>
 
-      <div class="col-md-6 col-lg-4 mb-5">
+      <div class="col-md-6 col-lg-4">
         <div class="mb-3"><i class="fa fa-code fa-3x text-primary"></i></div>
         <h5>Build Apps and Services</h5>
         <p>Use our machine-friendly Content API to build apps and services using African legislation in Akoma Ntoso XML.</p>
         <a href="/api/" class="btn btn-primary" role="button">About our Content API</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-5">
+  <div class="container">
+    <h1 class="mb-4">Latest articles</h1>
+    <div class="row">
+      {% assign orderedPosts = site.posts | sort: 'date' | reverse %}
+
+      {% for post in orderedPosts limit:3 %}
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <a href="{{ post.url }}">
+          <img class="card-img-top mb-2" src="{{ post.image }}">
+        </a>
+        <div>
+          <small class="text-muted">{{ post.author }}</small>
+          <h5 class="card-title my-2">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </h5>
+          <p>{{ post.lead }}</p>
+        </div>
+      </div>
+
+      {% endfor %}
+      <div class="col-12 d-flex justify-content-center">
+        <a class="btn btn-primary" href="/blog">Read more articles</a>
       </div>
     </div>
   </div>
