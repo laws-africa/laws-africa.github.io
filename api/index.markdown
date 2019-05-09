@@ -52,7 +52,7 @@ layout: api/index
 ```html
 # Fetch Section 9 of Cape Town's Animal by-law
 $ curl -H "Authorization: Token <ACCESS_TOKEN>" \
-  https://api.laws.africa/v1/za-cpt/act/by-law/2011/animal/eng/main/section/9.html
+  https://api.laws.africa/v2/akn/za-cpt/act/by-law/2011/animal/eng/main/section/9.html
 
 <section class="akn-section" id="section-9" data-id="section-9">
   <h3>9. The rescue of stray dogs</h3>
