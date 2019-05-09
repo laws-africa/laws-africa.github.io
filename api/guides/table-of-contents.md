@@ -29,7 +29,7 @@ Here's an extract of the corresponding JSON from the Table of Contents API:
   {
     "type": "preamble",
     "subcomponent": "preamble",
-    "url": "https://api.laws.africa/v1/za-cpt/act/by-law/2011/animal/eng/main/preamble",
+    "url": "https://api.laws.africa/v2/akn/za-cpt/act/by-law/2011/animal/eng/main/preamble",
     "title": "Preamble",
     "component": "main"
   },
@@ -38,7 +38,7 @@ Here's an extract of the corresponding JSON from the Table of Contents API:
     "type": "chapter",
     "id": "chapter-1",
     "component": "main",
-    "url": "https://api.laws.africa/v1/za-cpt/act/by-law/2011/animal/eng/main/chapter/1",
+    "url": "https://api.laws.africa/v2/akn/za-cpt/act/by-law/2011/animal/eng/main/chapter/1",
     "title": "Chapter 1 – Interpretation",
     "num": "1",
     "subcomponent": "chapter/1"
@@ -48,7 +48,7 @@ Here's an extract of the corresponding JSON from the Table of Contents API:
         "type": "section",
         "id": "section-1",
         "component": "main",
-        "url": "https://api.laws.africa/v1/za-cpt/act/by-law/2011/animal/eng/main/section/1",
+        "url": "https://api.laws.africa/v2/akn/za-cpt/act/by-law/2011/animal/eng/main/section/1",
         "title": "1. Definitions",
         "num": "1.",
         "subcomponent": "section/1"
@@ -72,11 +72,11 @@ Use the Table of Contents API to:
 
 # How to fetch the TOC for a work
 
-Fetch the Table of Contents for a work using the `/frbr-uri/toc.json` URL for the work, such as [https://api.laws.africa/v1/za-cpt/act/by-law/2011/animal/toc.json](https://api.laws.africa/v1/za-cpt/act/by-law/2011/animal/toc.json).
+Fetch the Table of Contents for a work using the `/frbr-uri/toc.json` URL for the work, such as [https://api.laws.africa/v2/akn/za-cpt/act/by-law/2011/animal/toc.json](https://api.laws.africa/v2/akn/za-cpt/act/by-law/2011/animal/toc.json).
 
 ```bash
 $ curl -H "Authorization: Token <YOUR_AUTH_TOKEN>" \
-  https://api.laws.africa/v1/za-cpt/act/by-law/2011/animal/toc.json
+  https://api.laws.africa/v2/akn/za-cpt/act/by-law/2011/animal/toc.json
 ```
 
 The Table of Contents will change depending on the language and date of the work expression.
@@ -90,7 +90,7 @@ You can also find this URL in the work's `links` array:
     "title": "Table of Contents",
     "rel": "toc",
     "mediaType": "application/json",
-    "href": "https://api.laws.africa/v1/za-cpt/act/by-law/2011/animal/toc.json"
+    "href": "https://api.laws.africa/v2/akn/za-cpt/act/by-law/2011/animal/toc.json"
   },
 ]
 ```
@@ -274,7 +274,7 @@ function loadToc() {
   var apiToken = document.getElementById('api-token').value;
   if (apiToken && apiToken.length == 40 && toc.length == 0) {
     var xhr = new XMLHttpRequest();
-    xhr.open('GET', 'https://api.laws.africa/v1/za-cpt/act/by-law/2011/animal/toc.json');
+    xhr.open('GET', 'https://api.laws.africa/v2/akn/za-cpt/act/by-law/2011/animal/toc.json');
     xhr.setRequestHeader('Authorization', 'Token ' + apiToken);
     xhr.onload = function() {
       if (xhr.status === 200) {

@@ -18,7 +18,7 @@ The API is a read-only API for listing and fetching published versions of legisl
 * get Akoma Ntoso XML for a work
 * get a human-friendly HTML version of a work
 
-When we use a URL such as ``/v1/frbr-uri/`` in this guide, the ``frbr-uri`` part is a full FRBR URI, such as ``/za/act/1998/84/eng``.
+When we use a URL such as ``/v2/frbr-uri/`` in this guide, the ``frbr-uri`` part is a full FRBR URI, such as ``/akn/za/act/1998/84/eng``.
 {:.alert.alert-info}
 
 # Quick Start
@@ -35,21 +35,21 @@ API calls you can make for additional details.
 
 ```bash
 $ curl -H "Authorization: Token <YOUR_AUTH_TOKEN>" \
-  https://api.laws.africa/v1/za-cpt/act/by-law/2011/animal.json
+  https://api.laws.africa/v2/akn/za-cpt/act/by-law/2011/animal.json
 ```
 
 Laws.Africa can provide us with a Table of Contents for the by-law, also in JSON format. Let's fetch that:
 
 ```bash
 $ curl -H "Authorization: Token <YOUR_AUTH_TOKEN>" \
-  https://api.laws.africa/v1/za-cpt/act/by-law/2011/animal/toc.json
+  https://api.laws.africa/v2/akn/za-cpt/act/by-law/2011/animal/toc.json
 ```
 
 Now let's get the HTML content of Section 3 of the by-law, regarding dog registration and licensing:
 
 ```bash
 $ curl -H "Authorization: Token <YOUR_AUTH_TOKEN>" \
-  https://api.laws.africa/v1/za-cpt/act/by-law/2011/animal/eng/main/section/3.html
+  https://api.laws.africa/v2/akn/za-cpt/act/by-law/2011/animal/eng/main/section/3.html
 ```
 
 Finally, let's put that HTML into a webpage and include some stylesheets to make it look good:
@@ -118,7 +118,7 @@ Two important concepts that are an essential part of the API are **works** and *
 * An **Expression** is a version of a Work in specific language at a particular point in time. A work can have many expressions, usually one for each official language and amendment. An expression is uniquely identified by its own *expression FRBR URI*, which is derived from the work's FRBR URI.
 
 An example of a work is the South African *Employment Equity Amendment Act,
-2013 (Act 55 of 1998)* with unique work FRBR URI ``/za/act/1998/55``. This act has
+2013 (Act 55 of 1998)* with unique work FRBR URI ``/akn/za/act/1998/55``. This act has
 been amended a number of times since it was first passed. Each amended version
 (also called a *point in time*) is a unique expression of the work.
 
@@ -146,7 +146,7 @@ Include your API token in your API calls by including an ``Authorization`` heade
 
     Authorization: Token YOUR_AUTH_TOKEN
 
-If you're logged into your Laws.Africa account, you can also browse the API using your web browser and visiting [https://api.laws.africa/v1/countries](https://api.laws.africa/v1/countries).
+If you're logged into your Laws.Africa account, you can also browse the API using your web browser and visiting [https://api.laws.africa/v2/countries](https://api.laws.africa/v2/countries).
 
 # Pagination
 
@@ -160,7 +160,7 @@ Here's an example of the first page of a paginated response with 250 total items
 ```json
 {
   "count": 250,
-  "next": "https://api.laws.africa/v1/za.json?page=2",
+  "next": "https://api.laws.africa/v2/akn/za.json?page=2",
   "previous": null,
   "results": [ "..." ]
 }
@@ -186,16 +186,16 @@ Not all responses support all formats, the documentation will be explicit about 
 
 # Countries and Localities
 
-    GET https://api.laws.africa/v1/countries.json
+    GET https://api.laws.africa/v2/countries.json
 
 This returns a list of the countries and localities that Laws.Africa knows about. It includes
 links to the APIs for listing works for each country and locality.
 
 # Listing Works
 
-    GET https://api.laws.africa/v1/za/
-    GET https://api.laws.africa/v1/za/act/
-    GET https://api.laws.africa/v1/za/act/2007/
+    GET https://api.laws.africa/v2/akn/za/
+    GET https://api.laws.africa/v2/akn/za/act/
+    GET https://api.laws.africa/v2/akn/za/act/2007/
 
 * Content types: JSON, PDF, EPUB, ZIP
 
@@ -206,14 +206,14 @@ The listings include the most recent applicable expressions of each work, in the
 
 # Fetching a Work
 
-    GET https://api.laws.africa/v1/frbr-uri.json
+    GET https://api.laws.africa/v2/frbr-uri.json
 
 This returns the detail of an expression of a work as a JSON document. For example, this is the
 description of the English expression of Act 55 of 1998 as at 2014-01-07.
 
 ```json
 {
-  "url": "https://api.laws.africa/v1/za/act/1998/55/eng.json",
+  "url": "https://api.laws.africa/v2/akn/za/act/1998/55/eng.json",
   "title": "Employment Equity Act, 1998",
   "created_at": "2017-12-23T10:05:55.105543Z",
   "updated_at": "2018-06-07T08:07:51.170250Z",
@@ -223,8 +223,8 @@ description of the English expression of Act 55 of 1998 as at 2014-01-07.
   "subtype": null,
   "year": "1998",
   "number": "55",
-  "frbr_uri": "/za/act/1998/55",
-  "expression_frbr_uri": "/za/act/1998/55/eng@2005-10-03",
+  "frbr_uri": "/akn/za/act/1998/55",
+  "expression_frbr_uri": "/akn/za/act/1998/55/eng@2005-10-03",
   "publication_date": "1998-10-19",
   "publication_name": "Government Gazette",
   "publication_number": "19370",
@@ -237,7 +237,7 @@ description of the English expression of Act 55 of 1998 as at 2014-01-07.
     {
       "date": "2014-01-17",
       "amending_title": "Employment Equity Amendment Act, 2013",
-      "amending_uri": "/za/act/2013/47"
+      "amending_uri": "/akn/za/act/2013/47"
     },
   ],
   "points_in_time": [
@@ -245,9 +245,9 @@ description of the English expression of Act 55 of 1998 as at 2014-01-07.
       "date": "2014-01-17",
       "expressions": [
         {
-          "url": "https://api.laws.africa/v1/za/act/1998/55/eng@2014-01-17",
+          "url": "https://api.laws.africa/v2/akn/za/act/1998/55/eng@2014-01-17",
           "language": "eng",
-          "expression_frbr_uri": "/za/act/1998/55/eng@2014-01-17",
+          "expression_frbr_uri": "/akn/za/act/1998/55/eng@2014-01-17",
           "expression_date": "2014-01-17",
           "title": "Employment Equity Act, 1998"
         }
@@ -256,7 +256,7 @@ description of the English expression of Act 55 of 1998 as at 2014-01-07.
   ],
   "links": [
     {
-      "href": "https://api.laws.africa/v1/act/za/act/1998/55/eng@2014-01-17.html",
+      "href": "https://api.laws.africa/v2/act/akn/za/act/1998/55/eng@2014-01-17.html",
       "title": "HTML",
       "rel": "alternate",
       "mediaType": "text/html"
@@ -325,17 +325,17 @@ The fields of the ``points_in_time`` property of the response are described belo
 
 ## Akoma Ntoso
 
-    GET https://api.laws.africa/v1/frbr-uri.xml
+    GET https://api.laws.africa/v2/frbr-uri.xml
 
 This returns the Akoma Ntoso XML of an expression of a work.
 
-For example, fetch the most recent applicable English Akoma Ntoso expression of ``/za/act/1998/55`` by calling:
+For example, fetch the most recent applicable English Akoma Ntoso expression of ``/akn/za/act/1998/55`` by calling:
 
-    GET https://api.laws.africa/v1/za/act/1998/55/eng.xml
+    GET https://api.laws.africa/v2/akn/za/act/1998/55/eng.xml
 
 ## HTML
 
-    GET https://api.laws.africa/v1/frbr-uri.html
+    GET https://api.laws.africa/v2/frbr-uri.html
 
 Fetch the HTML version of a work by specify `.html` as the format extensions in the URL.
 
@@ -344,9 +344,9 @@ Fetch the HTML version of a work by specify `.html` as the format extensions in 
 * Parameter ``resolver``: the fully-qualified URL to use when resolving absolute references to other Akoma Ntoso documents. Use 'no' or 'none' to disable. Default is to use the Laws.Africa resolver.
 * Parameter ``media-url``: the fully-qualified URL prefix to use when generating links to media, such as images.
 
-For example, fetch the most recent applicable English HTML expression of ``/za/act/1998/55`` by calling:
+For example, fetch the most recent applicable English HTML expression of ``/akn/za/act/1998/55`` by calling:
 
-    GET https://api.laws.africa/v1/za/act/1998/55/eng.html
+    GET https://api.laws.africa/v2/akn/za/act/1998/55/eng.html
 
 ## Expressions
 
@@ -356,7 +356,7 @@ The API supports the language and date aspects defined in the
 
 For example, this request will fetch the HTML of the English expression of Act 55 of 1998, as amended on 2014-01-17:
 
-    GET https://api.laws.africa/v1/za/act/1998/55/eng@2014-01-17.html
+    GET https://api.laws.africa/v2/akn/za/act/1998/55/eng@2014-01-17.html
 
 The available expressions of a work are listed in the ``points_in_time`` field
 of the JSON description of the work. Each point in time includes a date and a
@@ -366,10 +366,10 @@ You can use the following date formats to request different expressions of a wor
 
 |Date Format                           |Meaning                                            |Example Expression FRBR URI
 |---                                   |---                                                |---
-|``@``                                 |Very first expression of a work.                   |<nobr><code>/za/act/1998/55/eng@</code></nobr>
-|<nobr><code>@YYYY-MM-DD</code></nobr> |Expression at the specific date.                   |<nobr><code>/za/act/1998/55/eng@2014-01-17</code></nobr>
-|<nobr><code>:YYYY-MM-DD</code></nobr> |Most recent expression at or before a date.        |<nobr><code>/za/act/1998/55/eng:2015-01-01</code></nobr>
-|(none)                                |The most recent expression at or before today's date. Equivalent to using ``:`` with today's date.|<nobr><code>/za/act/1998/55/eng</code></nobr>
+|``@``                                 |Very first expression of a work.                   |<nobr><code>/akn/za/act/1998/55/eng@</code></nobr>
+|<nobr><code>@YYYY-MM-DD</code></nobr> |Expression at the specific date.                   |<nobr><code>/akn/za/act/1998/55/eng@2014-01-17</code></nobr>
+|<nobr><code>:YYYY-MM-DD</code></nobr> |Most recent expression at or before a date.        |<nobr><code>/akn/za/act/1998/55/eng:2015-01-01</code></nobr>
+|(none)                                |The most recent expression at or before today's date. Equivalent to using ``:`` with today's date.|<nobr><code>/akn/za/act/1998/55/eng</code></nobr>
 {:.table.table-striped.table-sm}
 
 The ``.format`` part of the FRBR URI is placed after the ``@YYYY-MM-DD`` part.
@@ -381,7 +381,7 @@ the expression of the work closest to a particular date, use ``:`` instead.
 
 ## Table of Contents
 
-    GET https://api.laws.africa/v1/frbr-uri/toc.json
+    GET https://api.laws.africa/v2/frbr-uri/toc.json
 
 * Content types: JSON
 
@@ -399,7 +399,7 @@ Each item in the table of contents has this structure:
   "title": "Chapter 1 - Interpretation",
   "component": "main",
   "subcomponent": "chapter/1",
-  "url": "http://api.laws.africa/v1/za/act/1998/10/eng/main/chapter/1",
+  "url": "http://api.laws.africa/v2/akn/za/act/1998/10/eng/main/chapter/1",
   "children": [ "..." ]
 }
 ```
@@ -424,7 +424,7 @@ Each of these fields is described in the table below.
 You can use the ``url`` field from an item in the table of contents to fetch the details of just that item
 in various forms.
 
-    GET https://api.laws.africa/v1/frbr-uri/toc-item-uri.format
+    GET https://api.laws.africa/v2/frbr-uri/toc-item-uri.format
 
 * Content types: XML, HTML, PDF, ePUB, ZIP
 
@@ -436,7 +436,7 @@ to the stylesheets provided by that package, or you can pull them into your webs
 
 # Search
 
-    GET https://api.laws.africa/v1/search/<country>?q=<search-term>
+    GET https://api.laws.africa/v2/search/<country>?q=<search-term>
 
 * Where `<country>` is a two-letter country code
 * Parameter ``q``: the search string
