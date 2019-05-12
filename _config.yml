@@ -11,15 +11,33 @@ collections:
   uploads:
     title: Uploads
     output: true
+  help:
+    title: Help
+    output: true
 defaults:
+- scope:
+    path: ''
+  values:
+    header_class: bg-lawsafrica-pale-red
 - scope:
     path: ''
     type: posts
   values:
     layout: blog-post
+- scope:
+    type: help
+  values:
+    layout: help-article
+    navbar_item: help
+    help_section: edit
+- scope:
+    path: '_help/api'
+  values:
+    help_section: api
 description: Laws.Africa is transforming access to legislation in Africa.
 baseurl: 
 url: https://laws.africa
 markdown: kramdown
 plugins:
 - jekyll-feed
+- jekyll-redirect-from

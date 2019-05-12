@@ -4,10 +4,14 @@ layout: simple
 
 <article>
 
-  <header class="mb-5 py-5 bg-indigo-pale-blue">
+  <header class="mb-5 py-5 bg-lawsafrica-pale-red">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 mx-auto">
+        <div class="col-lg-9 offset-lg-3">
+          <div class="mb-3">
+            <a href="/help/">← Laws.Africa Help</a>
+          </div>
+
           <h1 class="display-4">{{ page.title }}</h1>
           {% if page.lead %}
           <p class="lead mb-3">{{ page.lead }}</p>
@@ -27,24 +31,23 @@ layout: simple
 
             <hr class="my-4">
 
-            <h6>API Guides</h6>
+            <h6>See Also</h6>
             <ul class="list-unstyled">
-            {% for p in site.pages %}
-              {% if p.tags contains 'api_guide' %}
-                <li><a href="{{ p.url }}">{{ p.title }}</a></li>
-              {% endif %}
-            {% endfor %}
-            </ul>
+              {% assign sorted_pages = site.help | sort:"position" %}
+              {% for p in sorted_pages %}
+                {% if p.help_section == page.help_section and p != page %}
+                  <li>
+                    <a href="{{ p.url }}">{{ p.title }}</a>
+                  </li>
+                {% endif %}
+              {% endfor %}
 
-            <h6>More resources</h6>
-            <ul class="list-unstyled">
-              <li><a href="/api/">Content API Home</a></li>
-              <li><a href="/api/detail">Subscriptions &amp; Pricing</a></li>
+              <li class="mt-3"><a href="/help/">Laws.Africa Help</a></li>
             </ul>
           </aside>
         </div>
 
-        <div class="col-lg-9 api-docs" data-tocify="#toc">
+        <div class="col-lg-9 prose" data-tocify="#toc">
           {{ content }}
         </div>
       </div>

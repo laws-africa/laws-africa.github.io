@@ -2,10 +2,8 @@
 title: Content API Features and Pricing
 lead: Use the Laws.Africa Content API to use legislation in your website, app or research.
 navbar_item: api
-layout: api/docs
+layout: slim
 ---
-
-# Overview
 
 ## What is the Laws.Africa Content API?
 
@@ -24,13 +22,13 @@ Legislation and related information is available from the Laws.Africa Content AP
 * **Publication and Promulgation** — Dates and details of the initial publication, including gazette numbers, with links to the gazette PDFs for reference purposes.
 * **Points in Time** — Historical points in time for previous amended versions of legislation, where available.
 
-See the [Content API technical documentation](/api/docs) for more details.
+See the [Content API technical documentation](/help/api/v2.html) for more details.
 
-# Using the Content API
+## Using the Content API
 
 It's easy for you or your developers to get started with the Content API's free tier. You can then contact us to upgrade your account for more content when you're ready.
 
-To get started, follow our [Quick Start](/api/docs#quick-start) guide to sign up for a free account and get going. This will give your developers an idea of what's available from the API and what can be done with it.
+To get started, follow our [Quick Start](/help/api/v2.html#quick-start) guide to sign up for a free account and get going. This will give your developers an idea of what's available from the API and what can be done with it.
 
 ## Additional countries and localities
 
@@ -39,8 +37,6 @@ You can access content from more countries and localities (such as municipalitie
 ## Guidance and support
 
 We provide guidance and technical support to assist you with integrating your systems with the Content API. Please [get in touch](/contact) and we'll be happy to assist you.
-
-# Pricing and subscriptions
 
 ## Pricing
 
@@ -54,7 +50,7 @@ Content API subscriptions are for a country or a municipality. Subscriptions are
 
 Subscriptions give you access to national or local legislation via the Content API. This includes historical points in time (when available) and all updates to the legislation during the subscription period. Updates include amendments, corrections and additions to the legislation.
 
-# Licensing
+## Licensing
 
 Laws.Africa content is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike (CC-BY-NC-SA) license](https://creativecommons.org/licenses/by-nc-sa/4.0/). This is a well-known, well-understood international license.
 
@@ -71,13 +67,13 @@ provided you follow these terms:
 
 We cannot revoke these freedoms as long as you follow the license terms.
 
-## Providing attribution
+# Providing attribution
 
 We recommend the following for providing attribution to Laws.Africa on your website or in your app:
 
 *"Legislation provided by [Laws.Africa](https://laws.africa) and their contributors under a [CC-BY-NC-SA license](https://creativecommons.org/licenses/by-nc-sa/4.0/)."*
 
-## Commercial uses
+# Commercial uses
 
 We welcome and fully support commercial uses of Laws.Africa content, under more relaxed terms than the CC-BY-NC-SA license. Please [contact us](/contact) to discuss your use cases.
 

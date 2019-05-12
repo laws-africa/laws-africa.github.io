@@ -1,0 +1,34 @@
+---
+title: Laws.Africa Help
+layout: slim
+header_class: bg-lawsafrica-pale-red
+help_section: skip
+---
+
+<h5>Using Laws.Africa</h5>
+<ul class="mb-4">
+  {% assign sorted_pages = site.help | sort:"position" %}
+  {% for p in sorted_pages %}
+    {% if p.help_section == 'edit' %}
+      <li>
+        <a href="{{ p.url }}">{{ p.title }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+<h5>Content API</h5>
+<ul class="mb-4">
+  {% for p in sorted_pages %}
+    {% if p.help_section == 'api' %}
+      <li>
+        <a href="{{ p.url }}">{{ p.title }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+<h5>Still not sure?</h5>
+<ul>
+  <li><a href="/contact">Contact Us</a></li>
+</ul>

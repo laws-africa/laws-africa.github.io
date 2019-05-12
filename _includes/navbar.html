@@ -9,27 +9,30 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item pr-2 {% if page.navbar_item == 'home' %}active{% endif %}">
+        <li class="nav-item pr-3 {% if page.navbar_item == 'home' %}active{% endif %}">
           <a class="nav-link" href="/">Home</a>
         </li>
-        <li class="nav-item pr-2 {% if page.navbar_item == 'faq' %}active{% endif %}">
+        <li class="nav-item pr-3 {% if page.navbar_item == 'faq' %}active{% endif %}">
           <a class="nav-link" href="/faq">FAQ</a>
         </li>
-        <li class="nav-item pr-2 {% if page.navbar_item == 'api' %}active{% endif %}">
+        <li class="nav-item pr-3 {% if page.navbar_item == 'api' %}active{% endif %}">
           <a class="nav-link" href="/api/">Content API</a>
         </li>
-        <li class="nav-item pr-2 {% if page.navbar_item == 'blog' %}active{% endif %}">
+        <li class="nav-item pr-3 {% if page.navbar_item == 'blog' %}active{% endif %}">
           <a class="nav-link" href="/blog">Blog</a>
         </li>
-        <li class="nav-item {% if page.navbar_item == 'contact' %}active{% endif %}">
+        <li class="nav-item pr-3 {% if page.navbar_item == 'contact' %}active{% endif %}">
           <a class="nav-link" href="/contact">Contact Us</a>
         </li>
-        <li class="nav-item pr-2 {% if page.navbar_item == 'about' %}active{% endif %}">
+        <li class="nav-item {% if page.navbar_item == 'about' %}active{% endif %}">
           <a class="nav-link" href="/about">About Us</a>
         </li>
       </ul>
 
       <ul class="navbar-nav">
+        <li class="nav-item pr-5 {% if page.navbar_item == 'help' %}active{% endif %}">
+          <a class="nav-link" href="/help/">Help</a>
+        </li>
         <li class="nav-item">
           <a class="nav-link" href="https://edit.laws.africa/accounts/login/">Sign In</a>
         </li>
