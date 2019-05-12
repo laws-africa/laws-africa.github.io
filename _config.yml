@@ -2,6 +2,9 @@
 title: Laws.Africa
 timezone: Africa/Johannesburg
 collections:
+  help:
+    title: Help
+    output: true
   people:
     title: People
     output: false
@@ -10,9 +13,6 @@ collections:
     output: true
   uploads:
     title: Uploads
-    output: true
-  help:
-    title: Help
     output: true
 defaults:
 - scope:
@@ -25,13 +25,14 @@ defaults:
   values:
     layout: blog-post
 - scope:
+    path: ''
     type: help
   values:
     layout: help-article
     navbar_item: help
     help_section: edit
 - scope:
-    path: '_help/api'
+    path: _help/api
   values:
     help_section: api
 description: Laws.Africa is transforming access to legislation in Africa.
