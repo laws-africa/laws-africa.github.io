@@ -1,6 +1,6 @@
 ---
 title: Guide to Consolidating Legislation
-lead: Applying amendments to acts to create a new point in time.
+lead: Applying amendments to Acts to create a new point in time.
 ---
 
 What do you understand by the word “law”? It is a word which can have many meanings, but in the language of law publishing, it means a piece of legislation which regulates the way in which things are done or should be done in many spheres of life, especially in public, in order to maintain good order and prevent the growth and flourishing of anarchy.
