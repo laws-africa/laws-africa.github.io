@@ -6,6 +6,8 @@ lead: A brief guide to the terminology of legal consolidation used by Laws.Afric
 
 ![Laws.Africa Terminology.png](/uploads/Laws.Africa%20Terminology.png)
 
+# Terminology
+
 A **Work** is the logical concept of an Act or other piece of legislation. A Work may change over time through amendments or be issued in multiple languages.
 
 An **Expression** is a particular version of a work, in a specific language and at a particular point in time. A Work may have many expressions associated with it.
