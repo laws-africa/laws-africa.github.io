@@ -27,6 +27,11 @@
   h1, h2, h3 {
     margin-top: 1.2em;
   }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 .highlighter-rouge > .highlight::before {
