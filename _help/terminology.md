@@ -18,6 +18,11 @@ An **Amending Work** is an Act or other legislation that makes changes to anothe
 
 A **Point in Time** is all the Expressions of a Work on a particular date. There is usually only one Expression at a particular date, unless the Work is available in multiple languages. Often, a Point in Time is synonymous with an Expression.
 
+### Subsidiary Legislation
+
+Some Acts have associated **subsidiary legislation**, such as regulations or other types of **statutory instruments**, that are related to the **primary Act**.
+
 ### Further reading
 
 The terms **Work** and **Expression** are from the [Functional Requirements for Bibliographic Records (FRBR) model](https://en.wikipedia.org/wiki/Functional_Requirements_for_Bibliographic_Records).
+
