@@ -5,7 +5,9 @@ lead: The Laws.Africa’s legislation commons is available as structured, machin
 navbar_item: api
 features:
 - title: Legislation in XML, HTML, PDF and ePub
-  text: Legislation content in machine-friendly, richly structured [Akoma Ntoso XML](http://www.akomantoso.org/), HTML, PDF and ePub formats. Work with entire Acts, or focus only on the chapters and sections you need.
+  text: Legislation content in machine-friendly, richly structured [Akoma Ntoso XML](http://www.akomantoso.org/),
+    HTML, PDF and ePub formats. Work with entire Acts, or focus only on the chapters
+    and sections you need.
 - title: Embeddable HTML
   text: Beautifully formatted HTML snippets with CSS styling ready to be added to
     your website or app.
