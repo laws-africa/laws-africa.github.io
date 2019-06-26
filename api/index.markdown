@@ -4,10 +4,8 @@ lead: The Laws.Africa’s legislation commons is available as structured, machin
   Akoma Ntoso XML through the Laws.Africa Content API.
 navbar_item: api
 features:
-- title: Legislation in XML and HTML
-  text: Legislation content in machine-friendly, richly structured [Akoma Ntoso XML](http://www.akomantoso.org/)
-    and HTML formats. Work with entire Acts, or focus only on the chapters and sections
-    you need.
+- title: Legislation in XML, HTML, PDF and ePub
+  text: Legislation content in machine-friendly, richly structured [Akoma Ntoso XML](http://www.akomantoso.org/), HTML, PDF and ePub formats. Work with entire Acts, or focus only on the chapters and sections you need.
 - title: Embeddable HTML
   text: Beautifully formatted HTML snippets with CSS styling ready to be added to
     your website or app.
@@ -27,7 +25,7 @@ benefits: |-
   * The Laws.Africa commons is continuously updated by the community. This includes the maintenance of existing legislation and the addition of new countries and subject areas.
   * The same data model for all countries makes your work across Africa simpler.
   * [Akoma Ntoso](http://www.akomantoso.org/) is the premier global legislative markup standard. It’s an open, non-proprietary standard managed by [OASIS](https://www.oasis-open.org/).
-  * Easy to work with: a simple REST API that provides JSON, XML and HTML. For many use cases, there is no need to work with XML directly.
+  * Easy to work with: a simple REST API that provides JSON, XML, HTML, PDF and ePub. For many use cases, there is no need to work with XML directly.
 plans:
 - title: Non-Commercial and Research
   description: FREE for non-commercial uses.
