@@ -39,6 +39,7 @@ description: Laws.Africa is transforming access to legislation in Africa.
 baseurl: 
 url: https://laws.africa
 markdown: kramdown
+hiring: true
 plugins:
 - jekyll-feed
 - jekyll-redirect-from

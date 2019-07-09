@@ -31,7 +31,7 @@ layout: simple
     </div>
   </section>
 
-  <section class="mb-5 py-3 bg-light">
+  <section class="py-4 bg-light">
     <div class="container">
       {% assign people = site.people | sort: "position" %}
 
@@ -91,7 +91,16 @@ layout: simple
     </div>
   </section>
 
-  <section class="mb-5 py-3">
+  {% if site.hiring %}
+  <section class="mb-3 py-3 bg-lawsafrica-pale-red">
+    <div class="container text-center">
+      <p class="lead">Interested in joining the Laws.Africa team?</p>
+      <a href="/jobs" class="btn btn-primary">See our open positions</a>
+    </div>
+  </section>
+  {% endif %}
+
+  <section class="mb-5 pb-3 pt-5">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
