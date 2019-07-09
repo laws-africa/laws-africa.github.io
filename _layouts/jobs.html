@@ -1,0 +1,56 @@
+---
+layout: simple
+---
+
+<article>
+
+  <header class="mb-5 py-5 bg-lawsafrica-pale-red">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h1 class="display-4">{{ page.title }}</h1>
+          <p class="lead mb-3">{{ page.lead }}</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="mb-5 py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          {% if page.positions %}
+
+            {% for posn in page.positions %}
+              <div>
+                {% unless forloop.first %}
+                  <hr class="my-5">
+                {% endunless %}
+
+                <h4>{{ posn.title }}</h4>
+
+                {{ posn.description|markdownify }}
+
+                <h6>Successful candidates will:</h6>
+                {{ posn.requirements|markdownify }}
+
+                <p>
+                  <b>Position:</b> {{ posn.type }}<br>
+                  <b>Location:</b> {{ posn.location }}
+                </p>
+
+                <div>
+                  <a href="{{ posn.cta|default:"mailto:info@laws.africa" }}" class="btn btn-primary">Apply for this position</a>
+                </div>
+              </div>
+            {% endfor %}
+
+          {% else %}
+            <p>We don't have any open positions at the moment, please check back at later date.</p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </section>
+
+</article>
