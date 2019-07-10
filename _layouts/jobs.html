@@ -40,6 +40,9 @@ layout: simple
 
                 <p>
                   <b>Position:</b> {{ posn.type }}<br>
+                  {% if posn.salary %}
+                  <b>Remuneration:</b> {{ posn.salary }}<br>
+                  {% endif %}
                   <b>Location:</b> {{ posn.location }}
                 </p>
 

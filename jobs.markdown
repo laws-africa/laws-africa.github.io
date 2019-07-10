@@ -21,14 +21,15 @@ positions:
   location: Greater Cape Town and Johannesburg, South Africa
   cta: "/apply"
 - title: Project Manager
-  description: 'We are looking for an organised, pro-active Project Manager to help
+  description: |
+    We are looking for an organised, pro-active Project Manager to help
     manage the execution and delivery of our activities and programmes. We are a small,
     dynamic, modern organisation that uses technology heavily to aid us in our work.
     You will work directly with the Laws.Africa core team (three people) and with
     the part-time editorial team (growing to about ten people) to help us achieve
     our goal of enabling free access to the law in sub-Saharan Africa.
 
-'
+    We encourage women and persons from previously disadvantaged backgrounds to apply for this position. We are an equal opportunity employer.
   responsibilities: |
     * Plan and coordinate the execution of a number of Laws.Africa activities and programmes
     * Manage our part-time editorial team together with our Lead Statutes Editor
@@ -45,7 +46,8 @@ positions:
     * Willingness to wear many hats and help out with multiple aspects of running a small, busy, non-profit organisation
     * Familiarity with project management tools such as Trello is an advantage
     * Knowledge of the development, non-profit and rule of law sectors is an advantage
-  type: Full-time, contract
+  type: Full-time, contract, initially for 6 months.
+  salary: R30 000 - R35 000 total cost to company, depending on experience.
   location: Rondebosch, Cape Town
 layout: jobs
 ---
