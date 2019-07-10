@@ -21,8 +21,14 @@ positions:
   location: Greater Cape Town and Johannesburg, South Africa
   cta: "/apply"
 - title: Project Manager
-  description: |
-    We are looking for an organised, pro-active Project Manager to help manage the execution and delivery of our activities and programmes. We are a small, dynamic, modern organisation that uses technology heavily to aid us in our work. You will work directly with the Laws.Africa core team (three people) and with the part-time editorial team (growing to about ten people) to help us achieve our goal of enabling free access to the law in sub-Saharan Africa.
+  description: 'We are looking for an organised, pro-active Project Manager to help
+    manage the execution and delivery of our activities and programmes. We are a small,
+    dynamic, modern organisation that uses technology heavily to aid us in our work.
+    You will work directly with the Laws.Africa core team (three people) and with
+    the part-time editorial team (growing to about ten people) to help us achieve
+    our goal of enabling free access to the law in sub-Saharan Africa.
+
+'
   responsibilities: |
     * Plan and coordinate the execution of a number of Laws.Africa activities and programmes
     * Manage our part-time editorial team together with our Lead Statutes Editor
