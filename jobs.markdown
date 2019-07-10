@@ -13,19 +13,17 @@ positions:
     with flexible hours. You can work from home for most tasks and manage your own
     hours. Training, guidance and support are provided."
   requirements: |-
-    * have a keen eye for detail;
-    * ability to follow detailed, specific instructions;
-    * be able to work independently and communicate clearly;
-    * familiarity with legislation and/or past work experience in data capturing advantageous.
+    * A keen eye for detail;
+    * Ability to follow detailed, specific instructions;
+    * Be able to work independently and communicate clearly;
+    * Familiarity with legislation and/or past work experience in data capturing advantageous.
   type: Part-time, contract, flexible working hours
   location: Greater Cape Town and Johannesburg, South Africa
   cta: "/apply"
 - title: Project Manager
   description: |
     We are looking for an organised, pro-active Project Manager to help manage the execution and delivery of our activities and programmes. We are a small, dynamic, modern organisation that uses technology heavily to aid us in our work. You will work directly with the Laws.Africa core team (three people) and with the part-time editorial team (growing to about ten people) to help us achieve our goal of enabling free access to the law in sub-Saharan Africa.
-
-    ###### Responsibilities
-
+  responsibilities: |
     * Plan and coordinate the execution of a number of Laws.Africa activities and programmes
     * Manage our part-time editorial team together with our Lead Statutes Editor
     * Track progress of projects, provide written updates, and help manage risks

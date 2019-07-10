@@ -28,10 +28,14 @@ layout: simple
                 {% endunless %}
 
                 <h4>{{ posn.title }}</h4>
-
                 {{ posn.description|markdownify }}
 
-                <h6>Successful candidates will:</h6>
+                {% if posn.responsibilities %}
+                <h6>Responsibilities</h6>
+                {{ posn.responsibilities|markdownify }}
+                {% endif %}
+
+                <h6>Requirements</h6>
                 {{ posn.requirements|markdownify }}
 
                 <p>
