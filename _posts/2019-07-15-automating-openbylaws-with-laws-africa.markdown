@@ -18,7 +18,7 @@ Open By-laws uses Laws.Africa to provide rich, interactive functionality to read
 
 Open By-laws uses the [Laws.Africa Content API](https://laws.africa/api/) to automate website updates. Every night, Open By-laws automatically pulls in the latest by-laws from Laws.Africa and publishes them on the openbylaws.org.za website. This includes images, gazette information, inline definitions, and by-laws in HTML, PDF and ePUB formats.
 
-<img src="/uploads/content-api.png" alt="Laws.Africa Content API diagram">
+<img src="/uploads/content-api.png" alt="Laws.Africa Content API diagram" class="img-fluid">
 
 Traditionally, a website like Open By-laws would be painstakingly maintained by hand. Every change would require an editor to ensure that the headings are correctly formatted, the table of contents is updated, definitions are linked, and that the PDF version matches the webpage version.
 
@@ -26,7 +26,7 @@ The Laws.Africa Content API treats **legislation as data**, which means we can c
 
 In addition, because the legislation is available as structured data (rather than as a Word document or a PDF), Open By-laws can add rich functionality. For example, specially defined terms are linked and their definitions are shown in a pop-up:
 
-<img src="/uploads/bylaw-definitions.gif" alt="Inline definitions popup">
+<img src="/uploads/bylaw-definitions.gif" alt="Inline definitions popup" class="img-fluid">
 
 ## What else can be done with the content API?
 
