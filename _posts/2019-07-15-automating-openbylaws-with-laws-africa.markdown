@@ -1,6 +1,5 @@
 ---
-title: 'Making South African by-laws easy to find, read and share: automating OpenByLaws.org.za
-  with Laws.Africa'
+title: Automating OpenByLaws.org.za with Laws.Africa
 date: 2019-07-15 15:06:00 +02:00
 lead: How openbylaws.org.za uses Laws.Africa and “legislation as data” to automate
   the work of making municipal by-laws freely available.
