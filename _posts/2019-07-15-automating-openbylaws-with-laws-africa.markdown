@@ -30,7 +30,7 @@ In addition, because the legislation is available as structured data (rather tha
 
 ## What else can be done with the content API?
 
-The [Laws.Africa Content API](https://laws.africa/api/) is very powerful. It provides a simple interface to extract and work with machine-friendly legislation, and associated metadata, using the open [Akoma Ntoso XML markup standard](http://www.akomantoso.org/). 
+The [Laws.Africa Content API](https://laws.africa/api/) is very powerful. It provides a simple interface to extract and work with machine-friendly legislation, and associated metadata, using the open [Akoma Ntoso XML markup standard](http://www.akomantoso.org/).
 
 Using the Content API, you can include African legislation in your website or app, [build interactive tools](https://laws.africa/help/api/guide-table-of-contents.html) to help users explore legislation relevant to them, or use machine learning to do research and analysis.
 
@@ -53,3 +53,5 @@ Contributions feed into the legislation commons which is freely available online
 Laws.Africa and Open By-laws are partnering with South African municipalities to put their by-laws online and provide training on how to maintain them on the Laws.Africa platform. If you're interested, please email [info@laws.africa](mailto:info@laws.africa).
 
 You can find out more about how to use the Laws.Africa Content API in your website, app or research at [laws.africa/api](https://laws.africa/api/) or by emailing us at [info@laws.africa](mailto:info@laws.africa).
+
+(Photo by Rohan Reddy on [Unsplash](https://unsplash.com/photos/Ae4qJD-IdL8).)
