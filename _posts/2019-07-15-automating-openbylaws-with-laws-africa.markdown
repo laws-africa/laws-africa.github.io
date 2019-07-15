@@ -5,7 +5,7 @@ date: 2019-07-15 15:06:00 +02:00
 lead: How openbylaws.org.za uses Laws.Africa and “legislation as data” to automate
   the work of making municipal by-laws freely available.
 author: Greg Kempe
-image: 
+image: "/uploads/cape-town-crane-f7a520.jpg"
 ---
 
 Municipal by-laws are part of the legal foundation of effective communities, small businesses, and local service delivery. However, they are often difficult to find, are out of date, or are in big PDF files that are difficult to work with.
