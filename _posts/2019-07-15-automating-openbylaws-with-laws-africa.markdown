@@ -44,7 +44,7 @@ Anyone can become a contributor. Laws.Africa provides training, support and guid
 
 For example, here are the [tasks and by-laws for Cape Town](https://edit.laws.africa/places/za-cpt/).
 
-<img src="/uploads/platform-cpt.png">
+<img src="/uploads/platform-cpt.png" class="img-fluid">
 
 Contributions feed into the legislation commons which is freely available online, to everyone. [Apply to Laws.Africa to become a contributor](https://laws.africa/jobs) if you'd like to help out.
 
