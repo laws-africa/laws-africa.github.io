@@ -28,7 +28,10 @@ layout: simple
 
 <section class="pb-3 pt-5 bg-light">
   <div class="container">
-    <h3 class="display-5 mb-5">What's available from the Content API?</h3>
+    <h3 class="display-5 mb-3">What's available from the Content API?</h3>
+    <div class="text-center">
+      <img src="/uploads/content-api.png" class="img-fluid mb-3" style="max-width: 800px" alt="Laws.Africa Content API diagram">
+    </div>
 
     <div class="row">
       {% for feature in page.features %}
@@ -47,7 +50,7 @@ layout: simple
 <section class="py-5">
   <div class="container">
     <div class="row">
-      <div class="col-lg-7">
+      <div class="col-lg-8 offset-lg-2">
         <h3 class="display-5 mb-3">Benefits</h3>
 
         {{ page.benefits | markdownify }}
