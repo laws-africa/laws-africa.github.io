@@ -35,7 +35,8 @@ defaults:
     path: _help/api
   values:
     help_section: api
-description: Laws.Africa is a non-profit organisation that curates the African legislation commons and builds technology to enable free access to the law.
+description: Laws.Africa is a non-profit organisation that curates the African legislation
+  commons and builds technology to enable free access to the law.
 baseurl: 
 url: https://laws.africa
 markdown: kramdown
