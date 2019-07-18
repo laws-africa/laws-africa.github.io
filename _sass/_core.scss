@@ -20,3 +20,15 @@
     padding-right: 15px;
   }
 }
+
+.card .card-img-box {
+  height: 150px;
+  padding: 10px;
+  text-align: center;
+
+  img {
+    max-height: 120px;
+    max-width: 100%;
+    width: auto;
+  }
+}
