@@ -52,6 +52,7 @@ positions:
     * Familiarity with legislation and/or past work experience in data capturing advantageous.
   type: Part-time, contract, flexible working hours
   location: Greater Cape Town and Johannesburg, South Africa
+  cta: "/apply"
 layout: jobs
 ---
 
