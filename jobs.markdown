@@ -34,7 +34,9 @@ positions:
   type: Full-time, contract, initially for 6 months.
   salary: R30 000 - R35 000 total cost to company, depending on experience.
   location: Rondebosch, Cape Town
-- title: Editorial Contributor (part-time), multiple positions
+- title: |-
+    Editorial Contributor (part-time), multiple positions
+    (not currently accepting applications)
   description: "We're looking for multiple part-time Editorial Contributors to help
     us build the largest open access collection of legislation in Africa! \n\nThe
     work consists of:\n\n* editorial and research tasks on the Laws.Africa platform;\n*
@@ -50,7 +52,6 @@ positions:
     * Familiarity with legislation and/or past work experience in data capturing advantageous.
   type: Part-time, contract, flexible working hours
   location: Greater Cape Town and Johannesburg, South Africa
-  cta: "/apply"
 layout: jobs
 ---
 
