@@ -11,7 +11,9 @@ layout: about
 
 ### Our Principles
 
+* People own the laws which govern them.
 * Access to the law directly and indirectly enables access to justice.
+* Government is responsible for making the law freely and openly available.
 * A legislation commons improves access to the law for everyone.
 * A legislation commons promotes justice sector innovation by lowering barriers to entry and reducing undifferentiated heavy lifting.
 * Such a commons must be machine-friendly and, ultimately, openly licensed.
@@ -22,5 +24,5 @@ layout: about
 
 * Improve access to the law, stimulate innovation, and lead by example, by
 * creating a machine-friendly, openly licensed legislation commons, through
-* building a mutually beneficial relationship with a volunteer community, that is
+* building mutually beneficial relationships with African governments and a contributor community, that is
 * sustainable through licensing and charging for value-added services and expertise.
