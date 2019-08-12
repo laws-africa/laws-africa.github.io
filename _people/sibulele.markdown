@@ -5,6 +5,7 @@ role: Project Administrator
 email: sibulele@laws.africa
 group: core
 image: "/uploads/IMG-20190728-WA0148.jpg"
+position: 3
 ---
 
 Sibulele has worked at a Central Records Management Centre for three years, and has a bachelor of Arts degree and Post Graduate Certificate in Education. She is passionate about bringing knowledge, managing and safe keeping of documents and administration at large.
