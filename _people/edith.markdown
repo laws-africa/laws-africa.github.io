@@ -1,7 +1,7 @@
 ---
 title: Edith V
 date: 2018-12-14 13:45:00 +02:00
-position: 3
+position: 2
 email: edith@laws.africa
 role: Software Developer and Lead Statutes Editor
 group: core
