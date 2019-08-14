@@ -4,7 +4,7 @@ date: 2019-08-12 14:32:00 +02:00
 role: Project Administrator
 email: sibulele@laws.africa
 group: core
-image: "/uploads/IMG-20190728-WA0148.jpg"
+image: "/uploads/sibulele.jpg"
 position: 3
 ---
 
