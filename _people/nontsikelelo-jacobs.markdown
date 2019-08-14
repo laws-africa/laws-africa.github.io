@@ -1,7 +1,7 @@
 ---
 title: Nontsikelelo Jacobs
 date: 2019-08-14 09:55:00 +02:00
-position: 4
+position: 5
 role: Legislation Content Editor
 group: contributors
 profile: nontsikelelojacobs
