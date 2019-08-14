@@ -1,7 +1,7 @@
 ---
 title: Maulline Gragau
 date: 2019-08-14 10:06:00 +02:00
-position: 12
+position: 9
 group: contributors
 role: Legislation Content Editor
 profile: mg
