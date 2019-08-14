@@ -1,7 +1,7 @@
 ---
 title: Robley Gori
 date: 2019-08-14 10:10:00 +02:00
-position: 6
+position: 7
 group: contributors
 role: Software Developer
 image: "/uploads/robley.jpg"

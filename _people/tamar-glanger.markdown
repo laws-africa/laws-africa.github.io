@@ -1,7 +1,7 @@
 ---
 title: Tamar Glanger
 date: 2019-08-14 10:03:00 +02:00
-position: 3
+position: 4
 group: contributors
 role: Legislation Content Editor
 profile: tammyglanger
