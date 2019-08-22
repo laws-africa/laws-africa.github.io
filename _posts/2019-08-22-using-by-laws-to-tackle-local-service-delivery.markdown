@@ -4,7 +4,7 @@ date: 2019-08-22 08:50:00 +02:00
 lead: How Cape Agulhas youth found solutions to illegal liquor sales and poor refuse
   removal in their local by-laws.
 author: Greg Kempe
-image: 
+image: "/uploads/trash-bins.jpg"
 ---
 
 Few people would believe that we could get twenty people exploring their municipal by-laws on a Saturday morning. But that’s exactly what we did with the [Cape Agulhas Youth Council](https://codebridgeyouth.org.za/) on a Saturday in July, including in-depth discussion on how by-laws can be used to manage refuse removal, prevent illegal shebeens, and support small business.
@@ -55,3 +55,5 @@ Knowledge of by-laws clarifies a person’s rights and obligations. It can trans
 When did you last read your by-laws? Do you know where to find them? Are they up to date?
 
 Open By-laws - [www.openbylaws.org.za](https://openbylaws.org.za) - is a project by Laws.Africa to make by-laws easier to find, read and share. Together, Laws.Africa and OpenUp are helping youth and municipalities to engage with their by-laws and make them widely available. If you’re interested in taking part, please email [info@laws.africa](mailto:info@laws.africa).
+
+*Photo of trash bins by [Paweł Czerwiński on Unsplash](https://unsplash.com/@pawel_czerwinski?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*
