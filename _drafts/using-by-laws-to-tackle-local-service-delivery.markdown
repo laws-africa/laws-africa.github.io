@@ -4,6 +4,7 @@ date: 2019-08-22 08:50:00 +02:00
 lead: How Cape Agulhas youth found solutions to illegal liquor sales and poor refuse
   removal in their local by-laws.
 author: Greg Kempe
+image: 
 ---
 
 Few people would believe that we could get twenty people exploring their municipal by-laws on a Saturday morning. But that’s exactly what we did with the [Cape Agulhas Youth Council](https://codebridgeyouth.org.za/) on a Saturday in July, including in-depth discussion on how by-laws can be used to manage refuse removal, prevent illegal shebeens, and support small business.
@@ -18,11 +19,11 @@ Making it easier to find and read by-laws, and raising awareness about them, hel
 
 By-laws are local laws that are passed by municipalities. Jennica Beukes and Yolanda Bam-Mguye, both Masters students from the [Dullah Omar Institute](https://dullahomarinstitute.org.za/) at the University of the Western Cape, explained to the participants that the [South African Constitution](https://myconstitution.co.za/en/07.html#powers-and-functions-of-municipalities) gives municipalities the right to make by-laws for certain issues. These laws have as much power as a national or provincial law.
 
-Liquor sales and refuse removal are two issues directly managed by municipalities through by-laws. Municipalities are allowed to determine when liquor can be sold and consumed in public, and when and how the municipality must remove refuse and recycling. 
+Liquor sales and refuse removal are two issues directly managed by municipalities through by-laws. Municipalities are allowed to determine when liquor can be sold and consumed in public, and when and how the municipality must remove refuse and recycling.
 
-##Ask “what do the by-laws say?”
+## Ask “what do the by-laws say?”
 
-Before the workshop, only two or three of the participants had read a by-law. While most participants had an idea that by-laws could help solve the issues they experience, they were uncertain where to start. At the end of the day, all participants knew where to go to read their by-laws and had actively worked with the text of a by-law to try to solve a local issue. 
+Before the workshop, only two or three of the participants had read a by-law. While most participants had an idea that by-laws could help solve the issues they experience, they were uncertain where to start. At the end of the day, all participants knew where to go to read their by-laws and had actively worked with the text of a by-law to try to solve a local issue.
 
 Participants worked in groups to explore solutions to two main issues raised by the Cape Agulhas Youth Council: illegal shebeens and poor refuse removal. Four printed copies of the Cape Agulhas Municipality By-laws (over two hundred pages each) were provided to participants, two in English and two in Afrikaans. The by-laws are also available online, but most participants preferred to work with the printed versions as it makes group work easier.
 
@@ -45,9 +46,9 @@ One of the most exciting aspects of the workshop was that it involved municipal 
 
 For instance, without engaging with the by-laws, a resident may complain to their municipality that “the bins are overflowing and our streets are full of rubbish”. After working through what the refuse removal by-law says, they can express a more nuanced concern in terms of the by-law, such as “the bins in our streets are too small and too few; I request larger bins and more of them, as provided for in section 3(3) of the refuse by-law.”
 
-Similarly, a resident can engage more confidently with a fellow resident when they know they have the law on their side. Instead of complaining that someone is littering and making the town untidy, they can instead confidently inform that person that by littering, the person is breaking section 8 of the refuse removal by-law. 
+Similarly, a resident can engage more confidently with a fellow resident when they know they have the law on their side. Instead of complaining that someone is littering and making the town untidy, they can instead confidently inform that person that by littering, the person is breaking section 8 of the refuse removal by-law.
 
-Knowledge of by-laws clarifies a person’s rights and obligations. It can transform a subjective opinion into an objective fact, and it can help to level the playing field between two unequal parties. 
+Knowledge of by-laws clarifies a person’s rights and obligations. It can transform a subjective opinion into an objective fact, and it can help to level the playing field between two unequal parties.
 
 ## What do YOUR by-laws say?
 
