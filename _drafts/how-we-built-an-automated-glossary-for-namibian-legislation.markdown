@@ -6,7 +6,6 @@ lead: How we used legislation-as-data to create an automated glossary to explore
 author: Greg Kempe
 ---
 
-
 Legislation often defines terms that have a specific meaning. For instance, Namibia’s [Criminal Procedure Act (Act 25 of 2004)](https://edit.laws.africa/documents/2509/) defines “charge” as “an indictment, charge sheet, summons or written notice”. These definitions are crucial for the correct interpretation of legislation. It is interesting to explore which Acts define which terms and how those definitions change over time.
 
 Using the Namibian statutes in the Laws.Africa legislation commons, we’ve created a [glossary of more than 3000 defined terms and definitions](https://edit.laws.africa/places/na/labs/glossary).
@@ -143,6 +142,6 @@ We then use these cluster labels to show related definitions in the glossary.
 
 Treating legislation as machine-friendly data makes it really simple to build and maintain this glossary automatically, something that would have taken weeks or months of research by humans. This is just a small example of what’s possible with the machine-friendly Laws.Africa legislation commons. It simplifies previously time-consuming tasks and opens up a range of possibilities.
 
-You can explore an automated glossary for all countries and places we have in the Laws.Africa commons. For example the glossary for Namibian national Acts or the glossary for the City of Cape Town’s by-laws.
+You can explore an automated glossary for all countries and places we have in the [Laws.Africa commons](https://edit.laws.africa/). Choose a country, click "Insights" and then click "Glossary". For example, check out the glossary for [Namibian national Acts](https://edit.laws.africa/places/na/labs/glossary) or the glossary for the [City of Cape Town’s by-laws](https://edit.laws.africa/places/za-cpt/labs/glossary).
 
-What will you build with machine-friendly, legislation as data? Get in touch to find out more about the Laws.Africa legislation commons.
+What will you build with machine-friendly legislation?
