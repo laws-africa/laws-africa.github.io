@@ -1,0 +1,120 @@
+---
+title: How we Built an Automated Glossary for Namibian Legislation
+date: 2019-09-02 20:24:00 +02:00
+lead: How we used legislation-as-data to create an automated glossary to explore over
+  3000 defined terms in Namibian law.
+author: Greg Kempe
+---
+
+Legislation often defines terms that have a specific meaning. For instance, Namibia’s [Criminal Procedure Act (Act 25 of 2004)](https://edit.laws.africa/documents/2509/) defines “charge” as “an indictment, charge sheet, summons or written notice”. These definitions are crucial for the correct interpretation of legislation. It is interesting to explore which Acts define which terms and how those definitions change over time.
+
+Using the Namibian statutes in the Laws.Africa legislation commons, we’ve created a [glossary of more than 3000 defined terms and definitions](https://edit.laws.africa/places/na/labs/glossary).
+
+The glossary is updated automatically and doesn’t require any human editors, thanks to the machine-friendly legislation in the Laws.Africa commons. We use machine learning to group together similar definitions to make the glossary simpler to work with.
+
+\(chart of defined term frequencies by letter)
+
+As of the date of this post, there are 3086 terms defined in 297 Acts. The bulk (79%) of the terms are defined in only one Act, 14% in two or three Acts, and the remaining 7% of term are defined in four or more Acts.
+
+# The curious case of “minister”
+
+Some terms are defined in many different acts with widely varying definitions. This is the case with “minister”.
+
+The term “minister” is defined in 220 Acts. This is a common term since many Acts legislate how the government minister responsible for a particular area (such as Finance or Health) should execute their duties and obligations. The definition in each Act will depend on the subject area being legislated.
+
+For example, here are the definitions of “minister” that relate to Health and Social Services:
+
+> “Minister” means the Minister of Health and Social Services;
+>
+> * [National Welfare Act, 1965](https://edit.laws.africa/documents/2486/)
+>
+> * [National Pensions Act, 1992](https://edit.laws.africa/documents/2421/)
+>
+> * [Hospitals and Health Facilities Act, 1994](https://edit.laws.africa/documents/2360/)
+
+> “Minister” means the Minister responsible for Social Services;
+>
+> * [Social Work and Psychology Act, 2004](https://edit.laws.africa/documents/2615/)
+
+> “Minister” means the Minister responsible for Health and Social Services;
+>
+> [Namibia Institute of Pathology Act, 1999](https://edit.laws.africa/documents/2357/)
+
+The glossary has detected that these definitions are all related to Health and Social Services, and has grouped them together. It also groups together definitions that are identical.
+
+Here are the definitions related to Agriculture:
+
+> “Minister” means the Minister responsible for agriculture;
+>
+> * [Plant Quarantine Act, 2008](https://edit.laws.africa/documents/2141/)
+> * [Animal Health Act, 2011](https://edit.laws.africa/documents/2430/)
+> * [Seeds and Seeds Varieties Act, 2018](https://edit.laws.africa/documents/2618/)
+
+> “Minister” means the Minister of Agriculture;
+>
+> * [Land Tenure Act, 1966](https://edit.laws.africa/documents/2419/)
+> * [Soil Conservation Act, 1969](https://edit.laws.africa/documents/2138/)
+> * [Subdivision of Agricultural Land Act, 1970](https://edit.laws.africa/documents/2394/)
+
+In all, there are 79 groups of related definitions of “minister”.
+
+It’s interesting to notice a trend in the definition of “minister”. Before the 1990s, Acts almost always use the wording “the Minister **of X**”. From the late 1990s onwards, however, most Acts use the new wording “the Minister **responsible for X**”.
+
+# How old are “youth”?
+
+It’s also interesting to discover definitions that are only slightly different. One might assume that the definition of “youth” would be consistent across the legislation. However, these two Acts define “youth” slightly differently:
+
+> “youth” means a young person aged from 16 to 35 years old.
+>
+> * [National Youth Council Act, 2009](https://edit.laws.africa/documents/2531/)
+
+> “youth” means an individual aged between 16 and 30 years.
+>
+> * [National Youth Service Act, 2005](https://edit.laws.africa/documents/2533/)
+
+Similarly, the definition of a “minor” for gambling-related purposes is someone under the age of 21, whereas for witness protection purposes it is someone under the age of 18.
+
+> “minor” means a person who has not attained the age of 21;
+>
+> * [Lotteries Act, 2017](https://edit.laws.africa/documents/2603/)
+> * [Gaming and Entertainment Control Act, 2018](https://edit.laws.africa/documents/2633/)
+
+> “minor” means a person who is below the age of 18 years;
+>
+> * [Witness Protection Act, 2017](https://edit.laws.africa/documents/2323/)
+
+Besides being a useful research tool, there are lots of other interesting oddities to be found when exploring legislation through the lens of defined terms.
+
+# How we built the Glossary
+
+The glossary is built and maintained automatically. As we add and amend new Acts on Laws.Africa, the platform automatically identifies defined terms, extracts their definitions, groups similar definitions together, and updates the glossary. So how does it do this?
+
+## Identifying definitions
+
+Laws.Africa marks up legislation using Akoma Ntoso XML. It searches for a definition by looking for a phrase such as ‘“X” means…’ and then marks that up using the Akoma Ntoso <def> and <term> tags. It’s straight-forward to then go through through all Acts and extract the <def> elements.
+
+      <p refersTo="#term-day">“<def refersTo="#term-day">day</def>” means the space of time between sunrise and sunset;</p>
+
+## Grouping similar definitions
+
+Once we have the terms and their definitions, we can cluster similar definitions together using some simple machine learning. First, we extract the text from the definitions, strip punctuation and numbers, and normalise whitespace. Normalising whitespace isn’t required for the clustering, but it’s useful later when we want to detect very similar definitions.
+
+CODE
+
+Now, for each term, we need to determine which definition texts are similar. We do this by vectorising the text and calculating the cosine similarity between the vectors. This gives what is effectively the “distance” between every pair of definitions.
+
+CODE
+
+Finally, we use agglomerative clustering to group the terms based on these distances. This gives us a list of cluster labels, one for each definition.
+
+CODE
+
+We then use these cluster labels to show related definitions in the glossary.
+
+# Legislation as data
+
+Treating legislation as machine-friendly data makes it really simple to build and maintain this glossary automatically, something that would have taken weeks or months of research by humans. This is just a small example of what’s possible with the machine-friendly Laws.Africa legislation commons. It simplifies previously time-consuming tasks and opens up a range of possibilities.
+
+You can explore an automated glossary for all countries and places we have in the Laws.Africa commons. For example the glossary for Namibian national Acts or the glossary for the City of Cape Town’s by-laws.
+
+What will you build with machine-friendly, legislation as data? Get in touch to find out more about the Laws.Africa legislation commons.
