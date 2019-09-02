@@ -6,6 +6,7 @@ lead: How we used legislation-as-data to create an automated glossary to explore
 author: Greg Kempe
 ---
 
+
 Legislation often defines terms that have a specific meaning. For instance, Namibia’s [Criminal Procedure Act (Act 25 of 2004)](https://edit.laws.africa/documents/2509/) defines “charge” as “an indictment, charge sheet, summons or written notice”. These definitions are crucial for the correct interpretation of legislation. It is interesting to explore which Acts define which terms and how those definitions change over time.
 
 Using the Namibian statutes in the Laws.Africa legislation commons, we’ve created a [glossary of more than 3000 defined terms and definitions](https://edit.laws.africa/places/na/labs/glossary).
@@ -25,33 +26,26 @@ The term “minister” is defined in 220 Acts. This is a common term since many
 For example, here are the definitions of “minister” that relate to Health and Social Services:
 
 > “Minister” means the Minister of Health and Social Services;
->
 > * [National Welfare Act, 1965](https://edit.laws.africa/documents/2486/)
->
 > * [National Pensions Act, 1992](https://edit.laws.africa/documents/2421/)
->
 > * [Hospitals and Health Facilities Act, 1994](https://edit.laws.africa/documents/2360/)
 
 > “Minister” means the Minister responsible for Social Services;
->
 > * [Social Work and Psychology Act, 2004](https://edit.laws.africa/documents/2615/)
 
 > “Minister” means the Minister responsible for Health and Social Services;
->
-> [Namibia Institute of Pathology Act, 1999](https://edit.laws.africa/documents/2357/)
+> * [Namibia Institute of Pathology Act, 1999](https://edit.laws.africa/documents/2357/)
 
 The glossary has detected that these definitions are all related to Health and Social Services, and has grouped them together. It also groups together definitions that are identical.
 
 Here are the definitions related to Agriculture:
 
 > “Minister” means the Minister responsible for agriculture;
->
 > * [Plant Quarantine Act, 2008](https://edit.laws.africa/documents/2141/)
 > * [Animal Health Act, 2011](https://edit.laws.africa/documents/2430/)
 > * [Seeds and Seeds Varieties Act, 2018](https://edit.laws.africa/documents/2618/)
 
 > “Minister” means the Minister of Agriculture;
->
 > * [Land Tenure Act, 1966](https://edit.laws.africa/documents/2419/)
 > * [Soil Conservation Act, 1969](https://edit.laws.africa/documents/2138/)
 > * [Subdivision of Agricultural Land Act, 1970](https://edit.laws.africa/documents/2394/)
@@ -65,22 +59,18 @@ It’s interesting to notice a trend in the definition of “minister”. Before
 It’s also interesting to discover definitions that are only slightly different. One might assume that the definition of “youth” would be consistent across the legislation. However, these two Acts define “youth” slightly differently:
 
 > “youth” means a young person aged from 16 to 35 years old.
->
 > * [National Youth Council Act, 2009](https://edit.laws.africa/documents/2531/)
 
 > “youth” means an individual aged between 16 and 30 years.
->
 > * [National Youth Service Act, 2005](https://edit.laws.africa/documents/2533/)
 
 Similarly, the definition of a “minor” for gambling-related purposes is someone under the age of 21, whereas for witness protection purposes it is someone under the age of 18.
 
 > “minor” means a person who has not attained the age of 21;
->
 > * [Lotteries Act, 2017](https://edit.laws.africa/documents/2603/)
 > * [Gaming and Entertainment Control Act, 2018](https://edit.laws.africa/documents/2633/)
 
 > “minor” means a person who is below the age of 18 years;
->
 > * [Witness Protection Act, 2017](https://edit.laws.africa/documents/2323/)
 
 Besides being a useful research tool, there are lots of other interesting oddities to be found when exploring legislation through the lens of defined terms.
@@ -91,23 +81,61 @@ The glossary is built and maintained automatically. As we add and amend new Acts
 
 ## Identifying definitions
 
-Laws.Africa marks up legislation using Akoma Ntoso XML. It searches for a definition by looking for a phrase such as ‘“X” means…’ and then marks that up using the Akoma Ntoso <def> and <term> tags. It’s straight-forward to then go through through all Acts and extract the <def> elements.
+At Laws.Africa we markup legislation using Akoma Ntoso XML. Our platform searches for a definition by looking for a phrase such as ‘“X” means...’ and then marks that up using the Akoma Ntoso `<def>` and `<term>` tags. 
 
-      <p refersTo="#term-day">“<def refersTo="#term-day">day</def>” means the space of time between sunrise and sunset;</p>
+```xml
+<p refersTo="#term-day">“<def refersTo="#term-day">day</def>” means the space of time between sunrise and sunset;</p>
+```
+
+It’s straight-forward to then go through through all Acts and extract the `<def>` elements.
 
 ## Grouping similar definitions
 
-Once we have the terms and their definitions, we can cluster similar definitions together using some simple machine learning. First, we extract the text from the definitions, strip punctuation and numbers, and normalise whitespace. Normalising whitespace isn’t required for the clustering, but it’s useful later when we want to detect very similar definitions.
+Once we have the terms and their definitions, we can cluster similar definitions together using some simple machine learning.
 
-CODE
+First, we extract the text from the definitions, strip punctuation and numbers, and normalise whitespace.
+
+```python
+def defn_text(element):
+    """ Extract plain text (without punctuation and numbers) from definition XML elements.
+    """
+    # join text elements with spaces, strip punctuation, and convert to lowercase
+    text = remove_punctuation(' '.join(element.itertext()) or '').lower()
+    # replace numbers with N
+    text = num_re.sub(r'[0-9]+', 'N', text)
+    return text
+
+
+def remove_punctuation(text):
+    # strip punctuation in unicode
+    # https://stackoverflow.com/questions/11066400/remove-punctuation-from-unicode-formatted-strings
+    punct_table = dict.fromkeys(i for i in range(sys.maxunicode) if unicodedata.category(chr(i)).startswith('P'))
+    return text.translate(punct_table)
+
+texts = [defn_text(e) for e in elements]
+```
 
 Now, for each term, we need to determine which definition texts are similar. We do this by vectorising the text and calculating the cosine similarity between the vectors. This gives what is effectively the “distance” between every pair of definitions.
 
-CODE
+```python
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
+
+vectorizer = TfidfVectorizer()
+tfidf = vectorizer.fit_transform(texts)
+distances = 1 - cosine_similarity(tfidf)
+```
 
 Finally, we use agglomerative clustering to group the terms based on these distances. This gives us a list of cluster labels, one for each definition.
 
-CODE
+```python
+from sklearn.cluster import AgglomerativeClustering
+
+clustering = AgglomerativeClustering(
+    n_clusters=None, compute_full_tree=True, distance_threshold=0.3,
+    affinity='precomputed', linkage='complete').fit(distances)
+labels = clustering.labels_
+```
 
 We then use these cluster labels to show related definitions in the glossary.
 
