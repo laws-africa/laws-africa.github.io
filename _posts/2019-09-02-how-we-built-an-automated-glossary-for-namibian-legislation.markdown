@@ -4,7 +4,6 @@ date: 2019-09-02 20:24:00 +02:00
 lead: How we used legislation-as-data to create an automated glossary to explore over
   3000 defined terms in Namibian law.
 author: Greg Kempe
-image: "/uploads/glossary.png"
 extra_js:
 - <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
 - |-
@@ -64,7 +63,7 @@ As of the date of this post, there are 3086 terms defined in 297 Acts. The bulk 
   <canvas id="glossary-chart"></canvas>
 </div>
 
-## The curious case of “minister”
+# The curious case of “minister”
 
 Some terms are defined in many different acts with widely varying definitions. This is the case with “minister”.
 
@@ -76,15 +75,15 @@ For example, here are the definitions of “minister” that relate to Health an
 > * [National Welfare Act, 1965](https://edit.laws.africa/documents/2486/)
 > * [National Pensions Act, 1992](https://edit.laws.africa/documents/2421/)
 > * [Hospitals and Health Facilities Act, 1994](https://edit.laws.africa/documents/2360/)
-{:.bg-light .px-2 .pt-2 .border}
+{:.bg-light .px-2 .pt-2}
 
 > “Minister” means the Minister responsible for Social Services;
 > * [Social Work and Psychology Act, 2004](https://edit.laws.africa/documents/2615/)
-{:.bg-light .px-2 .pt-2 .border}
+{:.bg-light .px-2 .pt-2}
 
 > “Minister” means the Minister responsible for Health and Social Services;
 > * [Namibia Institute of Pathology Act, 1999](https://edit.laws.africa/documents/2357/)
-{:.bg-light .px-2 .pt-2 .border}
+{:.bg-light .px-2 .pt-2}
 
 The glossary has detected that these definitions are all related to Health and Social Services, and has grouped them together. It also groups together definitions that are identical.
 
@@ -94,48 +93,48 @@ Here are the definitions related to Agriculture:
 > * [Plant Quarantine Act, 2008](https://edit.laws.africa/documents/2141/)
 > * [Animal Health Act, 2011](https://edit.laws.africa/documents/2430/)
 > * [Seeds and Seeds Varieties Act, 2018](https://edit.laws.africa/documents/2618/)
-{:.bg-light .px-2 .pt-2 .border}
+{:.bg-light .px-2 .pt-2}
 
 > “Minister” means the Minister of Agriculture;
 > * [Land Tenure Act, 1966](https://edit.laws.africa/documents/2419/)
 > * [Soil Conservation Act, 1969](https://edit.laws.africa/documents/2138/)
 > * [Subdivision of Agricultural Land Act, 1970](https://edit.laws.africa/documents/2394/)
-{:.bg-light .px-2 .pt-2 .border}
+{:.bg-light .px-2 .pt-2}
 
 In all, there are 79 groups of related definitions of “minister”.
 
 It’s interesting to notice a trend in the definition of “minister”. Before the 1990s, Acts almost always use the wording “the Minister **of X**”. From the late 1990s onwards, however, most Acts use the new wording “the Minister **responsible for X**”.
 
-## How old are “youth”?
+# How old are “youth”?
 
 It’s also interesting to discover definitions that are only slightly different. One might assume that the definition of “youth” would be consistent across the legislation. However, these two Acts define “youth” slightly differently:
 
 > “youth” means a young person aged from 16 to 35 years old.
 > * [National Youth Council Act, 2009](https://edit.laws.africa/documents/2531/)
-{:.bg-light .px-2 .pt-2 .border}
+{:.bg-light .px-2 .pt-2}
 
 > “youth” means an individual aged between 16 and 30 years.
 > * [National Youth Service Act, 2005](https://edit.laws.africa/documents/2533/)
-{:.bg-light .px-2 .pt-2 .border}
+{:.bg-light .px-2 .pt-2}
 
 Similarly, the definition of a “minor” for gambling-related purposes is someone under the age of 21, whereas for witness protection purposes it is someone under the age of 18.
 
 > “minor” means a person who has not attained the age of 21;
 > * [Lotteries Act, 2017](https://edit.laws.africa/documents/2603/)
 > * [Gaming and Entertainment Control Act, 2018](https://edit.laws.africa/documents/2633/)
-{:.bg-light .px-2 .pt-2 .border}
+{:.bg-light .px-2 .pt-2}
 
 > “minor” means a person who is below the age of 18 years;
 > * [Witness Protection Act, 2017](https://edit.laws.africa/documents/2323/)
-{:.bg-light .px-2 .pt-2 .border}
+{:.bg-light .px-2 .pt-2}
 
 Besides being a useful research tool, there are lots of other interesting oddities to be found when exploring legislation through the lens of defined terms.
 
-## How we built the Glossary
+# How we built the Glossary
 
 The glossary is built and maintained automatically. As we add and amend new Acts on Laws.Africa, the platform automatically identifies defined terms, extracts their definitions, groups similar definitions together, and updates the glossary. So how does it do this?
 
-### Identifying definitions
+## Identifying definitions
 
 At Laws.Africa we markup legislation using Akoma Ntoso XML. Our platform searches for a definition by looking for a phrase such as ‘“X” means...’ and then marks that up using the Akoma Ntoso `<def>` and `<term>` tags. 
 
@@ -147,7 +146,7 @@ At Laws.Africa we markup legislation using Akoma Ntoso XML. Our platform searche
 
 It’s straight-forward to then go through through all Acts and extract the `<def>` elements.
 
-### Grouping similar definitions
+## Grouping similar definitions
 
 Once we have the terms and their definitions, we can cluster similar definitions together using some simple machine learning.
 
@@ -198,7 +197,7 @@ labels = clustering.labels_
 
 We then use these cluster labels to show related definitions in the glossary.
 
-## The power of Legislation as Data
+# Legislation as data
 
 Treating legislation as machine-friendly data makes it really simple to build and maintain this glossary automatically, something that would have taken weeks or months of research by humans. This is just a small example of what’s possible with the machine-friendly Laws.Africa legislation commons. It simplifies previously time-consuming tasks and opens up a range of possibilities.
 
