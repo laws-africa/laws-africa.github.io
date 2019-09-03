@@ -4,6 +4,51 @@ date: 2019-09-02 20:24:00 +02:00
 lead: How we used legislation-as-data to create an automated glossary to explore over
   3000 defined terms in Namibian law.
 author: Greg Kempe
+extra_js:
+- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
+- |-
+  <script>
+    $(function() {
+      var canvas = document.getElementById('glossary-chart'),
+          ctx = canvas.getContext('2d'),
+          labels = ['#', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'Y', 'Z'],
+          values = [1, 235, 100, 293, 200, 143, 138, 76, 53, 136, 17, 8, 124, 171, 100, 79, 341, 10, 228, 295, 173, 53, 49, 59, 3, 1];
+
+      new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: labels,
+          datasets: [{
+            label: 'Entries',
+            data: values,
+            borderWidth: 0,
+            backgroundColor: '#D04242',
+          }]
+        },
+        options: {
+          maintainAspectRatio: false,
+          legend: {display: false},
+          title: {
+            display: true,
+            text: 'Number of Glossary Entries',
+          },
+          scales: {
+            yAxes: [{
+              ticks: {
+                precision: 0,
+                beginAtZero: true,
+              },
+            }],
+            xAxes: [{
+              gridLines: {
+                display: false,
+              }
+            }],
+          },
+        }
+      });
+    });
+  </script>
 ---
 
 Legislation often defines terms that have a specific meaning. For instance, Namibia’s [Criminal Procedure Act (Act 25 of 2004)](https://edit.laws.africa/documents/2509/) defines “charge” as “an indictment, charge sheet, summons or written notice”. These definitions are crucial for the correct interpretation of legislation. It is interesting to explore which Acts define which terms and how those definitions change over time.
@@ -12,9 +57,11 @@ Using the Namibian statutes in the Laws.Africa legislation commons, we’ve crea
 
 The glossary is updated automatically and doesn’t require any human editors, thanks to the machine-friendly legislation in the Laws.Africa commons. We use machine learning to group together similar definitions to make the glossary simpler to work with.
 
-\(chart of defined term frequencies by letter)
-
 As of the date of this post, there are 3086 terms defined in 297 Acts. The bulk (79%) of the terms are defined in only one Act, 14% in two or three Acts, and the remaining 7% of term are defined in four or more Acts.
+
+<div class="p-relative my-3" style="height: 200px;">
+  <canvas id="glossary-chart"></canvas>
+</div>
 
 # The curious case of “minister”
 
@@ -28,12 +75,15 @@ For example, here are the definitions of “minister” that relate to Health an
 > * [National Welfare Act, 1965](https://edit.laws.africa/documents/2486/)
 > * [National Pensions Act, 1992](https://edit.laws.africa/documents/2421/)
 > * [Hospitals and Health Facilities Act, 1994](https://edit.laws.africa/documents/2360/)
+{:.bg-light .px-2 .pt-2}
 
 > “Minister” means the Minister responsible for Social Services;
 > * [Social Work and Psychology Act, 2004](https://edit.laws.africa/documents/2615/)
+{:.bg-light .px-2 .pt-2}
 
 > “Minister” means the Minister responsible for Health and Social Services;
 > * [Namibia Institute of Pathology Act, 1999](https://edit.laws.africa/documents/2357/)
+{:.bg-light .px-2 .pt-2}
 
 The glossary has detected that these definitions are all related to Health and Social Services, and has grouped them together. It also groups together definitions that are identical.
 
@@ -43,11 +93,13 @@ Here are the definitions related to Agriculture:
 > * [Plant Quarantine Act, 2008](https://edit.laws.africa/documents/2141/)
 > * [Animal Health Act, 2011](https://edit.laws.africa/documents/2430/)
 > * [Seeds and Seeds Varieties Act, 2018](https://edit.laws.africa/documents/2618/)
+{:.bg-light .px-2 .pt-2}
 
 > “Minister” means the Minister of Agriculture;
 > * [Land Tenure Act, 1966](https://edit.laws.africa/documents/2419/)
 > * [Soil Conservation Act, 1969](https://edit.laws.africa/documents/2138/)
 > * [Subdivision of Agricultural Land Act, 1970](https://edit.laws.africa/documents/2394/)
+{:.bg-light .px-2 .pt-2}
 
 In all, there are 79 groups of related definitions of “minister”.
 
@@ -59,18 +111,22 @@ It’s also interesting to discover definitions that are only slightly different
 
 > “youth” means a young person aged from 16 to 35 years old.
 > * [National Youth Council Act, 2009](https://edit.laws.africa/documents/2531/)
+{:.bg-light .px-2 .pt-2}
 
 > “youth” means an individual aged between 16 and 30 years.
 > * [National Youth Service Act, 2005](https://edit.laws.africa/documents/2533/)
+{:.bg-light .px-2 .pt-2}
 
 Similarly, the definition of a “minor” for gambling-related purposes is someone under the age of 21, whereas for witness protection purposes it is someone under the age of 18.
 
 > “minor” means a person who has not attained the age of 21;
 > * [Lotteries Act, 2017](https://edit.laws.africa/documents/2603/)
 > * [Gaming and Entertainment Control Act, 2018](https://edit.laws.africa/documents/2633/)
+{:.bg-light .px-2 .pt-2}
 
 > “minor” means a person who is below the age of 18 years;
 > * [Witness Protection Act, 2017](https://edit.laws.africa/documents/2323/)
+{:.bg-light .px-2 .pt-2}
 
 Besides being a useful research tool, there are lots of other interesting oddities to be found when exploring legislation through the lens of defined terms.
 
@@ -83,7 +139,9 @@ The glossary is built and maintained automatically. As we add and amend new Acts
 At Laws.Africa we markup legislation using Akoma Ntoso XML. Our platform searches for a definition by looking for a phrase such as ‘“X” means...’ and then marks that up using the Akoma Ntoso `<def>` and `<term>` tags. 
 
 ```xml
-<p refersTo="#term-day">“<def refersTo="#term-day">day</def>” means the space of time between sunrise and sunset;</p>
+<p refersTo="#term-day">
+  “<def refersTo="#term-day">day</def>” means the space of time between sunrise and sunset;
+</p>
 ```
 
 It’s straight-forward to then go through through all Acts and extract the `<def>` elements.
@@ -111,7 +169,8 @@ def remove_punctuation(text):
     punct_table = dict.fromkeys(i for i in range(sys.maxunicode) if unicodedata.category(chr(i)).startswith('P'))
     return text.translate(punct_table)
 
-texts = [defn_text(e) for e in elements]
+# map a list of definition elements to plain text
+texts = [defn_text(e) for e in definitions]
 ```
 
 Now, for each term, we need to determine which definition texts are similar. We do this by vectorising the text and calculating the cosine similarity between the vectors. This gives what is effectively the “distance” between every pair of definitions.
@@ -125,7 +184,7 @@ tfidf = vectorizer.fit_transform(texts)
 distances = 1 - cosine_similarity(tfidf)
 ```
 
-Finally, we use agglomerative clustering to group the terms based on these distances. This gives us a list of cluster labels, one for each definition.
+Finally, we use [agglomerative clustering](https://scikit-learn.org/stable/modules/clustering.html#hierarchical-clustering) to group the terms based on these distances. This gives us a list of cluster labels, one for each definition.
 
 ```python
 from sklearn.cluster import AgglomerativeClustering
