@@ -1,5 +1,5 @@
 ---
-title: How we Built an Automated Glossary for Namibian Legislation
+title: How we built an automated glossary for Namibian legislation
 date: 2019-09-02 20:24:00 +02:00
 lead: How we used legislation-as-data to create an automated glossary to explore over
   3000 defined terms in Namibian law.
