@@ -1,7 +1,7 @@
 ---
 title: Marina Rubridge
 date: 2019-09-06 14:13:00 +02:00
-position: 4
+position: 5
 role: Legislation Content Editor
 group: contributors
 profile: marinarubidge
