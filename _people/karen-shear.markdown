@@ -1,7 +1,7 @@
 ---
 title: Karen Shear
 date: 2019-04-22 22:37:00 +02:00
-position: 13
+position: 5
 role: Legislation Content Editor
 group: contributors
 image: "/uploads/Karen%20Shear%20photo.jpg"

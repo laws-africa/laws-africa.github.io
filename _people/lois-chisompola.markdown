@@ -1,7 +1,7 @@
 ---
 title: Lois Chisompola
 date: 2019-08-14 10:00:00 +02:00
-position: 6
+position: 7
 role: Legislation Content Editor
 group: contributors
 profile: loischisompola
