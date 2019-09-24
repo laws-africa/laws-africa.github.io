@@ -1,11 +1,11 @@
 ---
-title: Can I share PDF files?
+title: Can I share Laws.Africa PDF files?
 date: 2019-09-24 15:51:00 +02:00
 ---
 
-Yes. You are welcome to share our PDF files widely and freely.
+**Yes. You are welcome to share our PDFs widely and freely.**
 
-## Our PDFs are openly licensed
+### Share our PDFs widely and freely
 
 Our PDF files are licensed under a [Creative Commons Attribution license (CC-BY)](https://creativecommons.org/licenses/by/4.0/). This means that you are free to copy and share them.
 
