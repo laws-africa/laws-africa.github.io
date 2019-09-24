@@ -3,7 +3,7 @@ title: Can I share Laws.Africa PDF files?
 date: 2019-09-24 15:51:00 +02:00
 ---
 
-**Yes. You are welcome to share our PDFs widely and freely.**
+**Yes. Please share our PDFs widely and freely.**
 
 ### Share our PDFs widely and freely
 
