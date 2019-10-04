@@ -2,7 +2,7 @@
 title: Machine-friendly legislation – who’s doing what
 date: 2019-10-04 10:24:00 +02:00
 author: Edith V
-image: "/uploads/flipped-close-up-color-2971756.jpg"
+image: "/uploads/leaves.jpg"
 lead: A sample of tools and projects in the field of machine-friendly legislation
 ---
 
