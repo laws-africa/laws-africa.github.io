@@ -1,6 +1,7 @@
 ---
 title: Machine-friendly legislation – who’s doing what
 date: 2019-10-04 10:24:00 +02:00
+published: false
 ---
 
 I recently attended the [Lex Summer School](http://summerschoollex.cirsfid.unibo.it/) and Akoma Ntoso Developers Workshop at the Law Faculty of the University of Bologna in Ravenna, Italy, where a jam-packed schedule introduced attendees to everything from marking up legislation by hand to using machine learning to extract knowledge from legal text. Below is a sample of current projects creating / working with machine-friendly legislation. (Note: AKN can be used for all kinds of legal texts, not just legislation; I’m just focusing on legislation because [that’s what we do](https://laws.africa/).)
