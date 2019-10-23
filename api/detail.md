@@ -22,13 +22,13 @@ Legislation and related information is available from the Laws.Africa Content AP
 * **Publication and Promulgation** — Dates and details of the initial publication, including gazette numbers, with links to the gazette PDFs for reference purposes.
 * **Points in Time** — Historical points in time for previous amended versions of legislation, where available.
 
-See the [Content API technical documentation](/help/api/v2.html) for more details.
+See the [Content API developer guide](https://developers.laws.africa) for more details.
 
 ## Using the Content API
 
 It's easy for you or your developers to get started with the Content API's free tier. You can then contact us to upgrade your account for more content when you're ready.
 
-To get started, follow our [Quick Start](/help/api/v2.html#quick-start) guide to sign up for a free account and get going. This will give your developers an idea of what's available from the API and what can be done with it.
+To get started, follow our [Quick Start](https://developers.laws.africa/quick-start) guide to sign up for a free account and get going. This will give your developers an idea of what's available from the API and what can be done with it.
 
 ## Additional countries and localities
 
