@@ -87,8 +87,7 @@ The task ahead is not easy. As mentioned earlier, obtaining gazettes from Africa
 
 We thank our comrades at all [LIIs in Africa](https://www.africanlii.org/), [OpenUp](https://openup.org.za/), as well as the librarians at the [Johannesburg Bar Library](https://johannesburgbar.co.za/library/), the [University of Cape Town Government Publications section of the Library](http://www.governmentpublications.lib.uct.ac.za/), [Werksmans Attorneys](https://www.werksmans.com/), [Webber Wentzel](www.webberwentzel.com/) and [LLMC (United States)](http://llmc.com/) for their in-kind donations to the commons.
 
-\
-Read African law on [AfricanLII](https://africanlii.org/), [Laws.Africa](https://laws.africa/) and [Gazettes.Africa](https://gazettes.africa/), and join us in making African law more accessible to all!
+\Read African law on [AfricanLII](https://africanlii.org/), [Laws.Africa](https://laws.africa/) and [Gazettes.Africa](https://gazettes.africa/), and join us in making African law more accessible to all!
 
 ---
 
