@@ -2,8 +2,6 @@
 title: African LIIs and Laws.Africa are building the largest free and open access
   repository of African gazettes
 date: 2020-01-14 11:14:00 +02:00
-categories:
-- Gazettes
 tags:
 - gazettes
 - commons
