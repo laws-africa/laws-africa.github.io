@@ -12,11 +12,16 @@ tags:
 - African gazettes
 - government gazette
 - collaboration
+author: Mariya Badeva-Bright
+image: "/uploads/1.png"
+lead: Legal certainty demands that public information is accessible, authoritative
+  and available for verification. The Government Gazette is the official government
+  publication for disseminating legislation, rules and other legal information. In
+  African countries, the Gazette is often very difficult to find, and is generally
+  only available in paper format and at a price. We created [Gazettes.Africa](https://gazettes.africa)
+  to make this crucial source of government information freely available on the Internet.
 ---
 
-Legal certainty demands that public information is accessible, authoritative and available for verification. The Government Gazette is the official government publication for disseminating legislation, rules and other legal information. In African countries, the Gazette is often very difficult to find, and is generally only available in paper format and at a price. We created [Gazettes.Africa](https://gazettes.africa) to make this crucial source of government information freely available on the Internet.
-
-![1.png](/uploads/1.png)
 
 # Why gazettes?
 The Government Gazette, sometimes also referred to as the Official Gazette or Official Journal, is a periodical publication - print or digital - which authoritatively carries public and legal notices. The Gazette serves an important communication and record-keeping function, establishing certainty on promulgated legislation, rules, order or any document within the governmental public order that needs to be public.  The Interpretation Act of South Africa, for example, makes the Gazette the default outlet of any government (national, provincial or municipal) information.  Additionally, a myriad of laws require private entities to publish notices in a public way through the gazette - liquor licenses, company information, change of name, etc.  It is only in exceptional circumstances that the President may proclaim a different method of publication of public information. This is the situation, with slight variations, in most countries around the world. Gazettes are a vital component of legal certainty and the rule of law. They are indispensable sources of information for the legal and justice sectors in any country.  But this most basic and most public of all documents is surprisingly difficult to obtain in many African countries.
