@@ -14,9 +14,9 @@ tags:
 - collaboration
 author: Mariya Badeva-Bright
 image: "/uploads/1.png"
-lead: We collect, digitize and publish African government gazettes because legal certainty
-  demands that public information is accessible, authoritative and available for verification.
-  Open access to the government gazette is fundamental to the rule of law.
+lead: 'We collect, digitize and publish African government gazettes because legal
+  certainty demands that public information is accessible, authoritative and available
+  for verification. '
 ---
 
 Legal certainty demands that public information is accessible, authoritative and available for verification. The Government Gazette is the official government publication for disseminating legislation, rules and other legal information. In African countries, the Gazette is often very difficult to find, and is generally only available in paper format and at a price. We created [Gazettes.Africa](https://gazettes.africa) to make this crucial source of government information freely available on the Internet.
