@@ -92,4 +92,4 @@ Read African law on [AfricanLII](https://africanlii.org/), [Laws.Africa](https:/
 
 ---
 
-\*This blog post first appeared in the Organization of South African Law Librarians newsletter in November 2019 and is republished here with a few updates.
+\*This blog post first appeared in the [Organization of South African Law Librarians](https://www.osall.org.za/) newsletter in November 2019 and is republished here with a few updates.
