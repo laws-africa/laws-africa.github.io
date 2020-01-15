@@ -6,4 +6,4 @@ lead: Apply to be a Laws.Africa editorial contributor.
 layout: slim
 ---
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScBweUrSHA2C2XDttC_cYQw5ytfuuzcjRgSijV0m00MYeqgmQ/viewform" width="100%" height="1700px" style="border: 0px"></iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScBweUrSHA2C2XDttC_cYQw5ytfuuzcjRgSijV0m00MYeqgmQ/viewform" width="100%" height="1900px" style="border: 0px"></iframe>
