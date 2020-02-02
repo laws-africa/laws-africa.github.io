@@ -32,3 +32,17 @@
     width: auto;
   }
 }
+
+.commons-card {
+  .card-img-top {
+    height: 150px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .subtitle {
+    line-height: 1.2;
+    color: $gray-600;
+  }
+}
