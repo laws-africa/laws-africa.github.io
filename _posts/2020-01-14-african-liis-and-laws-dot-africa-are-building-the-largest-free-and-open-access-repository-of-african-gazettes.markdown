@@ -11,7 +11,7 @@ tags:
 - government gazette
 - collaboration
 author: Mariya Badeva-Bright
-image: "/uploads/1.png"
+image: "/uploads/gazettes.png"
 lead: 'We collect, digitize and publish African government gazettes because legal
   certainty demands that public information is accessible, authoritative and available
   for verification. '
