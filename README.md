@@ -20,3 +20,8 @@ To make code or style changes, you'll need to edit the site locally.
 4. Install dependencies: `bundle install`
 5. Run the webserver: `jekyll server --watch`
 6. Visit [http://localhost:4000](http://localhost:4000)
+
+# Updating stats on the legislation commons
+
+Every night, the Travis runs the `build` branch which updates `_data/commons.json` with stats from Laws.Africa.
+See [https://github.com/laws-africa/laws-africa.github.io/tree/build](the build branch README.md) for details.

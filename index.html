@@ -31,14 +31,111 @@ navbar_item: home
 
 <section class="py-5 my-5">
   <div class="container">
-    <h1 class="mb-4">Our projects</h1>
+    <h2 class="mb-2">Legislation commons</h2>
+    <div class="lead mb-4">High-quality, up-to-date African legislation in HTML, PDF and Akoma Ntoso XML. Creative commons licensed.</div>
+
+    <div class="card-deck">
+      <div class="card mb-4 commons-card">
+        <div class="card-body bg-light">
+          <img src="/img/countries/na-flag.png" class="flag mb-2" alt="Namibian flag">
+          <h5 class="card-title"><a href="https://namiblii.org/namibia-legislative-works-index">Namibian National Legislation</a></h5>
+
+          <div class="row">
+            <div class="col-6">
+              <h5 class="mb-0">{{ site.data.commons.na.n_principal }}</h5>
+              <div class="subtitle">Principal Acts</div>
+            </div>
+            <div class="col-6">
+              <h5 class="mb-0">{{ site.data.commons.na.n_stubs }}</h5>
+              <div class="subtitle">Amendments &amp; Commencements</div>
+            </div>
+          </div>
+
+          <h6 class="mt-3 mb-0">{{ site.data.commons.na.as_at_date|date:"%e %B %Y" }}</h6>
+          <div class="subtitle">Latest update</div>
+
+          <h6 class="mt-3 mb-0"><a href="https://namiblii.org">NamibLII.org</a></h6>
+          <div class="subtitle">Portal partner</div>
+        </div>
+      </div>
+
+      <div class="card mb-4 commons-card">
+        <div class="card-body bg-light">
+          <img src="/img/countries/za-flag.png" class="flag mb-2" alt="South African flag">
+          <h5 class="card-title"><a href="https://openbylaws.org.za/">South African Municipal <nobr>By-laws</nobr></a></h5>
+
+          <div class="row">
+            <div class="col-6">
+              <h5 class="mb-0">{{ site.data.commons.za.n_municipalities }}</h5>
+              <div class="subtitle">Municipalities</div>
+            </div>
+            <div class="col-6">
+              <h5 class="mb-0">{{ site.data.commons.za.n_bylaws }}</h5>
+              <div class="subtitle">By-laws</div>
+            </div>
+          </div>
+
+          <h6 class="mt-3 mb-0">{{ site.data.commons.za.as_at_date|date:"%e %B %Y" }}</h6>
+          <div class="subtitle">Latest update</div>
+
+          <h6 class="mt-3 mb-0"><a href="https://openbylaws.org.za">OpenByLaws.org.za</a></h6>
+          <div class="subtitle">Portal partner</div>
+        </div>
+      </div>
+
+      <div class="card mb-4 commons-card">
+        <div class="card-body bg-light">
+          <img src="/img/countries/ng-flag.png" class="flag mb-2" alt="Nigerian flag">
+          <h5 class="card-title"><a href="https://openbylaws.org.za/">Nigerian National Legislation</a></h5>
+          <div class="subtitle">Available soon</div>
+        </div>
+      </div>
+    </div>
+
+    <p class="lead">Legislation is available through our <a href="/api/detail">Content API</a> or <a href="mailto:info@laws.africa">contact us</a> for more details.</p>
+
+  </div>
+</section>
+
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="mb-4">Latest articles</h2>
+    <div class="row">
+      {% assign orderedPosts = site.posts | sort: 'date' | reverse %}
+
+      {% for post in orderedPosts limit:4 %}
+
+      <div class="col-md-6 col-lg-3 mb-4">
+        <a href="{{ post.url }}">
+          <img class="card-img-top mb-2" src="{{ post.image }}">
+        </a>
+        <div>
+          <h5 class="card-title mt-2 mb-0">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </h5>
+          <small class="text-muted">{{ post.date|date:"%e %b %Y"}} by {{ post.author }}</small>
+          <p>{{ post.lead }}</p>
+        </div>
+      </div>
+
+      {% endfor %}
+      <div class="col-12 d-flex justify-content-center">
+        <a class="btn btn-primary" href="/blog">Read more articles</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-5 my-5">
+  <div class="container">
+    <h2 class="mb-4">Our projects</h2>
 
     <div class="card-deck">
       <div class="card mb-4">
         <div class="card-img-box">
           <img src="/img/logo.png" alt="Laws.Africa logo">
         </div>
-        <div class="card-body bg-light">
+        <div class="card-body">
           <h5 class="card-title"><a href="https://edit.laws.africa/">Laws.Africa Legislation Commons</a></h5>
           <p class="card-text">An ever-growing, community-maintained collection of African legislation.</p>
         </div>
@@ -48,7 +145,7 @@ navbar_item: home
         <div class="card-img-box">
           <img src="/img/gazettes-africa-logo.png" style="margin-top: 50px;" alt="Gazettes.Africa logo">
         </div>
-        <div class="card-body bg-light">
+        <div class="card-body">
           <h5 class="card-title"><a href="https://gazettes.africa/">Gazettes.Africa</a></h5>
           <p class="card-text">The largest digital collection of free African Gazettes.</p>
         </div>
@@ -58,7 +155,7 @@ navbar_item: home
         <div class="card-img-box">
           <img src="/img/obl-logo.png" alt="Open By-laws logo">
         </div>
-        <div class="card-body bg-light">
+        <div class="card-body">
           <h5 class="card-title"><a href="https://openbylaws.org.za/">Open By-laws South Africa</a></h5>
           <p class="card-text">Making South Africa's municipal by-laws easy to find, read and share.</p>
         </div>
@@ -68,28 +165,9 @@ navbar_item: home
   </div>
 </section>
 
-<section class="py-5 my-5">
-  <div class="container">
-    <h1 class="mb-4">Faster, cheaper legislation consolidation</h1>
-
-    <div class="row">
-      <div class="col-md-4 text-center mb-4">
-        <img src="/img/indigo/indigo-logo.png" style="width: 200px">
-      </div>
-
-      <div class="col-md-8">
-        <p class="lead">The Indigo Platform is an open source cloud platform that significantly reduces the time and cost of maintaining and consolidating legislation.</p>
-        <p class="lead">Indigo simplifies online and print publishing, record keeping and research by treating legislation as data.</p>
-
-        <a class="btn btn-primary" href="/indigo/">Learn about the Indigo Platform</a>
-      </div>
-    </div>
-  </div>
-</section>
-
 <section class="py-5 my-5 bg-lawsafrica-pale-red">
   <div class="container">
-    <h1 class="mb-4">Use Laws.Africa Content to Power Your Business and Research</h1>
+    <h2 class="mb-4">Use Laws.Africa Content to Power Your Business and Research</h2>
 
     <div class="row">
       <div class="col-md-8">
@@ -103,30 +181,20 @@ navbar_item: home
   </div>
 </section>
 
-<section class="py-5">
+<section class="py-5 my-5">
   <div class="container">
-    <h1 class="mb-4">Latest articles</h1>
+    <h2 class="mb-4">Faster, cheaper legislation consolidation</h2>
+
     <div class="row">
-      {% assign orderedPosts = site.posts | sort: 'date' | reverse %}
-
-      {% for post in orderedPosts limit:3 %}
-
-      <div class="col-md-6 col-lg-4 mb-4">
-        <a href="{{ post.url }}">
-          <img class="card-img-top mb-2" src="{{ post.image }}">
-        </a>
-        <div>
-          <small class="text-muted">{{ post.author }}</small>
-          <h5 class="card-title my-2">
-            <a href="{{ post.url }}">{{ post.title }}</a>
-          </h5>
-          <p>{{ post.lead }}</p>
-        </div>
+      <div class="col-md-4 text-center mb-4">
+        <img src="/img/indigo/indigo-logo.png" style="width: 200px">
       </div>
 
-      {% endfor %}
-      <div class="col-12 d-flex justify-content-center">
-        <a class="btn btn-primary" href="/blog">Read more articles</a>
+      <div class="col-md-8">
+        <p class="lead">The Indigo Platform is an open source cloud platform that significantly reduces the time and cost of maintaining and consolidating legislation.</p>
+        <p class="lead">Indigo simplifies online and print publishing, record keeping and research by treating legislation as data.</p>
+
+        <a class="btn btn-primary" href="/indigo/">Learn about the Indigo Platform</a>
       </div>
     </div>
   </div>

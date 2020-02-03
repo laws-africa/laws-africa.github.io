@@ -32,3 +32,14 @@
     width: auto;
   }
 }
+
+.commons-card {
+  .flag {
+    height: 50px;
+  }
+
+  .subtitle {
+    line-height: 1.2;
+    color: $gray-600;
+  }
+}
