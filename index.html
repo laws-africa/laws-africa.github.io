@@ -97,7 +97,36 @@ navbar_item: home
   </div>
 </section>
 
-<section class="py-5 my-5 bg-light">
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="mb-4">Latest articles</h2>
+    <div class="row">
+      {% assign orderedPosts = site.posts | sort: 'date' | reverse %}
+
+      {% for post in orderedPosts limit:4 %}
+
+      <div class="col-md-6 col-lg-3 mb-4">
+        <a href="{{ post.url }}">
+          <img class="card-img-top mb-2" src="{{ post.image }}">
+        </a>
+        <div>
+          <h5 class="card-title mt-2 mb-0">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </h5>
+          <small class="text-muted">{{ post.date|date:"%e %b %Y"}} by {{ post.author }}</small>
+          <p>{{ post.lead }}</p>
+        </div>
+      </div>
+
+      {% endfor %}
+      <div class="col-12 d-flex justify-content-center">
+        <a class="btn btn-primary" href="/blog">Read more articles</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-5 my-5">
   <div class="container">
     <h2 class="mb-4">Our projects</h2>
 
@@ -136,25 +165,6 @@ navbar_item: home
   </div>
 </section>
 
-<section class="py-5 my-5">
-  <div class="container">
-    <h2 class="mb-4">Faster, cheaper legislation consolidation</h2>
-
-    <div class="row">
-      <div class="col-md-4 text-center mb-4">
-        <img src="/img/indigo/indigo-logo.png" style="width: 200px">
-      </div>
-
-      <div class="col-md-8">
-        <p class="lead">The Indigo Platform is an open source cloud platform that significantly reduces the time and cost of maintaining and consolidating legislation.</p>
-        <p class="lead">Indigo simplifies online and print publishing, record keeping and research by treating legislation as data.</p>
-
-        <a class="btn btn-primary" href="/indigo/">Learn about the Indigo Platform</a>
-      </div>
-    </div>
-  </div>
-</section>
-
 <section class="py-5 my-5 bg-lawsafrica-pale-red">
   <div class="container">
     <h2 class="mb-4">Use Laws.Africa Content to Power Your Business and Research</h2>
@@ -171,30 +181,20 @@ navbar_item: home
   </div>
 </section>
 
-<section class="py-5">
+<section class="py-5 my-5">
   <div class="container">
-    <h2 class="mb-4">Latest articles</h2>
+    <h2 class="mb-4">Faster, cheaper legislation consolidation</h2>
+
     <div class="row">
-      {% assign orderedPosts = site.posts | sort: 'date' | reverse %}
-
-      {% for post in orderedPosts limit:3 %}
-
-      <div class="col-md-6 col-lg-4 mb-4">
-        <a href="{{ post.url }}">
-          <img class="card-img-top mb-2" src="{{ post.image }}">
-        </a>
-        <div>
-          <small class="text-muted">{{ post.author }}</small>
-          <h5 class="card-title my-2">
-            <a href="{{ post.url }}">{{ post.title }}</a>
-          </h5>
-          <p>{{ post.lead }}</p>
-        </div>
+      <div class="col-md-4 text-center mb-4">
+        <img src="/img/indigo/indigo-logo.png" style="width: 200px">
       </div>
 
-      {% endfor %}
-      <div class="col-12 d-flex justify-content-center">
-        <a class="btn btn-primary" href="/blog">Read more articles</a>
+      <div class="col-md-8">
+        <p class="lead">The Indigo Platform is an open source cloud platform that significantly reduces the time and cost of maintaining and consolidating legislation.</p>
+        <p class="lead">Indigo simplifies online and print publishing, record keeping and research by treating legislation as data.</p>
+
+        <a class="btn btn-primary" href="/indigo/">Learn about the Indigo Platform</a>
       </div>
     </div>
   </div>
