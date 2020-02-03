@@ -7,7 +7,7 @@ import requests
 from requests.exceptions import HTTPError
 
 
-INDIGO_API_TOKEN = os.environ.get('INDIGO_API_TOKEN', '66fe966e003a84c387777c689f2b8689de43941b')
+INDIGO_API_TOKEN = os.environ.get('INDIGO_API_TOKEN')
 INDIGO_URL = 'https://api.laws.africa/v2'
 
 
