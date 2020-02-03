@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+# NB: this is run on Travis with python 2.7
 
 import json
 import os
@@ -12,7 +12,7 @@ INDIGO_URL = 'https://api.laws.africa/v2'
 
 
 session = requests.Session()
-session.headers['Authorization'] = f'Token {INDIGO_API_TOKEN}'
+session.headers['Authorization'] = 'Token ' + INDIGO_API_TOKEN
 
 
 def fetch_all(path):
@@ -20,7 +20,7 @@ def fetch_all(path):
     url = INDIGO_URL + path
 
     while url:
-        print(f"Fetching {url}")
+        print("Fetching " + url)
         resp = session.get(url)
         resp.raise_for_status()
         data = resp.json()
@@ -31,7 +31,7 @@ def fetch_all(path):
 
 
 def update_country_stats(place_code, stats):
-    works = fetch_all(f'/akn/{place_code}/.json')
+    works = fetch_all('/akn/' + place_code + '/.json')
     stats['n_principal'] = sum(1 for w in works if not w['stub'] and not w['parent_work'])
     stats['n_stubs'] = sum(1 for w in works if w['stub'])
     stats['as_at_date'] = max(w['as_at_date'] for w in works if w['as_at_date'])
@@ -46,7 +46,7 @@ def update_bylaw_stats(country_code, stats):
 
     for loc in localities:
         try:
-            works.extend(fetch_all(f"/akn/{loc['frbr_uri_code']}/.json"))
+            works.extend(fetch_all("/akn/" + loc['frbr_uri_code'] + "/.json"))
             munis += 1
         except HTTPError as e:
             if e.response.status_code != 404:
@@ -61,7 +61,7 @@ def update_stats():
     with open("_data/commons.json") as f:
         stats = json.load(f)
 
-    #update_country_stats('na', stats['na'])
+    update_country_stats('na', stats['na'])
     update_bylaw_stats('za', stats['za'])
 
     with open("_data/commons.json", "w") as f:
