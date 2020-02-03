@@ -15,4 +15,4 @@ Laws.Africa curates the Legislation Commons, a growing collection of African leg
 
 Use the Commons through the [Laws.Africa Content API](/api) or you can [email us](mailto:info@laws.africa) for more details.
 
-<a href="/commons" class="btn btn-primary">About the Content API</a>
+<a href="/api" class="btn btn-primary">About the Content API</a>
