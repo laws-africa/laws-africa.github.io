@@ -1,0 +1,123 @@
+---
+layout: simple
+---
+
+<article>
+
+  <header class="mb-5 py-5 {{ page.header_class }}">
+    <div class="container">
+      <h1 class="display-4">{{ page.title }}</h1>
+      {% if page.lead %}
+      <p class="lead mb-3">{{ page.lead }}</p>
+      {% endif %}
+    </div>
+  </header>
+
+  <section class="mb-5 py-3">
+    <div class="container">
+      <div class="prose">
+        {{ content }}
+      </div>
+    </div>
+  </section>
+
+  <section class="mb-5 py-3">
+    <div class="container">
+      <h2 class="mb-2">Available collections</h2>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card mb-4 commons-card">
+            <div class="card-body bg-light">
+              <div class="media mb-3">
+                <img src="/img/countries/na-flag.png" class="flag mr-3" alt="Namibian flag">
+                <div class="media-body">
+                  <h5 class="card-title"><a href="https://namiblii.org/namibia-legislative-works-index">Namibian National Legislation</a></h5>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-6">
+                  <h5 class="mb-0">{{ site.data.commons.na.n_principal }}</h5>
+                  <div class="subtitle">Principal Acts</div>
+                </div>
+                <div class="col-6">
+                  <h5 class="mb-0">{{ site.data.commons.na.n_stubs }}</h5>
+                  <div class="subtitle">Amendments &amp; Commencements</div>
+                </div>
+              </div>
+
+              <h6 class="mt-3 mb-0">{{ site.data.commons.na.as_at_date|date:"%e %B %Y" }}</h6>
+              <div class="subtitle">Latest update</div>
+
+              <h6 class="mt-3 mb-0"><a href="https://namiblii.org">NamibLII.org</a></h6>
+              <div class="subtitle">Portal partner</div>
+            </div>
+            <div class="card-footer text-muted">
+              Updates available within ten business days of the Gazette being made publicly available.
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card mb-4 commons-card">
+            <div class="card-body bg-light">
+              <div class="media mb-3">
+                <img src="/img/countries/za-flag.png" class="flag mr-3" alt="South African flag">
+                <div class="media-body">
+                  <h5 class="card-title"><a href="https://openbylaws.org.za/">South African Municipal <nobr>By-laws</nobr></a></h5>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-6">
+                  <h5 class="mb-0">{{ site.data.commons.za.n_municipalities }}</h5>
+                  <div class="subtitle">Municipalities</div>
+                </div>
+                <div class="col-6">
+                  <h5 class="mb-0">{{ site.data.commons.za.n_bylaws }}</h5>
+                  <div class="subtitle">By-laws</div>
+                </div>
+              </div>
+
+              <h6 class="mt-3 mb-0">{{ site.data.commons.za.as_at_date|date:"%e %B %Y" }}</h6>
+              <div class="subtitle">Latest update</div>
+
+              <h6 class="mt-3 mb-0"><a href="https://openbylaws.org.za">OpenByLaws.org.za</a></h6>
+              <div class="subtitle">Portal partner</div>
+            </div>
+            <div class="card-footer text-muted">
+              Updates available within ten business days of the provincial Gazette being made publicly available.
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="mb-5 py-3">
+    <div class="container">
+      <h2 class="mb-2">Coming soon</h2>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card mb-4 commons-card">
+            <div class="card-body bg-light">
+              <div class="media mb-3">
+                <img src="/img/countries/ng-flag.png" class="flag mr-3" alt="Namibian flag">
+                <div class="media-body">
+                  <h5 class="card-title">Nigerian National Legislation</h5>
+                </div>
+              </div>
+
+              <div class="subtitle">Coming soon</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</article>
