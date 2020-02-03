@@ -24,4 +24,4 @@ To make code or style changes, you'll need to edit the site locally.
 # Updating stats on the legislation commons
 
 Every night, the Travis runs the `build` branch which updates `_data/commons.json` with stats from Laws.Africa.
-See [https://github.com/laws-africa/gazettes-africa/tree/build](the build branch README.md) for details.
+See [https://github.com/laws-africa/laws-africa.github.io/tree/build](the build branch README.md) for details.
