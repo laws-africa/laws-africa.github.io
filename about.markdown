@@ -22,7 +22,7 @@ layout: about
 
 ### Our Goals
 
-* Improve access to the law, stimulate innovation, and lead by example, by
+* Improve access to African law, stimulate innovation, and lead by example, by
 * creating a machine-friendly, openly licensed legislation commons, through
 * building mutually beneficial relationships with African governments and a contributor community, that is
 * sustainable through licensing and charging for value-added services and expertise.
