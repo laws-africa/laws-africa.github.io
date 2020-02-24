@@ -1,9 +1,8 @@
 ---
-title: Story
+title: The Story of Laws.Africa
 date: 2020-02-24 11:18:00 +02:00
+layout: slim
 ---
-
-# Overview
 
 Laws.Africa digitises African legislation for public use. We do this by building open source technology that significantly lowers the cost of maintaining and consolidating a legislation database. Our editorial platform produces legislation in a world-class, machine-friendly XML format called Akoma Ntoso XML. This unlocks the value of legislation as a fundamental building block in the legal innovation ecosystem.
 
