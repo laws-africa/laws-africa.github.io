@@ -1,6 +1,7 @@
 ---
 title: Anesu Manamike
 date: 2020-02-26 13:54:00 +02:00
+position: 4
 image: "/uploads/Anesu.jpg"
 group: contributors
 profile: anesumanamike
