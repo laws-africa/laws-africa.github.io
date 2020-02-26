@@ -1,7 +1,7 @@
 ---
 title: Sibongiseni Mrwashu
 date: 2019-03-25 18:35:00 +02:00
-position: 14
+position: 15
 role: 'South African Community Coordinator and Legislation Enthusiast '
 group: contributors
 image: "/img/team/sibongiseni-mrwashu.png"

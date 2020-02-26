@@ -1,7 +1,7 @@
 ---
 title: Rayno Mapoe
 date: 2019-08-09 10:55:00 +02:00
-position: 12
+position: 13
 role: Legislation Content Editor
 group: contributors
 image: "/uploads/rayno.png"
