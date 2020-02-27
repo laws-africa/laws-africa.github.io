@@ -1,7 +1,7 @@
 ---
 title: Yakubu Idisire Nagu
 date: 2020-02-27 10:32:00 +02:00
-position: 17
+position: 18
 role: Legislation Content Editor
 group: contributors
 image: "/uploads/Yakubu.png"
