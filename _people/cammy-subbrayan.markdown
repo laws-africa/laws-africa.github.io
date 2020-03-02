@@ -8,6 +8,5 @@ image: "/uploads/Cammy%20.jpg"
 profile: cammysubbrayan
 ---
 
-Cammy is a University of Cape Town graduate with an Honours degree in Material Science. She has thus far worked as an analyst, management consultant and project manager within the engineering and IT sector. 
-She is passionate about leveraging technology to aid social upliftment and is an active participant in digital transformation, gender disparity and inclusivity initiatives. 
+Cammy is a University of Cape Town graduate with an Honours degree in Material Science. She has thus far worked as an analyst, management consultant and project manager within the engineering and IT sector. She is passionate about leveraging technology to aid social upliftment and is an active participant in digital transformation, gender disparity and inclusivity initiatives. 
 
