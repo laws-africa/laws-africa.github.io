@@ -1,7 +1,7 @@
 ---
 title: Zodwa Simakani
 date: 2019-12-09 13:17:00 +02:00
-position: 19
+position: 20
 group: contributors
 role: Legislation Content Editor
 profile: zodwasimakani
