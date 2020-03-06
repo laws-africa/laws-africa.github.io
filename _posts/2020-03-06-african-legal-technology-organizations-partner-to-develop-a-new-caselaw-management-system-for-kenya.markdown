@@ -2,6 +2,15 @@
 title: African Legal Technology Organizations Partner to Develop a New Caselaw Management
   System for Kenya
 date: 2020-03-06 15:30:00 +02:00
+categories:
+- press release
+tags:
+- press release
+- Kenya Law
+- Netrix
+- AfricanLII
+- caselaw system
+- software development project
 author: Mariya Badeva-Bright
 image: "/uploads/labor-3485805_1920.jpg"
 lead: 'Press Release | 6 March 2020 | Nairobi, Kenya and Cape Town, South Africa
