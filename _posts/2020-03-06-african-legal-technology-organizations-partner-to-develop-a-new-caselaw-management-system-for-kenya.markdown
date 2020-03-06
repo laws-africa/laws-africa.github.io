@@ -33,6 +33,7 @@ The **African Legal Information Institute (AfricanLII)** [www.africanlii.org](ht
 **Netrix Business Systems Ltd. (Netrix)** is an ICT firm based in Nairobi, Kenya. The company was established in 2008 and registered as a limited company in 2010. Netrix’s core business is the design and development of web-based computer systems, mobile solutions and general software solutions.  Amongst the offerings is also Cloud hosting and Services, website design-development and hosting., system integration services, Emerging Technologies and Consultancy. Netrix is a professionally managed software development company servicing clients all over East Africa.  It approaches its services with a clear goal to offer quality services to its clients.  Total customer satisfaction is Netrix’s Quality Policy, as they work to efficiently and effectively apply their documented quality standards.
 
 **Contacts for further information:**
+
 Long’et Terer, Kenya Law: lterer@kenyalaw.org
 
 Mariya Badeva-Bright, AfricanLII: mariyab@africanlii.org
