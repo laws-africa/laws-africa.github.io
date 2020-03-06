@@ -2,8 +2,6 @@
 title: African Legal Technology Organizations Partner to Develop a New Caselaw Management
   System for Kenya
 date: 2020-03-06 15:30:00 +02:00
-categories:
-- press release
 tags:
 - press release
 - Kenya Law
