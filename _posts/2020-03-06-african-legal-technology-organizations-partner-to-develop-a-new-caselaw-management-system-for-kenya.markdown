@@ -30,12 +30,15 @@ The **National Council for Law Reporting (Kenya Law)** www.kenyalaw.org is a ser
 
 The **African Legal Information Institute (AfricanLII)** https://www.africanlii.org/ was established in 2010 and is a programme of the Democratic Governance and Rights Unit at the Department of Public Law, University of Cape Town. AfricanLII capacitates individuals, organizations, and governments to build and maintain sustainable free access to law portals, and reach the people of Africa and beyond.  It offers software solutions, project management advice, know-how, and university-certified courses in legal information systems development and management. AfricanLII convenes a network of 16 African LIIs (https://www.openlawafrica.org/ ) - a collaborative group of organizations and individuals in Africa, dedicated to free access to the law on our continent.  The AfricanLII website also provides a Pan-African legal search engine and hosts African regional legal materials for free access.
 
-**Laws.Africa **(https://www.laws.africa) is a South African non-profit organization, which digitizes African law for public use. Laws.Africa created and supports a machine-friendly, openly licensed African legislation commons (https://laws.africa/commons). Laws.Africa also develops and maintains the largest open-source implementation of the Akoma Ntoso XML standard in Africa through the Indigo Legislation Platform. Laws.Africa is an integral technology partner of AfricanLII.
+**Laws.Africa** (https://www.laws.africa) is a South African non-profit organization, which digitizes African law for public use. Laws.Africa created and supports a machine-friendly, openly licensed African legislation commons (https://laws.africa/commons). Laws.Africa also develops and maintains the largest open-source implementation of the Akoma Ntoso XML standard in Africa through the Indigo Legislation Platform. Laws.Africa is an integral technology partner of AfricanLII.
 
 **Netrix Business Systems Ltd. (Netrix)** is an ICT firm based in Nairobi, Kenya. The company was established in 2008 and registered as a limited company in 2010. Netrix’s core business is the design and development of web-based computer systems, mobile solutions and general software solutions.  Amongst the offerings is also Cloud hosting and Services, website design-development and hosting., system integration services, Emerging Technologies and Consultancy. Netrix is a professionally managed software development company servicing clients all over East Africa.  It approaches its services with a clear goal to offer quality services to its clients.  Total customer satisfaction is Netrix’s Quality Policy, as they work to efficiently and effectively apply their documented quality standards.
 
 **Contacts for further information:**
-Long’et Terer, Kenya Law: lterer@kenyalaw.org\
+Long’et Terer, Kenya Law: lterer@kenyalaw.org
+
 Mariya Badeva-Bright, AfricanLII: mariyab@africanlii.org
+
 Greg Kempe, Laws.Africa: greg@laws.africa
+
 Jesse Ndegwa, Netrix: ndegwa@netrixbiz.co.ke
