@@ -1,12 +1,12 @@
 {
   "na": {
     "as_at_date": "2020-02-04", 
-    "n_principal": 386, 
+    "n_principal": 397, 
     "n_stubs": 1198
   }, 
   "za": {
     "as_at_date": "2020-03-10", 
-    "n_bylaws": 308, 
+    "n_bylaws": 312, 
     "n_municipalities": 15
   }
 }
