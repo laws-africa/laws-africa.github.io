@@ -17,7 +17,7 @@ The Open By-laws website now contains the by-laws of a total of eight municipali
 
 ## Cederberg
 
-[Cederberg municipality](https://openbylaws.org.za/za-wc012/eng/), also in the Western Cape, has a population of 53 000 and includes the beautiful Cederberg mountains and the towns of Clanwilliam, Citrusdal and Lambert’s Bay. The municipality has 29 by-laws, covering aspects including [nature reserves](https://openbylaws.org.za/za-wc012/act/by-law/2004/nature-reserves), [outdoor advertising](https://openbylaws.org.za/za-wc012/act/by-law/2004/outdoor-advertising-and-signage) and [boats on the Clanwilliam dam](https://openbylaws.org.za/za-wc012/act/by-law/2004/control-of-boats-and-boating-clanwilliam-dam).
+[Cederberg municipality](https://openbylaws.org.za/za-wc012/eng/), also in the Western Cape, has a population of 53 000 and includes the beautiful Cederberg mountains and the towns of Clanwilliam, Citrusdal and Lambert’s Bay. The municipality has 29 by-laws, covering aspects including [nature reserves](https://openbylaws.org.za/za-wc012/act/by-law/2004/nature-reserves/eng/), [outdoor advertising](https://openbylaws.org.za/za-wc012/act/by-law/2004/outdoor-advertising-and-signage/eng/) and [boats on the Clanwilliam dam](https://openbylaws.org.za/za-wc012/act/by-law/2004/control-of-boats-and-boating-clanwilliam-dam/eng/).
 
 ## COVID-19
 
