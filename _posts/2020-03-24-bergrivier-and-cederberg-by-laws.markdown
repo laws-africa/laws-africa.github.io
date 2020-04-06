@@ -24,3 +24,6 @@ The Open By-laws website now contains the by-laws of a total of eight municipali
 Some aspects of municipal functioning are impacted by the recent government regulations passed due to the COVID-19 coronavirus. These regulations are available at [openbylaws.org.za/covid19](https://openbylaws.org.za/covid19).
 
 [Sign up to our newsletter](https://africa.us19.list-manage.com/subscribe/post?u=60b61dad66a60a0c85266a68c&id=098ca0e4c8) to find out when we add more municipalities to the website.
+
+
+Photo of [Velddrif in Bergrivier by jbdodane on flickr](https://www.flickr.com/photos/jbdodane/15177717355). Photo of [Cederberg by SA-Venues.com on flickr](https://www.flickr.com/photos/sa-venues/3862797198).
