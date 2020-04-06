@@ -20,4 +20,4 @@ Some aspects of municipal functioning are impacted by the recent government regu
 
 [Sign up to our newsletter](https://africa.us19.list-manage.com/subscribe/post?u=60b61dad66a60a0c85266a68c&id=098ca0e4c8) to find out when we add more municipalities to the website.
 
-Photo of [Photo of Calitzdorp in Kannaland by Robert Wallace on flickr](https://www.flickr.com/photos/robwallace/2249636397)
+Photo of [Calitzdorp in Kannaland by Robert Wallace on flickr](https://www.flickr.com/photos/robwallace/2249636397)
