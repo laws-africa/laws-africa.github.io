@@ -8,5 +8,10 @@
     "as_at_date": "2020-03-24", 
     "n_bylaws": 347, 
     "n_municipalities": 15
+  },
+  "covid19": {
+    "as_at_date": "2020-03-24", 
+    "n_works": 82,
+    "n_countries": 7
   }
 }

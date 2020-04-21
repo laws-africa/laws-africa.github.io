@@ -35,72 +35,106 @@ navbar_item: home
     <h2 class="mb-2" id="commons">Legislation Commons</h2>
     <div class="lead mb-4">High-quality, up-to-date African legislation in HTML, PDF and Akoma Ntoso XML. Creative commons licensed.</div>
 
-    <div class="card-deck">
-      <div class="card mb-4 commons-card">
-        <div class="card-body bg-light">
-          <div class="media mb-3">
-            <img src="/img/countries/na-flag.png" class="flag mr-3" alt="Namibian flag">
-            <div class="media-body">
-              <h5 class="card-title"><a href="https://namiblii.org/namibia-legislative-works-index">Namibian National Legislation</a></h5>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+      <div class="col mb-4">
+        <div class="card commons-card">
+          <div class="card-body bg-light">
+            <div class="media mb-3">
+              <img src="/img/countries/na-flag.png" class="flag mr-3" alt="Namibian flag">
+              <div class="media-body">
+                <h5 class="card-title"><a href="/commons#na">Namibian National Legislation</a></h5>
+              </div>
             </div>
+
+            <div class="row">
+              <div class="col-6">
+                <h5 class="mb-0">{{ site.data.commons.na.n_principal }}</h5>
+                <div class="subtitle">Principal Acts</div>
+              </div>
+              <div class="col-6">
+                <h5 class="mb-0">{{ site.data.commons.na.n_stubs }}</h5>
+                <div class="subtitle">Amendments &amp; Commencements</div>
+              </div>
+            </div>
+
+            <h6 class="mt-3 mb-0">{{ site.data.commons.na.as_at_date|date:"%e %B %Y" }}</h6>
+            <div class="subtitle">Latest update</div>
+
+            <h6 class="mt-3 mb-0"><a href="https://namiblii.org">NamibLII.org</a></h6>
+            <div class="subtitle">Portal partner</div>
           </div>
-
-          <div class="row">
-            <div class="col-6">
-              <h5 class="mb-0">{{ site.data.commons.na.n_principal }}</h5>
-              <div class="subtitle">Principal Acts</div>
-            </div>
-            <div class="col-6">
-              <h5 class="mb-0">{{ site.data.commons.na.n_stubs }}</h5>
-              <div class="subtitle">Amendments &amp; Commencements</div>
-            </div>
-          </div>
-
-          <h6 class="mt-3 mb-0">{{ site.data.commons.na.as_at_date|date:"%e %B %Y" }}</h6>
-          <div class="subtitle">Latest update</div>
-
-          <h6 class="mt-3 mb-0"><a href="https://namiblii.org">NamibLII.org</a></h6>
-          <div class="subtitle">Portal partner</div>
         </div>
       </div>
 
-      <div class="card mb-4 commons-card">
-        <div class="card-body bg-light">
-          <div class="media mb-3">
-            <img src="/img/countries/za-flag.png" class="flag mr-3" alt="South African flag">
-            <div class="media-body">
-              <h5 class="card-title"><a href="https://openbylaws.org.za/">South African Municipal <nobr>By-laws</nobr></a></h5>
+      <div class="col mb-4">
+        <div class="card commons-card">
+          <div class="card-body bg-light">
+            <div class="media mb-3">
+              <img src="/img/countries/za-flag.png" class="flag mr-3" alt="South African flag">
+              <div class="media-body">
+                <h5 class="card-title"><a href="/commons#za-by-laws">South African Municipal <nobr>By-laws</nobr></a></h5>
+              </div>
             </div>
+
+            <div class="row">
+              <div class="col-6">
+                <h5 class="mb-0">{{ site.data.commons.za.n_municipalities }}</h5>
+                <div class="subtitle">Municipalities</div>
+              </div>
+              <div class="col-6">
+                <h5 class="mb-0">{{ site.data.commons.za.n_bylaws }}</h5>
+                <div class="subtitle">By-laws</div>
+              </div>
+            </div>
+
+            <h6 class="mt-3 mb-0">{{ site.data.commons.za.as_at_date|date:"%e %B %Y" }}</h6>
+            <div class="subtitle">Latest update</div>
+
+            <h6 class="mt-3 mb-0"><a href="https://openbylaws.org.za">OpenByLaws.org.za</a></h6>
+            <div class="subtitle">Portal partner</div>
           </div>
-
-          <div class="row">
-            <div class="col-6">
-              <h5 class="mb-0">{{ site.data.commons.za.n_municipalities }}</h5>
-              <div class="subtitle">Municipalities</div>
-            </div>
-            <div class="col-6">
-              <h5 class="mb-0">{{ site.data.commons.za.n_bylaws }}</h5>
-              <div class="subtitle">By-laws</div>
-            </div>
-          </div>
-
-          <h6 class="mt-3 mb-0">{{ site.data.commons.za.as_at_date|date:"%e %B %Y" }}</h6>
-          <div class="subtitle">Latest update</div>
-
-          <h6 class="mt-3 mb-0"><a href="https://openbylaws.org.za">OpenByLaws.org.za</a></h6>
-          <div class="subtitle">Portal partner</div>
         </div>
       </div>
 
-      <div class="card mb-4 commons-card">
-        <div class="card-body bg-light">
-          <div class="media mb-3">
-            <img src="/img/countries/ng-flag.png" class="flag mr-3" alt="Nigerian flag">
-            <div class="media-body">
-              <h5 class="card-title">Nigerian National Legislation</h5>
+      <div class="col mb-4">
+        <div class="card commons-card">
+          <div class="card-body bg-light">
+            <div class="media mb-3">
+              <img src="/img/covid19.png" class="flag mr-3" alt="COVID-19 icon">
+              <div class="media-body">
+                <h5 class="card-title"><a href="/commons#covid19">COVID-19 Regulations</a></h5>
+              </div>
             </div>
+            <div class="subtitle mb-2">A special collection of COVID-19 regulations for African countries.</div>
+
+            <div class="row">
+              <div class="col-6">
+                <h5 class="mb-0">{{ site.data.commons.covid19.n_countries }}</h5>
+                <div class="subtitle">Countries</div>
+              </div>
+              <div class="col-6">
+                <h5 class="mb-0">{{ site.data.commons.covid19.n_works }}</h5>
+                <div class="subtitle">Regulations</div>
+              </div>
+            </div>
+
+            <h6 class="mt-3 mb-0"><a href="https://africanlii.org/africanlii-covid-19">AfricanLII.org</a></h6>
+            <div class="subtitle">Portal partner</div>
           </div>
-          <div class="subtitle">Available soon</div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="card commons-card">
+          <div class="card-body bg-light">
+            <div class="media mb-3">
+              <img src="/img/countries/ng-flag.png" class="flag mr-3" alt="Nigerian flag">
+              <div class="media-body">
+                <h5 class="card-title">Nigerian National Legislation</h5>
+              </div>
+            </div>
+            <div class="subtitle">Available soon</div>
+          </div>
         </div>
       </div>
     </div>
