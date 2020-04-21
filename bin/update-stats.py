@@ -15,13 +15,16 @@ session = requests.Session()
 session.headers['Authorization'] = 'Token ' + INDIGO_API_TOKEN
 
 
-def fetch_all(path):
+COVID19_COUNTRIES = ['bw', 'gh', 'na', 'za', 'ug', 'zm', 'zw']
+
+
+def fetch_all(path, params={}):
     res = []
     url = INDIGO_URL + path
 
     while url:
         print("Fetching " + url)
-        resp = session.get(url)
+        resp = session.get(url, params=params)
         resp.raise_for_status()
         data = resp.json()
         res.extend(data['results'])
@@ -35,6 +38,16 @@ def update_country_stats(place_code, stats):
     stats['n_principal'] = sum(1 for w in works if not w['stub'] and not w['parent_work'])
     stats['n_stubs'] = sum(1 for w in works if w['stub'])
     stats['as_at_date'] = max(w['as_at_date'] for w in works if w['as_at_date'])
+
+
+def update_covid19_stats(stats):
+    works = []
+    for country in COVID19_COUNTRIES:
+        works.extend(fetch_all('/akn/' + country + '/.json', {'taxonomy': 'lawsafrica-special:COVID-19'}))
+
+    stats['n_principal'] = sum(1 for w in works if not w['stub'] and not w['parent_work'])
+    stats['as_at_date'] = max(w['as_at_date'] for w in works if w['as_at_date'])
+    stats['n_countries'] = len(COVID19_COUNTRIES)
 
 
 def update_bylaw_stats(country_code, stats):
@@ -63,6 +76,7 @@ def update_stats():
 
     update_country_stats('na', stats['na'])
     update_bylaw_stats('za', stats['za'])
+    update_covid19_stats(stats['covid19'])
 
     with open("_data/commons.json", "w") as f:
         f.write(json.dumps(stats, indent=2, sort_keys=True))
