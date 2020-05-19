@@ -1,8 +1,8 @@
 {
   "covid19": {
-    "as_at_date": "2020-05-14", 
+    "as_at_date": "2020-05-15", 
     "n_countries": 7, 
-    "n_principal": 40
+    "n_principal": 41
   }, 
   "na": {
     "as_at_date": "2020-05-06", 
