@@ -1,11 +1,11 @@
 {
   "covid19": {
-    "as_at_date": "2020-05-17", 
+    "as_at_date": "2020-05-22", 
     "n_countries": 7, 
     "n_principal": 41
   }, 
   "na": {
-    "as_at_date": "2020-05-06", 
+    "as_at_date": "2020-05-15", 
     "n_principal": 418, 
     "n_stubs": 1204
   }, 
