@@ -1,7 +1,7 @@
 ---
 title: Nicky du Preez
 date: 2020-02-26 14:55:00 +02:00
-position: 13
+position: 14
 role: Legislation Content Editor
 group: contributors
 image: "/uploads/FB_IMG_1582577310287.jpg"

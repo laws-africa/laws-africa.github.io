@@ -1,7 +1,7 @@
 ---
 title: Luck Mavhuru
 date: 2020-02-27 11:02:00 +02:00
-position: 10
+position: 11
 role: Legislation Content Editor
 group: contributors
 image: "/uploads/Luck.jpg"
