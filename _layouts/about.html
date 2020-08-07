@@ -88,6 +88,30 @@ layout: simple
         {% endfor %}
       </div>
 
+      <h2 class="mb-4">Alumni</h2>
+
+      <div class="row">
+        {% for person in people %}
+          {% if person.group == 'alumni' %}
+          <div class="col-lg-6">
+            <div class="card mb-3">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-4 mb-3">
+                    <img src="{{ person.image }}" alt="{{ person.title }} headshot" class="mr-3 rounded img-fluid">
+                  </div>
+                  <div class="col-md-8">
+                    <h5 class="mt-0 mb-0">{{ person.title }}</h5>
+                    <h6><a href="mailto:{{ person.email }}">{{ person.email }}</a></h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+
     </div>
   </section>
 
@@ -128,10 +152,6 @@ layout: simple
           <div class="row mt-5">
             <div class="col-6 col-md-4">
               <a href="https://aws.amazon.com/"><img src="/img/aws-logo.jpg" alt="Powered by AWS" class="img-fluid"></a>
-            </div>
-
-            <div class="col-6 col-md-4">
-              <a href="https://zapier.com/"><img src="/img/zapier-logo.png" alt="Zapier" class="img-fluid"></a>
             </div>
           </div>
 

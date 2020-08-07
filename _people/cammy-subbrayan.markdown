@@ -3,7 +3,7 @@ title: Cammy Subbrayan
 date: 2020-03-02 09:09:00 +02:00
 position: 6
 role: Legislation Content Editor
-group: contributors
+group: alumni
 image: "/uploads/Cammy%20.jpg"
 profile: cammysubbrayan
 ---
