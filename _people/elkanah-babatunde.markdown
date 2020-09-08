@@ -1,7 +1,7 @@
 ---
 title: Elkanah Babatunde
 date: 2020-02-26 15:05:00 +02:00
-position: 8
+position: 9
 role: Legislation Content Editor
 group: contributors
 image: "/uploads/Elkanah.jpg"

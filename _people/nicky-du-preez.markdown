@@ -1,7 +1,7 @@
 ---
 title: Nicky du Preez
 date: 2020-02-26 14:55:00 +02:00
-position: 14
+position: 3
 role: Content and Research Lead
 group: team
 image: "/uploads/FB_IMG_1582577310287.jpg"
