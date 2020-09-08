@@ -2,8 +2,8 @@
 title: Nicky du Preez
 date: 2020-02-26 14:55:00 +02:00
 position: 14
-role: Legislation Content Editor
-group: contributors
+role: Content and Research Lead
+group: team
 image: "/uploads/FB_IMG_1582577310287.jpg"
 profile: 'nickydupreez
 
