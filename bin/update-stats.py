@@ -15,7 +15,7 @@ session = requests.Session()
 session.headers['Authorization'] = 'Token ' + INDIGO_API_TOKEN
 
 
-COVID19_COUNTRIES = ['bw', 'gh', 'na', 'za', 'ug', 'zm', 'zw']
+COVID19_COUNTRIES = ['bw', 'gh', 'na', 'za', 'ug', 'zm', 'zw', 'ls', 'mw']
 
 
 def fetch_all(path, params={}):
