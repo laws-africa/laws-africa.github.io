@@ -45,7 +45,7 @@ def update_covid19_stats(stats):
     for country in COVID19_COUNTRIES:
         works.extend(fetch_all('/akn/' + country + '/.json', {'taxonomy': 'lawsafrica-special:COVID-19'}))
 
-    stats['n_principal'] = sum(1 for w in works if not w['stub'] and not w['parent_work'])
+    stats['n_principal'] = sum(1 for w in works if not w['stub'])
     stats['as_at_date'] = max(w['as_at_date'] for w in works if w['as_at_date'])
     stats['n_countries'] = len(COVID19_COUNTRIES)
 
