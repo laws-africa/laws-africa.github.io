@@ -2,15 +2,15 @@
   "covid19": {
     "as_at_date": "2020-11-06", 
     "n_countries": 9, 
-    "n_principal": 237
+    "n_principal": 240
   }, 
   "na": {
     "as_at_date": "2020-10-21", 
     "n_principal": 420, 
-    "n_stubs": 1221
+    "n_stubs": 1223
   }, 
   "za": {
-    "as_at_date": "2020-10-30", 
+    "as_at_date": "2020-11-09", 
     "n_bylaws": 393, 
     "n_municipalities": 17
   }
