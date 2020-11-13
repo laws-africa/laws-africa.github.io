@@ -1,8 +1,8 @@
 {
   "covid19": {
-    "as_at_date": "2020-11-11", 
+    "as_at_date": "2020-11-12", 
     "n_countries": 9, 
-    "n_principal": 244
+    "n_principal": 249
   }, 
   "na": {
     "as_at_date": "2020-10-21", 
@@ -11,7 +11,7 @@
   }, 
   "za": {
     "as_at_date": "2020-11-09", 
-    "n_bylaws": 393, 
+    "n_bylaws": 394, 
     "n_municipalities": 17
   }
 }
