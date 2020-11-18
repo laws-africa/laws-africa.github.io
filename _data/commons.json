@@ -5,13 +5,13 @@
     "n_principal": 250
   }, 
   "na": {
-    "as_at_date": "2020-10-21", 
+    "as_at_date": "2020-11-06", 
     "n_principal": 420, 
     "n_stubs": 1227
   }, 
   "za": {
     "as_at_date": "2020-11-16", 
-    "n_bylaws": 396, 
+    "n_bylaws": 404, 
     "n_municipalities": 19
   }
 }
