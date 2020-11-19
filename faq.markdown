@@ -1,8 +1,8 @@
 ---
 title: Frequently Asked Questions
+header_class: bg-lawsafrica-pale-red
 lead: How Laws.Africa works and how you can contribute.
 navbar_item: faq
-header_class: bg-lawsafrica-pale-red
 sections:
 - title: Contributions
   faqs:
@@ -67,7 +67,7 @@ sections:
     answer: |-
       Yes. Our online guides and videos have detailed instructions on making contributions to the Laws.Africa system. They will help you understand how to use the system, and how the process of publishing legislation works.
 
-      Our community leaders are also available to schedule Skype calls to walk you through adding content and working with the Laws.Africa system.
+      Our community leaders are also available to schedule video calls to walk you through adding content and working with the Laws.Africa system.
 
       We also organize workshops on how to use and contribute to Laws.Africa. Subscribe to [our newsletter](#newsletter) to be notified about these events.
 - title: Contributing Legislative Documents
