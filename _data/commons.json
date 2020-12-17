@@ -1,13 +1,13 @@
 {
   "covid19": {
-    "as_at_date": "2020-12-15", 
+    "as_at_date": "2020-12-16", 
     "n_countries": 9, 
     "n_principal": 284
   }, 
   "na": {
-    "as_at_date": "2020-12-01", 
+    "as_at_date": "2020-12-16", 
     "n_principal": 420, 
-    "n_stubs": 1229
+    "n_stubs": 1230
   }, 
   "za": {
     "as_at_date": "2020-12-10", 
