@@ -40,7 +40,7 @@ description: Laws.Africa is a non-profit organisation that curates the African l
 baseurl: 
 url: https://laws.africa
 markdown: kramdown
-hiring: false
+hiring: true
 plugins:
 - jekyll-feed
 - jekyll-redirect-from

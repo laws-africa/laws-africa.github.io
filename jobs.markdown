@@ -6,9 +6,6 @@ positions:
 - title: Senior Software Developer
   description: |+
     To plan, oversee, lead and support the successful implementation and delivery of Laws.Africa’s software projects.
-
-
-
   requirements: |-
     * 4+ years Python experience
     * 4+ years Javascript experience
@@ -32,6 +29,7 @@ positions:
     * Mentor other developers
     * Assist with the adoption of machine learning technologies in Laws.Africa’s products
   location: Cape Town or remote
+  type: Permanent
 layout: jobs
 ---
 
