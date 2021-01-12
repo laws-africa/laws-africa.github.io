@@ -4,8 +4,10 @@ lead: Join the Laws.Africa team and help make African legislation freely availab
   to everyone.
 positions:
 - title: Senior Software Developer
-  description: |+
-    To plan, oversee, lead and support the successful implementation and delivery of Laws.Africa’s software projects.
+  description: 'To plan, oversee, lead and support the successful implementation and
+    delivery of Laws.Africa’s software projects.
+
+'
   requirements: |-
     * 4+ years Python experience
     * 4+ years Javascript experience
