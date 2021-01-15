@@ -4,7 +4,12 @@ lead: Join the Laws.Africa team and help make African legislation freely availab
   to everyone.
 positions:
 - title: Frontend Developer
-  description: You will design and implement high quality frontend user experiences for a range of Laws.Africa's web applications, to help make legal information easier to work with and understand. Our applications use Django/Python on the backend with a few APIs where necessary. Our software stack includes Vue, Backbone, ES6, Bootstrap 4, Python, Django and PostgreSQL. Most of our software is open source at [github.com/laws-africa](https://github.com/laws-africa/).
+  description: You will design and implement high quality frontend user experiences
+    for a range of Laws.Africa's web applications, to help make legal information
+    easier to work with and understand. Our applications use Django/Python on the
+    backend with a few APIs where necessary. Our software stack includes Vue, Backbone,
+    ES6, Bootstrap 4, Python, Django and PostgreSQL. Most of our software is open
+    source at [github.com/laws-africa](https://github.com/laws-africa/).
   requirements: |-
     * 2+ years general frontend experience (Javascript, HTML, CSS)
     * 2+ years experience with **at least two** frontend JS frameworks (eg. Vue, React, Ember, Backbone)
