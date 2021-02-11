@@ -4,7 +4,7 @@ date: 2021-02-11 08:26:00 +02:00
 author: Greg Kempe
 lead: Laws.Africa invites nominations for appointment to the non-executive advisory
   board of Laws.Africa.
-image: 
+image: "/uploads/logo-cover.png"
 ---
 
 Greg Kempe, the Chairperson of Laws.Africa NPO, invites the public to nominate persons for appointment as non-executive members of the Laws.Africa NPO advisory board, in terms of s14.9 of the Laws.Africa NPO Constitution.
