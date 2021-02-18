@@ -6,12 +6,12 @@
   }, 
   "na": {
     "as_at_date": "2021-02-09", 
-    "n_principal": 421, 
-    "n_stubs": 1236
+    "n_principal": 422, 
+    "n_stubs": 1238
   }, 
   "za": {
     "as_at_date": "2021-02-12", 
     "n_bylaws": 413, 
-    "n_municipalities": 21
+    "n_municipalities": 22
   }
 }
