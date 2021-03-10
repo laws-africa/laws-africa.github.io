@@ -2,7 +2,7 @@
   "covid19": {
     "as_at_date": "2021-03-03", 
     "n_countries": 9, 
-    "n_principal": 305
+    "n_principal": 306
   }, 
   "na": {
     "as_at_date": "2021-03-02", 
