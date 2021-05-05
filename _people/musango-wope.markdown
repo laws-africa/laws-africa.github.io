@@ -10,4 +10,4 @@ image: "/uploads/musango.jpg"
 Musango is a software developer from Cape Town, South Africa. He is a front end and UI 
 enthusiast, with a passion for building applications with great experiences.
 
-Musango has a BSc in Information Systems(Honours) from the University of Cape Town.
+Musango has a BSc in Information Systems (Honours) from the University of Cape Town.
