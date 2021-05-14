@@ -2,7 +2,7 @@
 title: Tamar Glanger
 date: 2019-08-14 10:03:00 +02:00
 position: 18
-group: contributors
+group: alumni
 role: Legislation Content Editor
 profile: tammyglanger
 image: "/uploads/tammy.jpeg"
