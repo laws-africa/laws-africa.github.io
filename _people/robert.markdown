@@ -1,5 +1,5 @@
 ---
-title: Robert Burgenthal
+title: Robert Buergenthal
 date: 2018-12-14 13:45:00 +02:00
 position: 4
 group: board
