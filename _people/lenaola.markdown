@@ -1,5 +1,5 @@
 ---
-title: Justic Isaac Lenaola
+title: Justice Isaac Lenaola
 date: 2018-12-14 13:45:00 +02:00
 position: 3
 group: board
