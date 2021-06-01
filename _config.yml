@@ -41,7 +41,7 @@ baseurl:
 url: https://laws.africa
 markdown: kramdown
 hiring: false
-hiring_contributors: true
+hiring_contributors: false
 plugins:
 - jekyll-feed
 - jekyll-redirect-from
