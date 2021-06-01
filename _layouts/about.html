@@ -21,6 +21,19 @@ layout: simple
     </div>
   </header>
 
+  <section class="mb-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <a href="#team" class="btn btn-link mr-4">Team</a>
+          <a href="#contributors" class="btn btn-link mr-4">Contributors</a>
+          <a href="#board" class="btn btn-link mr-4">Advisory Board</a>
+          <a href="#alumni" class="btn btn-link">Alumni</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="mb-5 py-3">
     <div class="container">
       <div class="row">
@@ -35,7 +48,7 @@ layout: simple
     <div class="container">
       {% assign people = site.people | sort: "position" %}
 
-      <h2 class="mb-4">The Laws.Africa Team</h2>
+      <h2 class="mb-3" id="team">The Laws.Africa Team</h2>
 
       <div class="row">
         {% for person in people %}
@@ -61,7 +74,7 @@ layout: simple
         {% endfor %}
       </div>
 
-      <h2 class="mb-4">Contributors</h2>
+      <h2 class="mt-4 mb-3" id="contributors">Contributors</h2>
 
       <div class="row">
         {% for person in people %}
@@ -78,7 +91,6 @@ layout: simple
                     <h6>{{ person.role }}</h6>
                     <h6><a href="mailto:{{ person.email }}">{{ person.email }}</a></h6>
                     <p>{{ person }}</p>
-                    <a href="https://edit.laws.africa/contributors/{{ person.profile }}">View Contributor Profile</a>
                   </div>
                 </div>
               </div>
@@ -88,7 +100,31 @@ layout: simple
         {% endfor %}
       </div>
 
-      <h2 class="mb-4">Alumni</h2>
+      <h2 class="mt-4 mb-3" id="board">Advisory board</h2>
+
+      <div class="row">
+        {% for person in people %}
+          {% if person.group == 'board' %}
+          <div class="col-lg-6">
+            <div class="card mb-3">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-4 mb-3">
+                    <img src="{{ person.image }}" alt="{{ person.title }} headshot" class="mr-3 rounded img-fluid">
+                  </div>
+                  <div class="col-md-8">
+                    <h5 class="mt-0 mb-0">{{ person.title }}</h5>
+                    <p>{{ person }}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      <h2 class="mt-4 mb-3" id="alumni">Alumni</h2>
 
       <div class="row">
         {% for person in people %}
