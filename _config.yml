@@ -11,6 +11,9 @@ collections:
   posts:
     title: Posts
     output: true
+  publications:
+    title: Publications
+    output: true
   uploads:
     title: Uploads
     output: true
