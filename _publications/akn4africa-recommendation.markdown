@@ -21,3 +21,6 @@ Laws.Africa is not an official body like the UN or the EU, but we also haven’t
 * as a recommendation to other users of AKN across Africa for how to generate FRBR URIs (and eIds); and
 
 * to help anyone resolving links to Laws.Africa-generated AKN documents.
+
+# Resources
+
