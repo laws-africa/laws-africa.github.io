@@ -1,5 +1,6 @@
 ---
 title: Legislation Commons
+position: 3
 navbar_item: commons
 header_class: bg-lawsafrica-pale-red
 lead: African legislation in HTML, PDF and Akoma Ntoso XML. Creative commons licensed.

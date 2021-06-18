@@ -1,5 +1,6 @@
 ---
 title: Content API
+position: 7
 lead: The Laws.Africa legislation commons is available as structured, machine-friendly
   Akoma Ntoso XML through the Laws.Africa Content API.
 navbar_item: api

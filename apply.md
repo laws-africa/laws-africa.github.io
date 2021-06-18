@@ -1,6 +1,7 @@
 ---
 title: Apply to Laws.Africa
 date: 2019-04-05 09:54:00 +02:00
+position: 1
 header_class: bg-lawsafrica-pale-red
 lead: Apply to be a Laws.Africa editorial contributor.
 layout: slim

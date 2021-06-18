@@ -1,5 +1,6 @@
 ---
 title: Contact Us
+position: 8
 navbar_item: contact
 header_class: bg-lawsafrica-pale-red
 lead: Get in touch with us.

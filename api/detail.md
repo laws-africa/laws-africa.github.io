@@ -1,5 +1,6 @@
 ---
 title: Content API Features and Pricing
+position: 9
 lead: Use the Laws.Africa Content API to use legislation in your website, app or research.
 navbar_item: api
 layout: slim

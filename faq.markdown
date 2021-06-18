@@ -1,5 +1,6 @@
 ---
 title: Frequently Asked Questions
+position: 4
 header_class: bg-lawsafrica-pale-red
 lead: How Laws.Africa works and how you can contribute.
 navbar_item: faq
