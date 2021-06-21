@@ -128,6 +128,26 @@ For document types that typically appear in the plural, e.g. Guidelines, use the
 
 If a document type that typically appears in the plural is used in the singular in a given jurisdiction, do use it in the singular in that jurisdiction, but consistently. An example of this is Regulation (`regulation`) in ECOWAS.
 
+#### Country legislation
+
+Use the local tradition for the subtype, because we can assume that people will be familiar with conventional abbreviations within a country. The local tradition will often have an abbreviated form for the subtype, unlike with regional legislation.
+
+Again, don’t use plurals or other variances of document types, as it makes it more difficult for documents to refer to each other reliably and predictably.
+
+Inevitably, a document type will exist for which an abbreviation has already been chosen. When this happens, choose a longer abbreviation for the ‘new’ document type, and leave the existing one as is. For example, Premier’s Notice (`premn`) was added after Provincial Notice (`pn`). Try to map out all subtypes beforehand to avoid such a clash.
+
+Author
+------
+
+Include the author to differentiate from the ‘default’ author, and where it’s necessary to clearly differentiate between similar documents with different authors.
+
+For national legislation the author of the work level is not usually specified, as the ‘author’ of national legislation is usually always the same body (e.g. the National Assembly in South Africa).
+
+For example, the default author of African Union legislation is the Assembly of the African Union and is not specified. If a document that is applicable to the African Union was authored by a different body, e.g. the African Commission on Human and Peoples’ Rights, include the author to differentiate it from the default.
+
+Below is a non-exhaustive list of relevant bodies and their ‘author’ codes.
+
+Abbreviate the author only if a body is usually referred to by that abbreviation.
 
 | Body                                                                                                                              | Author code                                      |
 |-----------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
@@ -138,9 +158,19 @@ If a document type that typically appears in the plural is used in the singular 
 | Department of Rural Economy and Agriculture of the African Union Commission                                                       | auc-department-of-rural-economy-and-agriculture  |
 | Organisation of African Unity                                                                                                     | oau                                              |
 
-## Example FRBR URIs
+Year
+----
 
-The tables below aim to include all known document types, but will certainly fail in that, if only because inevitably a new document type will be published in the future. The preceding sections are there to guide users in making the call when the tables fail, and explain how the tables were compiled.
+For the year, use the year of the work, in the format `yyyy`.
+
+In many jurisdictions the Act number and year are formally assigned by Parliament.
+
+The year usually coincides with the year in which it was published, but if an Act was assigned the number / year combination ‘Act 32 of 2019’ but was only published in 2020, use ‘2019’ as the year. This is both to avoid clashes in numbering (in this example there may well also be an ‘Act 32 of 2020’) and to respect the official assignment.
+
+For African Union, EAC, ECOWAS, and SADC documents, use the year of the date of adoption.
+
+
+
 
 ---
 
