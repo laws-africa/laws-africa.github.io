@@ -104,16 +104,30 @@ For examples of doctypes and subtypes, see the Example FRBR URIs section.
 
 ### Doctype
 
-* For legislation – Acts, Regulations, Statutory Instruments, and the like – use act.\
+* For legislation – Acts, Regulations, Statutory Instruments, and the like – use `act`.
   These are documents that have the force of law.
 
-* For soft law – Resolutions, Guidelines, Decisions, Model laws, Agreements, and the like – use statement.\
+* For soft law – Resolutions, Guidelines, Decisions, Model laws, Agreements, and the like – use `statement`.
   These are documents that don’t (or only sometimes) have the force of law, but do still have to do with the law (to varying degrees).
 
-* For case law, use judgment.
+* For case law, use `judgment`.
 
-* For other documents – Policies, Memoranda of Understanding, Yearbooks, Press Releases, and the like – use doc.\
-  This document, for example, would use the doc doctype.
+* For other documents – Policies, Memoranda of Understanding, Yearbooks, Press Releases, and the like – use `doc`.
+  This document, for example, would use the `doc` doctype.
+
+### Subtype
+
+*   If the document is anything other than an act / statement / judgment / doc, use whatever it calls itself as the subtype, e.g. `act/si` for a Statutory Instrument (‘act’ because it has the force of law).
+*   The same subtype should always be used with the same doctype: One should be able to reliably predict, for example, that a set of guidelines will always have `statement/guidelines` as the doctype/subtype combination.
+
+#### Regional legislation
+
+Use the full subtype for regional legislation (and not an abbreviated form), because regional legislation applies to multiple jurisdictions and it can’t be assumed that everyone across the region will use the same set of conventional abbreviations.
+
+For document types that typically appear in the plural, e.g. Guidelines, use the plural in the AKN subtype (`guidelines`). If a document type that usually appears in the singular has an instance that appears in the plural, use the singular for that instance. Don’t use both the singular and the plural, or any other variances of a document type, because this lessens the likelihood of documents linking to each other reliably.
+
+If a document type that typically appears in the plural is used in the singular in a given jurisdiction, do use it in the singular in that jurisdiction, but consistently. An example of this is Regulation (`regulation`) in ECOWAS.
+
 
 | Body                                                                                                                              | Author code                                      |
 |-----------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
@@ -123,6 +137,10 @@ For examples of doctypes and subtypes, see the Example FRBR URIs section.
 | Committee for the Prevention of Torture in Africa                                                                                 | cpta                                             |
 | Department of Rural Economy and Agriculture of the African Union Commission                                                       | auc-department-of-rural-economy-and-agriculture  |
 | Organisation of African Unity                                                                                                     | oau                                              |
+
+## Example FRBR URIs
+
+The tables below aim to include all known document types, but will certainly fail in that, if only because inevitably a new document type will be published in the future. The preceding sections are there to guide users in making the call when the tables fail, and explain how the tables were compiled.
 
 ---
 
