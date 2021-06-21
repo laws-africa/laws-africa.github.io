@@ -25,34 +25,26 @@ Laws.Africa is not an official body like the UN or the EU, but we also haven’t
 # Resources
 
 The following resources informed the structure of this document and the issues discussed.
-* Akoma Ntoso Naming Convention: http://docs.oasis-open.org/legaldocml/akn-nc/v1.0/akn-nc-v1.0.html
-* AKN4UN: https://unsceb-hlcm.github.io/
-* AKN4EU: https://op.europa.eu/en/web/eu-vocabularies/akn4eu
+
+* Akoma Ntoso Naming Convention: [http://docs.oasis-open.org/legaldocml/akn-nc/v1.0/akn-nc-v1.0.html](http://docs.oasis-open.org/legaldocml/akn-nc/v1.0/akn-nc-v1.0.html)
+
+* AKN4UN: [https://unsceb-hlcm.github.io/](https://unsceb-hlcm.github.io/)
+
+* AKN4EU: [https://op.europa.eu/en/web/eu-vocabularies/akn4eu](https://op.europa.eu/en/web/eu-vocabularies/akn4eu)
 
 # Generating FRBR URIs
 
-AKN FRBR URIs are constructed as follows, with the italics text indicating that an element is optional:
-> /akn/{2-letter country code-locality code}/{doctype}/{subtype}/{author}/{year}/{number}
+AKN FRBR URIs are constructed as follows, with the *italics text* indicating that an element is optional:
+
+> /akn/{2-letter country code*-locality code*}/{doctype}*/{subtype}/{author}*/{year}/{number}
+
 In general, lowercase all letters and don’t use any spaces.
 The sections below go into detail about each of the FRBR URI elements. Before that, we outline our guiding principles when deciding how to structure FRBR URIs in a given jurisdiction.
 At the end are example FRBR URIs for regional and country legislation. We have aimed to include an example for each doctype and subtype.
 
+## Guiding principles
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### Uniqueness, consistency and replicability
 
 | Body                                                                                                                              | Author code                                      |
 |-----------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
@@ -62,5 +54,3 @@ At the end are example FRBR URIs for regional and country legislation. We have a
 | Committee for the Prevention of Torture in Africa                                                                                 | cpta                                             |
 | Department of Rural Economy and Agriculture of the African Union Commission                                                       | auc-department-of-rural-economy-and-agriculture  |
 | Organisation of African Unity                                                                                                     | oau                                              |
-
-
