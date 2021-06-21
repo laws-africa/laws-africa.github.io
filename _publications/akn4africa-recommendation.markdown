@@ -58,7 +58,7 @@ We recommend striking a balance between consistency and local traditions, becaus
 
 For example:
 
-* The reference numbers of ACHPR Resolutions have the form ‘ACHPR/Res. 343(LVIII) 2016’. In AKN nomenclature this includes the author (`achpr`), the type (`resolution`), the number (`343`) and the year (`2016`). However, it also includes the session number, `58` (or LVIII). While it isn’t strictly necessary to include the number under the AKN Naming Convention, we include it in the FRBR URIs because it is commonly used when referring to ACHPR Resolutions: /akn/aa/statement/resolution/achpr/2016/**58-**343.
+* The reference numbers of ACHPR Resolutions have the form ‘ACHPR/Res. 343(LVIII) 2016’. In AKN nomenclature this includes the author (`achpr`), the type (`resolution`), the number (`343`) and the year (`2016`). However, it also includes the session number, `58` (or LVIII). While it isn’t strictly necessary to include the number under the AKN Naming Convention, we include it in the FRBR URIs because it is commonly used when referring to ACHPR Resolutions: /akn/aa/statement/resolution/achpr/2016/\*\*58-\*\*343.
 
 * ECOWAS documents are referred to as e.g. ‘A/SA.1/12/14’. The subtype (supplementary-act), year (2014) and number (1) are all included, as is the month in which the Supplementary Act was signed. The month isn’t strictly necessary to identify ‘Supplementary Act 1 of 2014’, but because it’s part of the local tradition, we include it in the FRBR URI: /akn/aa-ecowas/act/supplementary-act/2014/12-1.
 
