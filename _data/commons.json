@@ -13,5 +13,23 @@
     "as_at_date": "2021-03-26", 
     "n_bylaws": 420, 
     "n_municipalities": 22
-  }
+  },
+  "pending": [
+    {
+      "country": "mw",
+      "title": "Malawi National Legislation"
+    },
+    {
+      "country": "ng",
+      "title": "Nigeria National Legislation"
+    },
+    {
+      "country": "za",
+      "title": "South Africa Provincial Legislation"
+    },
+    {
+      "country": "zw",
+      "title": "Zimbabwe National Legislation"
+    }
+  ]
 }
