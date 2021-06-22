@@ -1,17 +1,40 @@
 {
   "covid19": {
-    "as_at_date": "2021-04-02", 
-    "n_countries": 9, 
-    "n_principal": 308
-  }, 
+    "as_at_date": "2021-06-17",
+    "n_countries": 9,
+    "n_principal": 318
+  },
   "na": {
-    "as_at_date": "2021-03-31", 
-    "n_principal": 423, 
-    "n_stubs": 1240
-  }, 
-  "za": {
-    "as_at_date": "2021-03-26", 
-    "n_bylaws": 420, 
-    "n_municipalities": 22
+    "as_at_date": "2021-06-17",
+    "n_principal": 423,
+    "n_stubs": 1255
+  },
+  "pending": [
+    {
+      "country": "mw",
+      "title": "Malawi National Legislation"
+    },
+    {
+      "country": "ng",
+      "title": "Nigeria National Legislation"
+    },
+    {
+      "country": "za",
+      "title": "South Africa Provincial Legislation"
+    },
+    {
+      "country": "zw",
+      "title": "Zimbabwe National Legislation"
+    }
+  ],
+  "ug": {
+    "as_at_date": "2020-09-30",
+    "n_principal": 152,
+    "n_stubs": 97
+  },
+  "za_bylaws": {
+    "as_at_date": "2021-06-21",
+    "n_bylaws": 459,
+    "n_municipalities": 15
   }
 }
