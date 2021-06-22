@@ -55,18 +55,23 @@ def update_bylaw_stats(country_code, stats):
     localities = countries[country_code]['localities']
 
     works = []
-    munis = 0
+    n_munis = 0
 
+    # this will also include provinces, so only look for by-laws
     for loc in localities:
         try:
-            works.extend(fetch_all("/akn/" + loc['frbr_uri_code'] + "/.json"))
-            munis += 1
+            bylaws = [w
+                      for w in fetch_all("/akn/" + loc['frbr_uri_code'] + "/.json")
+                      if w['subtype'] == 'by-law' and not w['stub']]
+            works.extend(bylaws)
+            if bylaws:
+                n_munis += 1
         except HTTPError as e:
             if e.response.status_code != 404:
                 raise
 
-    stats['n_bylaws'] = sum(1 for w in works if w['subtype'] == 'by-law' and not w['stub'])
-    stats['n_municipalities'] = munis
+    stats['n_bylaws'] = len(works)
+    stats['n_municipalities'] = n_munis
     stats['as_at_date'] = max(w['as_at_date'] for w in works if w['as_at_date'])
 
 
@@ -74,8 +79,10 @@ def update_stats():
     with open("_data/commons.json") as f:
         stats = json.load(f)
 
-    update_country_stats('na', stats['na'])
-    update_bylaw_stats('za', stats['za'])
+    for code in ['na', 'ug']:
+        update_country_stats(code, stats.setdefault(code, {}))
+
+    update_bylaw_stats('za', stats.setdefault('za_bylaws', {}))
     update_covid19_stats(stats['covid19'])
 
     with open("_data/commons.json", "w") as f:
