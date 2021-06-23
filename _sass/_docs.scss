@@ -34,6 +34,10 @@
   }
 }
 
+.scroll-x {
+  overflow-x: auto;
+}
+
 .highlighter-rouge > .highlight::before {
   position: absolute;
   right: 30px;
