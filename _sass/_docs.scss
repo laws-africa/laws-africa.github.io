@@ -54,3 +54,9 @@
 .language-js      > .highlight::before { content: "javascript"; }
 .language-json    > .highlight::before { content: "json"; }
 .language-python  > .highlight::before { content: "python"; }
+
+code {
+  background-color: $gray-200;
+  border-radius: 0.25em;
+  padding: 0.45em;
+}
