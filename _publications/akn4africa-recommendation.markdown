@@ -219,7 +219,7 @@ You can link the Cap number as a piece of document metadata and update it as nec
 
 Judgment numbers should be derived from an officially assigned Medium Neutral Citation (MNC) if possible. In most cases, the MNC includes a number that is unique either within a year, within a particular court, or both. Use the necessary elements from the MNC to generate a unique FRBR URI.
 
-For example, Kenya Law assigns MNC numbers to Kenyan judgments which include a year and a court code. Judgment 5 of 2019 from the High Court of Kenya would use the FRBR URI <code>/akn/<b>ke</b>/judgment/kehc/<b>2019</b>/<b>5</b></code>. Here, `kehc` identifies the document author: the High Court of Kenya.
+For example, Kenya Law assigns MNC numbers to Kenyan judgments which include a year and a court code. Judgment 5 of 2019 from the High Court of Kenya would use the FRBR URI <code>/akn/<b>ke</b>/judgment/<b>kehc</b>/<b>2019</b>/<b>5</b></code>. Here, `kehc` identifies the document author: the High Court of Kenya.
 
 ## Example FRBR URIs
 
