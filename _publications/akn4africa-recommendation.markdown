@@ -147,27 +147,27 @@ Abbreviate the author only if a body is usually referred to by that abbreviation
   </tr>
   <tr>
     <td>African Commission on Human and Peoples’ Rights</td>
-    <td>achpr</td>
+    <td><code>achpr</code></td>
   </tr>
   <tr>
     <td>African Union Commission</td>
-    <td>auc</td>
+    <td><code>auc</code></td>
   </tr>
   <tr>
     <td>African Union Specialized Technical Committee on Transport, Transcontinental and Interregional Infrastructure, Energy and Tourism</td>
-    <td>austc-on-transport-infrastructure-energy-tourism</td>
+    <td><code>austc-on-transport-infrastructure-energy-tourism</code></td>
   </tr>
   <tr>
     <td>Committee for the Prevention of Torture in Africa</td>
-    <td>cpta</td>
+    <td><code>cpta</code></td>
   </tr>
   <tr>
     <td>Department of Rural Economy and Agriculture of the African Union Commission</td>
-    <td>auc-department-of-rural-economy-and-agriculture</td>
+    <td><code>auc-department-of-rural-economy-and-agriculture</code></td>
   </tr>
   <tr>
     <td>Organisation of African Unity</td>
-    <td>oau</td>
+    <td><code>oau</code></td>
   </tr>
 </table>
 
