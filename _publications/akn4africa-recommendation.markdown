@@ -98,12 +98,12 @@ For examples of doctypes and subtypes, see the [Example FRBR URIs](#example-frbr
 
 ### Doctype
 
-* For legislation – Acts, Regulations, Statutory Instruments, and the like – use `act`.
+* For legislation – Acts, Regulations, Statutory Instruments, and the like – use `act`. <br>
     These are documents that have the force of law.
-* For soft law – Resolutions, Guidelines, Decisions, Model laws, Agreements, and the like – use `statement`.
+* For soft law – Resolutions, Guidelines, Decisions, Model laws, Agreements, and the like – use `statement`. <br>
   These are documents that don’t (or only sometimes) have the force of law, but do still have to do with the law (to varying degrees).
 * For case law, use `judgment`.
-* For other documents – Policies, Memoranda of Understanding, Yearbooks, Press Releases, and the like – use `doc`.
+* For other documents – Policies, Memoranda of Understanding, Yearbooks, Press Releases, and the like – use `doc`. <br>
   This document, for example, would use the `doc` doctype.
 
 ### Subtype
