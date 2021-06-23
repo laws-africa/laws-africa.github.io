@@ -94,7 +94,7 @@ For example,
 
 ## Doctype and subtype
 
-For examples of doctypes and subtypes, see the [Example FRBR URIs](#example_frbruris) section.
+For examples of doctypes and subtypes, see the [Example FRBR URIs](#example-frbr-uris) section.
 
 ### Doctype
 
@@ -221,7 +221,7 @@ Judgment numbers should be derived from an officially assigned Medium Neutral Ci
 
 For example, Kenya Law assigns MNC numbers to Kenyan judgments which include a year and a court code. Judgment 5 of 2019 from the High Court of Kenya would use the FRBR URI <code>/akn/<b>ke</b>/judgment/kehc/<b>2019</b>/<b>5</b></code>. Here, `kehc` identifies the document author: the High Court of Kenya.
 
-## <a name="example_frbruris"></a>Example FRBR URIs
+## Example FRBR URIs
 
 The tables below aim to include all known document types but will certainly fail, if only because inevitably a new document type will be published in the future. The preceding sections are there to guide users in making the call when the tables fail, and explain how the tables were compiled.
 
