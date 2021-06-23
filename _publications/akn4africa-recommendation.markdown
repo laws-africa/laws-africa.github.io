@@ -31,9 +31,9 @@ The following resources informed the structure of this document and the issues d
 
 # Generating FRBR URIs
 
-AKN FRBR URIs are constructed as follows, with the <span style="color:#D04242">red</span> text indicating that an element is optional:
+AKN FRBR URIs are constructed as follows, with the <span style="color:#808080">grey</span> text indicating that an element is optional:
 
-/akn/`2-letter country code`<code><span style="color:#D04242">-locality code</span></code>/`doctype`/<code><span style="color:#D04242">subtype</span></code>/<code><span style="color:#D04242">author</span></code>/`year`/`number`
+/akn/`2-letter country code`<code><span style="color:#808080">-locality code</span></code>/`doctype`/<code><span style="color:#808080">subtype</span></code>/<code><span style="color:#808080">author</span></code>/`year`/`number`
 
 In general, lowercase all letters and don’t use any spaces.
 The sections below go into detail about each of the FRBR URI elements. Before that, we outline our guiding principles when deciding how to structure FRBR URIs in a given jurisdiction.
