@@ -1,0 +1,30 @@
+name: Update stats
+
+on:
+  schedule:
+    - cron: '0 3 * * *'
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.7
+
+    - name: Update stats
+      env:
+        INDIGO_API_TOKEN: ${{ secrets.INDIGO_API_TOKEN }}
+      run: |
+        pip install requests
+        python bin/update-stats.py
+
+    - name: Commit changes
+      uses: EndBug/add-and-commit@v7
+      with:
+        add: _data/commons.json
+        message: Updated commons stats

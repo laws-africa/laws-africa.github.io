@@ -21,12 +21,121 @@ layout: simple
     </div>
   </section>
 
-  <section class="mb-5 py-3">
+  <section class="mb-3 py-3">
     <div class="container">
-      <h2 class="mb-2">Available collections</h2>
+      <h2 class="mb-2">Country legislation collections</h2>
 
       <div class="row row-cols-1 row-cols-md-2">
-        <div class="col mb-4">
+        <div class="col mb-3">
+          <div class="card commons-card" id="na">
+            <div class="card-body bg-light">
+              <div class="media mb-3">
+                <img src="/img/countries/na-flag.png" class="flag mr-3" alt="Namibian flag">
+                <div class="media-body">
+                  <h5 class="card-title"><a href="https://namiblii.org/legislation">Namibian National Legislation</a></h5>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-6">
+                  <h5 class="mb-0">{{ site.data.commons.na.n_principal }}</h5>
+                  <div class="subtitle">Principal Acts</div>
+                </div>
+                <div class="col-6">
+                  <h5 class="mb-0">{{ site.data.commons.na.n_stubs }}</h5>
+                  <div class="subtitle">Amendments &amp; Commencements</div>
+                </div>
+              </div>
+
+              <h6 class="mt-3 mb-0">{{ site.data.commons.na.as_at_date|date:"%e %B %Y" }}</h6>
+              <div class="subtitle">Latest update</div>
+
+              <h6 class="mt-3 mb-0"><a href="https://namiblii.org">NamibLII.org</a></h6>
+              <div class="subtitle">Publication partner</div>
+            </div>
+            <div class="card-footer text-muted">
+              Updates available within ten business days of the Gazette being made publicly available.
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-3">
+          <div class="card commons-card" id="za-by-laws">
+            <div class="card-body bg-light">
+              <div class="media mb-3">
+                <img src="/img/countries/za-flag.png" class="flag mr-3" alt="South African flag">
+                <div class="media-body">
+                  <h5 class="card-title"><a href="https://openbylaws.org.za/">South African Municipal <nobr>By-laws</nobr></a></h5>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-6">
+                  <h5 class="mb-0">{{ site.data.commons.za_bylaws.n_municipalities }}</h5>
+                  <div class="subtitle">Municipalities</div>
+                </div>
+                <div class="col-6">
+                  <h5 class="mb-0">{{ site.data.commons.za_bylaws.n_bylaws }}</h5>
+                  <div class="subtitle">By-laws</div>
+                </div>
+              </div>
+
+              <h6 class="mt-3 mb-0">{{ site.data.commons.za_bylaws.as_at_date|date:"%e %B %Y" }}</h6>
+              <div class="subtitle">Latest update</div>
+
+              <h6 class="mt-3 mb-0"><a href="https://openbylaws.org.za">OpenByLaws.org.za</a></h6>
+              <div class="subtitle">Publication partner</div>
+            </div>
+            <div class="card-footer text-muted">
+              Updates available within ten business days of the provincial Gazette being made publicly available.
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-3">
+          <div class="card commons-card" id="ug">
+            <div class="card-body bg-light">
+              <div class="media mb-3">
+                <img src="/img/countries/ug-flag.png" class="flag mr-3" alt="Ugandan flag">
+                <div class="media-body">
+                  <h5 class="card-title"><a href="https://ulii.org/legislation">Uganda National Legislation</a></h5>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-6">
+                  <h5 class="mb-0">{{ site.data.commons.ug.n_principal }}</h5>
+                  <div class="subtitle">Principal Acts</div>
+                </div>
+                <div class="col-6">
+                  <h5 class="mb-0">{{ site.data.commons.ug.n_stubs }}</h5>
+                  <div class="subtitle">Amendments &amp; Commencements</div>
+                </div>
+              </div>
+
+              <h6 class="mt-3 mb-0">{{ site.data.commons.ug.as_at_date|date:"%e %B %Y" }}</h6>
+              <div class="subtitle">Latest update</div>
+
+              <h6 class="mt-3 mb-0"><a href="https://ulii.org">ULII.org</a></h6>
+              <div class="subtitle">Publication partner</div>
+            </div>
+            <div class="card-footer text-muted">
+              Updates available within ten business days of the Gazette being made publicly available.
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="mb-3 py-3">
+    <div class="container">
+      <h2 class="mb-2">Subject-area legislation collections</h2>
+
+      <div class="row row-cols-1 row-cols-md-2">
+        <div class="col mb-3">
           <div class="card commons-card" id="covid19">
             <div class="card-body bg-light">
               <div class="media mb-3">
@@ -76,104 +185,39 @@ layout: simple
               <div class="subtitle">Latest update</div>
 
               <h6 class="mt-3 mb-0"><a href="https://africanlii.org/africanlii-covid-19">AfricanLII.org</a></h6>
-              <div class="subtitle">Portal partner</div>
+              <div class="subtitle">Publication partner</div>
             </div>
             <div class="card-footer text-muted">
               Updates available within ten business days of the Gazette being made publicly available.
-            </div>
-          </div>
-        </div>
-
-        <div class="col mb-3">
-          <div class="card commons-card" id="na">
-            <div class="card-body bg-light">
-              <div class="media mb-3">
-                <img src="/img/countries/na-flag.png" class="flag mr-3" alt="Namibian flag">
-                <div class="media-body">
-                  <h5 class="card-title"><a href="https://namiblii.org/namibia-legislative-works-index">Namibian National Legislation</a></h5>
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="col-6">
-                  <h5 class="mb-0">{{ site.data.commons.na.n_principal }}</h5>
-                  <div class="subtitle">Principal Acts</div>
-                </div>
-                <div class="col-6">
-                  <h5 class="mb-0">{{ site.data.commons.na.n_stubs }}</h5>
-                  <div class="subtitle">Amendments &amp; Commencements</div>
-                </div>
-              </div>
-
-              <h6 class="mt-3 mb-0">{{ site.data.commons.na.as_at_date|date:"%e %B %Y" }}</h6>
-              <div class="subtitle">Latest update</div>
-
-              <h6 class="mt-3 mb-0"><a href="https://namiblii.org">NamibLII.org</a></h6>
-              <div class="subtitle">Portal partner</div>
-            </div>
-            <div class="card-footer text-muted">
-              Updates available within ten business days of the Gazette being made publicly available.
-            </div>
-          </div>
-        </div>
-
-        <div class="col mb-4">
-          <div class="card commons-card" id="za-by-laws">
-            <div class="card-body bg-light">
-              <div class="media mb-3">
-                <img src="/img/countries/za-flag.png" class="flag mr-3" alt="South African flag">
-                <div class="media-body">
-                  <h5 class="card-title"><a href="https://openbylaws.org.za/">South African Municipal <nobr>By-laws</nobr></a></h5>
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="col-6">
-                  <h5 class="mb-0">{{ site.data.commons.za.n_municipalities }}</h5>
-                  <div class="subtitle">Municipalities</div>
-                </div>
-                <div class="col-6">
-                  <h5 class="mb-0">{{ site.data.commons.za.n_bylaws }}</h5>
-                  <div class="subtitle">By-laws</div>
-                </div>
-              </div>
-
-              <h6 class="mt-3 mb-0">{{ site.data.commons.za.as_at_date|date:"%e %B %Y" }}</h6>
-              <div class="subtitle">Latest update</div>
-
-              <h6 class="mt-3 mb-0"><a href="https://openbylaws.org.za">OpenByLaws.org.za</a></h6>
-              <div class="subtitle">Portal partner</div>
-            </div>
-            <div class="card-footer text-muted">
-              Updates available within ten business days of the provincial Gazette being made publicly available.
             </div>
           </div>
         </div>
 
       </div>
-
     </div>
   </section>
 
-  <section class="mb-5 py-3">
+  <section class="mb-3 py-3">
     <div class="container">
       <h2 class="mb-2">Coming soon</h2>
 
-      <div class="row">
-        <div class="col-md-6">
-          <div class="card mb-4 commons-card">
-            <div class="card-body bg-light">
-              <div class="media mb-3">
-                <img src="/img/countries/ng-flag.png" class="flag mr-3" alt="Namibian flag">
-                <div class="media-body">
-                  <h5 class="card-title">Nigerian National Legislation</h5>
+      <div class="row row-cols-1 row-cols-md-2">
+        {% for place in site.data.commons.pending %}
+          <div class="col mb-3">
+            <div class="card commons-card">
+              <div class="card-body bg-light">
+                <div class="media mb-3">
+                  <img src="/img/countries/{{ place.country }}-flag.png" class="flag mr-3" alt="{{ place.country }} flag">
+                  <div class="media-body">
+                    <h5 class="card-title">{{ place.title }}</h5>
+                  </div>
                 </div>
-              </div>
 
-              <div class="subtitle">Coming soon</div>
+                <div class="subtitle">Coming soon</div>
+              </div>
             </div>
           </div>
-        </div>
+        {% endfor %}
       </div>
 
     </div>
