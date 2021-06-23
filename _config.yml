@@ -29,6 +29,11 @@ defaults:
     layout: blog-post
 - scope:
     path: ''
+    type: publications
+  values:
+    layout: publication
+- scope:
+    path: ''
     type: help
   values:
     layout: help-article
