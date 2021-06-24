@@ -225,6 +225,27 @@ navbar_item: home
 
 <section class="py-5">
   <div class="container">
+    <h2 class="mb-4">Latest publications</h2>
+
+    <div class="row">
+      {% for pub in site.publications limit:3 %}
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3">
+            <div class="card-body">
+              <h5 class="mt-0"><a href="{{ pub.url }}">{{ pub.title }}</a></h5>
+              <div class="text-muted">{{ pub.date|date:"%e %b %Y"}}</div>
+              <div>{{ pub.lead }}</div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</section>
+
+<section class="py-5">
+  <div class="container">
     <h2 class="mb-4">Latest articles</h2>
     <div class="row">
       {% assign orderedPosts = site.posts | sort: 'date' | reverse %}

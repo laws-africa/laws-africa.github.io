@@ -1,0 +1,47 @@
+---
+layout: simple
+---
+
+<div>
+
+  <header class="mb-5 py-5 {{ page.header_class }}">
+    <div class="container">
+      {% if page.masthead_image %}
+      <div class="row mb-3">
+        <div class="col-6 col-md-4">
+          <img src="{{ page.masthead_image }}" class="img-fluid">
+        </div>
+      </div>
+      {% endif %}
+
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="/publications">Publications</a></li>
+        </ol>
+      </nav>
+
+      <h1 class="display-4">{{ page.title }}</h1>
+      <div class="h5">{{ page.date|date:"%e %B %Y"}}</div>
+      {% if page.lead %}
+      <p class="lead mb-3">{{ page.lead }}</p>
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-3 d-none d-sm-block">
+        <aside class="sidebar sticky">
+          <h4 class="mt-5">Table of Contents</h4>
+
+          <ol id="toc" class="list-unstyled"></ol>
+        </aside>
+      </div>
+
+      <article class="col-sm-9 mb-5 prose scroll-x" data-tocify="#toc">
+        {{ content }}
+      </article>
+    </div>
+  </div>
+
+</div>
