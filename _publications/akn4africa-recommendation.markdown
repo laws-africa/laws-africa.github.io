@@ -1,7 +1,6 @@
 ---
 title: AKN4Africa Recommendation
 date: 2021-06-18 11:32:00 +02:00
-published: true
 header_class: bg-lawsafrica-pale-red
 navbar_item: publications
 lead: Recommendations for using Akoma Ntoso with African legal materials.
