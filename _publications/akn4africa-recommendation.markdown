@@ -242,141 +242,121 @@ The tables below aim to include all known document types but will certainly fail
   </tr>
   <tr>
     <td>Act</td>
-    <td>East African Community One Stop Border Posts Act, 2016 
-<br><a href="https://www.eac.int/documents/category/acts-of-the-community">https://www.eac.int/documents/category/acts-of-the-community</a></td>
+    <td><a href="https://www.eac.int/documents/category/acts-of-the-community">East African Community One Stop Border Posts Act, 2016</a></td>
     <td></td>
     <td><code>/akn/aa-eac/act/2016/one-stop-border-posts</code></td>
   </tr>
   <tr>
     <td rowspan="2">Agreement</td>
-    <td>Agreement for the Establishment of the African Rehabilitation Institute (ARI) <br><a href="https://au.int/en/treaties/agreement-establishment-african-rehabilitation-institute-ari">https://au.int/en/treaties/agreement-establishment-african-rehabilitation-institute-ari</a></td>
+    <td><a href="https://au.int/en/treaties/agreement-establishment-african-rehabilitation-institute-ari">Agreement for the Establishment of the African Rehabilitation Institute (ARI)</a></td>
     <td rowspan="2">agreement</td>
     <td><code>/akn/aa/act/agreement/oau/1985/establishment-of-the-african-rehabilitation-institute</code></td>
   </tr>
   <tr>
-    <td>Agreement Amending Article 3 of the Protocol on Trade 
-<br><a href="https://www.sadc.int/documents-publications/show/6925">https://www.sadc.int/documents-publications/show/6925</a></td>
+    <td><a href="https://www.sadc.int/documents-publications/show/6925">Agreement Amending Article 3 of the Protocol on Trade</a></td>
     <td><code>/akn/aa-sadc/act/agreement/2016/amending-article-3-of-the-protocol-on-trade</code></td>
   </tr>
   <tr>
     <td rowspan="4">Charter</td>
-    <td>OAU Charter <br><a href="https://au.int/en/treaties/oau-charter-addis-ababa-25-may-1963">https://au.int/en/treaties/oau-charter-addis-ababa-25-may-1963</a></td>
+    <td><a href="https://au.int/en/treaties/oau-charter-addis-ababa-25-may-1963">OAU Charter</a></td>
     <td rowspan="4">charter</td>
     <td><code>/akn/aa/act/charter/oau/1963/nn</code></td>
   </tr>
   <tr>
-    <td>African Youth Charter <br>
-<a href="https://au.int/en/treaties/african-youth-charter">https://au.int/en/treaties/african-youth-charter</a></td>
+    <td><a href="https://au.int/en/treaties/african-youth-charter">African Youth Charter</a></td>
     <td><code>/akn/aa/act/charter/2006/youth</code></td>
   </tr>
   <tr>
-    <td>African Charter on Human and Peoples’ Rights <br>
-<a href="https://www.achpr.org/legalinstruments/detail?id=49">https://www.achpr.org/legalinstruments/detail?id=49</a></td>
+    <td><a href="https://www.achpr.org/legalinstruments/detail?id=49">African Charter on Human and Peoples’ Rights</a></td>
     <td><code>/akn/aa/act/charter/achpr/1981/human-and-peoples-rights</code></td>
   </tr>
   <tr>
-    <td>Charter Establishing the Centre for Coordination of Agricultural Research and Development (CCARDESA) <br>
-<a href="https://www.sadc.int/documents-publications/show/836">https://www.sadc.int/documents-publications/show/836</a></td>
+    <td><a href="https://www.sadc.int/documents-publications/show/836">Charter Establishing the Centre for Coordination of Agricultural Research and Development (CCARDESA)</a></td>
     <td><code>/akn/aa-sadc/act/charter/2010/establishing-the-centre-for-coordination-of-agricultural-research-and-development</code></td>
   </tr>
   <tr>
     <td>Constitution</td>
-    <td>Constitutive Act of the African Union <br>
-<a href="https://au.int/en/treaties/constitutive-act-african-union">https://au.int/en/treaties/constitutive-act-african-union</a></td>
+    <td><a href="https://au.int/en/treaties/constitutive-act-african-union">Constitutive Act of the African Union</a></td>
     <td></td>
     <td><code>/akn/aa/act/2000/constitutive-act</code></td>
   </tr>
   <tr>
     <td>Convention</td>
-    <td>General Convention on the Privileges and Immunities of the Organization of African Unity <br>
-<a href="https://au.int/en/treaties/general-convention-privileges-and-immunities-organization-african-unity">https://au.int/en/treaties/general-convention-privileges-and-immunities-organization-african-unity</a></td>
+    <td><a href="https://au.int/en/treaties/general-convention-privileges-and-immunities-organization-african-unity">General Convention on the Privileges and Immunities of the Organization of African Unity</a></td>
     <td>convention</td>
     <td><code>/akn/aa/act/convention/oau/1965/privileges-and-immunities</code></td>
   </tr>
   <tr>
     <td>Directive</td>
-    <td>Directive C/Dir.1/06/13 on the Organization of the Regional Electricity Market <br>
-<a href="https://www.ecowas.int/ecowas-law/regulations-directives-and-other-acts/70th-ordinary-session-of-council-of-ministers/">https://www.ecowas.int/ecowas-law/regulations-directives-and-other-acts/70th-ordinary-session-of-council-of-ministers/</a></td>
+    <td><a href="https://www.ecowas.int/ecowas-law/regulations-directives-and-other-acts/70th-ordinary-session-of-council-of-ministers/">Directive C/Dir.1/06/13 on the Organization of the Regional Electricity Market</a></td>
     <td>directive</td>
     <td><code>/akn/aa-ecowas/act/directive/2013/6-1</code></td>
   </tr>
   <tr>
     <td rowspan="2">Pact</td>
-    <td>The African Union Non-Aggression and Common Defence Pact <br>
-<a href="https://au.int/en/treaties/african-union-non-aggression-and-common-defence-pact">https://au.int/en/treaties/african-union-non-aggression-and-common-defence-pact</a></td>
+    <td><a href="https://au.int/en/treaties/african-union-non-aggression-and-common-defence-pact">The African Union Non-Aggression and Common Defence Pact</a></td>
     <td rowspan="2">pact</td>
     <td><code>/akn/aa/act/pact/2005/non-aggression-and-common-defence</code></td>
   </tr>
   <tr>
-    <td>SADC Mutual Defence Pact <br>
-<a href="https://www.sadc.int/documents-publications/show/1038">https://www.sadc.int/documents-publications/show/1038</a></td>
+    <td><a href="https://www.sadc.int/documents-publications/show/1038">SADC Mutual Defence Pact</a></td>
     <td><code>/akn/aa-sadc/act/pact/2003/mutual-defence</code></td>
   </tr>
   <tr>
     <td rowspan="2">Protocol</td>
-    <td>Protocol to the African Charter on Human and Peoples’ Rights on the Rights of Older Persons in Africa <br>
-<a href="https://www.achpr.org/legalinstruments/detail?id=3">https://www.achpr.org/legalinstruments/detail?id=3</a></td>
+    <td><a href="https://www.achpr.org/legalinstruments/detail?id=3">Protocol to the African Charter on Human and Peoples’ Rights on the Rights of Older Persons in Africa</a></td>
     <td rowspan="2">act</td>
     <td rowspan="2">protocol</td>
     <td><code>/akn/aa/act/protocol/2016/achpr-rights-of-older-persons</code></td>
   </tr>
   <tr>
-    <td>Protocol on Trade in Services <br>
-<a href="https://www.sadc.int/documents-publications/show/1933">https://www.sadc.int/documents-publications/show/1933</a></td>
+    <td><a href="https://www.sadc.int/documents-publications/show/1933">Protocol on Trade in Services</a></td>
     <td><code>/akn/aa-sadc/act/protocol/2012/trade-in-services</code></td>
   </tr>
   <tr>
     <td>Regulation</td>
-    <td>Regulation Approving The Work Programme of the ECOWAS Commission, for the 2015 Financial Year <br>
-<a href="https://www.ecowas.int/ecowas-law/regulations-directives-and-other-acts/73rd-ordinary-session-of-the-council-of-ministers/">https://www.ecowas.int/ecowas-law/regulations-directives-and-other-acts/73rd-ordinary-session-of-the-council-of-ministers/</a></td>
+    <td><a href="https://www.ecowas.int/ecowas-law/regulations-directives-and-other-acts/73rd-ordinary-session-of-the-council-of-ministers/">Regulation Approving The Work Programme of the ECOWAS Commission, for the 2015 Financial Year</a></td>
     <td>regulation</td>
     <td><code>/akn/aa-ecowas/act/regulation/2014/12-1</code></td>
   </tr>
   <tr>
     <td>Regulations</td>
-    <td>East Africa Community Vehicle Load Control (Vehicle Dimensions and Axle Configurations) Regulations, 2018 <br>
-<a href="https://www.eac.int/documents/category/eac-regulations">https://www.eac.int/documents/category/eac-regulations</a></td>
+    <td><a href="https://www.eac.int/documents/category/eac-regulations">East Africa Community Vehicle Load Control (Vehicle Dimensions and Axle Configurations) Regulations, 2018</a></td>
     <td>regulations</td>
     <td><code>/akn/aa-eac/act/regulations/2018/vehicle-load-control-vehicle-dimensions-and-axle-configurations</code></td>
   </tr>
   <tr>
     <td>Rules</td>
-    <td>Rules of Procedure of the African Commission on Human and Peoples’ Rights, 2020 <br>
-<a href="https://www.achpr.org/legalinstruments/detail?id=72">https://www.achpr.org/legalinstruments/detail?id=72</a></td>
+    <td><a href="https://www.achpr.org/legalinstruments/detail?id=72">Rules of Procedure of the African Commission on Human and Peoples’ Rights, 2020</a></td>
     <td>rules</td>
     <td><code>/akn/aa/act/rules/achpr/2020/rules-of-procedure</code></td>
   </tr>
   <tr>
     <td>Standard Operating Procedures</td>
-    <td>Standard Operating Procedures on the Special Mechanisms of the African Commission on Human and Peoples’ Rights <br>
-<a href="https://www.achpr.org/legalinstruments/detail?id=68">https://www.achpr.org/legalinstruments/detail?id=68</a></td>
+    <td><a href="https://www.achpr.org/legalinstruments/detail?id=68">Standard Operating Procedures on the Special Mechanisms of the African Commission on Human and Peoples’ Rights</a></td>
     <td>standard-operating-procedures</td>
     <td><code>/akn/aa/act/standard-operating-procedures/achpr/2020/special-mechanisms</code></td>
   </tr>
   <tr>
     <td>Statute</td>
-    <td>Statute of the Africa Sports Council <br>
-<a href="https://au.int/en/treaties/statute-africa-sports-council">https://au.int/en/treaties/statute-africa-sports-council</a></td>
+    <td><a href="https://au.int/en/treaties/statute-africa-sports-council">Statute of the Africa Sports Council</a></td>
     <td>statute</td>
     <td><code>/akn/aa/act/statute/2016/africa-sports-council</code></td>
   </tr>
   <tr>
     <td>Supplementary Act</td>
-    <td>Supplementary Act A/SA.1/12/14 on the Improvement of Performance in Higher Education and Scientific Research <br>
-<a href="https://www.ecowas.int/ecowas-law/find-legislation/46th-ordinary-session-of-the-authority-of-heads-of-state-and-government-abuja-15-december-2014/">https://www.ecowas.int/ecowas-law/find-legislation/46th-ordinary-session-of-the-authority-of-heads-of-state-and-government-abuja-15-december-2014/</a></td>
+    <td><a href="https://www.ecowas.int/ecowas-law/find-legislation/46th-ordinary-session-of-the-authority-of-heads-of-state-and-government-abuja-15-december-2014/">Supplementary Act A/SA.1/12/14 on the Improvement of Performance in Higher Education and Scientific Research</a></td>
     <td>supplementary-act</td>
     <td><code>/akn/aa-ecowas/act/supplementary-act/2014/12-1</code></td>
   </tr>
   <tr>
     <td rowspan="2">Treaty</td>
-    <td>Treaty Establishing the African Economic Community <br>
-<a href="https://au.int/en/treaties/treaty-establishing-african-economic-community">https://au.int/en/treaties/treaty-establishing-african-economic-community</a></td>
+    <td><a href="https://au.int/en/treaties/treaty-establishing-african-economic-community">Treaty Establishing the African Economic Community</a></td>
     <td rowspan="2">treaty</td>
     <td><code>/akn/aa/act/treaty/oau/1991/establishing-the-african-economic-community</code></td>
   </tr>
   <tr>
-    <td>Economic Community of West African States (ECOWAS) Revised Treaty, 1993 <br>
-<a href="https://www.ecowas.int/ecowas-law/treaties/">https://www.ecowas.int/ecowas-law/treaties/</a></td>
+    <td><a href="https://www.ecowas.int/ecowas-law/treaties/">Economic Community of West African States (ECOWAS) Revised Treaty, 1993</a></td>
     <td><code>/akn/aa-ecowas/act/treaty/1993/ecowas-revised-treaty</code></td>
   </tr>
 </table>
@@ -392,68 +372,58 @@ The tables below aim to include all known document types but will certainly fail
   </tr>
   <tr>
     <td>Comment</td>
-    <td>General Comment No. 4 on the African Charter on Human and Peoples’ Rights: The Right to Redress for Victims of Torture and Other Cruel, Inhuman or Degrading Punishment or Treatment (Article 5) <br>
-<a href="https://www.achpr.org/legalinstruments/detail?id=60">https://www.achpr.org/legalinstruments/detail?id=60</a></td>
+    <td><a href="https://www.achpr.org/legalinstruments/detail?id=60">General Comment No. 4 on the African Charter on Human and Peoples’ Rights: The Right to Redress for Victims of Torture and Other Cruel, Inhuman or Degrading Punishment or Treatment (Article 5)</a></td>
     <td>comment</td>
     <td><code>/akn/aa/statement/comment/achpr/2017/4</code></td>
   </tr>
   <tr>
     <td>Decision</td>
-    <td>Decision A/Dec.01/12/14 amending Decision A/Dec 2/7/85 Establishing a Travel Certificate for ECOWAS Member States <br>
-<a href="https://www.ecowas.int/ecowas-law/find-legislation/46th-ordinary-session-of-the-authority-of-heads-of-state-and-government-abuja-15-december-2014/">https://www.ecowas.int/ecowas-law/find-legislation/46th-ordinary-session-of-the-authority-of-heads-of-state-and-government-abuja-15-december-2014/</a></td>
+    <td><a href="https://www.ecowas.int/ecowas-law/find-legislation/46th-ordinary-session-of-the-authority-of-heads-of-state-and-government-abuja-15-december-2014/">Decision A/Dec.01/12/14 amending Decision A/Dec 2/7/85 Establishing a Travel Certificate for ECOWAS Member States</a></td>
     <td>decision</td>
     <td><code>/akn/aa-ecowas/statement/decision/2014/12-1</code></td>
   </tr>
   <tr>
     <td rowspan="2">Declaration</td>
-    <td>Declaration of Principles on Freedom of Expression and Access to Information in Africa, 2019 <br>
-<a href="https://www.achpr.org/legalinstruments/detail?id=69">https://www.achpr.org/legalinstruments/detail?id=69</a></td>
+    <td><a href="https://www.achpr.org/legalinstruments/detail?id=69">Declaration of Principles on Freedom of Expression and Access to Information in Africa, 2019</a></td>
     <td rowspan="2">declaration</td>
     <td><code>/akn/aa/statement/declaration/achpr/2019/principles-on-freedom-of-expression-and-access-to-information</code></td>
   </tr>
   <tr>
-    <td>Declaration of the Heads of State and Government of the Economic Community of West African States on the Implementation of the ECOWAS Common External Tariff (CET) <br>
-<a href="https://www.ecowas.int/ecowas-law/find-legislation/46th-ordinary-session-of-the-authority-of-heads-of-state-and-government-abuja-15-december-2014/">https://www.ecowas.int/ecowas-law/find-legislation/46th-ordinary-session-of-the-authority-of-heads-of-state-and-government-abuja-15-december-2014/</a></td>
+    <td><a href="https://www.ecowas.int/ecowas-law/find-legislation/46th-ordinary-session-of-the-authority-of-heads-of-state-and-government-abuja-15-december-2014/">Declaration of the Heads of State and Government of the Economic Community of West African States on the Implementation of the ECOWAS Common External Tariff (CET)</a></td>
     <td><code>/akn/aa-ecowas/statement/declaration/2014/implementation-of-common-external-tariff</code></td>
   </tr>
   <tr>
     <td rowspan="2">Guidelines</td>
-    <td>State Reporting Guidelines and Principles* on Articles 21 And 24 of the African Charter relating to Extractive Industries, Human Rights and the Environment <br>
-<a href="https://www.achpr.org/legalinstruments/detail?id=1">https://www.achpr.org/legalinstruments/detail?id=1</a> <br>
+    <td><a href="https://www.achpr.org/legalinstruments/detail?id=1">State Reporting Guidelines and Principles* on Articles 21 And 24 of the African Charter relating to Extractive Industries, Human Rights and the Environment</a> <br>
 * While the title includes ‘Guidelines and Principles’, the principles inform the guidelines, which are the crux of the document. This will generally be our assumption in a case like this. If in doubt, read the document to see which subtype is more prominent when more than one is given in the title.</td>
     <td rowspan="2">guidelines</td>
     <td><code>/akn/aa/statement/guidelines/achpr/2018/state-reporting-articles-21-and-24</code></td>
   </tr>
   <tr>
-    <td>The Guidelines on Combating Sexual Violence and its Consequences in Africa <br>
-<a href="https://www.achpr.org/legalinstruments/detail?id=4">https://www.achpr.org/legalinstruments/detail?id=4</a></td>
+    <td><a href="https://www.achpr.org/legalinstruments/detail?id=4">The Guidelines on Combating Sexual Violence and its Consequences in Africa</a></td>
     <td><code>/akn/aa/statement/guidelines/achpr/2017/combating-sexual-violence-and-its-consequences</code></td>
   </tr>
   <tr>
     <td>Questions</td>
-    <td>Indicative questions to State Parties in respect of Article 5 of the African Charter <br>
-<a href="https://www.achpr.org/legalinstruments/detail?id=51">https://www.achpr.org/legalinstruments/detail?id=51</a></td>
+    <td><a href="https://www.achpr.org/legalinstruments/detail?id=51">Indicative questions to State Parties in respect of Article 5 of the African Charter</a></td>
     <td>questions</td>
     <td><code>/akn/aa/statement/questions/cpta/2016/article-5</code></td>
   </tr>
   <tr>
     <td>Model laws / legislation</td>
-    <td>Model Law on Access to Information for Africa, 2013 <br>
-<a href="https://www.achpr.org/legalinstruments/detail?id=32">https://www.achpr.org/legalinstruments/detail?id=32</a></td>
+    <td><a href="https://www.achpr.org/legalinstruments/detail?id=32">Model Law on Access to Information for Africa, 2013</a></td>
     <td>model-law</td>
     <td><code>/akn/aa/statement/model-law/achpr/2013/access-to-information</code></td>
   </tr>
   <tr>
     <td>Principles</td>
-    <td>Principles on the Decriminalisation of Petty Offences in Africa <br>
-<a href="https://www.achpr.org/legalinstruments/detail?id=2">https://www.achpr.org/legalinstruments/detail?id=2</a></td>
+    <td><a href="https://www.achpr.org/legalinstruments/detail?id=2">Principles on the Decriminalisation of Petty Offences in Africa</a></td>
     <td>principles</td>
     <td><code>/akn/aa/statement/principles/achpr/2017/decriminalisation-petty-offences</code></td>
   </tr>
   <tr>
     <td>Recommendation</td>
-    <td>Recommendation on Periodic Reports <br>
-<a href="https://www.achpr.org/adoptedresolution">https://www.achpr.org/adoptedresolution</a></td>
+    <td><a href="https://www.achpr.org/adoptedresolution">Recommendation on Periodic Reports</a></td>
     <td>recommendation</td>
     <td><code>/akn/aa/statement/recommendation/achpr/1998/3-3</code> <br>
 (third session, recommendation 3)</td>
@@ -498,35 +468,30 @@ The tables below aim to include all known document types but will certainly fail
   </tr>
   <tr>
     <td>Policy</td>
-    <td>SADC Regional Water Policy <br>
-<a href="https://www.sadc.int/documents-publications/show/823">https://www.sadc.int/documents-publications/show/823</a></td>
+    <td><a href="https://www.sadc.int/documents-publications/show/823">SADC Regional Water Policy</a></td>
     <td>policy</td>
     <td><code>/akn/aa-sadc/doc/policy/2005/water</code></td>
   </tr>
   <tr>
     <td rowspan="2">Policy Framework</td>
-    <td>Policy Framework for Pastoralism in Africa <br>
-<a href="https://www.achpr.org/legalinstruments/detail?id=25">https://www.achpr.org/legalinstruments/detail?id=25</a></td>
+    <td><a href="https://www.achpr.org/legalinstruments/detail?id=25">Policy Framework for Pastoralism in Africa</a></td>
     <td rowspan="2">policy-framework</td>
     <td><code>/akn/aa/doc/policy-framework/auc-department-of-rural-economy-and-agriculture/2010/pastoralism</code></td>
   </tr>
   <tr>
-    <td>Framework and Guidelines* on Land Policy in Africa <br>
-<a href="https://www.achpr.org/legalinstruments/detail?id=23">https://www.achpr.org/legalinstruments/detail?id=23</a> <br>
+    <td><a href="https://www.achpr.org/legalinstruments/detail?id=23">Framework and Guidelines* on Land Policy in Africa</a> <br>
 * While the phrase ‘policy framework’ does appear in the document, we stand to be corrected on whether this document should fall under a different subtype, potentially ‘statement/framework-and-guidelines’. We hesitate to create subtypes that only include one document, but this may be an instance where it makes sense to do so.</td>
     <td><code>/akn/aa/doc/policy-framework/auc-uneca-afdb-consortium/2010/land</code></td>
   </tr>
   <tr>
     <td>Study</td>
-    <td>Study on Transitional Justice and Human and Peoples’ Rights in Africa <br>
-<a href="https://www.achpr.org/legalinstruments/detail?id=66">https://www.achpr.org/legalinstruments/detail?id=66</a></td>
+    <td><a href="https://www.achpr.org/legalinstruments/detail?id=66">Study on Transitional Justice and Human and Peoples’ Rights in Africa</a></td>
     <td>study</td>
     <td><code>/akn/aa/doc/study/achpr/2018/transitional-justice-and-human-and-peoples-rights</code></td>
   </tr>
   <tr>
     <td>Yearbook</td>
-    <td>African Human Rights Yearbook Volume 3 (2019) <br>
-<a href="https://www.achpr.org/legalinstruments/detail?id=70">https://www.achpr.org/legalinstruments/detail?id=70</a></td>
+    <td><a href="https://www.achpr.org/legalinstruments/detail?id=70">African Human Rights Yearbook Volume 3 (2019)</a></td>
     <td>yearbook</td>
     <td><code>/akn/aa/doc/yearbook/achpr/2019/3</code></td>
   </tr>
@@ -543,8 +508,7 @@ The tables below aim to include all known document types but will certainly fail
   </tr>
   <tr>
     <td>Texts</td>
-    <td>Regulatory and Institutional Texts for the Implementation of the Yamoussoukro Decision and Framework Towards the Establishment of a Single African Air Transport Market <br>
-<a href="https://au.int/en/treaties/regulatory-and-instutional-texts-implementation-yamoussoukro-decision-and-framework-towards">https://au.int/en/treaties/regulatory-and-instutional-texts-implementation-yamoussoukro-decision-and-framework-towards</a></td>
+    <td><a href="https://au.int/en/treaties/regulatory-and-instutional-texts-implementation-yamoussoukro-decision-and-framework-towards">Regulatory and Institutional Texts for the Implementation of the Yamoussoukro Decision and Framework Towards the Establishment of a Single African Air Transport Market</a></td>
     <td>texts</td>
     <td><code>/akn/aa/documentCollection/texts/austc-transport-infrastructure-energy-tourism/nd/implementation-of-the-yamoussoukro-decision</code></td>
   </tr>
@@ -584,29 +548,25 @@ These countries have helped informed this table:
   </tr>
   <tr>
     <td>Act</td>
-    <td>Nigeria Social Insurance Trust Fund Act (Nigeria) <br>
-<a href="https://edit.laws.africa/works/akn/ng/act/1993/73/">https://edit.laws.africa/works/akn/ng/act/1993/73/</a></td>
+    <td><a href="https://edit.laws.africa/works/akn/ng/act/1993/73/">Nigeria Social Insurance Trust Fund Act (Nigeria)</a></td>
     <td> </td>
     <td><code>/akn/ng/act/1993/73</code></td>
   </tr>
   <tr>
     <td>Board Notice</td>
-    <td>Directions Regarding Livestock Auctions (South Africa) <br>
-<a href="https://edit.laws.africa/works/akn/za/act/bn/2020/85/">https://edit.laws.africa/works/akn/za/act/bn/2020/85/</a></td>
+    <td><a href="https://edit.laws.africa/works/akn/za/act/bn/2020/85/">Directions Regarding Livestock Auctions (South Africa)</a></td>
     <td>bn</td>
     <td><code>/akn/za/act/bn/2020/85</code></td>
   </tr>
   <tr>
     <td>By-law</td>
-    <td>Control of Temporary Advertisements (Mbizana Municipality, South Africa) <br>
-<a href="https://edit.laws.africa/works/akn/za-ec443/act/by-law/2017/temporary-advertisements/">https://edit.laws.africa/works/akn/za-ec443/act/by-law/2017/temporary-advertisements/</a></td>
+    <td><a href="https://edit.laws.africa/works/akn/za-ec443/act/by-law/2017/temporary-advertisements/">Control of Temporary Advertisements (Mbizana Municipality, South Africa)</a></td>
     <td>by-law</td>
     <td><code>/akn/za-ec443/act/by-law/2017/temporary-advertisements</code></td>
   </tr>
   <tr>
     <td>Constitution</td>
-    <td>Constitution of the Republic of Namibia (Namibia) <br>
-<a href="https://edit.laws.africa/works/akn/na/act/1990/constitution/">https://edit.laws.africa/works/akn/na/act/1990/constitution/</a></td>
+    <td><a href="https://edit.laws.africa/works/akn/na/act/1990/constitution/">Constitution of the Republic of Namibia (Namibia)</a></td>
     <td> </td>
     <td><code>/akn/na/act/1990/constitution</code></td>
   </tr>
@@ -624,113 +584,97 @@ These countries have helped informed this table:
   </tr>
   <tr>
     <td>Decree</td>
-    <td>Interpretation Act (specified as Decree) (Uganda) <br>
-<a href="https://edit.laws.africa/works/akn/ug/act/decree/1976/18/">https://edit.laws.africa/works/akn/ug/act/decree/1976/18/</a></td>
+    <td><a href="https://edit.laws.africa/works/akn/ug/act/decree/1976/18/">Interpretation Act (specified as Decree) (Uganda)</a></td>
     <td>decree</td>
     <td><code>/akn/ug/act/decree/1976/18</code></td>
   </tr>
   <tr>
     <td>Executive Instrument</td>
-    <td>Imposition of Restrictions (Coronavirus Disease (COVID-19) Pandemic) (No. 5) Instrument, 2020 (Ghana) <br>
-<a href="https://edit.laws.africa/works/akn/gh/act/ei/2020/68/">https://edit.laws.africa/works/akn/gh/act/ei/2020/68/</a></td>
+    <td><a href="https://edit.laws.africa/works/akn/gh/act/ei/2020/68/">Imposition of Restrictions (Coronavirus Disease (COVID-19) Pandemic) (No. 5) Instrument, 2020 (Ghana)</a></td>
     <td>ei</td>
     <td><code>/akn/gh/act/ei/2020/68</code></td>
   </tr>
   <tr>
     <td>General Notice</td>
-    <td>Order under Section 3(1)(a) of the Quarantine Act 2020: Prohibition of Aircraft and Ships into Mauritius (Mauritius) <br>
-<a href="https://edit.laws.africa/works/akn/mu/act/genn/2020/1937/">https://edit.laws.africa/works/akn/mu/act/genn/2020/1937/</a></td>
+    <td><a href="https://edit.laws.africa/works/akn/mu/act/genn/2020/1937/">Order under Section 3(1)(a) of the Quarantine Act 2020: Prohibition of Aircraft and Ships into Mauritius (Mauritius)</a></td>
     <td>genn</td>
     <td><code>/akn/mu/act/genn/2020/1937</code></td>
   </tr>
   <tr>
     <td>Government Notice</td>
-    <td>Public Health (Corona Virus and COVID-19) (Prevention, Containment and Management) Rules, 2020 (Malawi) <br>
-<a href="https://edit.laws.africa/works/akn/mw/act/gn/2020/48/">https://edit.laws.africa/works/akn/mw/act/gn/2020/48/</a></td>
+    <td><a href="https://edit.laws.africa/works/akn/mw/act/gn/2020/48/">Public Health (Corona Virus and COVID-19) (Prevention, Containment and Management) Rules, 2020 (Malawi)</a></td>
     <td>gn</td>
     <td><code>/akn/mw/act/gn/2020/48</code></td>
   </tr>
   <tr>
     <td>Legal Notice</td>
-    <td>Public Health (COVID-19) Regulations, 2020 (Lesotho) <br>
-<a href="https://edit.laws.africa/works/akn/ls/act/ln/2020/38/">https://edit.laws.africa/works/akn/ls/act/ln/2020/38/</a></td>
+    <td><a href="https://edit.laws.africa/works/akn/ls/act/ln/2020/38/">Public Health (COVID-19) Regulations, 2020 (Lesotho)</a></td>
     <td>ln</td>
     <td><code>/akn/ls/act/ln/2020/38</code></td>
   </tr>
   <tr>
     <td>Legislative Instrument</td>
-    <td>Labour Regulation, 2007 (Ghana) <br>
-<a href="https://edit.laws.africa/works/akn/gh/act/li/2007/1833/">https://edit.laws.africa/works/akn/gh/act/li/2007/1833/</a></td>
+    <td><a href="https://edit.laws.africa/works/akn/gh/act/li/2007/1833/">Labour Regulation, 2007 (Ghana)</a></td>
     <td>li</td>
     <td><code>/akn/gh/act/li/2007/1833</code></td>
   </tr>
   <tr>
     <td>Local Authority Notice</td>
-    <td>Rights of Way for Electronic Communications Facilities (Johannesburg Municipality, South Africa) <br>
-<a href="https://edit.laws.africa/works/akn/za-jhb/act/lan/2008/1628/">https://edit.laws.africa/works/akn/za-jhb/act/lan/2008/1628/</a></td>
+    <td><a href="https://edit.laws.africa/works/akn/za-jhb/act/lan/2008/1628/">Rights of Way for Electronic Communications Facilities (Johannesburg Municipality, South Africa)</a></td>
     <td>lan</td>
     <td><code>/akn/za-jhb/act/lan/2008/1628</code></td>
   </tr>
   <tr>
     <td>Ministerial Order</td>
-    <td>Ministerial Order: South African Civil Aviation Authority (South Africa) <br>
-<a href="https://edit.laws.africa/works/akn/za/act/mo/2020/civil-aviation-authority-covid-19/">https://edit.laws.africa/works/akn/za/act/mo/2020/civil-aviation-authority-covid-19/</a></td>
+    <td><a href="https://edit.laws.africa/works/akn/za/act/mo/2020/civil-aviation-authority-covid-19/">Ministerial Order: South African Civil Aviation Authority (South Africa)</a></td>
     <td>mo</td>
     <td><code>/akn/za/act/mo/2020/civil-aviation-authority-covid-19</code></td>
   </tr>
   <tr>
     <td>Municipal Notice</td>
-    <td>Electricity Supply By-law (Durban Transitional Metropolitan Council): Correction (eThekwini Municipality, South Africa) <br>
-<a href="https://edit.laws.africa/works/akn/za-eth/act/mn/1999/7/">https://edit.laws.africa/works/akn/za-eth/act/mn/1999/7/</a></td>
+    <td><a href="https://edit.laws.africa/works/akn/za-eth/act/mn/1999/7/">Electricity Supply By-law (Durban Transitional Metropolitan Council): Correction (eThekwini Municipality, South Africa)</a></td>
     <td>mn</td>
     <td><code>/akn/za-eth/act/mn/1999/7</code></td>
   </tr>
   <tr>
     <td>Official Notice</td>
-    <td>Mpumalanga Nature Conservation Regulations, 1999 (Mpumalanga Province, South Africa) <br>
-<a href="https://edit.laws.africa/works/akn/za-mp/act/on/1999/2/">https://edit.laws.africa/works/akn/za-mp/act/on/1999/2/</a></td>
+    <td><a href="https://edit.laws.africa/works/akn/za-mp/act/on/1999/2/">Mpumalanga Nature Conservation Regulations, 1999 (Mpumalanga Province, South Africa)</a></td>
     <td>on</td>
     <td><code>/akn/za-mp/act/on/1999/2</code></td>
   </tr>
   <tr>
     <td>Ordinance</td>
-    <td>Foreign Judgments (Reciprocal Enforcement) Act (specified as Ordinance) (Uganda) <br>
-<a href="https://edit.laws.africa/works/akn/ug/act/ord/1961/4/">https://edit.laws.africa/works/akn/ug/act/ord/1961/4/</a></td>
+    <td><a href="https://edit.laws.africa/works/akn/ug/act/ord/1961/4/">Foreign Judgments (Reciprocal Enforcement) Act (specified as Ordinance) (Uganda)</a></td>
     <td>ord</td>
     <td><code>/akn/ug/act/ord/1961/4</code></td>
   </tr>
   <tr>
     <td>Premier’s Notice</td>
-    <td>Mpumalanga Nature Conservation Act, 1998: Commencement (Mpumalanga Province, South Africa) <br>
-<a href="https://edit.laws.africa/works/akn/za-mp/act/premn/1999/1/">https://edit.laws.africa/works/akn/za-mp/act/premn/1999/1/</a></td>
+    <td><a href="https://edit.laws.africa/works/akn/za-mp/act/premn/1999/1/">Mpumalanga Nature Conservation Act, 1998: Commencement (Mpumalanga Province, South Africa)</a></td>
     <td>premn</td>
     <td><code>/akn/za-mp/act/premn/1999/1</code></td>
   </tr>
   <tr>
     <td>Proclamation</td>
-    <td>Stage 3: COVID-19 Regulations: Erongo Region (Namibia) <br>
-<a href="https://edit.laws.africa/works/akn/na/act/p/2020/26/">https://edit.laws.africa/works/akn/na/act/p/2020/26/</a></td>
+    <td><a href="https://edit.laws.africa/works/akn/na/act/p/2020/26/">Stage 3: COVID-19 Regulations: Erongo Region (Namibia)</a></td>
     <td>p</td>
     <td><code>/akn/na/act/p/2020/26</code></td>
   </tr>
   <tr>
     <td>Provincial Notice</td>
-    <td>KwaZulu-Natal Gaming and Betting Regulations, 2012 (KwaZulu-Natal Province, South Africa) <br>
-<a href="https://edit.laws.africa/works/akn/za-kzn/act/pn/2012/64/">https://edit.laws.africa/works/akn/za-kzn/act/pn/2012/64/</a></td>
+    <td><a href="https://edit.laws.africa/works/akn/za-kzn/act/pn/2012/64/">KwaZulu-Natal Gaming and Betting Regulations, 2012 (KwaZulu-Natal Province, South Africa)</a></td>
     <td>pn</td>
     <td><code>/akn/za-kzn/act/pn/2012/64</code></td>
   </tr>
   <tr>
     <td>Statute</td>
-    <td>Judicature Act (specified as Statute) (Uganda) <br>
-<a href="https://edit.laws.africa/works/akn/ug/act/statute/1996/13/">https://edit.laws.africa/works/akn/ug/act/statute/1996/13/</a></td>
+    <td><a href="https://edit.laws.africa/works/akn/ug/act/statute/1996/13/">Judicature Act (specified as Statute) (Uganda)</a></td>
     <td>statute</td>
     <td><code>/akn/ug/act/statute/1996/13</code></td>
   </tr>
   <tr>
     <td>Statutory Instrument</td>
-    <td>Electronic Records (Evidence) (Date of Commencement) Order, 2016 (Botswana) <br>
-<a href="https://edit.laws.africa/works/akn/bw/act/si/2016/45/">https://edit.laws.africa/works/akn/bw/act/si/2016/45/</a></td>
+    <td><a href="https://edit.laws.africa/works/akn/bw/act/si/2016/45/">Electronic Records (Evidence) (Date of Commencement) Order, 2016 (Botswana)</a></td>
     <td>si</td>
     <td><code>/akn/bw/act/si/2016/45</code></td>
   </tr>
