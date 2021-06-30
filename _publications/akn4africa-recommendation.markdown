@@ -548,133 +548,133 @@ These countries have helped informed this table:
   </tr>
   <tr>
     <td>Act</td>
-    <td><a href="https://edit.laws.africa/works/akn/ng/act/1993/73/">Nigeria Social Insurance Trust Fund Act (Nigeria)</a></td>
+    <td><a href="https://commons.laws.africa/akn/ng/act/1993/73/eng@2002-12-31">Nigeria Social Insurance Trust Fund Act 73 of 1993 (Nigeria)</a></td>
     <td> </td>
     <td><code>/akn/ng/act/1993/73</code></td>
   </tr>
   <tr>
     <td>Board Notice</td>
-    <td><a href="https://edit.laws.africa/works/akn/za/act/bn/2020/85/">Directions Regarding Livestock Auctions (South Africa)</a></td>
+    <td><a href="https://commons.laws.africa/akn/za/act/bn/2020/85/eng@2020-07-31">Directions Regarding Livestock Auctions (Board Notice 85 of 2020) (South Africa)</a></td>
     <td>bn</td>
     <td><code>/akn/za/act/bn/2020/85</code></td>
   </tr>
   <tr>
     <td>By-law</td>
-    <td><a href="https://edit.laws.africa/works/akn/za-ec443/act/by-law/2017/temporary-advertisements/">Control of Temporary Advertisements (Mbizana Municipality, South Africa)</a></td>
+    <td><a href="https://mbizana.openbylaws.org.za/za-ec443/act/by-law/2017/temporary-advertisements/eng/">Control of Temporary Advertisements By-law (Mbizana Municipality, South Africa)</a></td>
     <td>by-law</td>
     <td><code>/akn/za-ec443/act/by-law/2017/temporary-advertisements</code></td>
   </tr>
   <tr>
     <td>Constitution</td>
-    <td><a href="https://edit.laws.africa/works/akn/na/act/1990/constitution/">Constitution of the Republic of Namibia (Namibia)</a></td>
-    <td> </td>
+    <td><a href="https://namiblii.org/akn/na/act/1990/constitution">Namibian Constitution (Namibia)</a></td>
+    <td></td>
     <td><code>/akn/na/act/1990/constitution</code></td>
   </tr>
   <tr>
     <td>Constitutional Instrument</td>
     <td>None found</td>
     <td>ci</td>
-    <td> </td>
+    <td></td>
   </tr>
   <tr>
     <td>Corrigendum</td>
     <td>None found</td>
     <td>corr</td>
-    <td> </td>
+    <td></td>
   </tr>
   <tr>
     <td>Decree</td>
-    <td><a href="https://edit.laws.africa/works/akn/ug/act/decree/1976/18/">Interpretation Act (specified as Decree) (Uganda)</a></td>
+    <td><a href="https://ulii.org/akn/ug/act/decree/1976/18/">Interpretation Act (Chapter 3, Decree 18 of 1976) (Uganda)</a></td>
     <td>decree</td>
     <td><code>/akn/ug/act/decree/1976/18</code></td>
   </tr>
   <tr>
     <td>Executive Instrument</td>
-    <td><a href="https://edit.laws.africa/works/akn/gh/act/ei/2020/68/">Imposition of Restrictions (Coronavirus Disease (COVID-19) Pandemic) (No. 5) Instrument, 2020 (Ghana)</a></td>
+    <td><a href="https://commons.laws.africa/akn/gh/act/ei/2020/68/eng@2020-04-17">Imposition of Restrictions (Coronavirus Disease (COVID-19) Pandemic) (No. 5) Instrument, 2020 (Executive Instrument 68 of 2020) (Ghana)</a></td>
     <td>ei</td>
     <td><code>/akn/gh/act/ei/2020/68</code></td>
   </tr>
   <tr>
     <td>General Notice</td>
-    <td><a href="https://edit.laws.africa/works/akn/mu/act/genn/2020/1937/">Order under Section 3(1)(a) of the Quarantine Act 2020: Prohibition of Aircraft and Ships into Mauritius (Mauritius)</a></td>
+    <td><a href="https://commons.laws.africa/akn/mu/act/genn/2020/1937/eng@2020-11-27">Order under Section 3(1)(a) of the Quarantine Act 2020: Prohibition of Aircraft and Ships into Mauritius (General Notice 1937 of 2020) (Mauritius)</a></td>
     <td>genn</td>
     <td><code>/akn/mu/act/genn/2020/1937</code></td>
   </tr>
   <tr>
     <td>Government Notice</td>
-    <td><a href="https://edit.laws.africa/works/akn/mw/act/gn/2020/48/">Public Health (Corona Virus and COVID-19) (Prevention, Containment and Management) Rules, 2020 (Malawi)</a></td>
+    <td><a href="https://commons.laws.africa/akn/mw/act/gn/2020/48/eng@2020-08-07">Public Health (Corona Virus and COVID-19) (Prevention, Containment and Management) Rules, 2020 (Government Notice 48 of 2020) (Malawi)</a></td>
     <td>gn</td>
     <td><code>/akn/mw/act/gn/2020/48</code></td>
   </tr>
   <tr>
     <td>Legal Notice</td>
-    <td><a href="https://edit.laws.africa/works/akn/ls/act/ln/2020/38/">Public Health (COVID-19) Regulations, 2020 (Lesotho)</a></td>
+    <td><a href="https://commons.laws.africa/akn/ls/act/ln/2020/38/eng@2020-04-22">Public Health (COVID-19) Regulations, 2020 (Legal Notice 38 of 2020) (Lesotho)</a></td>
     <td>ln</td>
     <td><code>/akn/ls/act/ln/2020/38</code></td>
   </tr>
   <tr>
     <td>Legislative Instrument</td>
-    <td><a href="https://edit.laws.africa/works/akn/gh/act/li/2007/1833/">Labour Regulation, 2007 (Ghana)</a></td>
+    <td><a href="https://commons.laws.africa/akn/gh/act/li/2007/1833/eng@2007-06-08">Labour Regulation, 2007 (Legislative Instrument 1833 of 2007) (Ghana)</a></td>
     <td>li</td>
     <td><code>/akn/gh/act/li/2007/1833</code></td>
   </tr>
   <tr>
     <td>Local Authority Notice</td>
-    <td><a href="https://edit.laws.africa/works/akn/za-jhb/act/lan/2008/1628/">Rights of Way for Electronic Communications Facilities (Johannesburg Municipality, South Africa)</a></td>
+    <td><a href="https://openbylaws.org.za/za-jhb/act/lan/2008/1628/eng/">Rights of Way for Electronic Communications Facilities (Local Authority Notice 1628 of 2008) (Johannesburg Municipality, South Africa)</a></td>
     <td>lan</td>
     <td><code>/akn/za-jhb/act/lan/2008/1628</code></td>
   </tr>
   <tr>
     <td>Ministerial Order</td>
-    <td><a href="https://edit.laws.africa/works/akn/za/act/mo/2020/civil-aviation-authority-covid-19/">Ministerial Order: South African Civil Aviation Authority (South Africa)</a></td>
+    <td><a href="https://commons.laws.africa/akn/za/act/mo/2020/civil-aviation-authority-covid-19/eng@2020-03-18">Ministerial Order: South African Civil Aviation Authority (Unnumbered Ministerial Order, 2020) (South Africa)</a></td>
     <td>mo</td>
     <td><code>/akn/za/act/mo/2020/civil-aviation-authority-covid-19</code></td>
   </tr>
   <tr>
     <td>Municipal Notice</td>
-    <td><a href="https://edit.laws.africa/works/akn/za-eth/act/mn/1999/7/">Electricity Supply By-law (Durban Transitional Metropolitan Council): Correction (eThekwini Municipality, South Africa)</a></td>
+    <td><a href="https://commons.laws.africa/akn/za-eth/act/mn/1999/7/eng@1999-02-04">Electricity Supply By-law (Durban Transitional Metropolitan Council): Correction (Municipal Notice 7 of 1999) (eThekwini Municipality, South Africa)</a></td>
     <td>mn</td>
     <td><code>/akn/za-eth/act/mn/1999/7</code></td>
   </tr>
   <tr>
     <td>Official Notice</td>
-    <td><a href="https://edit.laws.africa/works/akn/za-mp/act/on/1999/2/">Mpumalanga Nature Conservation Regulations, 1999 (Mpumalanga Province, South Africa)</a></td>
+    <td><a href="https://commons.laws.africa/akn/za-mp/act/on/1999/2/eng@1999-01-29">Mpumalanga Nature Conservation Regulations, 1999 (Official Notice 2 of 1999) (Mpumalanga Province, South Africa)</a></td>
     <td>on</td>
     <td><code>/akn/za-mp/act/on/1999/2</code></td>
   </tr>
   <tr>
     <td>Ordinance</td>
-    <td><a href="https://edit.laws.africa/works/akn/ug/act/ord/1961/4/">Foreign Judgments (Reciprocal Enforcement) Act (specified as Ordinance) (Uganda)</a></td>
+    <td><a href="https://ulii.org/akn/ug/act/ord/1961/4/">Foreign Judgments (Reciprocal Enforcement) Act (Chapter 9, Ordinance 4 of 1961) (Uganda)</a></td>
     <td>ord</td>
     <td><code>/akn/ug/act/ord/1961/4</code></td>
   </tr>
   <tr>
     <td>Premier’s Notice</td>
-    <td><a href="https://edit.laws.africa/works/akn/za-mp/act/premn/1999/1/">Mpumalanga Nature Conservation Act, 1998: Commencement (Mpumalanga Province, South Africa)</a></td>
+    <td><a href="https://commons.laws.africa/akn/za-mp/act/premn/1999/1/eng@1999-01-04">Mpumalanga Nature Conservation Act, 1998: Commencement (Premier’s Notice 1 of 1999) (Mpumalanga Province, South Africa)</a></td>
     <td>premn</td>
     <td><code>/akn/za-mp/act/premn/1999/1</code></td>
   </tr>
   <tr>
     <td>Proclamation</td>
-    <td><a href="https://edit.laws.africa/works/akn/na/act/p/2020/26/">Stage 3: COVID-19 Regulations: Erongo Region (Namibia)</a></td>
+    <td><a href="https://namiblii.org/akn/na/act/p/2020/26/">Stage 3: COVID-19 Regulations: Erongo Region (Proclamation 26 of 2020) (Namibia)</a></td>
     <td>p</td>
     <td><code>/akn/na/act/p/2020/26</code></td>
   </tr>
   <tr>
     <td>Provincial Notice</td>
-    <td><a href="https://edit.laws.africa/works/akn/za-kzn/act/pn/2012/64/">KwaZulu-Natal Gaming and Betting Regulations, 2012 (KwaZulu-Natal Province, South Africa)</a></td>
+    <td><a href="https://commons.laws.africa/akn/za-kzn/act/pn/2012/64/eng@2013-07-11">KwaZulu-Natal Gaming and Betting Regulations, 2012 (Provincial Notice 64 of 2012) (KwaZulu-Natal Province, South Africa)</a></td>
     <td>pn</td>
     <td><code>/akn/za-kzn/act/pn/2012/64</code></td>
   </tr>
   <tr>
     <td>Statute</td>
-    <td><a href="https://edit.laws.africa/works/akn/ug/act/statute/1996/13/">Judicature Act (specified as Statute) (Uganda)</a></td>
+    <td><a href="https://ulii.org/akn/ug/act/statute/1996/13/">Judicature Act (Chapter 13, Statute 13 of 1996) (Uganda)</a></td>
     <td>statute</td>
     <td><code>/akn/ug/act/statute/1996/13</code></td>
   </tr>
   <tr>
     <td>Statutory Instrument</td>
-    <td><a href="https://edit.laws.africa/works/akn/bw/act/si/2016/45/">Electronic Records (Evidence) (Date of Commencement) Order, 2016 (Botswana)</a></td>
+    <td><a href="https://commons.laws.africa/akn/bw/act/si/2016/45/eng@2016-04-22">Electronic Records (Evidence) (Date of Commencement) Order, 2016 (Statutory Instrument 45 of 2016) (Botswana)</a></td>
     <td>si</td>
     <td><code>/akn/bw/act/si/2016/45</code></td>
   </tr>
