@@ -6,7 +6,7 @@ tags:
 - revision
 - Uganda
 - Laws of Uganda
-Author: Mariya Badeva-Bright
+author: Mariya Badeva-Bright
 lead: In early 2020 Laws.Africa partnered with the Uganda Legal Information Institute,
   a project of the Judiciary of Uganda based in Kampala, to digitise and update the
   Laws of Uganda 2000.  The result is a selection of 98 Acts and 8 Statutory Instruments
@@ -38,3 +38,21 @@ In the space of only a few months, the editorial team at Laws.Africa digitised, 
 
 You may read, use and re-use the [revised Laws of Uganda on ULII.org](https://ulii.org/legislation). Over 130,000 people have already done so since the first publication in March 2021.
 
+**Photo essay**
+
+![Uganda Scanning.png](/uploads/Uganda%20Scanning.png)
+Laws.Africa purchased a CZUR book scanner for  ULII. ULII’s Eunice Logose is photographed here scanning gazettes at the Judicial Training Institute of Uganda.
+
+![gazette.png](/uploads/gazette.png)
+This is the Anti-Terrorism Act, 2002 as we found and scanned it at the library of the Law Development Centre. The pages show signs of overuse. Amendments are pasted as stickers pointing to gazetted legislation stored on another shelf. *See: https://drive.google.com/file/d/1tCnllHWkEtuuxThAodKKWuPkiSfUzEdg/view*
+
+![act.png](/uploads/act.png)
+Laws.Africa’s revised legislation incorporates all amendments to legislation, richly annotated and supplemented with links to the gazetted versions of amendment acts. The historical, or point-in-time, versions of legislation are also available to users, free of charge.  *See version on ULII: https://ulii.org/akn/ug/act/2005/16/eng@2020-07-27 *
+
+![timeline.png](/uploads/timeline.png)
+
+Some of the oldest Acts digitised date back to 1902.  We are now also able to track the rate of amendments applied to legislation contained in the Grey book.
+
+![glossary-0627fd.png](/uploads/glossary-0627fd.png)
+
+We are also now able to read the legislated meaning of over 1900 legal terms and phrases in Uganda.  Defined terms in the Grey Book are marked up, making the creation of this Glossary possible. Read more about the technology behind the [glossary in our blog post here.](https://laws.africa/2019/09/02/how-we-built-an-automated-glossary-for-namibian-legislation.html)
