@@ -39,7 +39,7 @@ You may read, use and re-use the [revised Laws of Uganda on ULII.org](https://ul
 
 **Photo essay**
 
-![Uganda Scanning.png](/uploads/Uganda%20Scanning.png =750x450)
+![Uganda Scanning.png](/uploads/Uganda%20Scanning.png = 750x450)
 Laws.Africa purchased a CZUR book scanner for  ULII. ULII’s Eunice Logose is photographed here scanning gazettes at the Judicial Training Institute of Uganda.
 
 ![gazette.png](/uploads/gazette.png)
