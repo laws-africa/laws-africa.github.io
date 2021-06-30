@@ -305,7 +305,6 @@ The tables below aim to include all known document types but will certainly fail
   <tr>
     <td rowspan="2">Protocol</td>
     <td><a href="https://www.achpr.org/legalinstruments/detail?id=3">Protocol to the African Charter on Human and Peoples’ Rights on the Rights of Older Persons in Africa</a></td>
-    <td rowspan="2">act</td>
     <td rowspan="2">protocol</td>
     <td><code>/akn/aa/act/protocol/2016/achpr-rights-of-older-persons</code></td>
   </tr>
@@ -445,9 +444,6 @@ The tables below aim to include all known document types but will certainly fail
     <th>Example</th>
     <th>Subtype</th>
     <th>FRBR URI</th>
-  </tr>
-  <tr>
-    <th colspan="5">Other documents</th>
   </tr>
   <tr>
     <td>Judgment</td>
