@@ -39,14 +39,14 @@ You may read, use and re-use the [revised Laws of Uganda on ULII.org](https://ul
 
 **Photo essay**
 
-![Uganda Scanning.png](/uploads/Uganda%20Scanning.png)
+![Uganda Scanning.png](/uploads/Uganda%20Scanning.png =750x450)
 Laws.Africa purchased a CZUR book scanner for  ULII. ULII’s Eunice Logose is photographed here scanning gazettes at the Judicial Training Institute of Uganda.
 
 ![gazette.png](/uploads/gazette.png)
-This is the Anti-Terrorism Act, 2002 as we found and scanned it at the library of the Law Development Centre. The pages show signs of overuse. Amendments are pasted as stickers pointing to gazetted legislation stored on another shelf. *See: https://drive.google.com/file/d/1tCnllHWkEtuuxThAodKKWuPkiSfUzEdg/view*
+This is the Anti-Terrorism Act, 2002 as we found and scanned it at the library of the Law Development Centre. The pages show signs of overuse. Amendments are pasted as stickers pointing to gazetted legislation stored on another shelf. *[See the original scan](https://drive.google.com/file/d/1tCnllHWkEtuuxThAodKKWuPkiSfUzEdg/view)*
 
 ![act.png](/uploads/act.png)
-Laws.Africa’s revised legislation incorporates all amendments to legislation, richly annotated and supplemented with links to the gazetted versions of amendment acts. The historical, or point-in-time, versions of legislation are also available to users, free of charge.  *See version on ULII: https://ulii.org/akn/ug/act/2005/16/eng@2020-07-27 *
+Laws.Africa’s revised legislation incorporates all amendments to legislation, richly annotated and supplemented with links to the gazetted versions of amendment acts. The historical, or point-in-time, versions of legislation are also available to users, free of charge.  *[See version on ULII](https://ulii.org/akn/ug/act/2005/16/eng@2020-07-27)*
 
 ![timeline.png](/uploads/timeline.png)
 
