@@ -231,29 +231,25 @@ The tables below aim to include all known document types but will certainly fail
 * ECOWAS doctypes list compiled from [https://www.ecowas.int/ecowas-law/](https://www.ecowas.int/ecowas-law/).
 * SADC doctypes list compiled from [https://www.sadc.int/documents-publications/](https://www.sadc.int/documents-publications/).
 
+#### Documents with the <code>act</code> doctype
+
 <table class="table table-sm table-bordered">
   <tr>
     <th>Document type</th>
     <th>Example</th>
-    <th>Doctype</th>
     <th>Subtype</th>
     <th>FRBR URI</th>
-  </tr>
-  <tr>
-    <th colspan="5">Documents with the <code>act</code> doctype</th>
   </tr>
   <tr>
     <td>Act</td>
     <td>East African Community One Stop Border Posts Act, 2016 
 <br><a href="https://www.eac.int/documents/category/acts-of-the-community">https://www.eac.int/documents/category/acts-of-the-community</a></td>
-    <td>act</td>
     <td></td>
     <td><code>/akn/aa-eac/act/2016/one-stop-border-posts</code></td>
   </tr>
   <tr>
     <td rowspan="2">Agreement</td>
     <td>Agreement for the Establishment of the African Rehabilitation Institute (ARI) <br><a href="https://au.int/en/treaties/agreement-establishment-african-rehabilitation-institute-ari">https://au.int/en/treaties/agreement-establishment-african-rehabilitation-institute-ari</a></td>
-    <td rowspan="2">act</td>
     <td rowspan="2">agreement</td>
     <td><code>/akn/aa/act/agreement/oau/1985/establishment-of-the-african-rehabilitation-institute</code></td>
   </tr>
@@ -265,7 +261,6 @@ The tables below aim to include all known document types but will certainly fail
   <tr>
     <td rowspan="4">Charter</td>
     <td>OAU Charter <br><a href="https://au.int/en/treaties/oau-charter-addis-ababa-25-may-1963">https://au.int/en/treaties/oau-charter-addis-ababa-25-may-1963</a></td>
-    <td rowspan="4">act</td>
     <td rowspan="4">charter</td>
     <td><code>/akn/aa/act/charter/oau/1963/nn</code></td>
   </tr>
@@ -288,7 +283,6 @@ The tables below aim to include all known document types but will certainly fail
     <td>Constitution</td>
     <td>Constitutive Act of the African Union <br>
 <a href="https://au.int/en/treaties/constitutive-act-african-union">https://au.int/en/treaties/constitutive-act-african-union</a></td>
-    <td>act</td>
     <td></td>
     <td><code>/akn/aa/act/2000/constitutive-act</code></td>
   </tr>
@@ -296,7 +290,6 @@ The tables below aim to include all known document types but will certainly fail
     <td>Convention</td>
     <td>General Convention on the Privileges and Immunities of the Organization of African Unity <br>
 <a href="https://au.int/en/treaties/general-convention-privileges-and-immunities-organization-african-unity">https://au.int/en/treaties/general-convention-privileges-and-immunities-organization-african-unity</a></td>
-    <td>act</td>
     <td>convention</td>
     <td><code>/akn/aa/act/convention/oau/1965/privileges-and-immunities</code></td>
   </tr>
@@ -304,7 +297,6 @@ The tables below aim to include all known document types but will certainly fail
     <td>Directive</td>
     <td>Directive C/Dir.1/06/13 on the Organization of the Regional Electricity Market <br>
 <a href="https://www.ecowas.int/ecowas-law/regulations-directives-and-other-acts/70th-ordinary-session-of-council-of-ministers/">https://www.ecowas.int/ecowas-law/regulations-directives-and-other-acts/70th-ordinary-session-of-council-of-ministers/</a></td>
-    <td>act</td>
     <td>directive</td>
     <td><code>/akn/aa-ecowas/act/directive/2013/6-1</code></td>
   </tr>
@@ -312,7 +304,6 @@ The tables below aim to include all known document types but will certainly fail
     <td rowspan="2">Pact</td>
     <td>The African Union Non-Aggression and Common Defence Pact <br>
 <a href="https://au.int/en/treaties/african-union-non-aggression-and-common-defence-pact">https://au.int/en/treaties/african-union-non-aggression-and-common-defence-pact</a></td>
-    <td rowspan="2">act</td>
     <td rowspan="2">pact</td>
     <td><code>/akn/aa/act/pact/2005/non-aggression-and-common-defence</code></td>
   </tr>
@@ -338,7 +329,6 @@ The tables below aim to include all known document types but will certainly fail
     <td>Regulation</td>
     <td>Regulation Approving The Work Programme of the ECOWAS Commission, for the 2015 Financial Year <br>
 <a href="https://www.ecowas.int/ecowas-law/regulations-directives-and-other-acts/73rd-ordinary-session-of-the-council-of-ministers/">https://www.ecowas.int/ecowas-law/regulations-directives-and-other-acts/73rd-ordinary-session-of-the-council-of-ministers/</a></td>
-    <td>act</td>
     <td>regulation</td>
     <td><code>/akn/aa-ecowas/act/regulation/2014/12-1</code></td>
   </tr>
@@ -346,7 +336,6 @@ The tables below aim to include all known document types but will certainly fail
     <td>Regulations</td>
     <td>East Africa Community Vehicle Load Control (Vehicle Dimensions and Axle Configurations) Regulations, 2018 <br>
 <a href="https://www.eac.int/documents/category/eac-regulations">https://www.eac.int/documents/category/eac-regulations</a></td>
-    <td>act</td>
     <td>regulations</td>
     <td><code>/akn/aa-eac/act/regulations/2018/vehicle-load-control-vehicle-dimensions-and-axle-configurations</code></td>
   </tr>
@@ -354,7 +343,6 @@ The tables below aim to include all known document types but will certainly fail
     <td>Rules</td>
     <td>Rules of Procedure of the African Commission on Human and Peoples’ Rights, 2020 <br>
 <a href="https://www.achpr.org/legalinstruments/detail?id=72">https://www.achpr.org/legalinstruments/detail?id=72</a></td>
-    <td>act</td>
     <td>rules</td>
     <td><code>/akn/aa/act/rules/achpr/2020/rules-of-procedure</code></td>
   </tr>
@@ -362,7 +350,6 @@ The tables below aim to include all known document types but will certainly fail
     <td>Standard Operating Procedures</td>
     <td>Standard Operating Procedures on the Special Mechanisms of the African Commission on Human and Peoples’ Rights <br>
 <a href="https://www.achpr.org/legalinstruments/detail?id=68">https://www.achpr.org/legalinstruments/detail?id=68</a></td>
-    <td>act</td>
     <td>standard-operating-procedures</td>
     <td><code>/akn/aa/act/standard-operating-procedures/achpr/2020/special-mechanisms</code></td>
   </tr>
@@ -370,7 +357,6 @@ The tables below aim to include all known document types but will certainly fail
     <td>Statute</td>
     <td>Statute of the Africa Sports Council <br>
 <a href="https://au.int/en/treaties/statute-africa-sports-council">https://au.int/en/treaties/statute-africa-sports-council</a></td>
-    <td>act</td>
     <td>statute</td>
     <td><code>/akn/aa/act/statute/2016/africa-sports-council</code></td>
   </tr>
@@ -378,7 +364,6 @@ The tables below aim to include all known document types but will certainly fail
     <td>Supplementary Act</td>
     <td>Supplementary Act A/SA.1/12/14 on the Improvement of Performance in Higher Education and Scientific Research <br>
 <a href="https://www.ecowas.int/ecowas-law/find-legislation/46th-ordinary-session-of-the-authority-of-heads-of-state-and-government-abuja-15-december-2014/">https://www.ecowas.int/ecowas-law/find-legislation/46th-ordinary-session-of-the-authority-of-heads-of-state-and-government-abuja-15-december-2014/</a></td>
-    <td>act</td>
     <td>supplementary-act</td>
     <td><code>/akn/aa-ecowas/act/supplementary-act/2014/12-1</code></td>
   </tr>
@@ -386,7 +371,6 @@ The tables below aim to include all known document types but will certainly fail
     <td rowspan="2">Treaty</td>
     <td>Treaty Establishing the African Economic Community <br>
 <a href="https://au.int/en/treaties/treaty-establishing-african-economic-community">https://au.int/en/treaties/treaty-establishing-african-economic-community</a></td>
-    <td rowspan="2">act</td>
     <td rowspan="2">treaty</td>
     <td><code>/akn/aa/act/treaty/oau/1991/establishing-the-african-economic-community</code></td>
   </tr>
@@ -395,14 +379,21 @@ The tables below aim to include all known document types but will certainly fail
 <a href="https://www.ecowas.int/ecowas-law/treaties/">https://www.ecowas.int/ecowas-law/treaties/</a></td>
     <td><code>/akn/aa-ecowas/act/treaty/1993/ecowas-revised-treaty</code></td>
   </tr>
+</table>
+
+#### Documents with the <code>statement</code> doctype
+
+<table class="table table-sm table-bordered">
   <tr>
-    <th colspan="5">Documents with the <code>statement</code> doctype</th>
+    <th>Document type</th>
+    <th>Example</th>
+    <th>Subtype</th>
+    <th>FRBR URI</th>
   </tr>
   <tr>
     <td>Comment</td>
     <td>General Comment No. 4 on the African Charter on Human and Peoples’ Rights: The Right to Redress for Victims of Torture and Other Cruel, Inhuman or Degrading Punishment or Treatment (Article 5) <br>
 <a href="https://www.achpr.org/legalinstruments/detail?id=60">https://www.achpr.org/legalinstruments/detail?id=60</a></td>
-    <td>statement</td>
     <td>comment</td>
     <td><code>/akn/aa/statement/comment/achpr/2017/4</code></td>
   </tr>
@@ -410,7 +401,6 @@ The tables below aim to include all known document types but will certainly fail
     <td>Decision</td>
     <td>Decision A/Dec.01/12/14 amending Decision A/Dec 2/7/85 Establishing a Travel Certificate for ECOWAS Member States <br>
 <a href="https://www.ecowas.int/ecowas-law/find-legislation/46th-ordinary-session-of-the-authority-of-heads-of-state-and-government-abuja-15-december-2014/">https://www.ecowas.int/ecowas-law/find-legislation/46th-ordinary-session-of-the-authority-of-heads-of-state-and-government-abuja-15-december-2014/</a></td>
-    <td>statement</td>
     <td>decision</td>
     <td><code>/akn/aa-ecowas/statement/decision/2014/12-1</code></td>
   </tr>
@@ -418,7 +408,6 @@ The tables below aim to include all known document types but will certainly fail
     <td rowspan="2">Declaration</td>
     <td>Declaration of Principles on Freedom of Expression and Access to Information in Africa, 2019 <br>
 <a href="https://www.achpr.org/legalinstruments/detail?id=69">https://www.achpr.org/legalinstruments/detail?id=69</a></td>
-    <td rowspan="2">statement</td>
     <td rowspan="2">declaration</td>
     <td><code>/akn/aa/statement/declaration/achpr/2019/principles-on-freedom-of-expression-and-access-to-information</code></td>
   </tr>
@@ -432,7 +421,6 @@ The tables below aim to include all known document types but will certainly fail
     <td>State Reporting Guidelines and Principles* on Articles 21 And 24 of the African Charter relating to Extractive Industries, Human Rights and the Environment <br>
 <a href="https://www.achpr.org/legalinstruments/detail?id=1">https://www.achpr.org/legalinstruments/detail?id=1</a> <br>
 * While the title includes ‘Guidelines and Principles’, the principles inform the guidelines, which are the crux of the document. This will generally be our assumption in a case like this. If in doubt, read the document to see which subtype is more prominent when more than one is given in the title.</td>
-    <td rowspan="2">statement</td>
     <td rowspan="2">guidelines</td>
     <td><code>/akn/aa/statement/guidelines/achpr/2018/state-reporting-articles-21-and-24</code></td>
   </tr>
@@ -445,7 +433,6 @@ The tables below aim to include all known document types but will certainly fail
     <td>Questions</td>
     <td>Indicative questions to State Parties in respect of Article 5 of the African Charter <br>
 <a href="https://www.achpr.org/legalinstruments/detail?id=51">https://www.achpr.org/legalinstruments/detail?id=51</a></td>
-    <td>statement</td>
     <td>questions</td>
     <td><code>/akn/aa/statement/questions/cpta/2016/article-5</code></td>
   </tr>
@@ -453,7 +440,6 @@ The tables below aim to include all known document types but will certainly fail
     <td>Model laws / legislation</td>
     <td>Model Law on Access to Information for Africa, 2013 <br>
 <a href="https://www.achpr.org/legalinstruments/detail?id=32">https://www.achpr.org/legalinstruments/detail?id=32</a></td>
-    <td>statement</td>
     <td>model-law</td>
     <td><code>/akn/aa/statement/model-law/achpr/2013/access-to-information</code></td>
   </tr>
@@ -461,7 +447,6 @@ The tables below aim to include all known document types but will certainly fail
     <td>Principles</td>
     <td>Principles on the Decriminalisation of Petty Offences in Africa <br>
 <a href="https://www.achpr.org/legalinstruments/detail?id=2">https://www.achpr.org/legalinstruments/detail?id=2</a></td>
-    <td>statement</td>
     <td>principles</td>
     <td><code>/akn/aa/statement/principles/achpr/2017/decriminalisation-petty-offences</code></td>
   </tr>
@@ -469,7 +454,6 @@ The tables below aim to include all known document types but will certainly fail
     <td>Recommendation</td>
     <td>Recommendation on Periodic Reports <br>
 <a href="https://www.achpr.org/adoptedresolution">https://www.achpr.org/adoptedresolution</a></td>
-    <td>statement</td>
     <td>recommendation</td>
     <td><code>/akn/aa/statement/recommendation/achpr/1998/3-3</code> <br>
 (third session, recommendation 3)</td>
@@ -477,10 +461,20 @@ The tables below aim to include all known document types but will certainly fail
   <tr>
     <td>Resolution</td>
     <td>Resolution on the Military</td>
-    <td>statement</td>
     <td>resolution</td>
     <td><code>/akn/aa/statement/resolution/achpr/1994/16-10</code> <br>
 (sixteenth session, resolution 10)</td>
+  </tr>
+</table>
+
+#### Documents with the <code>judgment</code> doctype
+
+<table class="table table-sm table-bordered">
+  <tr>
+    <th>Document type</th>
+    <th>Example</th>
+    <th>Subtype</th>
+    <th>FRBR URI</th>
   </tr>
   <tr>
     <th colspan="5">Other documents</th>
@@ -488,15 +482,24 @@ The tables below aim to include all known document types but will certainly fail
   <tr>
     <td>Judgment</td>
     <td>Judgment 5 of 2019 from the Kenyan High Court</td>
-    <td>judgment</td>
     <td></td>
     <td><code>/akn/ke/judgment/kehc/2019/5</code></td>
+  </tr>
+</table>
+
+#### Documents with the <code>doc</code> doctype
+
+<table class="table table-sm table-bordered">
+  <tr>
+    <th>Document type</th>
+    <th>Example</th>
+    <th>Subtype</th>
+    <th>FRBR URI</th>
   </tr>
   <tr>
     <td>Policy</td>
     <td>SADC Regional Water Policy <br>
 <a href="https://www.sadc.int/documents-publications/show/823">https://www.sadc.int/documents-publications/show/823</a></td>
-    <td>doc</td>
     <td>policy</td>
     <td><code>/akn/aa-sadc/doc/policy/2005/water</code></td>
   </tr>
@@ -504,7 +507,6 @@ The tables below aim to include all known document types but will certainly fail
     <td rowspan="2">Policy Framework</td>
     <td>Policy Framework for Pastoralism in Africa <br>
 <a href="https://www.achpr.org/legalinstruments/detail?id=25">https://www.achpr.org/legalinstruments/detail?id=25</a></td>
-    <td rowspan="2">doc</td>
     <td rowspan="2">policy-framework</td>
     <td><code>/akn/aa/doc/policy-framework/auc-department-of-rural-economy-and-agriculture/2010/pastoralism</code></td>
   </tr>
@@ -518,7 +520,6 @@ The tables below aim to include all known document types but will certainly fail
     <td>Study</td>
     <td>Study on Transitional Justice and Human and Peoples’ Rights in Africa <br>
 <a href="https://www.achpr.org/legalinstruments/detail?id=66">https://www.achpr.org/legalinstruments/detail?id=66</a></td>
-    <td>doc</td>
     <td>study</td>
     <td><code>/akn/aa/doc/study/achpr/2018/transitional-justice-and-human-and-peoples-rights</code></td>
   </tr>
@@ -526,15 +527,24 @@ The tables below aim to include all known document types but will certainly fail
     <td>Yearbook</td>
     <td>African Human Rights Yearbook Volume 3 (2019) <br>
 <a href="https://www.achpr.org/legalinstruments/detail?id=70">https://www.achpr.org/legalinstruments/detail?id=70</a></td>
-    <td>doc</td>
     <td>yearbook</td>
     <td><code>/akn/aa/doc/yearbook/achpr/2019/3</code></td>
+  </tr>
+</table>
+
+#### Documents with the <code>documentCollection</code> doctype
+
+<table class="table table-sm table-bordered">
+  <tr>
+    <th>Document type</th>
+    <th>Example</th>
+    <th>Subtype</th>
+    <th>FRBR URI</th>
   </tr>
   <tr>
     <td>Texts</td>
     <td>Regulatory and Institutional Texts for the Implementation of the Yamoussoukro Decision and Framework Towards the Establishment of a Single African Air Transport Market <br>
 <a href="https://au.int/en/treaties/regulatory-and-instutional-texts-implementation-yamoussoukro-decision-and-framework-towards">https://au.int/en/treaties/regulatory-and-instutional-texts-implementation-yamoussoukro-decision-and-framework-towards</a></td>
-    <td>documentCollection</td>
     <td>texts</td>
     <td><code>/akn/aa/documentCollection/texts/austc-transport-infrastructure-energy-tourism/nd/implementation-of-the-yamoussoukro-decision</code></td>
   </tr>
@@ -569,7 +579,6 @@ These countries have helped informed this table:
   <tr>
     <th>Document type</th>
     <th>Example</th>
-    <th>Doctype</th>
     <th>Subtype</th>
     <th>FRBR URI</th>
   </tr>
@@ -577,7 +586,6 @@ These countries have helped informed this table:
     <td>Act</td>
     <td>Nigeria Social Insurance Trust Fund Act (Nigeria) <br>
 <a href="https://edit.laws.africa/works/akn/ng/act/1993/73/">https://edit.laws.africa/works/akn/ng/act/1993/73/</a></td>
-    <td>act</td>
     <td> </td>
     <td><code>/akn/ng/act/1993/73</code></td>
   </tr>
@@ -585,7 +593,6 @@ These countries have helped informed this table:
     <td>Board Notice</td>
     <td>Directions Regarding Livestock Auctions (South Africa) <br>
 <a href="https://edit.laws.africa/works/akn/za/act/bn/2020/85/">https://edit.laws.africa/works/akn/za/act/bn/2020/85/</a></td>
-    <td>act</td>
     <td>bn</td>
     <td><code>/akn/za/act/bn/2020/85</code></td>
   </tr>
@@ -593,7 +600,6 @@ These countries have helped informed this table:
     <td>By-law</td>
     <td>Control of Temporary Advertisements (Mbizana Municipality, South Africa) <br>
 <a href="https://edit.laws.africa/works/akn/za-ec443/act/by-law/2017/temporary-advertisements/">https://edit.laws.africa/works/akn/za-ec443/act/by-law/2017/temporary-advertisements/</a></td>
-    <td>act</td>
     <td>by-law</td>
     <td><code>/akn/za-ec443/act/by-law/2017/temporary-advertisements</code></td>
   </tr>
@@ -601,21 +607,18 @@ These countries have helped informed this table:
     <td>Constitution</td>
     <td>Constitution of the Republic of Namibia (Namibia) <br>
 <a href="https://edit.laws.africa/works/akn/na/act/1990/constitution/">https://edit.laws.africa/works/akn/na/act/1990/constitution/</a></td>
-    <td>act</td>
     <td> </td>
     <td><code>/akn/na/act/1990/constitution</code></td>
   </tr>
   <tr>
     <td>Constitutional Instrument</td>
     <td>None found</td>
-    <td>act</td>
     <td>ci</td>
     <td> </td>
   </tr>
   <tr>
     <td>Corrigendum</td>
     <td>None found</td>
-    <td>act</td>
     <td>corr</td>
     <td> </td>
   </tr>
@@ -623,7 +626,6 @@ These countries have helped informed this table:
     <td>Decree</td>
     <td>Interpretation Act (specified as Decree) (Uganda) <br>
 <a href="https://edit.laws.africa/works/akn/ug/act/decree/1976/18/">https://edit.laws.africa/works/akn/ug/act/decree/1976/18/</a></td>
-    <td>act</td>
     <td>decree</td>
     <td><code>/akn/ug/act/decree/1976/18</code></td>
   </tr>
@@ -631,7 +633,6 @@ These countries have helped informed this table:
     <td>Executive Instrument</td>
     <td>Imposition of Restrictions (Coronavirus Disease (COVID-19) Pandemic) (No. 5) Instrument, 2020 (Ghana) <br>
 <a href="https://edit.laws.africa/works/akn/gh/act/ei/2020/68/">https://edit.laws.africa/works/akn/gh/act/ei/2020/68/</a></td>
-    <td>act</td>
     <td>ei</td>
     <td><code>/akn/gh/act/ei/2020/68</code></td>
   </tr>
@@ -639,7 +640,6 @@ These countries have helped informed this table:
     <td>General Notice</td>
     <td>Order under Section 3(1)(a) of the Quarantine Act 2020: Prohibition of Aircraft and Ships into Mauritius (Mauritius) <br>
 <a href="https://edit.laws.africa/works/akn/mu/act/genn/2020/1937/">https://edit.laws.africa/works/akn/mu/act/genn/2020/1937/</a></td>
-    <td>act</td>
     <td>genn</td>
     <td><code>/akn/mu/act/genn/2020/1937</code></td>
   </tr>
@@ -647,7 +647,6 @@ These countries have helped informed this table:
     <td>Government Notice</td>
     <td>Public Health (Corona Virus and COVID-19) (Prevention, Containment and Management) Rules, 2020 (Malawi) <br>
 <a href="https://edit.laws.africa/works/akn/mw/act/gn/2020/48/">https://edit.laws.africa/works/akn/mw/act/gn/2020/48/</a></td>
-    <td>act</td>
     <td>gn</td>
     <td><code>/akn/mw/act/gn/2020/48</code></td>
   </tr>
@@ -655,7 +654,6 @@ These countries have helped informed this table:
     <td>Legal Notice</td>
     <td>Public Health (COVID-19) Regulations, 2020 (Lesotho) <br>
 <a href="https://edit.laws.africa/works/akn/ls/act/ln/2020/38/">https://edit.laws.africa/works/akn/ls/act/ln/2020/38/</a></td>
-    <td>act</td>
     <td>ln</td>
     <td><code>/akn/ls/act/ln/2020/38</code></td>
   </tr>
@@ -663,7 +661,6 @@ These countries have helped informed this table:
     <td>Legislative Instrument</td>
     <td>Labour Regulation, 2007 (Ghana) <br>
 <a href="https://edit.laws.africa/works/akn/gh/act/li/2007/1833/">https://edit.laws.africa/works/akn/gh/act/li/2007/1833/</a></td>
-    <td>act</td>
     <td>li</td>
     <td><code>/akn/gh/act/li/2007/1833</code></td>
   </tr>
@@ -671,7 +668,6 @@ These countries have helped informed this table:
     <td>Local Authority Notice</td>
     <td>Rights of Way for Electronic Communications Facilities (Johannesburg Municipality, South Africa) <br>
 <a href="https://edit.laws.africa/works/akn/za-jhb/act/lan/2008/1628/">https://edit.laws.africa/works/akn/za-jhb/act/lan/2008/1628/</a></td>
-    <td>act</td>
     <td>lan</td>
     <td><code>/akn/za-jhb/act/lan/2008/1628</code></td>
   </tr>
@@ -679,7 +675,6 @@ These countries have helped informed this table:
     <td>Ministerial Order</td>
     <td>Ministerial Order: South African Civil Aviation Authority (South Africa) <br>
 <a href="https://edit.laws.africa/works/akn/za/act/mo/2020/civil-aviation-authority-covid-19/">https://edit.laws.africa/works/akn/za/act/mo/2020/civil-aviation-authority-covid-19/</a></td>
-    <td>act</td>
     <td>mo</td>
     <td><code>/akn/za/act/mo/2020/civil-aviation-authority-covid-19</code></td>
   </tr>
@@ -687,7 +682,6 @@ These countries have helped informed this table:
     <td>Municipal Notice</td>
     <td>Electricity Supply By-law (Durban Transitional Metropolitan Council): Correction (eThekwini Municipality, South Africa) <br>
 <a href="https://edit.laws.africa/works/akn/za-eth/act/mn/1999/7/">https://edit.laws.africa/works/akn/za-eth/act/mn/1999/7/</a></td>
-    <td>act</td>
     <td>mn</td>
     <td><code>/akn/za-eth/act/mn/1999/7</code></td>
   </tr>
@@ -695,7 +689,6 @@ These countries have helped informed this table:
     <td>Official Notice</td>
     <td>Mpumalanga Nature Conservation Regulations, 1999 (Mpumalanga Province, South Africa) <br>
 <a href="https://edit.laws.africa/works/akn/za-mp/act/on/1999/2/">https://edit.laws.africa/works/akn/za-mp/act/on/1999/2/</a></td>
-    <td>act</td>
     <td>on</td>
     <td><code>/akn/za-mp/act/on/1999/2</code></td>
   </tr>
@@ -703,7 +696,6 @@ These countries have helped informed this table:
     <td>Ordinance</td>
     <td>Foreign Judgments (Reciprocal Enforcement) Act (specified as Ordinance) (Uganda) <br>
 <a href="https://edit.laws.africa/works/akn/ug/act/ord/1961/4/">https://edit.laws.africa/works/akn/ug/act/ord/1961/4/</a></td>
-    <td>act</td>
     <td>ord</td>
     <td><code>/akn/ug/act/ord/1961/4</code></td>
   </tr>
@@ -711,7 +703,6 @@ These countries have helped informed this table:
     <td>Premier’s Notice</td>
     <td>Mpumalanga Nature Conservation Act, 1998: Commencement (Mpumalanga Province, South Africa) <br>
 <a href="https://edit.laws.africa/works/akn/za-mp/act/premn/1999/1/">https://edit.laws.africa/works/akn/za-mp/act/premn/1999/1/</a></td>
-    <td>act</td>
     <td>premn</td>
     <td><code>/akn/za-mp/act/premn/1999/1</code></td>
   </tr>
@@ -719,7 +710,6 @@ These countries have helped informed this table:
     <td>Proclamation</td>
     <td>Stage 3: COVID-19 Regulations: Erongo Region (Namibia) <br>
 <a href="https://edit.laws.africa/works/akn/na/act/p/2020/26/">https://edit.laws.africa/works/akn/na/act/p/2020/26/</a></td>
-    <td>act</td>
     <td>p</td>
     <td><code>/akn/na/act/p/2020/26</code></td>
   </tr>
@@ -727,7 +717,6 @@ These countries have helped informed this table:
     <td>Provincial Notice</td>
     <td>KwaZulu-Natal Gaming and Betting Regulations, 2012 (KwaZulu-Natal Province, South Africa) <br>
 <a href="https://edit.laws.africa/works/akn/za-kzn/act/pn/2012/64/">https://edit.laws.africa/works/akn/za-kzn/act/pn/2012/64/</a></td>
-    <td>act</td>
     <td>pn</td>
     <td><code>/akn/za-kzn/act/pn/2012/64</code></td>
   </tr>
@@ -735,7 +724,6 @@ These countries have helped informed this table:
     <td>Statute</td>
     <td>Judicature Act (specified as Statute) (Uganda) <br>
 <a href="https://edit.laws.africa/works/akn/ug/act/statute/1996/13/">https://edit.laws.africa/works/akn/ug/act/statute/1996/13/</a></td>
-    <td>act</td>
     <td>statute</td>
     <td><code>/akn/ug/act/statute/1996/13</code></td>
   </tr>
@@ -743,7 +731,6 @@ These countries have helped informed this table:
     <td>Statutory Instrument</td>
     <td>Electronic Records (Evidence) (Date of Commencement) Order, 2016 (Botswana) <br>
 <a href="https://edit.laws.africa/works/akn/bw/act/si/2016/45/">https://edit.laws.africa/works/akn/bw/act/si/2016/45/</a></td>
-    <td>act</td>
     <td>si</td>
     <td><code>/akn/bw/act/si/2016/45</code></td>
   </tr>
