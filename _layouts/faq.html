@@ -6,7 +6,7 @@ layout: slim
   {% for section in page.sections %}
     {% assign sect = forloop.index %}
     <section class="mt-4">
-      <h4 class="mb-3">{{ section.title }}</h4>
+      <h3 class="mb-3">{{ section.title }}</h3>
 
       {% for faq in section.faqs %}
         <div class="mb-2 border-bottom">
