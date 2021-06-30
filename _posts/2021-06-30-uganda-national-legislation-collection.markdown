@@ -7,10 +7,9 @@ tags:
 - Uganda
 - Laws of Uganda
 author: Mariya Badeva-Bright
-lead: In early 2020 Laws.Africa partnered with the Uganda Legal Information Institute,
-  a project of the Judiciary of Uganda based in Kampala, to digitise and update the
-  Laws of Uganda 2000.  The result is a selection of 98 Acts and 8 Statutory Instruments
-  are now up-to-date and available, for free, at www.ulii.org.
+lead: Laws.Africa partnered with the Uganda Judiciary's ULII to digitise and update
+  the Laws of Uganda.  The result is a selection of 98 Acts and 8 Statutory Instruments
+  that are now up-to-date and available, for free, at www.ulii.org.
 image: "/uploads/Ug_Constitution.PNG"
 ---
 
