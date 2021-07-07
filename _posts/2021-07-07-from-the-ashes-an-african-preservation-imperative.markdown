@@ -7,7 +7,7 @@ author:
 lead: 'The devastating loss of thousands of African gazettes to fire is an urgent
   call to preserve the documents that underpin African legal systems and governance
   structures. '
-image: "/uploads/unnamed%20(1).jpg"
+image: "/uploads/cape%20town%20fire%20jagger.jpg"
 ---
 
 In April 2021, [a devastating fire broke out in the Jagger Reading Room of the University of Cape Town library](https://www.news.uct.ac.za/article/-2021-04-23-ucts-historic-jagger-reading-room-lost-to-fire). As a result, priceless and unique archives, including a sizable collection of government law gazettes from South Africa and other African countries, were turned to ash. More than just old books, the fire was an unimaginable tragedy given the unique nature of the way countries across our continent struggle to manage government and legal documents for public use.  
