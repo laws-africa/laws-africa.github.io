@@ -3,7 +3,7 @@ title: 'From the Ashes:  An African Preservation Imperative'
 date: 2021-07-07 16:04:00 +02:00
 author:
 - 'Mariya Badeva-Bright '
-- ", Greg Kempe"
+- and Greg Kempe
 lead: 'The devastating loss of thousands of African gazettes to fire is an urgent
   call to preserve the documents that underpin African legal systems and governance
   structures. '
