@@ -14,7 +14,7 @@ In April 2021, [a devastating fire broke out in the Jagger Reading Room of the U
 
 Due to a combination of factors, the gazette archives of many African nations are locked in paper format, stored in varied locations, often in foreign countries, and are inaccessible to researchers and citizens. Government Printers often lament the lack of national archives with this critical information.  As a result, libraries such as the Jagger are an essential source of government information, legislative and regulatory information, and help preserve a country’s, and indeed a continent’s, history. 
 
-![inside_14.jpg](/uploads/inside_14.jpg)
+![inside_14_1.jpg](/uploads/inside_14_1.jpg)
 
 The fire has been a wake-up call for the University of Cape Town in South Africa and all of our information partners and institutions across Africa. Thankfully, through global support and donations,  [www.Gazettes.Africa](https://gazettes.africa/) already carries over 35,000 official gazettes from 17 African countries and one regional economic community. We make all digitised gazettes available for free on Gazettes.Africa . In addition, we aim to supply a copy of the digitised collections to gazette printers and archival institutions in the respective countries. We are now also working on adding a complete set of the South African national gazette, beginning with its first edition dated 1910. 
 
