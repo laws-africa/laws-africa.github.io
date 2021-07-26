@@ -228,7 +228,8 @@ navbar_item: home
     <h2 class="mb-4">Latest publications</h2>
 
     <div class="row">
-      {% for pub in site.publications limit:3 %}
+      {% assign pubs = site.publications | where: "latest_version", true %}
+      {% for pub in pubs limit:3 %}
         <div class="col-md-6 col-lg-4">
           <div class="card mb-3">
             <div class="card-body">
