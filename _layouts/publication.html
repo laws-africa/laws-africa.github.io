@@ -38,9 +38,28 @@ layout: simple
         </aside>
       </div>
 
-      <article class="col-sm-9 mb-5 prose scroll-x" data-tocify="#toc">
-        {{ content }}
-      </article>
+      <div class="col-sm-9 mb-5" data-tocify="#toc">
+        {% assign versions = site.publications | where: "key", page.key | sort: "date" | reverse %}
+        {% if versions %}
+          <ul class="list-inline">
+            <li class="list-inline-item">Versions:</li>
+            {% for ver in versions %}
+              <li class="list-inline-item {% if ver.date == page.date %}font-weight-bold{% endif %}">
+                {% if ver.date == page.date %}
+                  {{ ver.date|date:"%e %b %Y" }}
+                {% else %}
+                  <a href="{{ ver.url }}">{{ ver.date|date:"%e %b %Y" }}</a>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+
+
+        <article class="prose scroll-x">
+          {{ content }}
+        </article>
+      </div>
     </div>
   </div>
 
