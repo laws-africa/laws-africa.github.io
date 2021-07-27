@@ -3,7 +3,7 @@ title: Country codes in FRBR URIs
 date: 2021-07-27 10:10:00 +02:00
 author: Edith V
 lead: It’s straightforward, until it isn’t!
-image: "/uploads/lina-loos-04-C1NZk1hE-unsplash-6e5ae5.jpg"
+image: "/uploads/gaborone-skyline-a9c129.jpg"
 ---
 
 *This series of blog posts goes into some of the edge cases Laws.Africa encountered as we started applying the AKN Naming Convention to African legislation. Read the full [AKN4Africa Recommendation](https://laws.africa/publications/akn4africa-recommendation.html).*
@@ -46,4 +46,4 @@ Initially, we used ‘aa’ as the code for the African Union, as the primary re
 
 We published the second version of the [AKN4Africa Recommendation](https://laws.africa/publications/akn4africa-recommendation.html) on 26 July 2021 to reflect this change.
 
-\(Photo of [World's End in Mpumalanga, South Africa](https://unsplash.com/photos/04-C1NZk1hE) by [Lina Loos](https://unsplash.com/@linaloos) from Unsplash.)
+\(Photo of the [Gaborone skyline](https://www.flickr.com/photos/188666787@N04/49948590221/) by [Michael Schmucker](https://www.flickr.com/photos/188666787@N04/) from Flickr.)
