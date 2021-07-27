@@ -46,4 +46,4 @@ Initially, we used ‘aa’ as the code for the African Union, as the primary re
 
 We published the second version of the [AKN4Africa Recommendation](https://laws.africa/publications/akn4africa-recommendation.html) on 26 July 2021 to reflect this change.
 
-\(Photo of World's End in Mpumalanga, South Africa by [Lina Loos](https://unsplash.com/@linaloos) from Unsplash.)
+\(Photo of [World's End in Mpumalanga, South Africa](https://unsplash.com/photos/04-C1NZk1hE) by [Lina Loos](https://unsplash.com/@linaloos) from Unsplash.)
