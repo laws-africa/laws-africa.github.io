@@ -45,3 +45,5 @@ All regional bodies in Africa are thus prepended with ‘aa’: `aa-au`, `aa-eac
 Initially, we used ‘aa’ as the code for the African Union, as the primary regional body in Africa. On further reflection, we decided to simply use ‘aa’ as an indicator that what follows is a regional body in Africa. The other bodies mentioned are after all not sub-bodies of the AU.
 
 We published the second version of the [AKN4Africa Recommendation](https://laws.africa/publications/akn4africa-recommendation.html) on 26 July 2021 to reflect this change.
+
+\(Photo of World's End in Mpumalanga, South Africa by [Lina Loos](https://unsplash.com/@linaloos) from Unsplash.)
