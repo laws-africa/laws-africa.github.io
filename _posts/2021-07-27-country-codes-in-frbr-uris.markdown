@@ -3,7 +3,7 @@ title: Country codes in FRBR URIs
 date: 2021-07-27 10:10:00 +02:00
 author: Edith V
 lead: It’s straightforward, until it isn’t!
-image: "/uploads/gaborone-skyline-a9c129.jpg"
+image: "/uploads/gaborone-skyline.jpg"
 ---
 
 *This series of blog posts goes into some of the edge cases Laws.Africa encountered as we started applying the AKN Naming Convention to African legislation. Read the full [AKN4Africa Recommendation](https://laws.africa/publications/akn4africa-recommendation.html).*
