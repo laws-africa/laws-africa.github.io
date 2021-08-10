@@ -10,7 +10,7 @@ The four members of the [Laws.Africa advisory board](https://laws.africa/about#b
 
 One of our board members is Ms Vidhu Vedalankar. Vidhu has worked in a variety of roles focusing on building the capacity of the state to deliver services at scale to the public, in particular to the most vulnerable and marginalised people of our communities. Most recently she served as the CEO of Legal Aid South Africa managing the delivery of professional legal services through a national footprint to reach clients thus increasing access to justice for millions of South Africans.
 
-In this Q&A, Vidhu explains why he joined the Laws.Africa advisory board and his belief in access to African legal information.
+In this Q&A, Vidhu explains why she joined the Laws.Africa advisory board and her belief in access to African legal information.
 
 ## Why is free access to African legal information important?
 
