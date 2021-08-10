@@ -1,6 +1,6 @@
 ---
 title: 'Meet our advisory board: Vidhu Vedalankar'
-date: 2021-07-23 08:37:00 +02:00
+date: 2021-08-10 00:00:00 +02:00
 lead: A brief Q&A with our advisory board member Vidhu Vedalankar.
 author: Greg Kempe
 image: "/uploads/vv-header.jpg"
