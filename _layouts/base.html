@@ -16,6 +16,7 @@
 
     <title>{% if page.title %}{{ page.title | escape }} - {% endif %}{{ site.title | escape }}</title>
     <meta name="description" content="{% if page.lead %}{{ page.lead }}{% else %}{{ site.description }}{% endif %}">
+    <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml" />
 
     <!-- Open Graph data -->
     <meta property="og:title" content="{% if page.title %}{{ page.title | escape }} - {% endif %}{{ site.title | escape }}">
