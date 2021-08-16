@@ -22,7 +22,7 @@ Upon being introduced to Laws.Africa, I noted that its mission aligns with my ow
 
 ## Are you seeing any trends that makes Laws.Africa’s work more important?
 
-Kenya and Rwanda, for example, as well as South Africa have a far more enhanced reach in terms of access to legal information. Law.Africa can be the link with other less advanced countries and it is poised to play that critical role if its strategic plans and engagements achieve fruition.
+Kenya and Rwanda, for example, as well as South Africa have a far more enhanced reach in terms of access to legal information. Laws.Africa can be the link with other less advanced countries and it is poised to play that critical role if its strategic plans and engagements achieve fruition.
 
 You can read more about Justice Lenaola, and our other advisory board members, on our [About Us page](https://laws.africa/about#board).
 
