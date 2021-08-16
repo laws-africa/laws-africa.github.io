@@ -19,7 +19,7 @@ In early 2020 Laws.Africa partnered with the [Uganda Legal Information Institute
 
 We’re excited to announce the outputs of this effort. A selection of 98 Acts and 8 Statutory Instruments are now up-to-date and available, for free, at www.ulii.org.
 
-The year-long project involved hunting down and digitising mouldy gazettes scattered across Kampala, reading hundreds of notices to identify amendments and other notices, and finally bringing the 2000 consolidation up to date. Laws.Africa’s gazette and legislation technology made this process simpler and faster. Read more about the work that went into the Uganda project in our blog post.
+The year-long project involved hunting down and digitising mouldy gazettes scattered across Kampala, reading hundreds of notices to identify amendments and other notices, and finally bringing the 2000 consolidation up to date. Laws.Africa’s gazette and legislation technology made this process simpler and faster. Read more about the work that went into the Uganda project below.
 
 **From 2000 to 2021**
 
