@@ -25,5 +25,3 @@ Upon being introduced to Laws.Africa, I noted that its mission aligns with my ow
 Kenya and Rwanda, for example, as well as South Africa have a far more enhanced reach in terms of access to legal information. Laws.Africa can be the link with other less advanced countries and it is poised to play that critical role if its strategic plans and engagements achieve fruition.
 
 You can read more about Justice Lenaola, and our other advisory board members, on our [About Us page](https://laws.africa/about#board).
-
-\(Acacia tree photo by [guldem on flickr.com](https://www.flickr.com/photos/guldem/21028055712))
