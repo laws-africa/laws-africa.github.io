@@ -1,6 +1,6 @@
 ---
 title: 'Meet our advisory board: Justice Isaac Lenaola'
-date: 2021-07-22 10:07:00 +02:00
+date: 2021-08-16 10:07:00 +02:00
 lead: A brief Q&A with our advisory board member Justice Isaac Lenaola.
 author: Greg Kempe
 image: "/uploads/jl-header.png"
