@@ -1,6 +1,6 @@
 ---
 title: 'Meet our advisory board: Robert Buergenthal'
-date: 2021-07-14 11:08:00 +02:00
+date: 2021-09-06 11:08:00 +02:00
 lead: A brief Q&A with our advisory board member Robert Buergenthal.
 author: Greg Kempe
 image: "/uploads/rb-header.png"
@@ -25,5 +25,3 @@ As a nonprofit, Laws.Africa has been able to quickly bridge the digital divide b
 As Africa's new legal frameworks take shape—and the region strengthens its domestic and regional justice sector institutions—the impact will also be reflected in the region's legal information and scholarship. Laws.Africa provides the digital platform that already tackles many of the information management challenges that would require a reliance on costly platforms that are not widely available to the public sector or civil society organizations which lead those very efforts to strengthen the justice sector.  As the need grows, Laws.Africa's platform can grow with it and continue to meet the needs of all of its users.
 
 You can read more about Robert, and our other advisory board members, on our [About Us page](https://laws.africa/about#board).
-
-(Acacia tree photo by [guldem on flickr.com](https://www.flickr.com/photos/guldem/21028055712))
