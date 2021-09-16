@@ -331,20 +331,22 @@ layout: simple
 </div>
 
 <script type="text/javascript">
-  document.addEventListener("DOMContentLoaded", () => {
-    var ulElement = document.querySelector('.annual-report-topic-list');
-    var topicsNodes = document.querySelectorAll("[data-tocify='#toc'] h2");
-    for (let i = 0; i < topicsNodes.length; i++) {
-      var liElement = document.createElement('li');
-      liElement.classList.add('annual-report-topic-list__item');
-      var anchorElement = document.createElement('a');
-      anchorElement.classList.add('h4');
-      anchorElement.href = topicsNodes[i].id;
-      anchorElement.innerText = topicsNodes[i].innerText;
-      var bulletElement = document.createElement('div');
-      bulletElement.classList.add('annual-report-topic-list__item__marker');
-      liElement.append(bulletElement, anchorElement);
-      ulElement.appendChild(liElement);
+  document.addEventListener("DOMContentLoaded", function () {
+    {
+      var ulElement = document.querySelector('.annual-report-topic-list');
+      var topicsNodes = document.querySelectorAll("[data-tocify='#toc'] h2");
+      for (let i = 0; i < topicsNodes.length; i++) {
+        var liElement = document.createElement('li');
+        liElement.classList.add('annual-report-topic-list__item');
+        var anchorElement = document.createElement('a');
+        anchorElement.classList.add('h4');
+        anchorElement.href = "#" + topicsNodes[i].id;
+        anchorElement.innerText = topicsNodes[i].innerText;
+        var bulletElement = document.createElement('div');
+        bulletElement.classList.add('annual-report-topic-list__item__marker');
+        liElement.append(bulletElement, anchorElement);
+        ulElement.appendChild(liElement);
+      }
     }
   });
 </script>
