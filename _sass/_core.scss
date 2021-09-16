@@ -58,14 +58,122 @@ img.partner {
 
 
 .callout-box {
-  border: 2px solid $pale-red;
-  padding: 1rem;
+  background-color: $pale-red;
+  border-radius: 1rem;
+  padding: 1.5rem;
+
+  q:before, q:after {
+    color: $primary;
+    font-weight: bold;
+  }
+
+  q:before {
+    margin-right: 5px;
+  }
+
+  q:after {
+    margin-left: 5px;
+  }
 }
 
-.callout-box__title {
-  font-weight: bold;
-  color: $primary;
-  text-transform: uppercase;
-  margin-bottom: 0.5rem;
+.case-study-card {
+  @extend .bg-light;
+  border-radius: 1rem;
+  padding: 1.5rem;
 }
+
+.case-study-card__img {
+  margin-bottom: 1.5rem;
+  img {
+    width: 250px;
+    height: auto;
+  }
+}
+
+
+.case-study-card__body {
+  margin-bottom: 1rem;
+}
+.red-underline {
+  height: 12px;
+  background-color: $primary;
+  max-width: 85px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.right-angle-triangle-right {
+  width: 0;
+  height: 0;
+  border-bottom: 30px solid $pale-red;
+  border-left: 30px solid transparent;
+}
+
+.triangles-header {
+  position: relative;
+}
+
+.triangles-header__triangle-top-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-top: 100px solid $pale-red;
+  border-right: 100px solid transparent;
+}
+
+.triangles-header__triangle-bottom-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid $pale-red;
+  border-left: 100px solid transparent;
+}
+
+
+//Styling for annual report
+
+.annual-report-topic-list {
+  padding: 0;
+}
+
+.annual-report-topic-list__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+
+  a {
+    margin-bottom: 0;
+  }
+}
+.annual-report-topic-list__item__heading {
+  @extend .h4;
+  margin-bottom: 0;
+}
+
+.annual-report-topic-list__item__marker {
+  height: 10px;
+  width: 10px;
+  background-color: $primary;
+  margin-right: 10px;
+}
+
+.founder-details {
+  display: flex;
+  align-items: center;
+}
+
+.founder-details__img {
+  height: 80px !important;
+  width: 80px !important;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  margin-right: 15px;
+}
+
+
 
