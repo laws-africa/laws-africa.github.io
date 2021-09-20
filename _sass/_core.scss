@@ -62,6 +62,12 @@ img.partner {
   border-radius: 1rem;
   padding: 1.5rem;
 
+  q {
+    font-style: italic;
+    font-size: 1.25rem;
+    line-height: 1;
+  }
+
   q:before, q:after {
     color: $primary;
     font-weight: bold;
@@ -85,7 +91,7 @@ img.partner {
 .case-study-card__img {
   margin-bottom: 1.5rem;
   img {
-    width: 250px;
+    width: 150px;
     height: auto;
   }
 }
