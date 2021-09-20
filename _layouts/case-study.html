@@ -9,7 +9,6 @@ layout: simple
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="/case-studies">Case studies</a></li>
-          <li class="breadcrumb-item">{{page.title}}</li>
         </ol>
       </nav>
 
@@ -19,7 +18,7 @@ layout: simple
         style="max-width: 300px; width: 100%;"
         src="{{page.image}}" />
       <p class="lead mb-3">
-        {{page.lead}}
+        {{page.blurb|markdownify}}
       </p>
     </div>
     <div class="triangles-header__triangle-bottom-right"></div>
