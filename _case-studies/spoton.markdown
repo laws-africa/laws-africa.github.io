@@ -1,12 +1,13 @@
 ---
 title: SpotOn Systems
+date: 2021-09-21 00:00:00 +02:00
 navbar_item: case-studies
-lead: "SpotOn Systems provides an on-line compliance management system to enable clients to comply with environmental and health and safety legislation."
-blurb: |
-  [SpotOn](https://spoton-compliance.com/) provides an on-line compliance management system to enable clients to comply with environmental and health and safety legislation.
+lead: SpotOn Systems provides an on-line compliance management system to enable clients
+  to comply with environmental and health and safety legislation.
+blurb: "[SpotOn](https://spoton-compliance.com/) provides an on-line compliance management
+  system to enable clients to comply with environmental and health and safety legislation.\n"
 image: "/img/case-studies/spot-on-logo.jpg"
 layout: case-study
-date: 2021-09-21
 ---
 
 ## What challenges were you faced with prior to working with Laws.Africa?
