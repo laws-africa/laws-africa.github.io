@@ -5,7 +5,7 @@ navbar_item: home
 
 <header class="py-5 bg-light">
   <div class="container">
-    <h1 class="display-5 mb-5">We digitise African legal information for public use.</h1>
+    <h1 class="display-5 mb-5">We make African law accessible and usable.</h1>
 
     <div class="row">
       <div class="col-8 col-md-3 offset-md-3 order-md-2">
@@ -13,8 +13,13 @@ navbar_item: home
       </div>
 
       <div class="col-md-6 order-md-1">
-        <p class="lead text-muted mb-4">Our <a href="#commons">Legislation Commons</a> contains African legislation under a Creative Commons license.</p>
-        <p class="lead text-muted mb-4">We build <a href="#indigo">open source software</a> that makes managing a legislation database simple.</p>
+        <p class="lead text-muted mb-4">
+          We provide digital, high-quality and accurate African law to audiences in Africa and the world.
+        </p>
+
+        <p class="lead text-muted">
+          Access to the law supports of the rule of law, human rights and economic development.
+        </p>
       </div>
     </div>
 
@@ -39,103 +44,69 @@ navbar_item: home
 
 <section class="py-5 my-5">
   <div class="container">
-    <h2 class="mb-2" id="commons">Legislation Commons</h2>
+    <h2 class="mb-2" id="commons">Why access to African law matters</h2>
+
+    <p class="lead mb-4">
+      In most African countries, there is no free source of high quality, up-to-date legislation. Millions of Africans do not have access to the laws that govern them.
+    </p>
+
+    <p class="lead mb-4">
+      Access to the law supports <a href="/mission">human rights and access to justice</a>,
+      and <a href="/mission">helps businesses and communities to thrive</a>.
+    </p>
+
+    <a href="/mission" class="btn btn-primary">Read about our mission</a>
+  </div>
+</section>
+
+<section class="py-5 my-5 bg-light">
+  <div class="container">
+    <h2 class="mb-2" id="commons">Legislation Collections</h2>
     <div class="lead mb-4">High-quality, up-to-date African legislation in HTML, PDF and Akoma Ntoso XML. Creative commons licensed.</div>
 
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
       <div class="col mb-4">
         <div class="card commons-card">
-          <div class="card-body bg-light">
+          <div class="card-body bg-white">
             <div class="media mb-3">
               <img src="/img/countries/na-flag.png" class="flag mr-3" alt="Namibian flag">
               <div class="media-body">
                 <h5 class="card-title"><a href="/commons#na">Namibian National Legislation</a></h5>
               </div>
             </div>
-
-            <div class="row">
-              <div class="col-6">
-                <h5 class="mb-0">{{ site.data.commons.na.n_principal }}</h5>
-                <div class="subtitle">Principal Acts</div>
-              </div>
-              <div class="col-6">
-                <h5 class="mb-0">{{ site.data.commons.na.n_stubs }}</h5>
-                <div class="subtitle">Amendments &amp; Commencements</div>
-              </div>
-            </div>
-
-            <h6 class="mt-3 mb-0">{{ site.data.commons.na.as_at_date|date:"%e %B %Y" }}</h6>
-            <div class="subtitle">Latest update</div>
-
-            <h6 class="mt-3 mb-0"><a href="https://namiblii.org">NamibLII.org</a></h6>
-            <div class="subtitle">Portal partner</div>
           </div>
         </div>
       </div>
 
       <div class="col mb-4">
         <div class="card commons-card">
-          <div class="card-body bg-light">
+          <div class="card-body bg-white">
             <div class="media mb-3">
               <img src="/img/countries/za-flag.png" class="flag mr-3" alt="South African flag">
               <div class="media-body">
                 <h5 class="card-title"><a href="/commons#za-by-laws">South African Municipal <nobr>By-laws</nobr></a></h5>
               </div>
             </div>
-
-            <div class="row">
-              <div class="col-6">
-                <h5 class="mb-0">{{ site.data.commons.za_bylaws.n_municipalities }}</h5>
-                <div class="subtitle">Municipalities</div>
-              </div>
-              <div class="col-6">
-                <h5 class="mb-0">{{ site.data.commons.za_bylaws.n_bylaws }}</h5>
-                <div class="subtitle">By-laws</div>
-              </div>
-            </div>
-
-            <h6 class="mt-3 mb-0">{{ site.data.commons.za_bylaws.as_at_date|date:"%e %B %Y" }}</h6>
-            <div class="subtitle">Latest update</div>
-
-            <h6 class="mt-3 mb-0"><a href="https://openbylaws.org.za">OpenByLaws.org.za</a></h6>
-            <div class="subtitle">Portal partner</div>
           </div>
         </div>
       </div>
 
       <div class="col mb-4">
         <div class="card commons-card">
-          <div class="card-body bg-light">
+          <div class="card-body bg-white">
             <div class="media mb-3">
               <img src="/img/countries/ug-flag.png" class="flag mr-3" alt="Uganda flag">
               <div class="media-body">
                 <h5 class="card-title"><a href="/commons#ug">Uganda National Legislation</a></h5>
               </div>
             </div>
-
-            <div class="row">
-              <div class="col-6">
-                <h5 class="mb-0">{{ site.data.commons.ug.n_principal }}</h5>
-                <div class="subtitle">Principal Acts</div>
-              </div>
-              <div class="col-6">
-                <h5 class="mb-0">{{ site.data.commons.ug.n_stubs }}</h5>
-                <div class="subtitle">Amendments &amp; Commencements</div>
-              </div>
-            </div>
-
-            <h6 class="mt-3 mb-0">{{ site.data.commons.ug.as_at_date|date:"%e %B %Y" }}</h6>
-            <div class="subtitle">Latest update</div>
-
-            <h6 class="mt-3 mb-0"><a href="https://ulii.org">ULII.org</a></h6>
-            <div class="subtitle">Portal partner</div>
           </div>
         </div>
       </div>
 
       <div class="col mb-4">
         <div class="card commons-card">
-          <div class="card-body bg-light">
+          <div class="card-body bg-white">
             <div class="media mb-3">
               <img src="/img/covid19.png" class="flag mr-3" alt="COVID-19 icon">
               <div class="media-body">
@@ -143,20 +114,6 @@ navbar_item: home
               </div>
             </div>
             <div class="subtitle mb-2">A special collection of COVID-19 regulations for African countries.</div>
-
-            <div class="row">
-              <div class="col-6">
-                <h5 class="mb-0">{{ site.data.commons.covid19.n_countries }}</h5>
-                <div class="subtitle">Countries</div>
-              </div>
-              <div class="col-6">
-                <h5 class="mb-0">{{ site.data.commons.covid19.n_principal }}</h5>
-                <div class="subtitle">Regulations</div>
-              </div>
-            </div>
-
-            <h6 class="mt-3 mb-0"><a href="https://africanlii.org/africanlii-covid-19">AfricanLII.org</a></h6>
-            <div class="subtitle">Portal partner</div>
           </div>
         </div>
       </div>
@@ -166,7 +123,7 @@ navbar_item: home
       {% for place in site.data.commons.pending %}
         <div class="col mb-4">
           <div class="card commons-card">
-            <div class="card-body bg-light">
+            <div class="card-body bg-white">
               <div class="media mb-3">
                 <img src="/img/countries/{{ place.country }}-flag.png" class="flag mr-3" alt="{{ place.country }} flag">
                 <div class="media-body">
@@ -180,46 +137,7 @@ navbar_item: home
       {% endfor %}
     </div>
 
-    <a href="/commons" class="btn btn-primary">More about the Legislation Commons</a>
-  </div>
-</section>
-
-<section class="py-5 my-5 bg-light">
-  <div class="container">
-    <h2 class="mb-4">Our projects</h2>
-
-    <div class="card-deck">
-      <div class="card mb-4">
-        <div class="card-img-box">
-          <img src="/img/gazettes-africa-logo.png" style="margin-top: 50px;" alt="Gazettes.Africa logo">
-        </div>
-        <div class="card-body">
-          <h5 class="card-title"><a href="https://gazettes.africa/">Gazettes.Africa</a></h5>
-          <p class="card-text">The largest digital collection of free African Gazettes.</p>
-        </div>
-      </div>
-
-      <div class="card mb-4">
-        <div class="card-img-box">
-          <img src="/img/obl-logo.png" alt="Open By-laws logo">
-        </div>
-        <div class="card-body">
-          <h5 class="card-title"><a href="https://openbylaws.org.za/">Open By-laws South Africa</a></h5>
-          <p class="card-text">Making South Africa's municipal by-laws easy to find, read and share.</p>
-        </div>
-      </div>
-
-      <div class="card mb-4">
-        <div class="card-img-box">
-          <img src="/img/indigo/indigo-logo.png" alt="Indigo logo">
-        </div>
-        <div class="card-body">
-          <h5 class="card-title"><a href="/indigo/">Indigo Platform</a></h5>
-          <p class="card-text">An open source legislation database and consolidation platform.</p>
-        </div>
-      </div>
-    </div>
-
+    <a href="/commons" class="btn btn-primary">More about our Legislation Collections</a>
   </div>
 </section>
 
@@ -292,6 +210,46 @@ navbar_item: home
     </div>
   </div>
 </section>
+
+<section class="py-5 my-5">
+  <div class="container">
+    <h2 class="mb-4">Our projects</h2>
+
+    <div class="card-deck">
+      <div class="card mb-4">
+        <div class="card-img-box">
+          <img src="/img/gazettes-africa-logo.png" style="margin-top: 50px;" alt="Gazettes.Africa logo">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title"><a href="https://gazettes.africa/">Gazettes.Africa</a></h5>
+          <p class="card-text">The largest digital collection of free African Gazettes.</p>
+        </div>
+      </div>
+
+      <div class="card mb-4">
+        <div class="card-img-box">
+          <img src="/img/obl-logo.png" alt="Open By-laws logo">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title"><a href="https://openbylaws.org.za/">Open By-laws South Africa</a></h5>
+          <p class="card-text">Making South Africa's municipal by-laws easy to find, read and share.</p>
+        </div>
+      </div>
+
+      <div class="card mb-4">
+        <div class="card-img-box">
+          <img src="/img/indigo/indigo-logo.png" alt="Indigo logo">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title"><a href="/indigo/">Indigo Platform</a></h5>
+          <p class="card-text">An open source legislation database and consolidation platform.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
 
 <section class="py-5 my-5 bg-lawsafrica-pale-red">
   <div class="container">
