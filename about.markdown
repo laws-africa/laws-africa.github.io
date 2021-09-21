@@ -10,6 +10,14 @@ navbar_item: about
 layout: about
 ---
 
+### Our mission and vision
+
+Laws.Africa’s **mission** is to enable African governments to sustainably provide free access to reliable digital laws in a way that is user-friendly, accessible, educational and re-usable.
+
+This empowers individuals, communities, government, businesses and innovators in support of our **vision** of an Africa of good governance, democracy, respect for human rights, justice and the rule of law.
+
+[→ Read more about our mission and vision](/mission)
+
 ### Our Principles
 
 * People own the laws which govern them.
