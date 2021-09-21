@@ -5,34 +5,18 @@ layout: simple
 <article>
   <header class="mb-5 py-5 bg-lawsafrica-pale-red">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h1 class="display-4">{{ page.title }}</h1>
-        </div>
-      </div>
+      <h1 class="display-4">{{ page.title }}</h1>
     </div>
   </header>
 
   <section class="mb-5 py-3">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 mx-auto prose">
-          <div class="row">
-            {% for case_study in site.case-studies %}
-            <div class="col-md-6 col-lg-4 mb-4">
-              <a href="{{ case_study.url }}">
-                <img class="card-img-top mb-2" src="{{ case_study.image }}">
-              </a>
-              <div>
-                <h5 class="card-title mt-2 mb-0">
-                  <a href="{{ case_study.url }}">{{ case_study.title }}</a>
-                </h5>
-                <p>{{ case_study.lead }}</p>
-              </div>
-            </div>
-            {% endfor %}
+        {% for case_study in site.case-studies %}
+          <div class="col-md-6 col-lg-4">
+            {% include case_study_card.html case_study=study %}
           </div>
-        </div>
+        {% endfor %}
       </div>
     </div>
   </section>

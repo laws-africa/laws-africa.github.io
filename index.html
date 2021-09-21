@@ -225,6 +225,25 @@ navbar_item: home
 
 <section class="py-5">
   <div class="container">
+    <h2 class="mb-4">Case studies</h2>
+
+    <div class="row">
+      {% assign studies = site.case-studies | sort: 'date' | reverse %}
+      {% for case_study in studies limit:4 %}
+        <div class="col-md-6 col-lg-4">
+          {% include case_study_card.html case_study=case_study %}
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="col-12 d-flex justify-content-center">
+      <a class="btn btn-primary" href="/case-studies">Read more case studies</a>
+    </div>
+  </div>
+</section>
+
+<section class="py-5">
+  <div class="container">
     <h2 class="mb-4">Latest publications</h2>
 
     <div class="row">
