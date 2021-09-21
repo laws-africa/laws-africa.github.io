@@ -1,13 +1,13 @@
 {
   "covid19": {
-    "as_at_date": "2021-09-06",
+    "as_at_date": "2021-09-16",
     "n_countries": 9,
-    "n_principal": 332
+    "n_principal": 334
   },
   "na": {
-    "as_at_date": "2021-09-06",
+    "as_at_date": "2021-09-16",
     "n_principal": 424,
-    "n_stubs": 1260
+    "n_stubs": 1261
   },
   "pending": [
     {
@@ -25,10 +25,6 @@
     {
       "country": "za",
       "title": "South Africa Provincial Legislation"
-    },
-    {
-      "country": "zw",
-      "title": "Zimbabwe National Legislation"
     }
   ],
   "ug": {
@@ -37,8 +33,13 @@
     "n_stubs": 97
   },
   "za_bylaws": {
-    "as_at_date": "2021-09-06",
+    "as_at_date": "2021-09-17",
     "n_bylaws": 467,
     "n_municipalities": 15
+  },
+  "zw": {
+    "as_at_date": "2021-07-13",
+    "n_principal": 375,
+    "n_stubs": 50
   }
 }

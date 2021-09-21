@@ -79,7 +79,7 @@ def update_stats():
     with open("_data/commons.json") as f:
         stats = json.load(f)
 
-    for code in ['na', 'ug']:
+    for code in ['na', 'ug', 'zw']:
         update_country_stats(code, stats.setdefault(code, {}))
 
     update_bylaw_stats('za', stats.setdefault('za_bylaws', {}))
