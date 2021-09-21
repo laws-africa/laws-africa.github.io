@@ -132,24 +132,6 @@ navbar_item: home
       </div>
     </div>
 
-    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
-      {% for place in site.data.commons.pending %}
-        <div class="col mb-4">
-          <div class="card commons-card">
-            <div class="card-body bg-white">
-              <div class="media mb-3">
-                <img src="/img/countries/{{ place.country }}-flag.png" class="flag mr-3" alt="{{ place.country }} flag">
-                <div class="media-body">
-                  <h5 class="card-title">{{ place.title }}</h5>
-                </div>
-              </div>
-              <div class="subtitle">Available soon</div>
-            </div>
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-
     <a href="/commons" class="btn btn-primary">More about our Legislation Collections</a>
   </div>
 </section>
@@ -167,9 +149,7 @@ navbar_item: home
       {% endfor %}
     </div>
 
-    <div class="col-12 d-flex justify-content-center">
-      <a class="btn btn-primary" href="/case-studies">Read more case studies</a>
-    </div>
+    <a class="btn btn-primary" href="/case-studies">All case studies</a>
   </div>
 </section>
 
@@ -198,6 +178,7 @@ navbar_item: home
 <section class="py-5">
   <div class="container">
     <h2 class="mb-4">Latest articles</h2>
+
     <div class="row">
       {% assign orderedPosts = site.posts | sort: 'date' | reverse %}
 
@@ -217,10 +198,9 @@ navbar_item: home
       </div>
 
       {% endfor %}
-      <div class="col-12 d-flex justify-content-center">
-        <a class="btn btn-primary" href="/blog">Read more articles</a>
-      </div>
     </div>
+
+    <a class="btn btn-primary" href="/blog">All articles</a>
   </div>
 </section>
 
