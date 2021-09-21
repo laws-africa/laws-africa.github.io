@@ -1,5 +1,5 @@
 ---
-title: Legislation Commons
+title: Legislation Collections
 position: 3
 navbar_item: commons
 header_class: bg-lawsafrica-pale-red

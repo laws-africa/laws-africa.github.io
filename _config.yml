@@ -14,6 +14,9 @@ collections:
   publications:
     title: Publications
     output: true
+  case-studies:
+    title: Case Studies
+    output: true
   uploads:
     title: Uploads
     output: true
@@ -45,7 +48,7 @@ defaults:
     help_section: api
 description: Laws.Africa is a non-profit organisation that curates the African legislation
   commons and builds technology to enable free access to the law.
-baseurl: 
+baseurl:
 url: https://laws.africa
 markdown: kramdown
 hiring: false

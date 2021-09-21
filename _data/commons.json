@@ -25,10 +25,6 @@
     {
       "country": "za",
       "title": "South Africa Provincial Legislation"
-    },
-    {
-      "country": "zw",
-      "title": "Zimbabwe National Legislation"
     }
   ],
   "ug": {
@@ -40,5 +36,10 @@
     "as_at_date": "2021-09-17",
     "n_bylaws": 467,
     "n_municipalities": 15
+  },
+  "zw": {
+    "as_at_date": "2021-07-13",
+    "n_principal": 375,
+    "n_stubs": 50
   }
 }

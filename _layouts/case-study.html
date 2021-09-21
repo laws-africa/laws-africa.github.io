@@ -1,0 +1,45 @@
+---
+layout: simple
+---
+
+<div>
+  <header class="mb-5 py-5 triangles-header">
+    <div class="triangles-header__triangle-top-left"></div>
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="/case-studies">Case studies</a></li>
+        </ol>
+      </nav>
+
+      <img
+        alt="spoton-case-study"
+        class="mb-3"
+        style="max-width: 300px; width: 100%;"
+        src="{{page.image}}" />
+      <p class="lead mb-3">
+        {{page.blurb|markdownify}}
+      </p>
+    </div>
+    <div class="triangles-header__triangle-bottom-right"></div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-3 d-none d-sm-block">
+        <aside class="sidebar sticky">
+          <h4 class="mt-5">Table of Contents</h4>
+          <ol id="toc" class="list-unstyled">
+          </ol>
+        </aside>
+      </div>
+
+      <div class="col-sm-9 mb-5" data-tocify="#toc">
+        <article class="prose scroll-x">
+          {{content}}
+        </article>
+      </div>
+    </div>
+  </div>
+
+</div>
