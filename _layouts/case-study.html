@@ -4,7 +4,7 @@ layout: simple
 ---
 
 <div>
-  <header class="mb-5 py-5 triangles-header">
+  <header class="py-5 triangles-header">
     <div class="triangles-header__triangle-top-left"></div>
     <div class="container">
       <nav aria-label="breadcrumb">
@@ -14,10 +14,10 @@ layout: simple
       </nav>
 
       <img
-        alt="spoton-case-study"
+        alt="{{ page.title }}"
         class="mb-3"
         style="max-width: 300px; width: 100%;"
-        src="{{page.image}}" />
+        src="{{ page.image }}" />
 
       <h1>{{ page.title }}</h1>
       <div class="lead text-muted mb-3">{{ page.date|date:"%B %Y"}}</div>
@@ -31,16 +31,8 @@ layout: simple
 
   <div class="container">
     <div class="row">
-      <div class="col-3 d-none d-sm-block">
-        <aside class="sidebar sticky">
-          <h4 class="mt-5">Table of Contents</h4>
-          <ol id="toc" class="list-unstyled">
-          </ol>
-        </aside>
-      </div>
-
-      <div class="col-sm-9 mb-5" data-tocify="#toc">
-        <article class="prose scroll-x">
+      <div class="col-lg-9">
+        <article class="prose">
           {{content}}
         </article>
       </div>
