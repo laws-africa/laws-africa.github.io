@@ -97,6 +97,9 @@ lead: Laws.Africa’s mission is to enable African governments to sustainably pr
           We conduct ongoing user research to understand the needs of a wide range of legal information users and
           stakeholders across Africa, and use this to continually improve the availability and accessibility of this information.
         </p>
+
+        {% assign case_study = site.case-studies | where: 'id', '/case-studies/aga' | first %}
+        {% include case_study_mini_card.html case_study=case_study %}
       </div>
     </section>
 
