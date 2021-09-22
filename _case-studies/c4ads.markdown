@@ -1,8 +1,10 @@
 ---
 title: C4ADS Case Study
 date: 2021-09-22 00:00:00 +02:00
-lead: C4ADS partnered with Laws.Africa to digitise African gazettes to support the disruption of illicit networks.
-blurb: "[C4ADS](https://c4ads.org/) partnered with Laws.Africa to digitise African gazettes to support the disruption of illicit networks."
+lead: C4ADS partnered with Laws.Africa to digitise African gazettes to support the
+  disruption of illicit networks.
+blurb: "[C4ADS](https://c4ads.org/) partnered with Laws.Africa to digitise African
+  gazettes to support the disruption of illicit networks."
 image: "/img/case-studies/c4ads-logo.png"
 layout: case-study
 ---
