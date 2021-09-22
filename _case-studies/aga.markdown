@@ -1,8 +1,10 @@
 ---
-title: "Press Release: AU African Governance Architecture Project"
+title: 'Press Release: AU African Governance Architecture Project'
 date: 2020-12-18 00:00:00 +02:00
-lead: "Laws.Africa and four partners win a major EU grant to strengthen implementation of the African Union’s democracy and human rights agenda."
-blurb: "Laws.Africa and four partners win a major EU grant to strengthen implementation of the African Union’s democracy and human rights agenda."
+lead: Laws.Africa and four partners win a major EU grant to strengthen implementation
+  of the African Union’s democracy and human rights agenda.
+blurb: Laws.Africa and four partners win a major EU grant to strengthen implementation
+  of the African Union’s democracy and human rights agenda.
 image: "/img/case-studies/aga.jpg"
 layout: case-study
 ---
