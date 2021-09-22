@@ -12,7 +12,8 @@ layout: simple
   <section class="mb-5 py-3">
     <div class="container">
       <div class="row">
-        {% for case_study in site.case-studies %}
+        {% assign studies = site.case-studies | sort: 'date' | reverse %}
+        {% for case_study in studies %}
           <div class="col-md-6 col-lg-4">
             {% include case_study_card.html case_study=study %}
           </div>
