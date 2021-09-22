@@ -157,13 +157,16 @@ lead: Laws.Africa’s mission is to enable African governments to sustainably pr
     <section class="py-5 bg-light">
       <div class="container">
         <h3 id="sect-1_sub_sect-4">
-          Supporting African civil society organisations
+          Supporting civil society organisations
         </h3>
         <p>
           Laws.Africa works with funders, the legal and justice sectors, and non-profit organisations to help them
           incorporate primary legal information from our openly licensed collections into their access to justice
           activities. This enables more efficient, higher-impact outreach and programming.
         </p>
+
+        {% assign case_study = site.case-studies | where: 'id', '/case-studies/c4ads' | first %}
+        {% include case_study_mini_card.html case_study=case_study %}
       </div>
     </section>
 
@@ -212,20 +215,8 @@ lead: Laws.Africa’s mission is to enable African governments to sustainably pr
           African acts and regulations evens the playing field for businesses of all sizes.
         </p>
 
-        <div class="case-study-card">
-          <div class="case-study-card__img">
-            <img src="/img/case-studies/spot-on-logo.jpg" alt="SpotOn Case study"/>
-          </div>
-          <div class="case-study-card__body">
-            SpotOn provides an on-line compliance management system to enable clients to
-            comply with environmental and health and safety legislation.
-          </div>
-          <div>
-            <a href="/case-studies/spoton" target="_blank" class="text-uppercase">
-              <strong>Read case study</strong>
-            </a>
-          </div>
-        </div>
+        {% assign case_study = site.case-studies | where: 'id', '/case-studies/spoton' | first %}
+        {% include case_study_mini_card.html id='/case-studies/spoton' %}
       </div>
     </section>
 

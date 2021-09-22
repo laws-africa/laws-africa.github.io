@@ -1,7 +1,6 @@
 ---
 title: SpotOn Case Study
 date: 2021-09-21 00:00:00 +02:00
-navbar_item: case-studies
 lead: SpotOn uses Laws.Africa's legislation data to provide an on-line compliance
   management system to enable clients to comply with environmental and health and
   safety legislation.
