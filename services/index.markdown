@@ -1,6 +1,7 @@
 ---
 title: Our Services
-lead: Laws.Africa offers a range of services in support of our mission to improve access to African legal materials.
+lead: Laws.Africa offers a range of services in support of our mission to improve
+  access to African legal materials.
 navbar_item: services
 layout: simple
 ---
