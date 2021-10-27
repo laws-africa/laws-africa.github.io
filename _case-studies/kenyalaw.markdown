@@ -1,8 +1,12 @@
 ---
 title: Kenya Law Case Study
 date: 2021-10-27 00:00:00 +02:00
-lead: The Laws of Kenya department at Kenya Law uses Laws.Africa’s Indigo Legislation Platform to manage, consolidate and publish the Laws of Kenya in digital and print formats.
-blurb: The Laws of Kenya department at Kenya Law uses Laws.Africa’s Indigo Legislation Platform to manage, consolidate and publish the Laws of Kenya in digital and print formats.
+lead: The Laws of Kenya department at Kenya Law uses Laws.Africa’s Indigo Legislation
+  Platform to manage, consolidate and publish the Laws of Kenya in digital and print
+  formats.
+blurb: The Laws of Kenya department at Kenya Law uses Laws.Africa’s Indigo Legislation
+  Platform to manage, consolidate and publish the Laws of Kenya in digital and print
+  formats.
 image: "/img/case-studies/kenya-law-logo.png"
 layout: case-study
 ---
