@@ -154,6 +154,9 @@ lead: Laws.Africa’s mission is to enable African governments to sustainably pr
         <p>
           We offer our platforms, knowledge base and training to Attorneys General’s offices, Law Reform Commissions, Government Printers, Parliaments and Judiciaries across the continent in support of their work and mandates.
         </p>
+
+        {% assign case_study = site.case-studies | where: 'id', '/case-studies/kenyalaw' | first %}
+        {% include case_study_mini_card.html case_study=case_study %}
       </div>
     </section>
 
