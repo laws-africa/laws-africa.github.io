@@ -11,4 +11,6 @@ profile: edithv
 
 Edith has a background in legal publishing, a passion for open access to information and a growing set of programming skills. 
 
-She has worked as a legal proofreader, a statutes editor, a project manager, and a Python developer.
+She has worked as a legal proofreader, a statutes editor, a project manager, and a Python developer. 
+
+At Laws.Africa her focus is on modelling legal texts using the Akoma Ntoso XML standard. 
