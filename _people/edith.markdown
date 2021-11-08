@@ -5,7 +5,7 @@ position: 2
 email: edith@laws.africa
 role: Legislative Informatician
 group: core
-image: "/img/team/edith.jpg"
+image: "/uploads/edith.jpg"
 profile: edithv
 ---
 
