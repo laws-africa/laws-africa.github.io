@@ -130,6 +130,15 @@ layout: simple
             </div>
           </div>
         </div>
+
+        <div class="col-md-4">
+          <div class="media mb-3">
+            <div class="mr-3"><i class="fas fa-fw fa-font fa-2x text-muted"></i></div>
+            <div class="media-body">
+              We provide <a href="/publications/best-practices-online-legislation.html">best practices for publishing legislation online</a> to guide publishers in how to make their legislative documents accessible and user-friendly.
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
