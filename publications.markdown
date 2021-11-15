@@ -7,7 +7,7 @@ navbar_item: publications
 layout: slim
 ---
 
-{% assign pubs = site.publications | where: "latest_version", true %}
+{% assign pubs = site.publications | where: "latest_version", "true" | sort: date | reverse %}
 {% for pub in pubs %}
   <div class="card mb-3">
     <div class="card-body">

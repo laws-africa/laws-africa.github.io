@@ -40,7 +40,7 @@ layout: simple
 
       <div class="col-sm-9 mb-5" data-tocify="#toc">
         {% assign versions = site.publications | where: "key", page.key | sort: "date" | reverse %}
-        {% if versions %}
+        {% if versions.size > 1 %}
           <ul class="list-inline">
             <li class="list-inline-item">Versions:</li>
             {% for ver in versions %}
