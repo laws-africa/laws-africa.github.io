@@ -165,6 +165,10 @@ their parents, and using headings to demarcate larger portions of the document.
 In print layouts, nested indentation is sometimes avoided to maximise the printed area and reduce printing costs. This is not necessary for web pages and can make
 a document difficult to read.
 
+**Example:**
+
+<img src="/img/posts/indentation.png" class="img-responsive" style="max-width: 500px" alt="Indentation example">
+
 # Layout
 
 ## Don’t assume all screens or pages are the same width
@@ -187,7 +191,7 @@ Allow wide tables and tables with many columns to scroll horizontally on small s
 
 **Example:**
 
-<img src="/img/posts/table-scroll.gif" class="img-responsive" style="max-width: 300px">
+<img src="/img/posts/table-scroll.gif" class="img-responsive" style="max-width: 300px" alt="Scrolling table example">
 
 ## Place footnotes near to where they are referenced
 
