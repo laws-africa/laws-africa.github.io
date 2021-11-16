@@ -11,6 +11,8 @@ latest_version: true
 <p class="lead">We've been focused on publishing African legal information for over three years and have compiled this collection of what we have learned about making online
 legislation user-friendly.</p>
 
+<p class="lead">We conduct ongoing user research to get feedback from our users. We'll update this document as our best practices evolve.</p>
+
 
 # Guiding Concepts
 
