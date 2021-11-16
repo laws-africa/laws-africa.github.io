@@ -151,6 +151,16 @@ Readers must not confuse editorial insertions, such as amendment comments, with 
 
 Format editorial comments differently to authoritative text, such as by using square brackets, italics or a different colour (or a combination).
 
+## Create a visual hierarchy
+
+Use indentation, font size and formatting to create a visual hierarchy that mirrors the hierarchy of the legislation.
+
+Legislation is often hierarchical. A sentence can run-on to sometimes many levels of sub-sections and sub-paragraphs. Help the user to navigate this hierarchy by indenting sub-elements underneath
+their parents, and using headings to demarcate larger portions of the document.
+
+In print layouts, nested indentation is sometimes avoided to maximise the printed area and reduce printing costs. This is not necessary for web pages and can make
+a document difficult to read.
+
 # Layout
 
 ## Don’t assume all screens or pages are the same width
