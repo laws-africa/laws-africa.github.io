@@ -69,14 +69,18 @@ If possible, provide both web pages and PDF versions of your content.
 Use a font that is suitable for legislative documents. Legislation often includes numbered provisions and the choice of font should help readers differentiate between letters and numbers that look similar.
 
 In particular, ensure that these letters and numbers are distinguishable:
-* 1, I, i, l, L
-* 1, (I), (i), (l), (L) 
+* 1, i, I, l, L
+* 1, (i), (I), (l), (L)
 
 A serif font usually ensures that these letters and numbers are more visually distinct than a sans-serif font.
 
 Laws.Africa uses [PT Serif](https://fonts.google.com/specimen/PT+Serif).
 
-<table class="table table-bordered">
+**Example:**
+
+The table below shows certain numbers and letters in two different font faces. It is easier to differentiate between them in the PT Serif font example, than in the Arial font example.
+
+<table class="table table-bordered table-sm">
 <tr>
   <th>Font</th>
   <th>Sample 1</th>
@@ -85,18 +89,18 @@ Laws.Africa uses [PT Serif](https://fonts.google.com/specimen/PT+Serif).
 <tr>
   <td>Arial</td>
   <td>
-    <div style="font-family: Arial">1 I i l L</div>
+    <div style="font-family: Arial">1 i I l L</div>
   </td>
   <td>
-    <div style="font-family: Arial">1 (I) (i) (l) (L)</div>
+    <div style="font-family: Arial">1 (i) (I) (l) (L)</div>
   </td>
 </tr><tr>
   <td>PT Serif</td>
   <td>
-    <div style="font-family: 'PT Serif'">1 I i l L</div>
+    <div style="font-family: 'PT Serif'">1 i I l L</div>
   </td>
   <td>
-    <div style="font-family: 'PT Serif'">1 (I) (i) (l) (L)</div>
+    <div style="font-family: 'PT Serif'">1 (i) (I) (l) (L)</div>
   </td>
 </tr>
 </table>
