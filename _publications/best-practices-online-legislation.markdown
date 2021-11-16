@@ -183,9 +183,11 @@ Images embedded in the document should not have a fixed width. Instead, they sho
 
 Table column widths should be relative (ie. percentages) and not absolute widths, to ensure that they display correctly on a variety of screen sizes.
 
-Let tables scroll horizontally on small screens.
-
 Allow wide tables and tables with many columns to scroll horizontally on small screens.
+
+**Example:**
+
+<img src="/img/posts/table-scroll.gif" class="img-responsive" style="max-width: 300px">
 
 ## Place footnotes near to where they are referenced
 
