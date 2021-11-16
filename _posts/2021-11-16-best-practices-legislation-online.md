@@ -1,7 +1,7 @@
 ---
-title: "New: Best practices for publishing legislation online"
+title: 'New: Best practices for publishing legislation online'
 date: 2021-11-16 11:31:00 +02:00
-lead: "We've published our best practices for making online legislation user-friendly."
+lead: We've published our best practices for making online legislation user-friendly.
 author: Greg Kempe
 image: "/img/posts/chameleon.jpg"
 ---
