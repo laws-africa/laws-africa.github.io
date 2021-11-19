@@ -35,6 +35,7 @@ Build user personas to document your users and their needs, and keep them up to 
 **Further reading:**
 
 * [Learning about users and their needs (gov.uk)](https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs)
+* [What works best for the reader? A study on drafting and presenting legislation](https://www.calc.ngo/sites/default/files/loophole/may-2014.pdf); Alison Bertlin; The Loophole, May 2014, page 25
 
 ## Build for mobile phones first
 
@@ -170,6 +171,10 @@ a document difficult to read.
 **Example:**
 
 <img src="/img/posts/indentation.png" class="img-responsive" style="max-width: 500px" alt="Indentation example">
+
+**Further reading:**
+
+* [What works best for the reader? A study on drafting and presenting legislation](https://www.calc.ngo/sites/default/files/loophole/may-2014.pdf); Alison Bertlin; The Loophole, May 2014, page 25
 
 # Layout
 
