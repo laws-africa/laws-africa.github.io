@@ -7,14 +7,18 @@ author:
 lead: 'The devastating loss of thousands of African gazettes to fire is an urgent
   call to preserve the documents that underpin African legal systems and governance
   structures. '
-image: "/uploads/cover_10.jpg"
+image: "/uploads/fire-jagger.jpg"
 ---
+
+(Photo by Lerato Maduna / UCT News)
 
 In April 2021, [a devastating fire broke out in the Jagger Reading Room of the University of Cape Town library](https://www.news.uct.ac.za/article/-2021-04-23-ucts-historic-jagger-reading-room-lost-to-fire). As a result, priceless and unique archives, including a sizable collection of government law gazettes from South Africa and other African countries, were turned to ash. More than just old books, the fire was an unimaginable tragedy given the unique nature of the way countries across our continent struggle to manage government and legal documents for public use.  
 
 Due to a combination of factors, the gazette archives of many African nations are locked in paper format, stored in varied locations, often in foreign countries, and are inaccessible to researchers and citizens. Government Printers often lament the lack of national archives with this critical information.  As a result, libraries such as the Jagger are an essential source of government information, legislative and regulatory information, and help preserve a country’s, and indeed a continent’s, history. 
 
-![inside_14_2.jpg](/uploads/inside_14_2.jpg)
+![fire-book.jpg](/uploads/fire-book.jpg)
+
+(Photo by Lerato Maduna / UCT News)
 
 The fire has been a wake-up call for the University of Cape Town in South Africa and all of our information partners and institutions across Africa. Thankfully, through global support and donations,  [www.Gazettes.Africa](https://gazettes.africa/) already carries over 35,000 official gazettes from 17 African countries and one regional economic community. We make all digitised gazettes available for free on Gazettes.Africa . In addition, we aim to supply a copy of the digitised collections to gazette printers and archival institutions in the respective countries. We are now also working on adding a complete set of the South African national gazette, beginning with its first edition dated 1910. 
 
