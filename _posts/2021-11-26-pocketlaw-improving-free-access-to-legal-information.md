@@ -1,7 +1,8 @@
 ---
 title: 'Pocket Law: Improving Free Access to Legal Information'
 date: 2021-11-26 11:20:00 +02:00
-lead: We've released of a new version of Pocket Law, a desktop application which makes African legal information available offline.
+lead: We've released of a new version of Pocket Law, a desktop application which makes
+  African legal information available offline.
 author: Robley Gori
 image: "/img/posts/gnu.jpg"
 ---
