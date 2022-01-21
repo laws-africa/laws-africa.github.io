@@ -3,21 +3,14 @@ title: Open Positions
 position: 10
 lead: Join the Laws.Africa team and help make African legislation freely available
   to everyone.
-positions: 
+positions:
 - title: Python/Django Developer
-  description: We're looking for an intermediate Python developer to design and build high quality Django and Python apps
-    to make African legal information easier to work with and understand. Your work will support access to the law
-    and human rights for hundreds of thousands of monthly users across Africa.
+  description: |-
+    We're looking for an intermediate Python developer to design and build high quality Django and Python apps to make African legal information easier to work with and understand. Your work will support access to the law and human rights for hundreds of thousands of monthly users across Africa.
 
+    Help us build legal information applications using Python, Django, Django Rest Framework, PostgreSQL, Vue and Bootstrap.  Our services run on Amazon EC2 using Dokku and Docker. Most of our software is open source at [github.com/laws-africa](https://github.com/laws-africa/).
 
-    Help us build legal information applications using Python, Django, Django
-    Rest Framework, PostgreSQL, Vue and Bootstrap.  Our services run on Amazon
-    EC2 using Dokku and Docker. Most of our software is open source at
-    [github.com/laws-africa](https://github.com/laws-africa/).
-
-
-    Join our small team of developers and get involved with design, implementation, devops and support. Get involved with
-    all aspects of Laws.Africa and do work that matters.
+    Join our small team of developers and get involved with design, implementation, devops and support. Get involved with all aspects of Laws.Africa and do work that matters.
   requirements: |-
     * 3+ years Python and Django experience
     * Proficient with all aspects of backend development (design, implementation, testing, debugging, documentation, operations)
