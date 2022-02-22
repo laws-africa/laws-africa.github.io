@@ -3,7 +3,7 @@ title: Edith V
 date: 2018-12-14 13:45:00 +02:00
 position: 2
 email: edith@laws.africa
-role: Legislative Informatician
+role: Senior Legal Informatician
 group: core
 image: "/uploads/edith.jpg"
 profile: edithv
