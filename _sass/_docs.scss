@@ -17,6 +17,15 @@
   }
 }
 
+.sidebar-toc {
+  background-color: $gray-100;
+  border-right: 1px solid $border-color;
+
+  #toc > li > a {
+    font-weight: bold;
+  }
+}
+
 .prose {
   h1 {
     font-size: 1.75rem;

@@ -4,7 +4,7 @@ layout: simple
 
 <div>
 
-  <header class="mb-5 py-5 {{ page.header_class }}">
+  <header class="py-5 {{ page.header_class }}">
     <div class="container">
       {% if page.masthead_image %}
       <div class="row mb-3">
@@ -28,17 +28,15 @@ layout: simple
     </div>
   </header>
 
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-3 d-none d-sm-block">
+      <div class="col-3 d-none d-sm-block sidebar-toc pt-5">
         <aside class="sidebar sticky">
-          <h4 class="mt-5">Table of Contents</h4>
-
           <ol id="toc" class="list-unstyled"></ol>
         </aside>
       </div>
 
-      <div class="col-sm-9 mb-5" data-tocify="#toc">
+      <div class="col-sm-9 mb-5 pt-5" data-tocify="#toc">
         {% assign versions = site.publications | where: "key", page.key | sort: "date" | reverse %}
         {% if versions.size > 1 %}
           <ul class="list-inline">
