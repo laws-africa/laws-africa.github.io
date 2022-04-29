@@ -9,29 +9,34 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item pr-3 {% if page.navbar_item == 'mission' %}active{% endif %}">
-          <a class="nav-link" href="/mission">Mission</a>
-        </li>
-        <li class="nav-item pr-3 {% if page.navbar_item == 'commons' %}active{% endif %}">
-          <a class="nav-link" href="/commons">Our Legislation</a>
-        </li>
-        <li class="nav-item pr-3 {% if page.navbar_item == 'case-studies' %}active{% endif %}">
-          <a class="nav-link" href="/case-studies">Case Studies</a>
-        </li>
-        <li class="nav-item pr-3 {% if page.navbar_item == 'services' %}active{% endif %}">
-          <a class="nav-link" href="/services/">Our Services</a>
+        <li class="nav-item pr-3 {% if page.navbar_item == 'open-access' %}active{% endif %}">
+          <a class="nav-link" href="/open-access">Open African Law</a>
         </li>
         <li class="nav-item pr-3 {% if page.navbar_item == 'api' %}active{% endif %}">
-          <a class="nav-link" href="/api/">Use Our Data</a>
+          <a class="nav-link" href="/api">Use our Legislation Data</a>
         </li>
-        <li class="nav-item pr-3 {% if page.navbar_item == 'publications' %}active{% endif %}">
-          <a class="nav-link" href="/publications">Publications</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="/resources"
+             id="resourcesDropdown"
+             role="button"
+             data-toggle="dropdown"
+             aria-haspopup="true"
+             aria-expanded="false"
+          >
+            Resources
+          </a>
+          <div class="dropdown-menu" aria-labelledby="resourcesDropdown">
+            <a class="dropdown-item" href="/resources">Publications and recommendations</a>
+            <a class="dropdown-item" href="/case-studies">Case studies</a>
+            <a class="dropdown-item" href="#">Company profile</a>
+            <a class="dropdown-item" href="#">White papers</a>
+          </div>
         </li>
-        <li class="nav-item pr-3 {% if page.navbar_item == 'blog' %}active{% endif %}">
-          <a class="nav-link" href="/blog">Blog</a>
+        <li class="nav-item pr-3 {% if page.navbar_item == 'about' %}active{% endif %}">
+          <a class="nav-link" href="/about">About</a>
         </li>
-        <li class="nav-item {% if page.navbar_item == 'about' %}active{% endif %}">
-          <a class="nav-link" href="/about">About Us</a>
+        <li class="nav-item pr-3 {% if page.navbar_item == 'about' %}active{% endif %}">
+          <a class="nav-link" href="/contact">Request a demo</a>
         </li>
       </ul>
 
