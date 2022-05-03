@@ -1,11 +1,11 @@
 {
   "covid19": {
-    "as_at_date": "2022-04-13",
+    "as_at_date": "2022-04-29",
     "n_countries": 9,
-    "n_principal": 344
+    "n_principal": 346
   },
   "na": {
-    "as_at_date": "2022-04-13",
+    "as_at_date": "2022-04-29",
     "n_principal": 427,
     "n_stubs": 1277
   },
@@ -33,8 +33,8 @@
     "n_stubs": 110
   },
   "za_bylaws": {
-    "as_at_date": "2022-04-25",
-    "n_bylaws": 476,
+    "as_at_date": "2022-04-29",
+    "n_bylaws": 477,
     "n_municipalities": 15
   },
   "zw": {
