@@ -1,11 +1,11 @@
 {
   "covid19": {
-    "as_at_date": "2022-04-29",
+    "as_at_date": "2022-05-06",
     "n_countries": 9,
     "n_principal": 346
   },
   "na": {
-    "as_at_date": "2022-04-29",
+    "as_at_date": "2022-05-06",
     "n_principal": 427,
     "n_stubs": 1278
   },
@@ -39,7 +39,7 @@
   },
   "zw": {
     "as_at_date": "2017-12-31",
-    "n_principal": 385,
+    "n_principal": 386,
     "n_stubs": 81
   }
 }
