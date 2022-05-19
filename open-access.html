@@ -119,13 +119,19 @@ navbar_item: open-access
         We work with organisations of all sizes, from single entities to local municipalities, national governments,
         civil society organisations, and large transnational bodies such as the African Union and the United Nations.
       </p>
-      <p class="mb-2">
-        Related partners and case studies
-      </p>
-      <ul>
-        <li>AGP</li>
-        <li><a href="/case-studies/kenyalaw">Kenya Law</a></li>
-      </ul>
+
+      <h3 class="mb-2">
+        Related case studies
+      </h3>
+
+      {% assign studies = site.case-studies | sort: 'date' | reverse %}
+      <div class="row">
+        {% for case_study in studies %}
+        <div class="col-md-6 col-lg-4">
+          {% include case_study_mini_card.html case_study=study %}
+        </div>
+        {% endfor %}
+      </div>
     </div>
   </section>
 </div>
