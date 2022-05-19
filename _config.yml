@@ -46,7 +46,8 @@ defaults:
     path: _help/api
   values:
     help_section: api
-description: Laws.Africa unlocks the value of African digital legal information in support of the rule of law, access to justice, and innovation.
+description: Laws.Africa unlocks the value of African digital legal information in
+  support of the rule of law, access to justice, and innovation.
 baseurl: 
 url: https://laws.africa
 markdown: kramdown
