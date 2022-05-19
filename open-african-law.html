@@ -1,0 +1,146 @@
+---
+layout: simple
+navbar_item: open-african-law
+---
+
+<div>
+  <header class="py-5 bg-lawsafrica-pale-red">
+    <div class="container">
+      <h1 class="display-4 mb-4">Open Access to African Legal Information</h1>
+      <p class="lead">
+        Open access to digital African legal information helps communities to thrive, businesses to succeed, and judicial
+        officers and civil servants to deliver services efficiently and effectively.
+      </p>
+    </div>
+  </header>
+
+  <section class="py-5">
+    <div class="container">
+      <h2 class="mb-4">Open Government</h2>
+
+      <p class="lead">
+        Open access to the law is a key part of a successful Open Government strategy. It promotes good governance,
+        human rights and access to justice, and enables efficient and effective judicial systems.
+        We believe that governments should own their legal information, without restrictive licensing.
+      </p>
+    </div>
+  </section>
+
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h2 class="mb-4">Improved Business Environment</h2>
+      <p class="lead">
+        Access to the law lowers the cost of doing business and improves local and foreign investment.
+        Small businesses and the informal sector are an essential part of African economies, yet they have limited access
+        to professional legal advice and resources. Free access to foundational legal information helps these businesses
+        to grow and support families and communities.
+      </p>
+    </div>
+  </section>
+
+  <section class="py-5">
+    <div class="container">
+      <h2 class="mb-4">Digitising African legal information</h2>
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <h3 class="mb-4">Open Law Technology</h3>
+          <p class="mb-4 lead">
+            Our Open Law Technology powers legal information databases that use modern data standards and web solutions
+            to build rich, interactive experiences for readers and researchers.
+          </p>
+          <ul class="mb-4">
+            <li>
+              Advanced legislation databases are far more powerful than a collection of documents.
+            </li>
+            <li>
+              Akoma Ntoso (AKN) enables machine-readable documents and rich functionality. It is the global open standard for legislative data.
+            </li>
+            <li>
+              Digitise all aspects of the primary legal information pipeline, including government gazettes, legislation and court judgments.
+            </li>
+            <li>
+              Work closely with multiple stakeholders, including Attorneys General, Government Printers, Parliamentary
+              Council, judiciaries, the legal sector and civil society.
+            </li>
+            <li>
+              Modern web technology for rich user experiences on desktop, mobile, print and offline.
+            </li>
+            <li>
+              Lower costs and greater efficiency of publishing and preserving African legal information.
+            </li>
+          </ul>
+          <div>
+            <a href="/open-law-technology" class="btn btn-primary">
+              Our software solutions
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h3 class="mb-4">Training, support and capacity</h3>
+          <p class="mb-4 lead">
+            Laws.Africa capacitates African governments to modernise their legislation publication processes. We provide
+            training, guidance and support throughout all stages of adoption.
+          </p>
+          <ul>
+            <li>
+              Training programs and resources that build in-country skills and capacity.
+            </li>
+            <li>
+              Certified courses offered in partnership with AfricanLII and certified by the University of Cape Town.
+            </li>
+            <li>
+              Training for diverse stakeholders, including legislation editors, law reporting units, law reform commissions, IT staff and software developers.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h2 class="mb-4">Unlocked opportunities</h2>
+      <ul>
+        <li>Faster turnaround and access to new legislation and court judgments.</li>
+        <li>Improved accessibility for the visually impaired in line with Web Content Accessibility Guidelines (WCAG).</li>
+        <li>Lower distribution costs and greater reach, including to rural areas.</li>
+        <li>Advanced legislative analysis, harmonisation and law reform research.</li>
+        <li>Diverse means of access, including desktop, mobile, print (day-to-day and archival), and offline collections.</li>
+        <li>Regional integration (EAC, ECOWAS, ACFTA, SADC, etc.)</li>
+        <li>Access-to-justice innovations in both the public and private sectors.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="py-5">
+    <div class="container">
+      <h2 class="mb-4">Experience</h2>
+      <p class="mb-4 lead">
+        We work with organisations of all sizes, from single entities to local municipalities, national governments,
+        civil society organisations, and large transnational bodies such as the African Union and the United Nations.
+      </p>
+
+      {% assign studies = site.case-studies | sort: 'date' | reverse %}
+      <div class="row">
+        {% for case_study in studies %}
+        <div class="col-md-6 col-lg-4">
+          {% include case_study_mini_card.html case_study=study %}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h2 class="mb-4">How can we help you?</h2>
+      <p class="mb-4 lead">Get in touch with us to find out more.</p>
+
+      <div>
+        <a href="/contact" class="btn btn-primary">
+          Get in touch
+        </a>
+      </div>
+    </div>
+  </section>
+</div>

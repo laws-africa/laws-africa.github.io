@@ -2,64 +2,90 @@
 layout: simple
 ---
 
-<header class="mb-5 py-5 bg-lawsafrica-pale-red">
+<header class=" py-5 bg-lawsafrica-pale-red">
   <div class="container">
     <h1 class="display-4">Use Laws.Africa Content to Power Your Business and Research</h1>
-    <p class="lead mb-3">{{ page.lead }}</p>
+    <p class="lead mb-3">
+      A broad collection of African legislation data in machine-readable Akoma Ntoso XML. Accurate, comprehensive,
+      uniform, and up-to-date.
+    </p>
   </div>
 </header>
 
-<section class="pb-5">
+<section class="py-5">
+  <div class="container">
+    <p class="lead">
+      Use Laws.Africa’s broad collection of machine-readable African legislation in your business, apps, research and
+      analysis. Comprehensive, continuously updated, and easy to integrate into your apps and machine learning pipelines.
+    </p>
+    <div>
+      <a href="#pricing-plan-section"
+         class="btn btn-primary"
+      >
+        Pricing plan
+      </a>
+      <a href="https://developers.laws.africa/"
+         class="btn btn-primary"
+         rel="noreferrer"
+         target="_blank">
+        API Developer Guide
+      </a>
+      <a href="/contact"
+         class="btn btn-primary">
+        Contact Us
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="py-5 bg-light">
   <div class="container">
     <div class="row">
-      <div class="col-md-8">{{ content }}</div>
-
-      <div class="col-md-4">
-        <div class="card bg-light">
-          <div class="card-body">
-            <p>The Content API is a simple REST API that provides JSON, XML and HTML that is easy to work with in any programming language.</p>
-            <p><a href="https://developers.laws.africa" class="btn btn-primary">Laws.Africa developer guide</a></p>
-          </div>
-        </div>
+      <div class="col-md-4 mb-3">
+        <h5 class="font-weight-bold">Keep up with evolving African law</h5>
+        <p>
+          We monitor a wide range of sources to ensure our legislation data is accurate and up-to-date. New laws
+          and amendments are available within ten business days in most countries. Work with both current and
+          historical versions and track the changes that were made.
+        </p>
+      </div>
+      <div class="col-md-4 mb-3">
+        <h5 class="font-weight-bold">Akoma Ntoso XML</h5>
+        <p>
+          We use Akoma Ntoso XML, the open, non-proprietary industry standard for legislative documents.
+          It’s machine-readable and separates content from structure and presentation. This makes it a powerful
+          building block that is easy to integrate into your applications, research tools or machine learning
+          pipeline.
+        </p>
+      </div>
+      <div class="col-md-4 mb-3">
+        <h5 class="font-weight-bold">Machine learning and AI-ready</h5>
+        <p>
+          Integrate African legislation into your machine learning pipeline, including natural language processing,
+          topic modeling, machine translation, document clustering and semantic tagging. Our legislation data is
+          uniformly structured across all our country and subject-area collections, making bulk analysis straightforward.
+        </p>
+      </div>
+      <div class="col-md-4 mb-3">
+        <h5 class="font-weight-bold">JSON Metadata, HTML, XML and PDF</h5>
+        <p>
+          Rich JSON metadata includes original publication details, amendments, commencements, repeals and a
+          detailed Table of Contents for each law. We provide legislative content in multiple formats:
+          Akoma Ntoso XML, presentation-ready HTML, ePUB, and print-ready PDF.
+        </p>
+      </div>
+      <div class="col-md-4 mb-3">
+        <h5 class="font-weight-bold">Integration guidance and support</h5>
+        <p>
+          We’re experts in working with Akoma Ntoso XML and legislative data. We can provide your development
+          team with technical guidance on integrating with our APIs and data. Let your developers focus on building features, not on understanding XML and the law.
+        </p>
       </div>
     </div>
   </div>
 </section>
 
-<section class="pb-3 pt-5 bg-light">
-  <div class="container">
-    <h3 class="display-5 mb-3">What's available from the Content API?</h3>
-    <div class="text-center">
-      <img src="/uploads/content-api.png" class="img-fluid mb-3" style="max-width: 800px" alt="Laws.Africa Content API diagram">
-    </div>
-
-    <div class="row">
-      {% for feature in page.features %}
-        <div class="col-md-4 mb-3">
-          <h5>{{ feature.title }}</h5>
-
-          {{ feature.text | markdownify }}
-        </div>
-      {% endfor %}
-    </div>
-
-    <a href="/api/detail" class="btn btn-primary">Features, Subscriptions and Pricing</a>
-  </div>
-</section>
-
-<section class="py-5">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 offset-lg-2">
-        <h3 class="display-5 mb-3">Benefits</h3>
-
-        {{ page.benefits | markdownify }}
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="py-5">
+<section class="py-5" id="pricing-plan-section">
   <div class="container">
     <h3 class="display-5 text-center mb-2">Pricing Plans</h3>
     <p class="text-lead text-center mb-5">Flexible options for commercial and non-commercial uses.</p>
@@ -67,20 +93,44 @@ layout: simple
     <div class="row">
       <div class="col-lg-8 col-md-12 mx-auto">
         <div class="card-deck">
-          {% for plan in page.plans %}
-          <div class="card">
-            <h5 class="card-header text-center">{{ plan.title }}</h5>
-            <div class="card-body">
-              <p class="lead text-center">{{ plan.description }}</p>
 
-              {{ plan.details | markdownify }}
+          <div class="card">
+            <h5 class="card-header text-center">Non-Commercial and Research</h5>
+            <div class="card-body">
+              <p class="lead text-center">FREE for non-commercial uses.</p>
+
+              <ul>
+                <li>Non-profit, academic research, and education.</li>
+                <li>Creative Commons Attribution-NonCommercial-ShareAlike (CC-BY-NC-SA) licencing.</li>
+                <li>Provide attribution to Laws.Africa.</li>
+                <li>Publish your outputs and research.</li>
+              </ul>
+
 
               <div class="text-center mt-3">
                 <a href="/contact" class="btn btn-primary">Enquire now</a>
               </div>
             </div>
           </div>
-          {% endfor %}
+
+          <div class="card">
+            <h5 class="card-header text-center">Commercial Uses</h5>
+            <div class="card-body">
+              <p class="lead text-center">Permissive licensing for commercial use cases.</p>
+
+              <ul>
+                <li>Full access to Laws.Africa content and data on a per-country basis.</li>
+                <li>Provide attribution to Laws.Africa.</li>
+                <li>Commercial support helps to maintain the commons and supports free access to the law, for everyone.</li>
+              </ul>
+
+
+              <div class="text-center mt-3">
+                <a href="/contact" class="btn btn-primary">Enquire now</a>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>

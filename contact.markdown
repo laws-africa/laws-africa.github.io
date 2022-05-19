@@ -7,9 +7,7 @@ lead: Get in touch with us.
 layout: slim
 ---
 
-Please see our list of [Frequently Asked Questions (FAQ)](/faq), email us, or use the form below.
-
-<img src="/img/social/email.svg" style="margin-right:15px"> Email us on [info@laws.africa](mailto:info@laws.africa)
+<img src="/img/social/email.svg" style="margin-right:15px"> Email us at [info@laws.africa](mailto:info@laws.africa)
 
 <img src="/img/social/twitter.svg" style="margin-right:15px"> Follow us on Twitter [@laws_africa](http://twitter.com/@laws_africa)
 
@@ -17,12 +15,14 @@ Please see our list of [Frequently Asked Questions (FAQ)](/faq), email us, or us
 
 <img src="/img/social/youtube.svg" style="margin-right:15px"> See what we've been up to on [YouTube](https://www.youtube.com/channel/UCUFRw2pyZUq9ekMThYQ4kCQ)  
 
-**Address**  
+### Address
+
 DGRU  
 Faculty of Law, UCT  
 Cape Town, 7701  
 South Africa
 
-<br>
+<hr>
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeyDTLlFMnkeVPtFQN4hkBTJ-azlGbwhgmbKCGseiCNnEFYLw/viewform" width="100%" height="1000px" style="border: 0px"></iframe>
+
