@@ -6,30 +6,24 @@ layout: simple
 
   <header class="mb-5 py-5 {{ page.header_class }}">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          {% if page.masthead_image %}
-          <div class="row mb-3">
-            <div class="col-6 col-md-4">
-              <img src="{{ page.masthead_image }}" class="img-fluid">
-            </div>
-          </div>
-          {% endif %}
-
-          <h1 class="display-4">{{ page.title }}</h1>
-          {% if page.lead %}
-          <p class="lead mb-3">{{ page.lead }}</p>
-          {% endif %}
+      {% if page.masthead_image %}
+      <div class="row mb-3">
+        <div class="col-6 col-md-4">
+          <img src="{{ page.masthead_image }}" class="img-fluid">
         </div>
       </div>
+      {% endif %}
+
+      <h1 class="display-4">{{ page.title }}</h1>
+      {% if page.lead %}
+      <p class="lead mb-3">{{ page.lead }}</p>
+      {% endif %}
     </div>
   </header>
 
   <section class="mb-5 py-3">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto prose">{{ content }}</div>
-      </div>
+      <div class="prose">{{ content }}</div>
     </div>
   </section>
 

@@ -9,8 +9,8 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item pr-3 {% if page.navbar_item == 'open-access' %}active{% endif %}">
-          <a class="nav-link" href="/open-access">Open African Law</a>
+        <li class="nav-item pr-3 {% if page.navbar_item == 'open-african-law' %}active{% endif %}">
+          <a class="nav-link" href="/open-african-law">Open African Law</a>
         </li>
         <li class="nav-item pr-3 {% if page.navbar_item == 'api' %}active{% endif %}">
           <a class="nav-link" href="/api">Use our Legislation Data</a>
@@ -19,10 +19,13 @@
           <a class="nav-link" href="/resources">Resources</a>
         </li>
         <li class="nav-item pr-3 {% if page.navbar_item == 'about' %}active{% endif %}">
-          <a class="nav-link" href="/about">About</a>
+          <a class="nav-link" href="/about">About Us</a>
         </li>
-        <li class="nav-item pr-3 {% if page.navbar_item == 'contact' %}active{% endif %}">
-          <a class="nav-link" href="/contact">Request a demo</a>
+      </ul>
+
+      <ul class="navbar-nav">
+        <li class="nav-item {% if page.navbar_item == 'contact' %}active{% endif %}">
+          <a class="btn btn-primary" href="/contact">Request a demo</a>
         </li>
       </ul>
     </div>

@@ -1,7 +1,3 @@
 .bg-lawsafrica-pale-red {
-  background-color: lighten($primary, 30%);
-}
-
-.fg-lawsafrica-pale-red {
-  color: lighten($primary, 30%);
+  background-color: $pale-red;
 }
