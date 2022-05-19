@@ -1,0 +1,52 @@
+---
+layout: simple
+navbar_items: resources
+---
+
+<article>
+  <header class="mb-5 py-5 bg-lawsafrica-pale-red">
+    <div class="container">
+      <h1 class="display-4">Resources</h1>
+      <p class="lead mb-3">
+        Case studies and publications.
+      </p>
+    </div>
+  </header>
+
+  <section class="mb-5 py-3">
+    <div class="container">
+      <h2 class="mb-4">Case studies</h2>
+      <div class="row">
+        {% assign studies = site.case-studies | sort: 'date' | reverse %}
+        {% for case_study in studies %}
+          <div class="col-md-6 col-lg-4">
+            {% include case_study_card.html case_study=study %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="py-3 bg-light">
+    <section class="mb-5 py-3">
+      <div class="container">
+        <h2 class="mb-4">Publications</h2>
+        <div class="row">
+          {% assign publications = site.publications | sort: 'date' | reverse %}
+            {% for publication in publications %}
+              <div class="col col-lg-6 prose">
+                <div class="card mb-3">
+                  <div class="card-body">
+                    <h3 class="mt-0"><a href="{{ publication.url }}">{{ publication.title }}</a></h3>
+                    <div class="text-muted">{{ publication.date|date:"%e %b %Y" }}</div>
+                    <div>{{ publication.lead }}</div>
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+</article>
