@@ -9,6 +9,18 @@
   background-color: $gray-200;
 }
 
+.work-in-action-list {
+  img {
+    width: 100%;
+  }
+  img[alt='open-by-laws'] {
+    width: 125px;
+  }
+  img[alt='ulii'] {
+    width: 125px;
+  }
+}
+
 .highlighter-rouge pre.highlight {
   background-color: $gray-200;
   border-radius: 0.75em;
