@@ -19,11 +19,9 @@ We want to help these organisations enrich their stories by embedding the law. E
 
 ## What it looks like
 
-You can embed just a particular provision (chapter, part, section, paragraph) of a piece of legislation.
+You can embed just a particular provision (chapter, part, section, paragraph) of a piece of legislation. Here is X of the Y:
 
-Here is X of the Y:
-
-You can also embed an entire piece of legislation. These can be pretty big, so you may want to add CSS to make it scrollable.
+You can also embed an entire piece of legislation. These can be pretty big, so you may want to add CSS to make it scrollable. Here's X:
 
 ## How it works
 
