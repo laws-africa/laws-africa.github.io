@@ -66,6 +66,7 @@
 }
 .language-bash    > .highlight::before { content: "shell"; }
 .language-html    > .highlight::before { content: "html"; }
+.language-css     > .highlight::before { content: "css"; }
 .language-js      > .highlight::before { content: "javascript"; }
 .language-json    > .highlight::before { content: "json"; }
 .language-python  > .highlight::before { content: "python"; }
