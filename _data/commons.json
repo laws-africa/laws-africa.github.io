@@ -7,7 +7,7 @@
   "na": {
     "as_at_date": "2022-09-23",
     "n_principal": 428,
-    "n_stubs": 1287
+    "n_stubs": 1288
   },
   "pending": [
     {
@@ -30,10 +30,10 @@
   "ug": {
     "as_at_date": "2020-09-30",
     "n_principal": 153,
-    "n_stubs": 211
+    "n_stubs": 215
   },
   "za_bylaws": {
-    "as_at_date": "2022-09-30",
+    "as_at_date": "2022-10-14",
     "n_bylaws": 493,
     "n_municipalities": 15
   },
