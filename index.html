@@ -5,29 +5,34 @@ navbar_item: home
 
 <header class="py-5 bg-light">
   <div class="container">
-    <img src="/img/logo.png" class="img-fluid mb-5 d-block mx-auto" alt="logo" style="max-height: 150px;"/>
-    <h2 class="mb-4">
-      Unlock the value of African digital legal information in support of the rule of law, access to justice, and innovation.
-    </h2>
-    <div class="tab-content mb-2" id="pills-tabContent">
-      <div class="tab-pane fade show active" id="english-video-pane" role="tabpanel" aria-labelledby="pills-home-tab">
-        <div class="video-wrapper">
-          <iframe src="https://www.youtube.com/embed/ssphMX__-nM?controls=0"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </div>
+    <div class="row">
+      <div class="col-md-5">
+        <img src="/img/logo.png" class="img-fluid mb-5" alt="Laws.Africa logo" style="max-height: 150px;"/>
+        <h2 class="mb-4">
+          Unlock the value of African digital legal information in support of the rule of law, access to justice, and innovation.
+        </h2>
       </div>
-      <div class="tab-pane fade" id="french-video-pane" role="tabpanel" aria-labelledby="pills-profile-tab">
-        <div class="video-wrapper">
-          <iframe src="https://www.youtube.com/embed/HlyQ84VHO9w?controls=0"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+
+      <div class="col-md-7">
+        <div class="tab-content mb-2" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="english-video-pane" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="video-wrapper">
+              <iframe src="https://www.youtube.com/embed/ssphMX__-nM?controls=0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="french-video-pane" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <div class="video-wrapper">
+              <iframe src="https://www.youtube.com/embed/HlyQ84VHO9w?controls=0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-    <ul class="nav nav-pills mb-3 just justify-content-center" id="pills-tab" role="tablist">
+        <ul class="nav nav-pills mb-3 just justify-content-center" id="pills-tab" role="tablist">
           <li class="nav-item">
             <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#english-video-pane" role="tab"
                aria-controls="pills-home" aria-selected="true">English</a>
@@ -37,6 +42,8 @@ navbar_item: home
                aria-controls="pills-profile" aria-selected="false">Français</a>
           </li>
         </ul>
+      </div>
+    </div>
   </div>
 </header>
 
@@ -60,17 +67,42 @@ navbar_item: home
   <div class="container">
     <h2 class="mb-4" id="open-access">Open Access to African Legal Information</h2>
 
-    <p class="lead">
-      We help African governments to sustainably digitise their legal information for public use, through open law software, capacity-building, training, partnerships and support.
-    </p>
+    <div class="row">
+      <div class="col">
+        <p class="lead">
+          Our <a href="https://openlawafrica.org" target="_blank">Open Law Africa</a> programme helps African governments to sustainably digitise their legal information for public use, through open law software, capacity-building, training, partnerships and support.
+        </p>
+      </div>
+      <div class="col col-md-3">
+        <img src="/img/open-law-africa-logo.png" alt="Open Law Africa logo" class="img-fluid mb-3">
+      </div>
+    </div>
 
     <a href="/open-african-law" class="btn btn-primary">
-      Open Access to African Legal Information
+      Open Access to African Law
     </a>
   </div>
 </section>
 
 <section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="mb-4">Impact: over 3 million users every year</h2>
+
+    <p class="lead">The 2020 <a href="https://static1.squarespace.com/static/628d01de89c97207dfc5d5e4/t/62a1e6fcd5b41910d00d23c8/1654777639245/LIIs+in+Africa+Impact+Report+2021+-+PUBLICATION+VERSION+MAY+2022.pdf">LIIs in Africa Impact Report</a> shows the remarkable impact of free access to African law:
+
+    <ul>
+      <li>Over 3,000,000 annual users in 2020.</li>
+      <li>2.7x growth since 2017.</li>
+      <li>The majority of legal and justice sector professionals could not do their jobs without these resources.</li>
+    </ul>
+
+    <a href="https://www.openlawafrica.org/impact" target="_blank" class="btn btn-primary">
+      Impact and testimonials of Open Law Africa
+    </a>
+  </div>
+</section>
+
+<section class="py-5">
   <div class="container">
     <h2 class="mb-4">Open Law Technology</h2>
 
@@ -85,7 +117,7 @@ navbar_item: home
   </div>
 </section>
 
-<section class="py-5">
+<section class="py-5 bg-light">
   <div class="container">
     <h2 class="mb-4">Use African Legal Data</h2>
 
@@ -99,7 +131,7 @@ navbar_item: home
   </div>
 </section>
 
-<section class="py-5 bg-light">
+<section class="py-5">
   <div class="container">
     <h2 class="mb-4">Partners</h2>
 
