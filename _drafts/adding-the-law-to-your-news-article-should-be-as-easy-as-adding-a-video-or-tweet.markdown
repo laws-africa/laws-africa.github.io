@@ -1,9 +1,12 @@
 ---
-title: Adding the law to your news article should be as easy as adding a video or tweet
+title: Adding the law to your news article should be as easy as adding a video or
+  tweet
 date: 2022-08-23 09:51:00 +02:00
 author: Greg Kempe
-lead: 'Call for early adopters: help your readers by embedding legislation into your articles just as you would embed a tweet.'
+lead: 'Call for early adopters: help your readers by embedding legislation into your
+  articles just as you would embed a tweet.'
 ---
+
 <style>
 la-akoma-ntoso {
   background-color: #efefef;
