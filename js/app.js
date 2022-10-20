@@ -1,46 +1,48 @@
-function tocify($content, $toc) {
+function tocify(content, toc) {
   var stack;
+  var items = [];
 
-  $toc.empty();
-
-  $content.find("h1, h2, h3, h4").each(function (i, heading) {
-    var li = document.createElement("li"),
-      a = document.createElement("a"),
-      top;
-
-    a.href = "#" + heading.id;
-    a.innerHTML = heading.innerText;
-    li.appendChild(a);
+  content.querySelectorAll("h1, h2, h3, h4, h5").forEach(function (heading) {
+    var item = {
+      type: heading.tagName,
+      title: heading.innerText,
+      id: heading.id,
+      children: [],
+    };
 
     // top level
     if (!stack) {
-      $toc.append(li);
-      stack = [[heading.tagName, li.parentElement]];
-    } else {
-      // find sibling, stack is at h3 and we want h1
-      while (stack.length > 0 && stack[stack.length - 1][0] > heading.tagName)
-        stack.pop();
-      top = stack[stack.length - 1];
+      items.push(item);
+      stack = [item];
 
-      if (top[0] == heading.tagName) {
+    } else {
+      // find the best sibling for this entry; if the stack is at h3 and we have h2, find an h2 or h1
+      while (stack.length > 0 && stack[stack.length - 1].type > heading.tagName) {
+        stack.pop();
+      }
+      var top = stack[stack.length - 1];
+
+      if (top.type == heading.tagName) {
         // siblings
-        top[1].appendChild(li);
+        if (stack.length > 1) {
+          stack[stack.length - 2].children.push(item);
+        } else {
+          items.push(item);
+        }
+        stack[stack.length - 1] = item;
       } else {
         // child
-        // new sublist
-        ul = document.createElement("ul");
-        ul.className = "list-unstyled ml-3";
-        ul.appendChild(li);
-
-        top[1].lastElementChild.appendChild(ul);
-        stack.push([heading.tagName, ul]);
+        top.children.push(item);
+        stack.push(item);
       }
     }
   });
+
+  toc.items = items;
 }
 
-$(function () {
-  $("[data-tocify]").each(function (i, content) {
-    tocify($(content), $(content.getAttribute("data-tocify")));
+window.addEventListener("DOMContentLoaded", function() {
+  document.querySelectorAll("[data-tocify]").forEach(function(content) {
+    tocify(content, document.querySelector(content.getAttribute("data-tocify")));
   });
 });

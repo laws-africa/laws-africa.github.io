@@ -32,7 +32,13 @@ layout: simple
     <div class="row">
       <div class="col-3 d-none d-sm-block sidebar-toc pt-5">
         <aside class="sidebar sticky">
-          <ol id="toc" class="list-unstyled"></ol>
+          <la-table-of-contents-controller
+            id="toc"
+            collapse-all-btn-classes="btn btn-secondary btn-sm"
+            expand-all-btn-classes="btn btn-secondary btn-sm"
+            title-filter-clear-btn-classes="btn btn-secondary btn-sm"
+            title-filter-input-classes="form-control"
+          ></la-table-of-contents-controller>
         </aside>
       </div>
 

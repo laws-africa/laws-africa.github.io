@@ -8,7 +8,7 @@ key: akn4africa
 latest_version: true
 ---
 
-# Introduction
+# 1. Introduction
 
 The Akoma Ntoso (AKN) Naming Convention for uniquely naming documents and elements within them provides a framework for naming documents in a consistent and replicable way. This is crucial for referring to other pieces of legislation (or any of their provisions) from a given AKN document.
 
@@ -22,7 +22,7 @@ Laws.Africa is not an official body like the UN or the EU, but we also haven’t
 * as a recommendation to other users of AKN across Africa for how to generate FRBR URIs (and eIds); and
 * to help anyone resolving links to Laws.Africa-generated AKN documents.
 
-# Resources
+# 2. Resources
 
 The following resources informed the structure of this document and the issues discussed.
 
@@ -30,7 +30,7 @@ The following resources informed the structure of this document and the issues d
 * AKN4UN: [https://unsceb-hlcm.github.io/](https://unsceb-hlcm.github.io/)
 * AKN4EU: [https://op.europa.eu/en/web/eu-vocabularies/akn4eu](https://op.europa.eu/en/web/eu-vocabularies/akn4eu)
 
-# Generating FRBR URIs
+# 3. Generating FRBR URIs
 
 AKN FRBR URIs are constructed as follows, with the <span style="color:#808080">grey</span> text indicating that an element is optional:
 
@@ -40,9 +40,9 @@ In general, lowercase all letters and don’t use any spaces.
 The sections below go into detail about each of the FRBR URI elements. Before that, we outline our guiding principles when deciding how to structure FRBR URIs in a given jurisdiction.
 At the end are example FRBR URIs for regional and country legislation. We have aimed to include an example for each doctype and subtype.
 
-## Guiding principles
+## 3.1 Guiding principles
 
-### Uniqueness, consistency and replicability
+### 3.1.1 Uniqueness, consistency and replicability
 
 FRBR URIs are used to identify specific documents, or ‘works’ in AKN and FRBR nomenclature. Uniqueness is thus critical.
 
@@ -50,7 +50,7 @@ Consistency and replicability are crucial for accurately referencing (and derefe
 
 When determining the various FRBR URI elements, use the most authoritative source to ensure replicability without coordination. For instance, use Parliament’s numbering system to identify Acts.
 
-### Respecting local traditions
+### 3.1.2 Respecting local traditions
 
 We recommend striking a balance between consistency and local traditions, because a convention should make sense to the people using it. Where it is possible and meaningful to consistently incorporate a jurisdiction’s local naming convention into the FRBR URI, do so.
 
@@ -61,21 +61,21 @@ For example:
 
 When including information in FRBR URIs that isn’t strictly necessary, start with more general information and work your way to increasingly specific information (to the right of the FRBR URI) . When we include the session number for ACHPR Resolutions, and the month for ECOWAS documents, they come before the number itself, with a hyphen, because the number is the most specific element.
 
-## Country code
+## 3.2 Country code
 
 Always use a 2-letter country code, whether the jurisdiction is a literal country or a regional body.
 
-### Literal countries
+### 3.2.1 Literal countries
 
 For countries, use the ISO 3166 2-letter code, e.g. `ke` for Kenya (see [https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2](https://www.google.com/url?q=https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)).
 
-### Regional bodies
+### 3.2.2 Regional bodies
 
 For regional bodies in Africa, use `aa` as the country code in combination with a locality code: `aa-au`, `aa-eac`, `aa-ecowas`, and `aa-sadc`.
 
 The code `aa` is an indicator that what follows is a regional body in Africa. We chose this code because there is no existing ISO 3166 code for any of the regional bodies in Africa, but `aa` is available for assignment by users.
 
-## Locality code
+## 3.3 Locality code
 
 Locality codes are used for:
 
@@ -91,11 +91,11 @@ For example,
 * Kenyan Counties are assigned numbers from 001 to 047. The FRBR URI for a Mombasa County Act would therefore start `/akn/ke-001/…`.
 * In South Africa, municipalities are assigned codes. The FRBR URI for a Municipal By-law in Mbizana would therefore start `/akn/za-ec443/…`.
 
-## Doctype and subtype
+## 3.4 Doctype and subtype
 
 For examples of doctypes and subtypes, see the [Example FRBR URIs](#example-frbr-uris) section.
 
-### Doctype
+### 3.4.1 Doctype
 
 * For legislation – Acts, Regulations, Statutory Instruments, and the like – use `act`. <br>
     These are documents that have the force of law.
@@ -105,12 +105,12 @@ For examples of doctypes and subtypes, see the [Example FRBR URIs](#example-frbr
 * For other documents – Policies, Memoranda of Understanding, Yearbooks, Press Releases, and the like – use `doc`. <br>
   This document, for example, would use the `doc` doctype.
 
-### Subtype
+### 3.4.2 Subtype
 
 * If the document is anything other than an act / statement / judgment / doc, use whatever it calls itself as the subtype, e.g. `act/si` for a Statutory Instrument (‘act’ because it has the force of law).
 * The same subtype should always be used with the same doctype: One should be able to reliably predict, for example, that a set of guidelines will always have `statement/guidelines` as the doctype/subtype combination.
 
-#### Regional legislation
+#### 3.4.2.1 Regional legislation
 
 Use the full subtype for regional legislation (and not an abbreviated form), because regional legislation applies to multiple jurisdictions and it can’t be assumed that everyone across the region will use the same set of conventional abbreviations.
 
@@ -118,7 +118,7 @@ For document types that typically appear in the plural, e.g. Guidelines, use the
 
 If a document type that typically appears in the plural is used in the singular in a given jurisdiction, do use it in the singular in that jurisdiction, but consistently. An example of this is Regulation (`regulation`) in ECOWAS.
 
-#### Country legislation
+#### 3.4.2.2 Country legislation
 
 Use the local tradition for the subtype, because we can assume that people will be familiar with conventional abbreviations within a country. The local tradition will often have an abbreviated form for the subtype, unlike with regional legislation.
 
@@ -126,8 +126,7 @@ Again, don’t use plurals or other variances of document types, as it makes it 
 
 Inevitably, a document type will exist for which an abbreviation has already been chosen. When this happens, choose a longer abbreviation for the ‘new’ document type, and leave the existing one as is. For example, Premier’s Notice (`premn`) was added after Provincial Notice (`pn`). Try to map out all subtypes beforehand to avoid such a clash.
 
-Author
-------
+## 3.5 Author
 
 Include the author to differentiate from the ‘default’ author, and where it’s necessary to clearly differentiate between similar documents with different authors.
 
@@ -170,8 +169,7 @@ Abbreviate the author only if a body is usually referred to by that abbreviation
   </tr>
 </table>
 
-Year
-----
+## 3.6 Year
 
 For the year, use the year of the work, in the format `yyyy`.
 
@@ -181,7 +179,7 @@ The year usually coincides with the year in which it was published, but if an Ac
 
 For African Union, EAC, ECOWAS, and SADC documents, use the year of the date of adoption.
 
-## Number
+## 3.6 Number
 
 The purpose of the `number` element in the FRBR URI is to clearly identify a given document (in that place, with that subtype, by that author, in that year). It’s the most specific piece of information about a document that can disambiguate it from its peers (e.g. all other Acts in that year).
 
@@ -208,30 +206,30 @@ except when to do so would change the meaning. For example:
 
 When choosing such a phrase it’s important to bear in mind the purpose of the `number` element. If, for example, several ‘progress’ statements are typically issued by a body within a year, you may wish to number them `progress-1`, `progress-2`, etc. for disambiguation. But if each is typically on a different topic, the preference is to number them, for example, `progress-environment`, `progress-public-health`, etc.
 
-### Acts with Chapter numbers
+### 3.6.1 Acts with Chapter numbers
 
 Don’t use a Chapter (or Cap) number when generating an FRBR URI, because they change over time. Use the Act’s number as assigned in the original legislative process.
 
 You can link the Cap number as a piece of document metadata and update it as necessary to ensure references are dereferenced accurately.
 
-### Judgments
+### 3.6.2 Judgments
 
 Judgment numbers should be derived from an officially assigned Medium Neutral Citation (MNC) if possible. In most cases, the MNC includes a number that is unique either within a year, within a particular court, or both. Use the necessary elements from the MNC to generate a unique FRBR URI.
 
 For example, Kenya Law assigns MNC numbers to Kenyan judgments which include a year and a court code. Judgment 5 of 2019 from the High Court of Kenya would use the FRBR URI <code>/akn/<b>ke</b>/judgment/<b>kehc</b>/<b>2019</b>/<b>5</b></code>. Here, `kehc` identifies the document author: the High Court of Kenya.
 
-## Example FRBR URIs
+## 3.7 Example FRBR URIs
 
 The tables below aim to include all known document types but will certainly fail, if only because inevitably a new document type will be published in the future. The preceding sections are there to guide users in making the call when the tables fail, and explain how the tables were compiled.
 
-### Regional legislation
+### 3.7.1 Regional legislation
 
 * African Union doctypes list compiled from [https://au.int/treaties](https://au.int/treaties) and [https://www.achpr.org/resources](https://www.achpr.org/resources).
 * EAC doctypes list compiled from [https://www.eac.int/documents/category/acts-of-the-community](https://www.eac.int/documents/category/acts-of-the-community) and [https://www.eac.int/documents/category/eac-regulations](https://www.eac.int/documents/category/eac-regulations).
 * ECOWAS doctypes list compiled from [https://www.ecowas.int/ecowas-law/](https://www.ecowas.int/ecowas-law/).
 * SADC doctypes list compiled from [https://www.sadc.int/documents-publications/](https://www.sadc.int/documents-publications/).
 
-#### Documents with the <code>act</code> doctype
+#### 3.7.1.1 Documents with the <code>act</code> doctype
 
 <table class="table table-sm table-bordered">
   <tr>
@@ -360,7 +358,7 @@ The tables below aim to include all known document types but will certainly fail
   </tr>
 </table>
 
-#### Documents with the <code>statement</code> doctype
+#### 3.7.1.2 Documents with the <code>statement</code> doctype
 
 <table class="table table-sm table-bordered">
   <tr>
@@ -436,7 +434,7 @@ The tables below aim to include all known document types but will certainly fail
   </tr>
 </table>
 
-#### Documents with the <code>judgment</code> doctype
+#### 3.7.1.3 Documents with the <code>judgment</code> doctype
 
 <table class="table table-sm table-bordered">
   <tr>
@@ -453,7 +451,7 @@ The tables below aim to include all known document types but will certainly fail
   </tr>
 </table>
 
-#### Documents with the <code>doc</code> doctype
+#### 3.7.1.4 Documents with the <code>doc</code> doctype
 
 <table class="table table-sm table-bordered">
   <tr>
@@ -493,7 +491,7 @@ The tables below aim to include all known document types but will certainly fail
   </tr>
 </table>
 
-#### Documents with the <code>documentCollection</code> doctype
+#### 3.7.1.5 Documents with the <code>documentCollection</code> doctype
 
 <table class="table table-sm table-bordered">
   <tr>
@@ -511,7 +509,7 @@ The tables below aim to include all known document types but will certainly fail
 </table>
 
 
-### Country legislation
+### 3.7.2 Country legislation
 
 This non-exhaustive table is based on our experience with legislation from the jurisdictions listed below. We’ve mostly worked with only the English documents from these jurisdictions so far.
 
