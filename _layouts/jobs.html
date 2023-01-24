@@ -35,6 +35,11 @@ layout: simple
                 {{ posn.responsibilities|markdownify }}
                 {% endif %}
 
+                {% if posn.way_of_working %}
+                <h6>How we work</h6>
+                {{ posn.way_of_working|markdownify }}
+                {% endif %}
+
                 <h6>Requirements</h6>
                 {{ posn.requirements|markdownify }}
 
