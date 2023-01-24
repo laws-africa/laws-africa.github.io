@@ -3,7 +3,7 @@ title: Open Positions
 position: 10
 lead: Join the Laws.Africa team and help make African legislation freely available
   to everyone.
-positions: 
+positions:
 - title: Senior Python/Django Developer
   description: |-
     **This is an excellent opportunity for a senior, experienced developer to
