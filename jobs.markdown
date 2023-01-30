@@ -44,6 +44,38 @@ positions:
   location: Cape Town or remote in Africa (Africa-based only, please!)
   type: 2 year contract with option for permanent appointment
   cta: https://forms.gle/RfzWSKvQrn1serMv5
+- title: Project Manager
+  description: |-
+    We are looking for a Project Manager based in Nairobi to assist with the management and execution of our programmes to enable free access to African law.
+
+    We are looking for an organised, pro-active Project Manager to help manage
+    the execution and delivery of our activities and programmes across Africa.
+    We are a dynamic, modern organisation that uses technology heavily to aid
+    us in our work. You will work directly with Laws.Africa leadership,
+    technical staff and clients to help us achieve our goal of enabling free
+    access to the law in sub-Saharan Africa.
+  responsibilities: |-
+    * Plan and coordinate the execution of a number of Laws.Africa activities and programmes
+    * Track progress of projects, provide written updates, and help manage risks
+    * Track projects against budgets and deliverables and help ensure on-time, on-budget delivery
+    * Organize and execute events and workshops
+  way_of_working: |-
+    * We're a small team that Gets Things Done and deliver remarkable value to our partners, users and clients.
+    * We work remotely with team members in South Africa, Kenya and elsewhere in Africa.
+    * We are physically based at UCT in Cape Town, South Africa.
+    * We care about the human and business impact of access to the law.
+  requirements: |-
+    * At least three years’ project management experience
+    * Extremely competent and comfortable working with Google Docs, Google Sheets, Office 365 and/or MS Excel and Word
+    * Proficiency in English
+    * Outstanding organizational and planning abilities
+    * Ability to self-manage and work independently
+    * Excellent written and verbal communication skills
+    * Willingness to wear many hats and help out with multiple aspects of running a small, busy, non-profit organisation
+    * Familiarity with project management tools such as Trello is an advantage
+    * Knowledge of the development, non-profit and rule of law sectors is an advantage
+  location: Nairobi, Kenya
+  type: Full-time position
+  cta: https://docs.google.com/forms/d/e/1FAIpQLSfTLcmTrwKHL7In7zoYO1E_MLdAFxWGImeYukeCgp67sjskPg/viewform
 layout: jobs
 ---
-
