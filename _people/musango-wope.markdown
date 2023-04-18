@@ -2,7 +2,7 @@
 title: Musango Wope
 date: 2021-05-05 10:10:00 +02:00
 position: 5
-group: core
+group: alumni
 role: Software Developer
 image: "/uploads/musango.jpg"
 ---
