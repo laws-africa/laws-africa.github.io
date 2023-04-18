@@ -5,7 +5,7 @@ role: Project Manager
 email: olivia@laws.africa
 image: "/uploads/Olivia.png"
 group: core
-position: 5
+position: 6
 ---
 
 Olivia previously worked at Karam Law Firm (Bloomington, USA) and at GIZ (Abidjan, Ivory Coast).
