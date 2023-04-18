@@ -8,7 +8,6 @@ group: 'core
 '
 image: "/uploads/chikomborero.jpg"
 profile: chikomborerogudlanga
-Key: 
 email: chiko@laws.africa
 ---
 
