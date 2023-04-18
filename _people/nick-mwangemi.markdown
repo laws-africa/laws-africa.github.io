@@ -5,6 +5,7 @@ role: Software Developer
 email: nick@laws.africa
 image: "/uploads/DSC03557.jpg"
 group: core
+position: 4
 ---
 
 Nick is a software developer from Nairobi, Kenya. He has a passion for creating innovative software solutions that deliver business value.
