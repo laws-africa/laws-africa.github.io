@@ -11,4 +11,4 @@ profile: chikomborerogudlanga
 email: chiko@laws.africa
 ---
 
-Chikomborero is a lawyer with an LLB degree from the University of Johannesburg, and is reading for an LL.M degree. He leads the content team and is excited to be working on solving the access to law problem in Africa
+Chikomborero is a lawyer with an LLB degree from the University of Johannesburg, and is reading for an LL.M degree. He leads the content team and is excited to be working on solving the access to law problem in Africa.
