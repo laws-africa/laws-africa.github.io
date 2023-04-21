@@ -3,7 +3,7 @@ title: Wilson Gaturu
 date: 2023-04-18 11:30:00 +02:00
 role: Software Developer
 email: wilson@laws.africa
-image: "/uploads/cropped_waterfall.jpg"
+image: "/uploads/closeup_wilson.jpg"
 group: core
 position: 5
 ---
