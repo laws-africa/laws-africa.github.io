@@ -6,65 +6,53 @@ stations:
 - name: Scan Station Accra
   location: Accra, Ghana
   coords: 5.6037, -0.1870
-
 - name: Scan Station Berlin
   location: Berlin, Germany
   launch_date: 2023
   coords: 52.5065133, 13.1445545
-
 - name: Scan Station Cape Town
   location: Cape Town, South Africa
   launch_date: 2019
-  coords: -33.9576164, 18.4629253
-
+  coords: "-33.9576164, 18.4629253"
 - name: Scan Station Dar es Salaam
   location: Dar es Salaam, Tanzania
-  launch_date:
-  coords: -6.7924, 39.2083
-
+  launch_date: 
+  coords: "-6.7924, 39.2083"
 - name: Scan Station Johannesburg
   location: Johannesburg, South Africa
-  launch_date:
-  coords: -26.2041, 28.0473
-
+  launch_date: 
+  coords: "-26.2041, 28.0473"
 - name: Scan Station Kampala
   location: Kampala, Uganda
   launch_date: 
   coords: 0.3476, 32.5825
-
 - name: Scan Station Lagos
   location: Lagos, Nigeria
-  launch_date:
+  launch_date: 
   coords: 6.5244, 3.3792
-
 - name: Scan Station Lilongwe
   location: Lilongwe, Malawi
-  launch_date:
-  coords: -13.9626, 33.7741
-
+  launch_date: 
+  coords: "-13.9626, 33.7741"
 - name: Scan Station Lusaka
   location: Lusaka, Zambia
-  launch_date:
-  coords: -15.3875, 28.3228
-
+  launch_date: 
+  coords: "-15.3875, 28.3228"
 - name: Scan Station Mauritius
   location: Mauritius
-  launch_date:
-  coords: -20.3484, 57.5522
-
+  launch_date: 
+  coords: "-20.3484, 57.5522"
 - name: Scan Station Montréal
   location: Montréal, Canada
-  launch_date:
+  launch_date: 
   coords: 45.5017, -73.5673
-
 - name: Scan Station Victoria
   location: Victoria, Seychelles
-  launch_date:
-  coords: -4.6191, 55.4513
-
-
+  launch_date: 
+  coords: "-4.6191, 55.4513"
 map_js:
-- <script defer src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+- <script defer src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+  crossorigin=""></script>
 - |-
   <script defer>
     var map = L.map('map').setView([15.0, 20.0], 2);
