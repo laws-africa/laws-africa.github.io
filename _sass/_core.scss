@@ -11,16 +11,7 @@
 
 .work-in-action-list {
   img {
-    width: 100%;
-  }
-  img[alt='open-by-laws'] {
-    width: 125px;
-  }
-  img[alt='ulii'] {
-    width: 125px;
-  }
-  img[alt='lawlibrary'] {
-    width: 115px;
+    max-width: 100%;
   }
 }
 

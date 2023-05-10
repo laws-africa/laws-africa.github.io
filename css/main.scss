@@ -1,11 +1,19 @@
 ---
 ---
 
-@import 'variables';
-@import 'bootstrap/bootstrap';
+@import "variables";
+@import "bootstrap/bootstrap";
 
-@import 'core';
-@import 'docs';
-@import 'utilities';
-@import 'indigo';
-@import 'highlight';
+@import "core";
+@import "docs";
+@import "utilities";
+@import "indigo";
+@import "highlight";
+
+#map {
+  height: 380px;
+}
+
+.highlight-background {
+  background-color: lightgrey;
+}
