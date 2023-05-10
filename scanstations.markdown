@@ -3,21 +3,65 @@ title: Scan Stations
 lead: Laws.Africa's world-wide information digitisation network.
 layout: simple
 stations:
-- name: Scan Station Cape Town
-  location: Cape Town, South Africa
-  launch_date: 2019-01-01
-  coords: -33.9576164, 18.4629253
+- name: Scan Station Accra
+  location: Accra, Ghana
+  coords: 5.6037, -0.1870
 
 - name: Scan Station Berlin
   location: Berlin, Germany
-  launch_date: 2023-01-12
+  launch_date: 2023
   coords: 52.5065133, 13.1445545
+
+- name: Scan Station Cape Town
+  location: Cape Town, South Africa
+  launch_date: 2019
+  coords: -33.9576164, 18.4629253
+
+- name: Scan Station Dar es Salaam
+  location: Dar es Salaam, Tanzania
+  coords: -6.7924, 39.2083
+
+- name: Scan Station Johannesburg
+  location: Johannesburg, South Africa
+  coords: -26.2041, 28.0473
+
+- name: Scan Station Kampala
+  location: Kampala, Uganda
+  launch_date: 
+  coords: 0.3476, 32.5825
+
+- name: Scan Station Lagos
+  location: Lagos, Nigeria
+  coords: 6.5244, 3.3792
+
+- name: Scan Station Lilongwe
+  location: Lilongwe, Malawi
+  launch_date: 2023
+  coords: -13.9626, 33.7741
+
+- name: Scan Station Lusaka
+  location: Lusaka, Zambia
+  coords: -15.3875, 28.3228
+
+- name: Scan Station Mauritius
+  location: Mauritius
+  coords: -20.3484, 57.5522
+
+- name: Scan Station Montréal
+  location: Montréal, Canada
+  coords: 45.5017, -73.5673
+
+- name: Scan Station Victoria
+  location: Victoria, Seychelles
+  launch_date: 2023
+  coords: -4.6191, 55.4513
+
 
 map_js:
 - <script defer src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
 - |-
   <script defer>
-    var map = L.map('map').setView([15.1021, -40.2812], 2);
+    var map = L.map('map').setView([15.0, 20.0], 2);
 
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 19,
@@ -59,23 +103,23 @@ map_js:
     </div>
   </header>
 
-  <div id="map"></div>
-
   <section class="py-5">
     <div class="container">
-    <div class="row justify-content-center">
-      {% for station in page.stations %}
-        <div class="col-sm-6">
-          <div class="card mb-2 station" data-coords="{{ station.coords }}">
-            <div class="card-body">
-              <h5 class="card-title">{{ station.name }}</h5>
-              <div class="card-text"><b>Location:</b> {{ station.location }}</div>
-              <div class="card-text"><b>Launch date:</b> {{ station.launch_date }}</div>
+      <div id="map"></div>
+
+      <div class="row justify-content-center pt-5">
+        {% for station in page.stations %}
+          <div class="col-sm-6">
+            <div class="card mb-3 station" data-coords="{{ station.coords }}">
+              <div class="card-body">
+                <h5 class="card-title">{{ station.name }}</h5>
+                <div class="card-text"><b>Location:</b> {{ station.location }}</div>
+                <div class="card-text"><b>Launch date:</b> {{ station.launch_date }}</div>
+              </div>
             </div>
           </div>
-        </div>
-      {% endfor %}
-    </div>
+        {% endfor %}
+      </div>
     </div>
   </section>
 </div>
