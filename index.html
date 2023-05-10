@@ -1,6 +1,66 @@
 ---
 layout: simple
 navbar_item: home
+portals:
+- name: Gazettes.Africa
+  url: https://gazettes.africa
+  logo: gazettes-africa-logo.png
+
+- name: AfricanLII
+  url: https://africanlii.org
+  logo: africanlii-logo.svg
+
+- name: LawLibrary
+  url: https://lawlibrary.org.za
+  logo: lawlibrary-logo.png
+
+- name: GhalII
+  url: https://ghalii.org
+  logo: ghalii-logo.png
+
+- name: LesothoLII
+  url: https://lesotholii.org
+  logo: lesotholii-logo.png
+
+- name: MalawiLII
+  url: https://malawilii.org
+  logo: malawilii-logo.png
+
+- name: NamibLII
+  url: https://namiblii.org
+  logo: namiblii-logo.png
+
+- name: SeyLII
+  url: https://seylii.org
+  logo: seylii-logo.png
+
+- name: SierraLII
+  url: https://sierralii.org
+  logo: sierralii-logo.png
+
+- name: TanzLII
+  url: https://tanzlii.org
+  logo: tanzlii-logo.png
+
+- name: TCILII
+  url: https://TCILII.org
+  logo: tcilii-logo.png
+
+- name: ULII
+  url: https://ulii.org
+  logo: ulii-logo.png
+
+- name: ZambiaLII
+  url: https://zambialii.org
+  logo: zambialii-logo.png
+
+- name: ZanzibarLII
+  url: https://zanzibarlii.org
+  logo: zanzibarlii-logo.png
+
+- name: ZimLII
+  url: https://zimlii.org
+  logo: zimlii-logo.png
 ---
 
 <header class="py-5 bg-light">
@@ -104,6 +164,26 @@ navbar_item: home
 
 <section class="py-5">
   <div class="container">
+    <h2 class="mb-4">Our work in action</h2>
+    <p class="lead">
+      Our legal data and software powers legal information portals used by hundreds of thousands of users every month,
+      from Africa and all over the world.
+    </p>
+    <div class="row mb-4 work-in-action-list">
+      {% for portal in page.portals %}
+        <div class="col-6 col-md-3 mb-3 p-4 text-center align-self-center">
+          <a href="{{ portal.url }}" target="_blank" rel="noreferrer">
+            <img src="/img/{{ portal.logo }}" alt="{{ portal.name }}">
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+
+<section class="py-5 bg-lawsafrica-pale-red">
+  <div class="container">
     <h2 class="mb-4">Open Law Technology</h2>
 
     {% include open_law_tech_cards.html %}
@@ -185,59 +265,7 @@ navbar_item: home
   </div>
 </section>
 
-<section class="py-5">
-  <div class="container">
-    <h2 class="mb-4">Our work in action</h2>
-    <p class="lead">
-      Our legal data and software powers legal information portals used by hundreds of thousands of users every month,
-      from Africa and all over the world.
-    </p>
-    <div class="row mb-4 work-in-action-list">
-      <div class="col-6 col-md-3 mb-3 p-4 text-center align-self-center">
-        <a href="https://gazettes.africa/"
-           target="_blank"
-           rel="noreferrer"
-        >
-          <img src="/img/gazettes-africa-logo.png"
-               alt="gazettes-africa"
-          />
-        </a>
-      </div>
-      <div class="col-6 col-md-3 mb-3 p-4 text-center align-self-center">
-        <a href="https://openbylaws.org.za/"
-           target="_blank"
-           rel="noreferrer"
-        >
-          <img src="/img/obl-logo.png"
-               alt="open-by-laws"
-          />
-        </a>
-      </div>
-      <div class="col-6 col-md-3 mb-3 p-4 text-center align-self-center">
-        <a href="https://ulii.org/"
-           target="_blank"
-           rel="noreferrer"
-        >
-          <img src="/img/ulii-logo.png"
-               alt="ulii"
-          />
-        </a>
-      </div>
-      <div class="col-6 col-md-3 mb-3 p-4 text-center align-self-center">
-        <a href="https://lawlibrary.org.za/"
-           target="_blank"
-           rel="noreferrer"
-        >
-          <img src="/img/lawlibrary-logo.png"
-               alt="lawlibrary"
-          />
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="py-5">
+<section class="py-5 bg-light">
   <div class="container">
     <h2 class="mb-4">Global Digitisation Network</h2>
 
@@ -249,7 +277,7 @@ navbar_item: home
   </div>
 </section>
 
-<section class="py-5 bg-light">
+<section class="py-5">
   <div class="container">
     <h2 class="mb-4">Recent articles</h2>
 

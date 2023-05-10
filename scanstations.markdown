@@ -19,10 +19,12 @@ stations:
 
 - name: Scan Station Dar es Salaam
   location: Dar es Salaam, Tanzania
+  launch_date:
   coords: -6.7924, 39.2083
 
 - name: Scan Station Johannesburg
   location: Johannesburg, South Africa
+  launch_date:
   coords: -26.2041, 28.0473
 
 - name: Scan Station Kampala
@@ -32,28 +34,32 @@ stations:
 
 - name: Scan Station Lagos
   location: Lagos, Nigeria
+  launch_date:
   coords: 6.5244, 3.3792
 
 - name: Scan Station Lilongwe
   location: Lilongwe, Malawi
-  launch_date: 2023
+  launch_date:
   coords: -13.9626, 33.7741
 
 - name: Scan Station Lusaka
   location: Lusaka, Zambia
+  launch_date:
   coords: -15.3875, 28.3228
 
 - name: Scan Station Mauritius
   location: Mauritius
+  launch_date:
   coords: -20.3484, 57.5522
 
 - name: Scan Station Montréal
   location: Montréal, Canada
+  launch_date:
   coords: 45.5017, -73.5673
 
 - name: Scan Station Victoria
   location: Victoria, Seychelles
-  launch_date: 2023
+  launch_date:
   coords: -4.6191, 55.4513
 
 
