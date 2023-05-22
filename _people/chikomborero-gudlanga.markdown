@@ -7,7 +7,6 @@ group: 'core
 
 '
 image: "/uploads/5f729f6d-b5bc-4b74-92b8-db60614edb2d.jpg"
-profile: chikomborerogudlanga
 email: chiko@laws.africa
 ---
 
