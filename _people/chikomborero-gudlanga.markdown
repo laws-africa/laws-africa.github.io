@@ -1,7 +1,7 @@
 ---
 title: Chikomborero Gudlanga
 date: 2019-08-13 15:11:00 +02:00
-position: 8
+position: 9
 role: Content Manager
 group: 'core
 
