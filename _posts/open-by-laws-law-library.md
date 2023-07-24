@@ -2,7 +2,7 @@
 title: Open By-laws is now a part of Law Library
 date: 2023-07-24 00:00:00 +02:00
 author: Greg Kempe
-lead: 'After ten years, OpenBylaws.org.za is now part of the Law Library family.'
+lead: After ten years, OpenBylaws.org.za is now part of the Law Library family.
 image: "/_uploads/obl-lawlibrary.png"
 ---
 
