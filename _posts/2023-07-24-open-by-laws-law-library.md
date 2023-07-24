@@ -7,7 +7,7 @@ image: "/uploads/obl-lawlibrary.png"
 ---
 
 [OpenByLaws.org.za](https://openbylaws.org.za) is very close to my heart: it's the project that got me interested in improving access to African legal information.
-Ten years ago, in 2013, I started exploring what it would look like to make South African municipaly by-laws easier to find, read and share.
+Ten years ago, in 2013, I started exploring what it would look like to make South African municipal by-laws easier to find, read and share.
 The goal was to use modern web technology to build rich reading experiences to make working with local municipal legislation simpler and easier.
 
 Today marks a significant milestone in that journey: Open By-laws is now a part of [LawLibrary.org.za](https://lawlibrary.org.za).
