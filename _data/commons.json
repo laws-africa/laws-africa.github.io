@@ -7,7 +7,7 @@
   "na": {
     "as_at_date": "2023-03-14",
     "n_principal": 435,
-    "n_stubs": 1388
+    "n_stubs": 1385
   },
   "pending": [
     {
@@ -34,7 +34,7 @@
   },
   "za_bylaws": {
     "as_at_date": "2023-07-28",
-    "n_bylaws": 503,
+    "n_bylaws": 504,
     "n_municipalities": 15
   },
   "zw": {
