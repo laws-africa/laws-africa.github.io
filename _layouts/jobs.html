@@ -27,20 +27,20 @@ layout: simple
                   <hr class="my-5">
                 {% endunless %}
 
-                <h3>{{ posn.title }}</h3>
+                <h2>{{ posn.title }}</h2>
                 {{ posn.description|markdownify }}
 
                 {% if posn.responsibilities %}
-                <h6>Responsibilities</h6>
+                <h3>Responsibilities</h3>
                 {{ posn.responsibilities|markdownify }}
                 {% endif %}
 
                 {% if posn.way_of_working %}
-                <h6>How we work</h6>
+                <h3>How we work</h3>
                 {{ posn.way_of_working|markdownify }}
                 {% endif %}
 
-                <h6>Requirements</h6>
+                <h3>Requirements</h3>
                 {{ posn.requirements|markdownify }}
 
                 <p>
