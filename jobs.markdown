@@ -42,7 +42,8 @@ positions:
     * Ability to work independently and manage time effectively.
     * Familiarity with Sub-Saharan Africa, the African Union, and related topics is an advantage.
   location: Remote / Cape Town
-  type: Part-time role, with flexible working hours based on project needs. Expect an average of 15 hours per week.
+  type: Part-time role, with flexible working hours based on project needs. Expect
+    an average of 15 hours per week.
   cta: https://forms.gle/WiWpKL4t8sz2mNA18
 layout: jobs
 ---
