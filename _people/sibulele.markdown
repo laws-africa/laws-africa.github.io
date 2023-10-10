@@ -2,7 +2,7 @@
 title: Sibulele Mdleleni
 date: 2019-08-12 14:32:00 +02:00
 position: 3
-role: Project Administrator
+role: Head of Digitization and Document Conversions
 email: sibulele@laws.africa
 group: core
 image: "/uploads/Sibulele%20Picture.jpg"
