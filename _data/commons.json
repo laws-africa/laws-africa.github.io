@@ -1,13 +1,13 @@
 {
   "covid19": {
-    "as_at_date": "2023-12-15",
+    "as_at_date": "2023-12-17",
     "n_countries": 9,
     "n_principal": 350
   },
   "na": {
-    "as_at_date": "2023-12-15",
+    "as_at_date": "2023-12-17",
     "n_principal": 436,
-    "n_stubs": 1583
+    "n_stubs": 1586
   },
   "pending": [
     {
