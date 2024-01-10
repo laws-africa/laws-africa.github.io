@@ -24,7 +24,7 @@ This empowers individuals, communities, government, businesses and innovators in
 * Access to the law directly and indirectly enables access to justice.
 * Government is responsible for making the law freely and openly available.
 * A legislation commons improves access to the law for everyone.
-* A legislation commons promotes justice sector innovation by lowering barriers to entry and reducing undifferentiated heavy lifting.
+* A legislation commons promotes justice sector innovation by lowering barriers to entry and reducing [undifferentiated heavy lifting](/2019/02/14/govt-law-cloud-computing.html).
 * Such a commons must be machine-friendly and, ultimately, openly licensed.
 * Such a commons can only be sustainably built in mutual collaboration with those who benefit from it.
 * Such a commons can be built sustainably through appropriate licensing and the offering of value-added features and services, without limiting the usefulness of the open commons.
