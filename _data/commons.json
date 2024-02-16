@@ -7,7 +7,7 @@
   "na": {
     "as_at_date": "2024-02-09",
     "n_principal": 436,
-    "n_stubs": 1560
+    "n_stubs": 1558
   },
   "pending": [
     {
@@ -40,6 +40,6 @@
   "zw": {
     "as_at_date": "2017-12-31",
     "n_principal": 395,
-    "n_stubs": 85
+    "n_stubs": 86
   }
 }
