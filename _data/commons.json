@@ -1,13 +1,13 @@
 {
   "covid19": {
-    "as_at_date": "2024-05-08",
+    "as_at_date": "2024-05-14",
     "n_countries": 9,
     "n_principal": 2889
   },
   "na": {
-    "as_at_date": "2024-05-08",
+    "as_at_date": "2024-05-14",
     "n_principal": 436,
-    "n_stubs": 1564
+    "n_stubs": 1566
   },
   "pending": [
     {
@@ -30,7 +30,7 @@
   "ug": {
     "as_at_date": "2023-06-08",
     "n_principal": 394,
-    "n_stubs": 525
+    "n_stubs": 543
   },
   "za_bylaws": {
     "as_at_date": "2024-05-09",
