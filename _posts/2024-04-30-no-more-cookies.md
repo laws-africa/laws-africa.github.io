@@ -2,7 +2,8 @@
 title: No more tracking cookies on our Legal Information websites
 date: 2024-04-30 00:00:00 +02:00
 author: Greg Kempe
-lead: We've removed tracking cookies from all our legal information websites to improve privacy.
+lead: We've removed tracking cookies from all our legal information websites to improve
+  privacy.
 image: "/uploads/pawprints.jpg"
 ---
 
