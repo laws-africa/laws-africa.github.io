@@ -1,7 +1,7 @@
 ---
 title: Nelly Monyangi
 date: 2023-05-22 19:42:00 +02:00
-role: Project Assistant
+role: Junior Product Owner
 email: nelly@laws.africa
 image: "/uploads/Profile%20photo.jpg"
 group: core
