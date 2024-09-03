@@ -2,12 +2,12 @@
   "covid19": {
     "as_at_date": "2024-08-30",
     "n_countries": 9,
-    "n_principal": 2916
+    "n_principal": 2917
   },
   "na": {
     "as_at_date": "2024-08-23",
-    "n_principal": 436,
-    "n_stubs": 1568
+    "n_principal": 437,
+    "n_stubs": 1567
   },
   "pending": [
     {
