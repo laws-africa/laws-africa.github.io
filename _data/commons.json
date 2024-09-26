@@ -1,11 +1,11 @@
 {
   "covid19": {
-    "as_at_date": "2024-09-13",
+    "as_at_date": "2024-09-20",
     "n_countries": 9,
     "n_principal": 2921
   },
   "na": {
-    "as_at_date": "2024-09-13",
+    "as_at_date": "2024-09-20",
     "n_principal": 437,
     "n_stubs": 1572
   },
@@ -33,7 +33,7 @@
     "n_stubs": 597
   },
   "za_bylaws": {
-    "as_at_date": "2024-09-13",
+    "as_at_date": "2024-09-20",
     "n_bylaws": 535,
     "n_municipalities": 15
   },
