@@ -1,7 +1,7 @@
 ---
 title: Linda Awuor
 date: 2024-10-04 09:33:00 +02:00
-role: 'East Africa Programmes Manager '
+role: 'Programmes Manager '
 email: linda@laws.africa
 group: core
 position: 11
