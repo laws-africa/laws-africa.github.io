@@ -2,7 +2,7 @@
   "covid19": {
     "as_at_date": "2024-10-11",
     "n_countries": 9,
-    "n_principal": 2926
+    "n_principal": 2927
   },
   "na": {
     "as_at_date": "2024-10-11",
@@ -30,7 +30,7 @@
   "ug": {
     "as_at_date": "2024-02-06",
     "n_principal": 395,
-    "n_stubs": 597
+    "n_stubs": 602
   },
   "za_bylaws": {
     "as_at_date": "2024-10-18",
