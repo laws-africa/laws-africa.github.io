@@ -17,10 +17,10 @@ layout: slim
 
 ### Address
 
-University of Cape Town
-3 Cross Campus Road
-Kramer Law Building, Middle Campus
-Rondebosch
-Cape Town
-7701
+University of Cape Town<br>
+3 Cross Campus Road<br>
+Kramer Law Building, Middle Campus<br>
+Rondebosch<br>
+Cape Town<br>
+7701<br>
 South Africa
