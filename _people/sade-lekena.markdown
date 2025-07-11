@@ -1,10 +1,10 @@
 ---
 title: Sade Lekena
 date: 2023-10-10 12:01:00 +02:00
-role: "Special Advisor: Partnerships and Purpose"
+position: 10
+role: 'Special Advisor: Partnerships and Purpose'
 email: sade@laws.africa
 group: core
-position: 10
 image: "/uploads/Sade-d0c4f0.jpg"
 ---
 
