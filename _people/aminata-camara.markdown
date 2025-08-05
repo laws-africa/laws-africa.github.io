@@ -2,7 +2,7 @@
 title: Aminata Camara
 date: 2025-08-04 09:33:00 +02:00
 position: 12
-role: West Africa Programme Manager
+role: West Africa Representative
 email: aminata@laws.africa
 group: core
 image: "/uploads/aminata.jpg"
