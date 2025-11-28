@@ -51,7 +51,7 @@ description: Laws.Africa unlocks the value of African digital legal information 
 baseurl: 
 url: https://laws.africa
 markdown: kramdown
-hiring: true
+hiring: false
 hiring_contributors: false
 plugins:
 - jekyll-feed
