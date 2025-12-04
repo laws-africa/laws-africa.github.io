@@ -1,7 +1,7 @@
 ---
 title: Jonathan Munyi
 date: 2025-12-04 08:58:00 +02:00
-role: Software Engineer
+role: Senior Software Engineer
 email: jonathan@laws.africa
 image: "/uploads/PXL_20251204_063621781.PORTRAIT.ORIGINAL~2%20(1)-2d30f4.jpg"
 group: core
