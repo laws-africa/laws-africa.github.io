@@ -97,6 +97,53 @@ positions:
     * Based in South Africa or Kenya, with ability to travel nationally and internationally when required
   location: South Africa or Kenya (remote)
   type: Full-time
+- title: Sales Representative - LawLibrary SA
+  description: |
+    Laws.Africa is hiring an experienced Sales Representative to grow
+    LawLibrary.org.za, our South African legal research product. This role is
+    focused on proactive outbound sales: identifying prospects, starting
+    conversations, running demos, and closing deals with legal professionals
+    and institutions.
+
+    LawLibrary SA is used by legal practitioners, firms, students, and public
+    institutions to access trusted, up-to-date legal information. Over 1
+    million visitors use our platforms every year in support of the rule of
+    law, business, government, and human rights.
+
+    This is a hands-on sales role in a startup organisation that is scaling up
+    fast. You will work closely with the Head of LawLibrary and leadership,
+    carry a clear sales target, and be accountable for converting interest into
+    paying users and partners. This role will play a key part in shaping
+    LawLibrary SA's commercial strategy and growth in South Africa.
+  responsibilities: |
+    * Own and execute the sales strategy for LawLibrary SA.
+    * Proactively identify, contact, and qualify potential customers (law firms, sole practitioners, institutions, associations).
+    * Run product presentations and demos, online and in person.
+    * Convert leads into paid individual and bulk subscriptions.
+    * Build and manage a healthy sales CRM pipeline.
+    * Work closely with the Head of LawLibrary to align sales activity with product direction and roadmap.
+    * Feed customer feedback and objections into product, pricing, and positioning decisions.
+    * Represent LawLibrary SA professionally in external meetings, events, and partnerships.
+    * Maintain accurate sales records and reporting.
+  way_of_working: |
+    * We're a small team that values ownership and clear accountability.
+    * You will have autonomy, but also clear sales targets.
+    * We prioritise trust, credibility, and long-term relationships with our clients.
+    * We work remotely, across South Africa and other countries.
+  requirements: |
+    * Proven experience selling legal technology, legal research tools, or professional services to legal professionals.
+    * Demonstrated ability to carry and hit a sales target.
+    * Comfortable with proactive outbound sales (calls, emails, follow-ups).
+    * Strong presentation and demo skills.
+    * Clear, confident written and spoken communication.
+    * Ability to explain legal or technical products clearly and credibly.
+    * Highly organised, disciplined, and comfortable managing a sales pipeline.
+    * Bias for action and persistence, moving as fast as the client wants you to.
+    * Ability to work independently in a dynamic, rapidly growing organisation.
+    * Familiarity with the legal profession in South Africa is a strong advantage.
+    * LLB or legal background is advantageous, not required.
+    * Based in Gauteng, South Africa, with ability to travel nationally and internationally when required.
+  location: Gauteng, South Africa (remote-friendly)
+  type: Full-time
 layout: jobs
 ---
-
