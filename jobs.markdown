@@ -109,30 +109,30 @@ positions:
 
     Applications are assessed on a rolling basis.
   responsibilities: |-
-    *Select judgments for inclusion in case digests and law reports in line with agreed selection criteria
-    *Group and categorise selected judgments into consistent thematic areas for digest and law report indexing
-    *Review AI-generated case summaries for accuracy and flag, correct, or escalate errors where necessary
-    *Conduct comparative analysis of decisions from regional courts and national courts to support cross-jurisdictional research
-    *Ensure regional court judgments are accurately cited and properly linked on AfricanLII
-    *Research and curate regional court decisions to strengthen and expand thematic case digests
-    *Maintain high editorial standards for legal analysis, classification, and citation
-    *Work with editorial and product teams to improve caselaw workflows, consistency, and discoverability
-    *Identify important legal developments and emerging themes for inclusion in digests and law reports
+    * Select judgments for inclusion in case digests and law reports in line with agreed selection criteria
+    * Group and categorise selected judgments into consistent thematic areas for digest and law report indexing
+    * Review AI-generated case summaries for accuracy and flag, correct, or escalate errors where necessary
+    * Conduct comparative analysis of decisions from regional courts and national courts to support cross-jurisdictional research
+    * Ensure regional court judgments are accurately cited and properly linked on AfricanLII
+    * Research and curate regional court decisions to strengthen and expand thematic case digests
+    * Maintain high editorial standards for legal analysis, classification, and citation
+    * Work with editorial and product teams to improve caselaw workflows, consistency, and discoverability
+    * Identify important legal developments and emerging themes for inclusion in digests and law reports
   way_of_working: |-
-    *We’re a small team that values ownership and clear accountability.
-    *We work remotely, across South Africa and other countries.
-    *We prioritise predictable delivery and follow-through over heroics.
+    * We’re a small team that values ownership and clear accountability.
+    * We work remotely, across South Africa and other countries.
+    * We prioritise predictable delivery and follow-through over heroics.
   requirements: |-
-    *Strong legal research, analysis, and writing skills
-    *Experience working with judgments, legal citation, and case law research
-    *Excellent attention to detail and commitment to editorial accuracy and consistency
-    *Ability to classify and organise legal materials in a clear and systematic way
-    *Comfort reviewing and improving AI-assisted editorial outputs
-    *Good judgment in selecting and prioritising cases for editorial treatment
-    *Ability to work independently and collaboratively in a small remote team
-    *Clear written communication and strong organisational skills
-    *Familiarity with African regional courts and cross-jurisdictional legal research is a strong advantage
-    *Experience in legal publishing, law reporting, academic legal research, or legal editorial work is highly desirable
+    * Strong legal research, analysis, and writing skills
+    * Experience working with judgments, legal citation, and case law research
+    * Excellent attention to detail and commitment to editorial accuracy and consistency
+    * Ability to classify and organise legal materials in a clear and systematic way
+    * Comfort reviewing and improving AI-assisted editorial outputs
+    * Good judgment in selecting and prioritising cases for editorial treatment
+    * Ability to work independently and collaboratively in a small remote team
+    * Clear written communication and strong organisational skills
+    * Familiarity with African regional courts and cross-jurisdictional legal research is a strong advantage
+    * Experience in legal publishing, law reporting, academic legal research, or legal editorial work is highly desirable
   location: South Africa
   type: Part-time contract
 - title: Data Capturer
@@ -143,30 +143,30 @@ positions:
 
     The Data Capturer will also support content quality and accessibility by proofreading materials, applying taxonomies, conducting audits, and assisting with the digitisation of gazettes and other legal resources. This role is important to maintaining the reliability and usability of AfricanLII’s legal information platforms for researchers, practitioners, journalists, civil society, and the public.
   responsibilities: |-
-    *Upload judgments in line with the editorial process and adhering to editorial guidelines
-    *Identify and apply the in-house anonymisation policy to judgments that meet the anonymisation criteria
-    *Proofread articles and other materials in line with editorial guidelines
-    *Apply taxonomies to online materials
-    *Monitor a selected list of public websites to ensure content databases are regularly updated
-    *Conduct audits on AfricanLII, LawLibrary SA, and other LII websites as may be assigned from time to time
-    *Upload materials on websites maintained by Laws.Africa
-    *Digitise gazettes in line with documented processes and training provided
+    * Upload judgments in line with the editorial process and adhering to editorial guidelines
+    * Identify and apply the in-house anonymisation policy to judgments that meet the anonymisation criteria
+    * Proofread articles and other materials in line with editorial guidelines
+    * Apply taxonomies to online materials
+    * Monitor a selected list of public websites to ensure content databases are regularly updated
+    * Conduct audits on AfricanLII, LawLibrary SA, and other LII websites as may be assigned from time to time
+    * Upload materials on websites maintained by Laws.Africa
+    * Digitise gazettes in line with documented processes and training provided
   way_of_working: |-
-    *We’re a small team that values ownership and clear accountability.
-    *We work remotely, across South Africa and other countries.
-    *We prioritise predictable delivery and follow-through over heroics.
+    * We’re a small team that values ownership and clear accountability.
+    * We work remotely, across South Africa and other countries.
+    * We prioritise predictable delivery and follow-through over heroics.
   requirements: |-
-    *Undergraduate degree
-    *An LLB is an advantage
-    *A diploma in Library Science is an advantage
-    *At least 2 years of editorial experience, preferably involving academic output
-    *Knowledge of legal citations and legal resources is highly advantageous
-    *Strong attention to detail
-    *Good Microsoft Word editing skills
-    *Good Adobe Acrobat skills
-    *Computer proficiency and a high level of comfort working with the internet and web technologies from an editorial perspective
-    *Strong written English
-    *Proficiency in other languages is highly advantageous
+    * Undergraduate degree
+    * An LLB is an advantage
+    * A diploma in Library Science is an advantage
+    * At least 2 years of editorial experience, preferably involving academic output
+    * Knowledge of legal citations and legal resources is highly advantageous
+    * Strong attention to detail
+    * Good Microsoft Word editing skills
+    * Good Adobe Acrobat skills
+    * Computer proficiency and a high level of comfort working with the internet and web technologies from an editorial perspective
+    * Strong written English
+    * Proficiency in other languages is highly advantageous
   location: South Africa
   type: Part-time contract
 layout: jobs
