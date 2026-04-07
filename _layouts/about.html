@@ -53,7 +53,9 @@ layout: simple
                   <div class="col-md-8">
                     <h5 class="mt-0 mb-0">{{ person.title }}</h5>
                     <h6>{{ person.role }}</h6>
+                    {% if person.email %}
                     <h6><a href="mailto:{{ person.email }}">{{ person.email }}</a></h6>
+                    {% endif %}
                     <p>{{ person }}</p>
                   </div>
                 </div>
@@ -79,7 +81,9 @@ layout: simple
                   <div class="col-md-8">
                     <h5 class="mt-0 mb-0">{{ person.title }}</h5>
                     <h6>{{ person.role }}</h6>
+                    {% if person.email %}
                     <h6><a href="mailto:{{ person.email }}">{{ person.email }}</a></h6>
+                    {% endif %}
                     <p>{{ person }}</p>
                   </div>
                 </div>
@@ -128,7 +132,9 @@ layout: simple
                   </div>
                   <div class="col-md-8">
                     <h5 class="mt-0 mb-0">{{ person.title }}</h5>
+                    {% if person.email %}
                     <h6><a href="mailto:{{ person.email }}">{{ person.email }}</a></h6>
+                    {% endif %}
                   </div>
                 </div>
               </div>
