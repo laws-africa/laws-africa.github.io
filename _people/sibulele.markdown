@@ -1,8 +1,8 @@
 ---
 title: Sibulele Mdleleni
 date: 2019-08-12 14:32:00 +02:00
-position: 3
-role: Head of Digitization and Document Conversions
+position: 5
+role: Digitalisation Specialist
 email: sibulele@laws.africa
 group: core
 image: "/uploads/Sibulele%20Picture.jpg"
