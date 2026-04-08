@@ -1,11 +1,11 @@
 ---
 title: Nelly Monyangi
 date: 2023-05-22 19:42:00 +02:00
+position: 8
 role: Junior Product Owner
 email: nelly@laws.africa
 image: "/uploads/Profile%20photo.jpg"
 group: core
-position: 8
 ---
 
 Nelly has a background in Quality Assurance and a passion for releasing highly functional software products that are responsive and impactful to end users.
