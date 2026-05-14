@@ -3,7 +3,7 @@ title: Mariya Badeva
 date: 2018-12-14 13:44:00 +02:00
 position: 1
 email: mariya@laws.africa
-role: Co-founder
+role: Co-founder and Director of Strategy, Growth and Partnerships
 group: core
 image: "/uploads/mariya_new.jpeg"
 profile: mariyab85
