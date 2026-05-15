@@ -1,6 +1,13 @@
 _site
+.pelican-build
+.pelican-output
+output
 .sass-cache
 .jekyll-metadata
 node_modules
 .idea
 .agents/
+.venv/
+*.egg-info/
+__pycache__/
+*.pyc

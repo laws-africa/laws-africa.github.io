@@ -15,11 +15,15 @@ You will need to be added to the website in Siteleaf, ask someone on the team.
 To make code or style changes, you'll need to edit the site locally.
 
 1. Clone the repo
-2. You'll need to have a modern Ruby installation
-3. Ensure Bundler is installed: `gem install bundler`
-4. Install dependencies: `bundle install`
-5. Run the webserver: `jekyll server --watch`
-6. Visit [http://localhost:4000](http://localhost:4000)
+2. Create or activate the Python virtualenv: `source .venv/bin/activate`
+3. Install dependencies: `python -m pip install -e .`
+4. Build the site: `build-pelican-site -s pelicanconf.py`
+5. Preview the output: `python -m http.server 8000 --directory .pelican-output`
+6. Visit [http://localhost:8000](http://localhost:8000)
+
+During the migration, the existing Jekyll source files are kept in place. The
+Pelican build generates `.pelican-build/` from those files, then writes the final
+site to `.pelican-output/`.
 
 # Updating stats on the legislation commons
 

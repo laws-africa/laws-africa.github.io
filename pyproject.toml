@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "laws-africa-website"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+  "pelican[markdown]>=4.12,<5",
+  "PyYAML>=6,<7",
+  "python-dateutil>=2.9,<3",
+  "Markdown>=3.6",
+  "sassquatch>=0.2",
+]
+
+[project.scripts]
+build-pelican-site = "tools.jekyll_compat:main"
+
+[tool.setuptools]
+py-modules = []
+packages = ["tools"]
