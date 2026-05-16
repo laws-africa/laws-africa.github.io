@@ -9,8 +9,8 @@ lead: We believe that the traditional approach to promoting free access to the l
 navbar_item: about
 header_class: bg-lawsafrica-pale-red
 slug: about
-save_as: about.html
-url: /about.html
+save_as: about/index.html
+url: /about/
 template: about
 ---
 

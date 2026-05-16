@@ -7,8 +7,8 @@ lead: Laws.Africa's best practices for publishing African legislation online.
 key: best-practices
 latest_version: true
 slug: publications-best-practices-online-legislation
-save_as: publications/best-practices-online-legislation.html
-url: /publications/best-practices-online-legislation.html
+save_as: publications/best-practices-online-legislation/index.html
+url: /publications/best-practices-online-legislation/
 template: publication
 ---
 

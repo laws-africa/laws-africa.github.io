@@ -36,8 +36,8 @@ DELETE_OUTPUT_DIRECTORY = True
 
 ARTICLE_URL = "{date:%Y}/{date:%m}/{date:%d}/{slug}.html"
 ARTICLE_SAVE_AS = "{date:%Y}/{date:%m}/{date:%d}/{slug}.html"
-PAGE_URL = "{slug}.html"
-PAGE_SAVE_AS = "{slug}.html"
+PAGE_URL = "{slug}/"
+PAGE_SAVE_AS = "{slug}/index.html"
 
 DIRECT_TEMPLATES = []
 TEMPLATE_PAGES = {"feed.xml": "feed.xml"}

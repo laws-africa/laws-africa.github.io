@@ -9,8 +9,8 @@ blurb: '[C4ADS](https://c4ads.org/) partnered with Laws.Africa to digitise Afric
 image: /img/case-studies/c4ads-logo.png
 header_class: bg-lawsafrica-pale-red
 slug: case-studies-c4ads
-save_as: case-studies/c4ads.html
-url: /case-studies/c4ads.html
+save_as: case-studies/c4ads/index.html
+url: /case-studies/c4ads/
 template: case-study
 ---
 

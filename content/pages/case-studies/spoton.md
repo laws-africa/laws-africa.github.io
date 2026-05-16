@@ -11,8 +11,8 @@ blurb: '[SpotOn](https://spoton-compliance.com/) use Laws.Africa''s legislation 
 image: /img/case-studies/spot-on-logo.jpg
 header_class: bg-lawsafrica-pale-red
 slug: case-studies-spoton
-save_as: case-studies/spoton.html
-url: /case-studies/spoton.html
+save_as: case-studies/spoton/index.html
+url: /case-studies/spoton/
 template: case-study
 ---
 

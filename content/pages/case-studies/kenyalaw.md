@@ -11,8 +11,8 @@ blurb: The Laws of Kenya department at Kenya Law uses Laws.Africa’s Indigo Leg
 image: /img/case-studies/kenya-law-logo.png
 header_class: bg-lawsafrica-pale-red
 slug: case-studies-kenyalaw
-save_as: case-studies/kenyalaw.html
-url: /case-studies/kenyalaw.html
+save_as: case-studies/kenyalaw/index.html
+url: /case-studies/kenyalaw/
 template: case-study
 ---
 

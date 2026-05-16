@@ -7,8 +7,8 @@ lead: Recommendations for using Akoma Ntoso with African legal materials.
 key: akn4africa
 latest_version: false
 slug: publications-akn4africa-recommendation-2021-06-18
-save_as: publications/akn4africa-recommendation-2021-06-18.html
-url: /publications/akn4africa-recommendation-2021-06-18.html
+save_as: publications/akn4africa-recommendation-2021-06-18/index.html
+url: /publications/akn4africa-recommendation-2021-06-18/
 template: publication
 ---
 

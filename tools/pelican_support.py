@@ -211,27 +211,6 @@ def compile_sass() -> None:
         temp_scss.unlink(missing_ok=True)
 
 
-def write_clean_url_aliases() -> None:
-    """Write /path/index.html aliases for page files published as /path.html."""
-    for source in OUTPUT_DIR.glob("*.html"):
-        if source.name in {"index.html", "404.html"}:
-            continue
-        alias_dir = OUTPUT_DIR / source.stem
-        alias_dir.mkdir(exist_ok=True)
-        shutil.copy2(source, alias_dir / "index.html")
-
-    for directory in ["api", "help"]:
-        root = OUTPUT_DIR / directory
-        if not root.exists():
-            continue
-        for source in root.rglob("*.html"):
-            if source.name == "index.html":
-                continue
-            alias_dir = source.parent / source.stem
-            alias_dir.mkdir(exist_ok=True)
-            shutil.copy2(source, alias_dir / "index.html")
-
-
 def run_pelican(settings: str) -> None:
     command = [sys.executable, "-m", "pelican", str(CONTENT_DIR), "-s", settings]
     subprocess.run(command, cwd=ROOT, check=True)
@@ -241,7 +220,6 @@ def build(settings: str) -> None:
     run_pelican(settings)
     copy_static()
     compile_sass()
-    write_clean_url_aliases()
 
 
 def main() -> None:

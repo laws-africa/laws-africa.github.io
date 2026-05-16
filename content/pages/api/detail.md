@@ -5,8 +5,8 @@ lead: Use the Laws.Africa Content API to use legislation in your website, app or
 navbar_item: api
 header_class: bg-lawsafrica-pale-red
 slug: api-detail
-save_as: api/detail.html
-url: /api/detail.html
+save_as: api/detail/index.html
+url: /api/detail/
 template: slim
 ---
 

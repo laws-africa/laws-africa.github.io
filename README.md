@@ -25,8 +25,8 @@ one of the existing page templates, usually `simple` or `slim`:
 ---
 title: Example
 slug: example
-save_as: example.html
-url: /example.html
+save_as: example/index.html
+url: /example/
 template: simple
 ---
 
@@ -48,8 +48,8 @@ For example:
 title: Resources
 navbar_item: resources
 slug: resources
-save_as: resources.html
-url: /resources.html
+save_as: resources/index.html
+url: /resources/
 template: resources
 ---
 ```

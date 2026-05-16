@@ -4,7 +4,7 @@ lead: Our open law technology solutions simplify the creation, management, publi
   and distribution of legal information.
 header_class: bg-lawsafrica-pale-red
 slug: open-law-technology
-save_as: open-law-technology.html
-url: /open-law-technology.html
+save_as: open-law-technology/index.html
+url: /open-law-technology/
 template: open-law-technology
 ---

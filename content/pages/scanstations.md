@@ -51,7 +51,7 @@ stations:
   coords: -4.6191, 55.4513
 header_class: bg-lawsafrica-pale-red
 slug: scanstations
-save_as: scanstations.html
-url: /scanstations.html
+save_as: scanstations/index.html
+url: /scanstations/
 template: scanstations
 ---

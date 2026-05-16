@@ -9,8 +9,8 @@ blurb: Laws.Africa and four partners win a major EU grant to strengthen implemen
 image: /img/case-studies/aga.jpg
 header_class: bg-lawsafrica-pale-red
 slug: case-studies-aga
-save_as: case-studies/aga.html
-url: /case-studies/aga.html
+save_as: case-studies/aga/index.html
+url: /case-studies/aga/
 template: case-study
 ---
 

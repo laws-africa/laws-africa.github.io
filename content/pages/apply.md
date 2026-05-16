@@ -5,7 +5,7 @@ position: 1
 header_class: bg-lawsafrica-pale-red
 lead: Apply to be a Laws.Africa editorial contributor.
 slug: apply
-save_as: apply.html
-url: /apply.html
+save_as: apply/index.html
+url: /apply/
 template: apply
 ---

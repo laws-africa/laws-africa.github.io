@@ -5,8 +5,8 @@ header_class: bg-lawsafrica-pale-red
 navbar_item: help
 help_section: edit
 slug: help-terminology
-save_as: help/terminology.html
-url: /help/terminology.html
+save_as: help/terminology/index.html
+url: /help/terminology/
 template: help-article
 ---
 

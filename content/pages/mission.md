@@ -5,7 +5,7 @@ lead: Laws.Africa’s mission is to enable African governments to sustainably pr
   educational and re-usable.
 header_class: bg-lawsafrica-pale-red
 slug: mission
-save_as: mission.html
-url: /mission.html
+save_as: mission/index.html
+url: /mission/
 template: mission
 ---

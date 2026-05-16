@@ -196,8 +196,8 @@ positions:
   type: Full-time
 header_class: bg-lawsafrica-pale-red
 slug: jobs
-save_as: jobs.html
-url: /jobs.html
+save_as: jobs/index.html
+url: /jobs/
 template: jobs
 ---
 

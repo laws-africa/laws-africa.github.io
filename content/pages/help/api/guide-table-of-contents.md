@@ -5,8 +5,8 @@ header_class: bg-lawsafrica-pale-red
 navbar_item: help
 help_section: api
 slug: help-api-guide-table-of-contents
-save_as: help/api/guide-table-of-contents.html
-url: /help/api/guide-table-of-contents.html
+save_as: help/api/guide-table-of-contents/index.html
+url: /help/api/guide-table-of-contents/
 template: help-article
 ---
 

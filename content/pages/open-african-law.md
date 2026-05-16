@@ -6,7 +6,7 @@ lead: Open access to digital African legal information helps communities to thri
   efficiently and effectively.
 header_class: bg-lawsafrica-pale-red
 slug: open-african-law
-save_as: open-african-law.html
-url: /open-african-law.html
+save_as: open-african-law/index.html
+url: /open-african-law/
 template: open-african-law
 ---

@@ -5,8 +5,8 @@ header_class: bg-lawsafrica-pale-red
 navbar_item: help
 help_section: edit
 slug: help-pdf-cc-by
-save_as: help/pdf-cc-by.html
-url: /help/pdf-cc-by.html
+save_as: help/pdf-cc-by/index.html
+url: /help/pdf-cc-by/
 template: help-article
 ---
 
