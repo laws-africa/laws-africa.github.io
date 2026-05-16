@@ -138,6 +138,11 @@ Files that must publish at the site root, such as `favicon.ico` and
 `google31ad17a90935c519.html`, also live in `content/static/` and are mapped to
 root output paths with `EXTRA_PATH_METADATA`.
 
+## Sass
+
+Sass source files live with the theme in `theme/lawsafrica/static/scss/`.
+`main.scss` is compiled by `build-pelican-site` to `.pelican-output/css/main.css`.
+
 # Local development
 
 To make code or style changes, you'll need to edit the site locally.

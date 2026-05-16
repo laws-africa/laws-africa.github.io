@@ -139,32 +139,25 @@ def finalize_none(value: Any) -> Any:
 def compile_sass() -> None:
     css_dir = OUTPUT_DIR / "css"
     css_dir.mkdir(parents=True, exist_ok=True)
-    temp_scss = ROOT / ".pelican-main.scss"
-    scss = (ROOT / "css" / "main.scss").read_text()
-    if scss.startswith("---\n"):
-        _, _, scss = scss.split("---", 2)
-        scss = scss.lstrip("\n")
-    temp_scss.write_text(scss)
+    scss_dir = THEME_DIR / "static" / "scss"
+    scss = scss_dir / "main.scss"
     output = css_dir / "main.css"
 
-    try:
-        commands = [
-            ["sassquatch", "--load-path", str(ROOT / "_sass"), f"{temp_scss}:{output}"],
-            ["sass", "--load-path", str(ROOT / "_sass"), str(temp_scss), str(output)],
-        ]
-        for command in commands:
-            if shutil.which(command[0]):
-                subprocess.run(command, cwd=ROOT, check=True)
-                return
-
-        fallback = ROOT / "_site" / "css" / "main.css"
-        if fallback.exists():
-            shutil.copy2(fallback, output)
-            print("WARNING: Sass compiler not found; copied existing _site/css/main.css", file=sys.stderr)
+    commands = [
+        ["sassquatch", "--load-path", str(scss_dir), f"{scss}:{output}"],
+        ["sass", "--load-path", str(scss_dir), str(scss), str(output)],
+    ]
+    for command in commands:
+        if shutil.which(command[0]):
+            subprocess.run(command, cwd=ROOT, check=True)
             return
-        raise RuntimeError("No Sass compiler found. Install sassquatch or Dart Sass.")
-    finally:
-        temp_scss.unlink(missing_ok=True)
+
+    fallback = ROOT / "_site" / "css" / "main.css"
+    if fallback.exists():
+        shutil.copy2(fallback, output)
+        print("WARNING: Sass compiler not found; copied existing _site/css/main.css", file=sys.stderr)
+        return
+    raise RuntimeError("No Sass compiler found. Install sassquatch or Dart Sass.")
 
 
 def run_pelican(settings: str) -> None:
