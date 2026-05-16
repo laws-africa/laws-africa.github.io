@@ -1,0 +1,5 @@
+{% set matches = site.case_studies|selectattr("slug", "equalto", "case-studies-" ~ case_study_key)|list %}
+{% if matches %}
+  {% set case_study = matches[0] %}
+  {% include "_case_study_mini_card.html" %}
+{% endif %}

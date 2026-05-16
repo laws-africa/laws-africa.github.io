@@ -1,0 +1,50 @@
+{% set page = article if article is defined else page %}
+{% extends "simple.html" %}
+{% block extra_head %}
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+  integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+  crossorigin=""
+/>
+{% endblock %}
+{% block content %}
+<div>
+  <header class="py-5 bg-lawsafrica-pale-red">
+    <div class="container">
+      <h1 class="display-4 mb-4">Scan Stations</h1>
+      <p class="lead">
+        Our Scan Stations are a world-wide network of digitisation centers. Our expert staff and partners collect, scan and digitise African legal information including judgments, legislation, gazettes and law reports.
+      </p>
+    </div>
+  </header>
+
+  <section class="py-5">
+    <div class="container">
+      <div id="map"></div>
+
+      <div class="row justify-content-center pt-5">
+        {% for station in page.stations %}
+          <div class="col-sm-6">
+            <div class="card mb-3 station" data-coords="{{ station.coords }}">
+              <div class="card-body">
+                <h5 class="card-title">{{ station.name }}</h5>
+                <div class="card-text"><b>Location:</b> {{ station.location }}</div>
+                <div class="card-text"><b>Launch date:</b> {{ station.launch_date }}</div>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+</div>
+{% endblock %}
+{% block extra_scripts %}
+<script
+  src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+  integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+  crossorigin=""
+></script>
+<script src="/static/js/scanstations.js"></script>
+{% endblock %}

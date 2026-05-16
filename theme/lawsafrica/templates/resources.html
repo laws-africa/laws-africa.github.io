@@ -1,0 +1,50 @@
+{% set page = article if article is defined else page %}
+{% extends "simple.html" %}
+{% block content %}
+<article>
+  <header class="mb-5 py-5 bg-lawsafrica-pale-red">
+    <div class="container">
+      <h1 class="display-4">Resources</h1>
+      <p class="lead mb-3">
+        Our case studies and publications on free access to African legal information.
+      </p>
+    </div>
+  </header>
+
+  <section class="py-3">
+    <section class="mb-5 py-3">
+      <div class="container">
+        <h2 class="mb-4" id="publications">Publications</h2>
+        <div class="row">
+          {% for publication in site.publications %}
+            {% if publication.latest_version %}
+              <div class="col col-lg-6 prose">
+                <div class="card mb-3">
+                  <div class="card-body">
+                    <h3 class="mt-0"><a href="{{ publication.url }}">{{ publication.title }}</a></h3>
+                    <div class="text-muted">{{ publication.date|strftime("%e %b %Y") }}</div>
+                    <div>{{ publication.lead }}</div>
+                  </div>
+                </div>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <section class="mb-5 py-3">
+    <div class="container">
+      <h2 class="mb-4" id="case-studies">Case studies</h2>
+      <div class="row">
+        {% for case_study in site.case_studies %}
+          <div class="col-md-6 col-lg-4">
+            {% include "_case_study_card.html" %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+</article>
+{% endblock %}

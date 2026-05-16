@@ -1,0 +1,10 @@
+{% set page = article if article is defined else page %}
+{% extends "simple.html" %}
+{% block content %}
+<div class="container text-center mt-5">
+  <h1>404</h1>
+
+  <p><strong>Page not found :(</strong></p>
+  <p>The requested page could not be found.</p>
+</div>
+{% endblock %}

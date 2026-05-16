@@ -1,0 +1,10 @@
+{% set page = article if article is defined else page %}
+{% extends "base.html" %}
+{% block base_content %}
+<main class="site-main">
+  {% block content %}{{ page.content }}{% endblock %}
+</main>
+
+{% include "_footer.html" %}
+
+{% endblock %}
