@@ -1,14 +1,14 @@
 ---
 title: Automating OpenByLaws.org.za with Laws.Africa
-date: '2019-07-15T15:06:00+02:00'
+date: 2019-07-15 15:06:00 +02:00
 lead: How openbylaws.org.za uses Laws.Africa and “legislation as data” to automate
   the work of making municipal by-laws freely available.
 author: Greg Kempe
-image: /static/uploads/cape-town-crane.jpg
+image: "/static/uploads/cape-town-crane.jpg"
 header_class: bg-lawsafrica-pale-red
 slug: automating-openbylaws-with-laws-africa
 save_as: 2019/07/15/automating-openbylaws-with-laws-africa.html
-url: /2019/07/15/automating-openbylaws-with-laws-africa.html
+url: "/2019/07/15/automating-openbylaws-with-laws-africa.html"
 template: blog-post
 category: blog
 ---

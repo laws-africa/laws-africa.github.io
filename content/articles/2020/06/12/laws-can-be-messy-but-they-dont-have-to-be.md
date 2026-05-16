@@ -1,6 +1,6 @@
 ---
 title: Laws can be messy, but they don't have to be
-date: '2020-06-12T13:43:00+02:00'
+date: 2020-06-12 13:43:00 +02:00
 tags:
 - legislation
 - correct metadata
@@ -9,11 +9,11 @@ author: Mariya Badeva-Bright
 lead: 'The Laws.Africa platform enforces quality of legislation consolidation by incorporating
   provenance, verification and strict reliance on the government gazette as the source
   of public record. '
-image: /static/uploads/Sausages-cartoon-1024x783.jpg
+image: "/static/uploads/Sausages-cartoon-1024x783.jpg"
 header_class: bg-lawsafrica-pale-red
 slug: laws-can-be-messy-but-they-dont-have-to-be
 save_as: 2020/06/12/laws-can-be-messy-but-they-dont-have-to-be.html
-url: /2020/06/12/laws-can-be-messy-but-they-dont-have-to-be.html
+url: "/2020/06/12/laws-can-be-messy-but-they-dont-have-to-be.html"
 template: blog-post
 category: blog
 ---

@@ -1,6 +1,6 @@
 ---
 title: Uganda National Legislation Collection
-date: '2021-06-30T10:10:00+02:00'
+date: 2021-06-30 10:10:00 +02:00
 tags:
 - legislation
 - revision
@@ -10,11 +10,11 @@ author: Mariya Badeva-Bright
 lead: Laws.Africa partnered with the Uganda Judiciary's ULII to digitise and update
   the Laws of Uganda.  The result is a selection of 98 Acts and 8 Statutory Instruments
   that are now up-to-date and available, for free, at www.ulii.org.
-image: /static/uploads/Ug_Constitution.PNG
+image: "/static/uploads/Ug_Constitution.PNG"
 header_class: bg-lawsafrica-pale-red
 slug: uganda-national-legislation-collection
 save_as: 2021/06/30/uganda-national-legislation-collection.html
-url: /2021/06/30/uganda-national-legislation-collection.html
+url: "/2021/06/30/uganda-national-legislation-collection.html"
 template: blog-post
 category: blog
 ---

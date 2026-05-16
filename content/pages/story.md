@@ -1,11 +1,11 @@
 ---
 title: The Story of Laws.Africa
-date: '2020-02-24T11:18:00+02:00'
+date: 2020-02-24 11:18:00 +02:00
 position: 12
 header_class: bg-lawsafrica-pale-red
 slug: story
 save_as: story/index.html
-url: /story/
+url: "/story/"
 template: slim
 ---
 

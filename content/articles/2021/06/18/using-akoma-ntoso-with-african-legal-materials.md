@@ -1,14 +1,14 @@
 ---
 title: Using Akoma Ntoso with African legal materials
-date: '2021-06-18T16:46:00+02:00'
+date: 2021-06-18 16:46:00 +02:00
 author: Edith V
 lead: Announcing AKN4Africa, our recommendations for applying Akoma Ntoso to African
   legal materials.
-image: /static/uploads/national-theatre-accra.jpg
+image: "/static/uploads/national-theatre-accra.jpg"
 header_class: bg-lawsafrica-pale-red
 slug: using-akoma-ntoso-with-african-legal-materials
 save_as: 2021/06/18/using-akoma-ntoso-with-african-legal-materials.html
-url: /2021/06/18/using-akoma-ntoso-with-african-legal-materials.html
+url: "/2021/06/18/using-akoma-ntoso-with-african-legal-materials.html"
 template: blog-post
 category: blog
 ---

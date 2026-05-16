@@ -1,6 +1,6 @@
 ---
 title: Best Practices for Publishing Online Legislation
-date: '2021-11-15T16:29:00+02:00'
+date: 2021-11-15 16:29:00 +02:00
 header_class: bg-lawsafrica-pale-red
 navbar_item: publications
 lead: Laws.Africa's best practices for publishing African legislation online.
@@ -8,7 +8,7 @@ key: best-practices
 latest_version: true
 slug: publications-best-practices-online-legislation
 save_as: publications/best-practices-online-legislation/index.html
-url: /publications/best-practices-online-legislation/
+url: "/publications/best-practices-online-legislation/"
 template: publication
 ---
 

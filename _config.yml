@@ -1,0 +1,58 @@
+---
+title: Laws.Africa
+timezone: Africa/Johannesburg
+collections:
+  case-studies:
+    title: Case Studies
+    output: true
+  help:
+    title: Help
+    output: true
+  people:
+    title: People
+    output: false
+  posts:
+    title: Posts
+    output: true
+  publications:
+    title: Publications
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+  values:
+    header_class: bg-lawsafrica-pale-red
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: blog-post
+- scope:
+    path: ''
+    type: publications
+  values:
+    layout: publication
+- scope:
+    path: ''
+    type: help
+  values:
+    layout: help-article
+    navbar_item: help
+    help_section: edit
+- scope:
+    path: _help/api
+  values:
+    help_section: api
+description: Laws.Africa unlocks the value of African digital legal information in
+  support of the rule of law, access to justice, and innovation.
+baseurl: 
+url: https://laws.africa
+markdown: kramdown
+hiring: true
+hiring_contributors: false
+plugins:
+- jekyll-feed
+- jekyll-redirect-from

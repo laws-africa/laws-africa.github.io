@@ -5,6 +5,7 @@ navbar_item: indigo
 header_class: bg-lawsafrica-pale-red
 slug: indigo-index
 save_as: indigo/index.html
-url: /indigo/
+url: "/indigo/"
 template: indigo
 ---
+

@@ -1,14 +1,14 @@
 ---
 title: No more tracking cookies on our Legal Information websites
-date: '2024-04-30T00:00:00+02:00'
+date: 2024-04-30 00:00:00 +02:00
 author: Greg Kempe
 lead: We've removed tracking cookies from all our legal information websites to improve
   privacy.
-image: /static/uploads/pawprints.jpg
+image: "/static/uploads/pawprints.jpg"
 header_class: bg-lawsafrica-pale-red
 slug: no-more-cookies
 save_as: 2024/04/30/no-more-cookies.html
-url: /2024/04/30/no-more-cookies.html
+url: "/2024/04/30/no-more-cookies.html"
 template: blog-post
 category: blog
 ---

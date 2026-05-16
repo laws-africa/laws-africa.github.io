@@ -24,38 +24,29 @@ features:
 - title: Points in Time
   text: Historical points in time for previous amended versions of legislation, where
     available.
-benefits: '* The Laws.Africa commons is continuously updated by the community. This
-  includes the maintenance of existing legislation and the addition of new countries
-  and subject areas.
-
+benefits: |-
+  * The Laws.Africa commons is continuously updated by the community. This includes the maintenance of existing legislation and the addition of new countries and subject areas.
   * The same data model for all countries makes your work across Africa simpler.
-
-  * [Akoma Ntoso](http://www.akomantoso.org/) is the premier global legislative markup
-  standard. It’s an open, non-proprietary standard managed by [OASIS](https://www.oasis-open.org/).
-
-  * Easy to work with: a simple REST API that provides JSON, XML, HTML, PDF and ePub.
-  For many use cases, there is no need to work with XML directly.'
+  * [Akoma Ntoso](http://www.akomantoso.org/) is the premier global legislative markup standard. It’s an open, non-proprietary standard managed by [OASIS](https://www.oasis-open.org/).
+  * Easy to work with: a simple REST API that provides JSON, XML, HTML, PDF and ePub. For many use cases, there is no need to work with XML directly.
 plans:
 - title: Non-Commercial and Research
   description: FREE for non-commercial uses.
-  details: '* Non-profit, academic research, and education.
-
+  details: |-
+    * Non-profit, academic research, and education.
     * Creative Commons Attribution-NonCommercial-ShareAlike (CC-BY-NC-SA) licencing.
-
     * Provide attribution to Laws.Africa.
-
-    * Publish your outputs and research.'
+    * Publish your outputs and research.
 - title: Commercial Uses
   description: Permissive licensing for commercial use cases.
-  details: '* Full access to Laws.Africa content and data on a per-country basis.
-
+  details: |-
+    * Full access to Laws.Africa content and data on a per-country basis.
     * Provide attribution to Laws.Africa.
-
-    * Commercial support helps to maintain the commons and supports free access to
-    the law, for everyone.'
+    * Commercial support helps to maintain the commons and supports free access to the law, for everyone.
 header_class: bg-lawsafrica-pale-red
 slug: api-index
 save_as: api/index.html
-url: /api/
+url: "/api/"
 template: api_index
 ---
+

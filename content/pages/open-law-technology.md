@@ -5,6 +5,7 @@ lead: Our open law technology solutions simplify the creation, management, publi
 header_class: bg-lawsafrica-pale-red
 slug: open-law-technology
 save_as: open-law-technology/index.html
-url: /open-law-technology/
+url: "/open-law-technology/"
 template: open-law-technology
 ---
+

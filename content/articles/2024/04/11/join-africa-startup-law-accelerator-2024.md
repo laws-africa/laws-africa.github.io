@@ -1,14 +1,14 @@
 ---
 title: Join the Africa Startup Law Accelerator Program 2024 for Startups in Africa
   powered by Law.Africa and the Lawyers Hub
-date: '2024-04-11T00:00:00+02:00'
+date: 2024-04-11 00:00:00 +02:00
 author: Greg Kempe
 lead: Build cool AI stuff with our African digital legislation collection!
-image: /static/uploads/accelerator-2024.jpg
+image: "/static/uploads/accelerator-2024.jpg"
 header_class: bg-lawsafrica-pale-red
 slug: join-africa-startup-law-accelerator-2024
 save_as: 2024/04/11/join-africa-startup-law-accelerator-2024.html
-url: /2024/04/11/join-africa-startup-law-accelerator-2024.html
+url: "/2024/04/11/join-africa-startup-law-accelerator-2024.html"
 template: blog-post
 category: blog
 ---

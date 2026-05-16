@@ -1,7 +1,7 @@
 ---
 title: African legal technology organizations partner to develop a new caselaw management
   system for Kenya
-date: '2020-03-06T15:30:00+02:00'
+date: 2020-03-06 15:30:00 +02:00
 tags:
 - press release
 - Kenya Law
@@ -10,14 +10,14 @@ tags:
 - caselaw system
 - software development project
 author: Mariya Badeva-Bright
-image: /static/uploads/labor-3485805_1920.jpg
+image: "/static/uploads/labor-3485805_1920.jpg"
 lead: 'Press Release | 6 March 2020 | Nairobi, Kenya and Cape Town, South Africa
 
-  '
+'
 header_class: bg-lawsafrica-pale-red
 slug: african-legal-technology-organizations-partner-to-develop-a-new-caselaw-management-system-for-kenya
 save_as: 2020/03/06/african-legal-technology-organizations-partner-to-develop-a-new-caselaw-management-system-for-kenya.html
-url: /2020/03/06/african-legal-technology-organizations-partner-to-develop-a-new-caselaw-management-system-for-kenya.html
+url: "/2020/03/06/african-legal-technology-organizations-partner-to-develop-a-new-caselaw-management-system-for-kenya.html"
 template: blog-post
 category: blog
 ---

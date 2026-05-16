@@ -1,14 +1,14 @@
 ---
 title: Using by-laws to tackle local service delivery
-date: '2019-08-22T08:50:00+02:00'
+date: 2019-08-22 08:50:00 +02:00
 lead: How Cape Agulhas youth found solutions to illegal liquor sales and poor refuse
   removal in their local by-laws.
 author: Greg Kempe
-image: /static/uploads/trash-bins.jpg
+image: "/static/uploads/trash-bins.jpg"
 header_class: bg-lawsafrica-pale-red
 slug: using-by-laws-to-tackle-local-service-delivery
 save_as: 2019/08/22/using-by-laws-to-tackle-local-service-delivery.html
-url: /2019/08/22/using-by-laws-to-tackle-local-service-delivery.html
+url: "/2019/08/22/using-by-laws-to-tackle-local-service-delivery.html"
 template: blog-post
 category: blog
 ---

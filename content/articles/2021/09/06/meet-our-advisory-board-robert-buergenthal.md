@@ -1,13 +1,13 @@
 ---
 title: 'Meet our advisory board: Robert Buergenthal'
-date: '2021-09-06T11:08:00+02:00'
+date: 2021-09-06 11:08:00 +02:00
 lead: A brief Q&A with our advisory board member Robert Buergenthal.
 author: Greg Kempe
-image: /static/uploads/rb-header.png
+image: "/static/uploads/rb-header.png"
 header_class: bg-lawsafrica-pale-red
 slug: meet-our-advisory-board-robert-buergenthal
 save_as: 2021/09/06/meet-our-advisory-board-robert-buergenthal.html
-url: /2021/09/06/meet-our-advisory-board-robert-buergenthal.html
+url: "/2021/09/06/meet-our-advisory-board-robert-buergenthal.html"
 template: blog-post
 category: blog
 ---

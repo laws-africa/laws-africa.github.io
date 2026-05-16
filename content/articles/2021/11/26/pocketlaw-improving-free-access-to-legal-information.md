@@ -1,14 +1,14 @@
 ---
 title: 'Pocket Law: Improving Free Access to Legal Information'
-date: '2021-11-26T11:20:00+02:00'
+date: 2021-11-26 11:20:00 +02:00
 lead: We've released of a new version of Pocket Law, a desktop application which makes
   African legal information available offline.
 author: Robley Gori
-image: /static/img/posts/gnu.jpg
+image: "/static/img/posts/gnu.jpg"
 header_class: bg-lawsafrica-pale-red
 slug: pocketlaw-improving-free-access-to-legal-information
 save_as: 2021/11/26/pocketlaw-improving-free-access-to-legal-information.html
-url: /2021/11/26/pocketlaw-improving-free-access-to-legal-information.html
+url: "/2021/11/26/pocketlaw-improving-free-access-to-legal-information.html"
 template: blog-post
 category: blog
 ---

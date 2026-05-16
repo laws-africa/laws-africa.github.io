@@ -1,31 +1,59 @@
 ---
 title: How we built an automated glossary for Namibian legislation
-date: '2019-09-02T20:24:00+02:00'
+date: 2019-09-02 20:24:00 +02:00
 lead: How we used legislation-as-data to create an automated glossary to explore over
   3000 defined terms in Namibian law.
 author: Greg Kempe
-image: /static/uploads/glossary.png
+image: "/static/uploads/glossary.png"
 extra_js:
 - <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
-- "<script>\n  $(function() {\n    var canvas = document.getElementById('glossary-chart'),\n\
-  \        ctx = canvas.getContext('2d'),\n        labels = ['#', 'A', 'B', 'C', 'D',\
-  \ 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T',\
-  \ 'U', 'V', 'W', 'Y', 'Z'],\n        values = [1, 235, 100, 293, 200, 143, 138,\
-  \ 76, 53, 136, 17, 8, 124, 171, 100, 79, 341, 10, 228, 295, 173, 53, 49, 59, 3,\
-  \ 1];\n\n    new Chart(ctx, {\n      type: 'bar',\n      data: {\n        labels:\
-  \ labels,\n        datasets: [{\n          label: 'Entries',\n          data: values,\n\
-  \          borderWidth: 0,\n          backgroundColor: '#D04242',\n        }]\n\
-  \      },\n      options: {\n        maintainAspectRatio: false,\n        legend:\
-  \ {display: false},\n        title: {\n          display: true,\n          text:\
-  \ 'Number of Glossary Entries',\n        },\n        scales: {\n          yAxes:\
-  \ [{\n            ticks: {\n              precision: 0,\n              beginAtZero:\
-  \ true,\n            },\n          }],\n          xAxes: [{\n            gridLines:\
-  \ {\n              display: false,\n            }\n          }],\n        },\n \
-  \     }\n    });\n  });\n</script>"
+- |-
+  <script>
+    $(function() {
+      var canvas = document.getElementById('glossary-chart'),
+          ctx = canvas.getContext('2d'),
+          labels = ['#', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'Y', 'Z'],
+          values = [1, 235, 100, 293, 200, 143, 138, 76, 53, 136, 17, 8, 124, 171, 100, 79, 341, 10, 228, 295, 173, 53, 49, 59, 3, 1];
+
+      new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: labels,
+          datasets: [{
+            label: 'Entries',
+            data: values,
+            borderWidth: 0,
+            backgroundColor: '#D04242',
+          }]
+        },
+        options: {
+          maintainAspectRatio: false,
+          legend: {display: false},
+          title: {
+            display: true,
+            text: 'Number of Glossary Entries',
+          },
+          scales: {
+            yAxes: [{
+              ticks: {
+                precision: 0,
+                beginAtZero: true,
+              },
+            }],
+            xAxes: [{
+              gridLines: {
+                display: false,
+              }
+            }],
+          },
+        }
+      });
+    });
+  </script>
 header_class: bg-lawsafrica-pale-red
 slug: how-we-built-an-automated-glossary-for-namibian-legislation
 save_as: 2019/09/02/how-we-built-an-automated-glossary-for-namibian-legislation.html
-url: /2019/09/02/how-we-built-an-automated-glossary-for-namibian-legislation.html
+url: "/2019/09/02/how-we-built-an-automated-glossary-for-namibian-legislation.html"
 template: blog-post
 category: blog
 ---

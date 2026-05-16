@@ -1,13 +1,13 @@
 ---
 title: 'Meet our advisory board: Vidhu Vedalankar'
-date: '2021-08-10T00:00:00+02:00'
+date: 2021-08-10 00:00:00 +02:00
 lead: A brief Q&A with our advisory board member Vidhu Vedalankar.
 author: Greg Kempe
-image: /static/uploads/vv-header.jpg
+image: "/static/uploads/vv-header.jpg"
 header_class: bg-lawsafrica-pale-red
 slug: meet-our-advisory-board-vidhu-vedalankar
 save_as: 2021/08/10/meet-our-advisory-board-vidhu-vedalankar.html
-url: /2021/08/10/meet-our-advisory-board-vidhu-vedalankar.html
+url: "/2021/08/10/meet-our-advisory-board-vidhu-vedalankar.html"
 template: blog-post
 category: blog
 ---

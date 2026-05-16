@@ -1,6 +1,6 @@
 ---
 title: AKN4Africa Recommendation
-date: '2021-07-26T11:34:00+02:00'
+date: 2021-07-26 11:34:00 +02:00
 header_class: bg-lawsafrica-pale-red
 navbar_item: publications
 lead: Recommendations for using Akoma Ntoso with African legal materials.
@@ -8,7 +8,7 @@ key: akn4africa
 latest_version: true
 slug: publications-akn4africa-recommendation
 save_as: publications/akn4africa-recommendation/index.html
-url: /publications/akn4africa-recommendation/
+url: "/publications/akn4africa-recommendation/"
 template: publication
 ---
 
