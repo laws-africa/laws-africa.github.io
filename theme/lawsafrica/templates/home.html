@@ -1,0 +1,237 @@
+{% set page = article if article is defined else page %}
+{% extends "simple.html" %}
+{% block content %}
+<header class="py-5 bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5">
+        <img src="/img/logo.png" class="img-fluid mb-5" alt="Laws.Africa logo" style="max-height: 150px;"/>
+        <h2 class="mb-4">
+          Unlock the value of African digital legal information in support of the rule of law, access to justice, and innovation.
+        </h2>
+      </div>
+
+      <div class="col-md-7">
+        <div class="tab-content mb-2" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="english-video-pane" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="video-wrapper">
+              <iframe src="https://www.youtube.com/embed/ssphMX__-nM?controls=0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="french-video-pane" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <div class="video-wrapper">
+              <iframe src="https://www.youtube.com/embed/HlyQ84VHO9w?controls=0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+        <ul class="nav nav-pills mb-3 just justify-content-center" id="pills-tab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#english-video-pane" role="tab"
+               aria-controls="pills-home" aria-selected="true">English</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#french-video-pane" role="tab"
+               aria-controls="pills-profile" aria-selected="false">Français</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+{% if site.hiring %}
+<section class="mb-3 py-3 bg-lawsafrica-pale-red">
+  <div class="container text-center">
+    <div class="lead">We're hiring! Join the Laws.Africa team. <a href="/jobs" class="ml-4 btn btn-primary">See our open positions</a></div>
+  </div>
+</section>
+{% endif %}
+
+
+
+<section class="py-5">
+  <div class="container">
+    <h2 class="mb-4" id="open-access">Open Access to African Legal Information</h2>
+
+    <div class="row">
+      <div class="col">
+        <p class="lead">
+          Our <a href="https://openlawafrica.org" target="_blank">Open Law Africa</a> programme helps African governments to sustainably digitise their legal information for public use, through open law software, capacity-building, training, partnerships and support.
+        </p>
+      </div>
+      <div class="col col-md-3">
+        <img src="/img/open-law-africa-logo.png" alt="Open Law Africa logo" class="img-fluid mb-3">
+      </div>
+    </div>
+
+    <a href="/open-african-law" class="btn btn-primary">
+      Open Access to African Law
+    </a>
+  </div>
+</section>
+
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="mb-4">Impact: over 3 million users every year</h2>
+
+    <p class="lead">The 2020 <a href="https://static1.squarespace.com/static/628d01de89c97207dfc5d5e4/t/62a1e6fcd5b41910d00d23c8/1654777639245/LIIs+in+Africa+Impact+Report+2021+-+PUBLICATION+VERSION+MAY+2022.pdf">LIIs in Africa Impact Report</a> shows the remarkable impact of free access to African law:
+
+    <ul>
+      <li>Over 3,000,000 annual users in 2020.</li>
+      <li>2.7x growth since 2017.</li>
+      <li>The majority of legal and justice sector professionals could not do their jobs without these resources.</li>
+    </ul>
+
+    <a href="https://www.openlawafrica.org/impact" target="_blank" class="btn btn-primary">
+      Impact and testimonials of Open Law Africa
+    </a>
+  </div>
+</section>
+
+<section class="py-5">
+  <div class="container">
+    <h2 class="mb-4">Our work in action</h2>
+    <p class="lead">
+      Our legal data and software powers legal information portals used by hundreds of thousands of users every month,
+      from Africa and all over the world.
+    </p>
+    <div class="row mb-4 work-in-action-list">
+      {% for portal in page.portals %}
+        <div class="col-6 col-md-3 mb-3 p-4 text-center align-self-center">
+          <a href="{{ portal.url }}" target="_blank" rel="noreferrer">
+            <img src="/img/{{ portal.logo }}" alt="{{ portal.name }}">
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+
+<section class="py-5 bg-lawsafrica-pale-red">
+  <div class="container">
+    <h2 class="mb-4">Open Law Technology</h2>
+
+    {% include "open_law_tech_cards.html" %}
+
+    <p class="lead">
+      Our Open Law Technology solutions lower the cost of digitisation, archival and publication of primary legal
+      information, and create opportunities for rich interactivity, advanced research and justice sector innovation.
+    </p>
+
+    <a href="/open-law-technology" class="btn btn-primary">
+      Open Law Technology
+    </a>
+  </div>
+</section>
+
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="mb-4">Use African Legal Data</h2>
+
+    <p class="lead">
+      Power your business and research innovations with our African legal data APIs.
+    </p>
+
+    <a href="/api" class="btn btn-primary">
+      Use our Legal Data
+    </a>
+  </div>
+</section>
+
+<section class="py-5">
+  <div class="container">
+    <h2 class="mb-4">Partners</h2>
+
+    <div class="row mb-4">
+      <div class="col-6 col-md-3 mb-3 p-4 text-center align-self-center">
+        <a href="https://africanlii.org">
+          <img src="/img/partners/africanlii-logo.png" title="AfricanLII" class="img-fluid" alt="AfricanLII">
+        </a>
+      </div>
+      <div class="col-6 col-md-3 mb-3 p-4 text-center align-self-center">
+        <a href="https://c4ads.org">
+          <img src="/img/partners/c4ads-logo.png" title="C4ADS" class="img-fluid" alt="C4ADS">
+        </a>
+      </div>
+      <div class="col-6 col-md-3 mb-3 p-4 text-center align-self-center">
+        <a href="http://kenyalaw.org/">
+          <img src="/img/partners/kenyalaw-logo.png" title="Kenya Law" class="img-fluid" alt="Kenya Law">
+        </a>
+      </div>
+      <div class="col-6 col-md-3 mb-3 p-4 text-center align-self-center">
+        <a href="http://llmc.com/">
+          <img src="/img/partners/llmc-logo.png" title="LLMC" class="img-fluid" alt="LLMC">
+        </a>
+      </div>
+      <div class="col-6 col-md-3 mb-3 p-4 text-center align-self-center">
+        <a href="https://urbanlex.unhabitat.org/">
+          <img src="/img/partners/urbanlex-logo.png" title="UrbanLex" class="img-fluid" alt="UrbanLex">
+        </a>
+      </div>
+      <div class="col-6 col-md-3 mb-3 p-4 text-center align-self-center">
+        <a href="https://afrobarometer.org/">
+          <img src="/img/partners/afro-barometer-logo.png" title="Afrobarometer" class="img-fluid" alt="Afrobarometer">
+        </a>
+      </div>
+      <div class="col-6 col-md-3 mb-3 p-4 text-center align-self-center">
+        <a href="https://www.giz.de/">
+          <img src="/img/partners/giz-logo.gif" title="GIZ" class="img-fluid" alt="GIZ">
+        </a>
+      </div>
+      <div class="col-6 col-md-3 mb-3 p-4 text-center align-self-center">
+        <a href="https://www.webberwentzel.com/">
+          <img src="/img/partners/ww-logo.png" title="Webber Wentzel" class="img-fluid" alt="Webber Wentzel">
+        </a>
+      </div>
+    </div>
+    <div>
+      <a class="btn btn-primary" href="/resources#case-studies">Case studies</a>
+    </div>
+  </div>
+</section>
+
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="mb-4">Global Digitisation Network</h2>
+
+    <p class="lead">
+      Our Scan Stations are a world-wide network of digitisation centers. Our expert staff and partners collect, scan and digitise African legal information including judgments, legislation, gazettes and law reports.
+    </p>
+
+    <a class="btn btn-primary" href="/scanstations">Scan Station Network</a>
+  </div>
+</section>
+
+<section class="py-5">
+  <div class="container">
+    <h2 class="mb-4">Recent articles</h2>
+
+    <div class="row">
+      {% for post in site.posts[:4] %}
+        <div class="col-md-6 col-lg-3 mb-4">
+          <a href="{{ post.url }}">
+            <img class="card-img-top mb-2" src="{{ post.image }}">
+          </a>
+          <div>
+            <h5 class="card-title mt-2 mb-0">
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </h5>
+            <small class="text-muted">{{ post.date|strftime("%e %b %Y") }} by {{ post.author }}</small>
+            <p>{{ post.lead }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <a class="btn btn-primary" href="/blog">All articles</a>
+  </div>
+</section>
+{% endblock %}

@@ -7,7 +7,5 @@ lead: Apply to be a Laws.Africa editorial contributor.
 slug: apply
 save_as: apply.html
 url: /apply.html
-template: slim
+template: apply
 ---
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScBweUrSHA2C2XDttC_cYQw5ytfuuzcjRgSijV0m00MYeqgmQ/viewform" width="100%" height="1900px" style="border: 0px"></iframe>

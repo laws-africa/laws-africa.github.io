@@ -1,0 +1,339 @@
+{% set page = article if article is defined else page %}
+{% extends "simple.html" %}
+{% block content %}
+<div>
+  <header class="py-5 bg-lawsafrica-pale-red">
+    <div class="container">
+      <h1 class="display-4 mb-4">Open Law Technology</h1>
+      <p class="lead">
+        Our open law technology solutions simplify the creation, management, publication and distribution of legal
+        information. From low-level support libraries all the way up to turnkey legislation database systems, we cover
+        all parts of the legal information management hierarchy.
+      </p>
+    </div>
+  </header>
+
+  <section class="py-5">
+    <div class="container">
+      <div class="card-group">
+  <div class="card mb-3">
+    <h5 class="card-header">1. Digitise</h5>
+    <div class="card-body">
+      <div>Digitise your legislation and legal information into legal data.</div>
+    </div>
+  </div>
+
+  <div class="card mb-3">
+    <h5 class="card-header">2. Publish</h5>
+    <div class="card-body">
+      <div>Publish your legal information for use by anyone, anywhere. World-class reading and research tools on desktop, mobile, offline, print and archival.</div>
+    </div>
+  </div>
+
+  <div class="card mb-3">
+    <h5 class="card-header">3. Enrich</h5>
+    <div class="card-body">
+      <div>Enrich your legal information with interactivity, analysis, and external datasets. Enhance with machine-learning and AI.</div>
+    </div>
+  </div>
+</div>
+    </div>
+  </section>
+
+  <section class="py-5">
+    <div class="container">
+      <h2 class="mb-4">Digitise legislation</h2>
+      <div class="row">
+        <div class="col-2 col-sm-1">
+          <img class="img-fluid" src="/img/icons/indigo.svg" alt="Indigo icon">
+        </div>
+        <div class="col">
+          <h3 class="mb-2">Indigo Legislation Platform</h3>
+          <p class="lead">
+            Indigo is our flagship product for managing a legislation database. Markup, amend and publish a wide
+            variety of legislative documents in Akoma Ntoso XML.
+          </p>
+        </div>
+      </div>
+
+      <div class="text-center">
+        <img src="/img/screenshot-indigo.png" class="img-fluid my-3" alt="Indigo screenshot">
+      </div>
+
+      <h4 class="font-weight-bold">
+        Designed for evolving legislation
+      </h4>
+      <ul>
+        <li>
+          Publish up-to-date leglisation in minutes.
+        </li>
+        <li>
+          First-class support for the full legislation lifecycle: publication, commencement, amendment and repeal.
+        </li>
+        <li>
+          Commencement tracking for entire documents, or just specific provisions.
+        </li>
+        <li>
+          Visualise differences between different amended versions.
+        </li>
+      </ul>
+
+      <h4 class="font-weight-bold">A legislation-specific editorial workflow</h4>
+      <ul>
+        <li>Focus on content and structure, and Indigo will take care of formatting and layout for you.</li>
+        <li>Let your editorial team collaborate effectively with document annotations and a flexible task system.</li>
+        <li>
+          Two-step reviews to ensure accuracy and quality.
+        </li>
+        <li>
+          Automated editorial guidance to encourage high quality document markup and help with common errors, such as
+          incorrect section numbering.
+        </li>
+        <li>
+          Integrates into Gazettes.Africa for original Gazette publication tracking and linking.
+        </li>
+      </ul>
+
+      <h4 class="font-weight-bold">Integrate your content into your existing systems</h4>
+      <ul>
+        <li>
+          Publish legislation to your website, app or partners through a flexible API that is easy for other systems to integrate with.
+        </li>
+        <li>
+          Export legislation in a variety of formats: Akoma Ntoso XML, HTML, ePUB and high-quality, print-ready PDF.
+        </li>
+        <li>
+          Integrations directly into our LIIWeb legal content platform.
+        </li>
+      </ul>
+
+      <p><strong>Ready for Africa and the world</strong></p>
+      <ul>
+        <li>
+          Supports the Laws.Africa <a href="https://laws.africa/publications/akn4africa-recommendation.html">Akoma Ntoso for Africa (AKN4Africa) recommendation</a>.
+        </li>
+        <li>
+          Supports the <a href="https://unsceb.org/unsif-akn4un">Akoma Ntoso for United Nations (AKN4UN) recommendation</a>.
+        </li>
+        <li>
+          Supports multiple languages, including English, French, Portuguese and Swahili.
+        </li>
+      </ul>
+
+      <p>Use our cloud-based solution, or self-host on your hardware in your datacenters.</p>
+      <p>
+        We provide a full range of customisation, training and support services for management,
+        editorial staff and IT administrators to help you get the most out of Indigo.
+      </p>
+      <div>
+        <a class="btn btn-primary" href="/contact">Get in touch for a demo</a>
+        <a class="btn btn-primary" href="/open-african-law">Read more about our full services</a>
+      </div>
+    </div>
+  </section>
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h2 class="mb-4">Publish legal information</h2>
+
+      <div class="row">
+        <div class="col-2 col-sm-1">
+          <img class="img-fluid" src="/img/icons/liiweb.svg" alt="LIIWeb icon">
+        </div>
+        <div class="col">
+          <h3 class="mb-2" id="liiweb">LIIWeb</h3>
+          <p class="lead">
+            LIIWeb is an all-in-one legal information website built on the Django platform.
+          </p>
+        </div>
+      </div>
+
+      <div class="text-center">
+        <img src="/img/screenshot-liiweb.png" class="img-fluid my-3" alt="LIIWeb screenshot">
+      </div>
+
+      <p>
+        <strong>
+          First-class support for publishing key primary legal information materials: legislation, court judgments and government gazettes.
+        </strong>
+      </p>
+      <ul>
+        <li>Add your own content types using all the power and flexibility of Drupal.</li>
+        <li>Integrates with the Indigo Legislation Platform to publish Akoma Ntoso (AKN) legislation with rich, interactive reading experiences.</li>
+      </ul>
+      <p>
+        <strong>
+          Advanced search and discovery
+        </strong>
+      </p>
+      <ul>
+        <li>Faceted, full-text and boolean search</li>
+        <li>Flexible content taxonomies</li>
+        <li>Linking between related documents</li>
+      </ul>
+      <p><strong>Reach wide audience</strong></p>
+      <ul>
+        <li>Optimised for mobile phones so that information is accessible to anyone, anywhere.</li>
+        <li>Integrates with <a href="#pocketlaw">PocketLaw</a> for a fully offline experience.</li>
+      </ul>
+      <div>
+        <a class="btn btn-primary"
+           href="https://github.com/laws-africa/peachjam"
+           target="_blank"
+           rel="noreferrer"
+        >
+          LIIWeb on Github
+        </a>
+      </div>
+
+      <hr class="my-5">
+
+      <div class="row">
+        <div class="col-2 col-sm-1">
+          <img class="img-fluid" src="/img/icons/pocketlaw.svg" alt="Pocket Law icon">
+        </div>
+        <div class="col">
+          <h3 class="mb-2" id="pocketlaw">PocketLaw</h3>
+          <p class="lead">
+            PocketLaw is a desktop research application that provides a complete offline copy of your legal information website.
+          </p>
+        </div>
+      </div>
+      <ul>
+        <li>
+          Enables conducting legal research in areas with limited, restricted or expensive Internet access.
+        </li>
+        <li>
+          Take only what you need: our Content Pack technology lets you choose what parts of your website you want to
+          make available offline.
+          Works on Windows, Mac OS and Ubuntu.
+        </li>
+        <li>
+          Can be installed from a USB stick, for easy distribution to your team.
+        </li>
+        <li>
+          Integrates into our <a href="#liiweb">LIIWeb legal information website</a> system.
+        </li>
+      </ul>
+      <div>
+        <a class="btn btn-primary" href="/contact">Get in touch</a>
+      </div>
+    </div>
+  </section>
+  <section class="py-5">
+    <div class="container">
+      <h2 class="mb-4">Create and work with structured legislative text</h2>
+
+      <div class="row">
+        <div class="col-2 col-sm-1">
+          <img class="img-fluid" src="/img/icons/bluebell.svg" alt="Bluebell icon">
+        </div>
+        <div class="col">
+          <h3 class="mb-2">Bluebell</h3>
+          <p class="lead">
+            Create rich, standards-compliant Akoma Ntoso XML documents without worrying about XML.
+          </p>
+        </div>
+      </div>
+
+      <div class="text-center">
+        <img src="/img/screenshot-bluebell.png" class="img-fluid my-3" alt="Bluebell screenshot">
+      </div>
+
+      <p>
+        Bluebell is a plain text language similar to Markdown that simplifies the authoring of <a href="http://www.akomantoso.org/">Akoma Ntoso XML</a> documents without requiring any knowledge of XML. Bluebell understands the hierarchy of Akoma Ntoso documents and structural elements, and guarantees valid and standards-compliant Akoma Ntoso 3.0 XML.
+      </p>
+      <p>
+        No XML skills or knowledge is required. Bluebell is easy for non-technical editors to learn and use.
+      </p>
+      <p>
+        <strong>
+          Akoma Ntoso features supported:
+        </strong>
+      </p>
+      <ul>
+        <li>
+          Six primary document types: Act, Bill, Debate Report, Judgment, Doc, Statement
+        </li>
+        <li>
+          All hierarchical elements (parts, chapters, sections, paragraphs, sub-paragraphs, etc.)
+        </li>
+        <li>
+          Tables
+        </li>
+        <li>Footnotes</li>
+        <li>
+          Quotes
+        </li>
+        <li>
+          Editorial remarks
+        </li>
+        <li>
+          Bulleted lists and numbered lists
+        </li>
+        <li>Attachments</li>
+        <li>
+          Images
+        </li>
+        <li>
+          Inlines: bold, italics, underline, ref, sup, abbr, em, term, ins, del, inline,
+        </li>
+      </ul>
+      <p>
+        Rich syntax highlighting for Microsoft’s <a href="https://microsoft.github.io/monaco-editor/">Monaco editor</a> makes Bluebell easy to read and edit.
+      </p>
+      <div>
+        <a class="btn btn-primary"
+           href="https://laws.africa/bluebell/"
+           target="_blank"
+           rel="noreferrer"
+        >
+          Bluebell documentation
+        </a>
+        <a class="btn btn-primary"
+           href="https://github.com/laws-africa/bluebell"
+           target="_blank"
+           rel="noreferrer"
+        >
+          Bluebell on Github
+        </a>
+      </div>
+
+      <hr class="my-5">
+
+      <div class="row">
+        <div class="col-2 col-sm-1">
+          <img class="img-fluid" src="/img/icons/cobalt.svg" alt="Cobalt icon">
+        </div>
+        <div class="col">
+          <h3 class="mb-2">Cobalt</h3>
+          <p class="lead">
+            Cobalt is a lightweight wrapper for working with Akoma Ntoso XML documents in Python.
+          </p>
+        </div>
+      </div>
+
+      <p>
+        Cobalt provides a simple, object-like interface for working with the
+        key details of Akoma Ntoso documents, as well as direct XML access for
+        when you need to work with the XML directly.
+      </p>
+      <p>
+        Parse and validate Akoma Ntoso documents against both a strict and a relaxed Akoma Ntoso 3.0 schema.
+      </p>
+      <p>
+        Cobalt is used in most of our software products.
+      </p>
+      <div>
+        <a class="btn btn-primary"
+           href="https://github.com/laws-africa/cobalt"
+           target="_blank"
+           rel="noreferrer"
+        >
+          Cobalt on Github
+        </a>
+      </div>
+    </div>
+  </section>
+
+</div>
+{% endblock %}
