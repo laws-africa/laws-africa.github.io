@@ -42,7 +42,7 @@
       </div>
 
       <div class="col-sm-9 mb-5 pt-5" data-tocify="#toc">
-        {% set versions = site.publications |where("key", page.key )|sort(attribute="date") | reverse %}
+        {% set versions = site.publications|selectattr("key", "equalto", page.key)|list|sort(attribute="date")|reverse|list %}
         {% if versions|length > 1 %}
           <ul class="list-inline">
             <li class="list-inline-item">Versions:</li>

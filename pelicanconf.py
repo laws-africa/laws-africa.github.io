@@ -7,10 +7,7 @@ from tools.pelican_support import (
     build_site,
     finalize_none,
     markdownify_filter,
-    reverse_filter,
     strftime_filter,
-    where_filter,
-    xml_escape_filter,
 )
 
 
@@ -74,8 +71,5 @@ JINJA_GLOBALS = {"site": SITE}
 JINJA_ENVIRONMENT = {"trim_blocks": True, "lstrip_blocks": True, "finalize": finalize_none}
 JINJA_FILTERS = {
     "strftime": strftime_filter,
-    "where": where_filter,
     "markdownify": markdownify_filter,
-    "xml_escape": xml_escape_filter,
-    "reverse": reverse_filter,
 }

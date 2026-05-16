@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import argparse
 import datetime as dt
-import html
 import json
 import shutil
 import subprocess
@@ -144,20 +143,8 @@ def strftime_filter(value: Any, fmt: str) -> str:
     return date.strftime(fmt).replace(unpadded_day_token, str(date.day))
 
 
-def where_filter(items: list[Any], key: str, expected: Any) -> list[Any]:
-    return [item for item in items if getattr(item, key, None) == expected or item.get(key) == expected]
-
-
 def markdownify_filter(value: Any) -> str:
     return markdown(str(value or ""), extensions=["extra"])
-
-
-def xml_escape_filter(value: Any) -> str:
-    return html.escape(str(value or ""), quote=True)
-
-
-def reverse_filter(value: Any) -> list[Any]:
-    return list(reversed(list(value or [])))
 
 
 def finalize_none(value: Any) -> Any:
