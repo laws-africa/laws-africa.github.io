@@ -108,8 +108,9 @@ Available values:
 - `site.hiring`: boolean used by templates that show hiring notices.
 - `site.hiring_contributors`: boolean used by templates that show contributor
   hiring notices.
-- `site.posts`: all Markdown posts from `content/articles/`, sorted newest
-  first.
+- `articles`: Pelican's native list of Markdown posts from `content/articles/`,
+  sorted newest first. Use this directly in templates for blog listings, recent
+  posts, and feeds.
 - `site.publications`: all pages whose `save_as` starts with `publications/`,
   sorted newest first.
 - `site.case_studies`: all pages whose `save_as` starts with `case-studies/`,
@@ -121,8 +122,8 @@ Available values:
   are exposed by filename, so `data/commons.json` is available as
   `site.data.commons`.
 
-Items in `site.posts`, `site.publications`, `site.case_studies`, and
-`site.help` are built from each file's front matter. Common fields include
+Items in `articles`, `site.publications`, `site.case_studies`, and `site.help`
+are built from each file's front matter. Common fields include
 `title`, `url`, `save_as`, `date`, `lead`, `image`, `author`, and `content`,
 depending on what the source file defines.
 

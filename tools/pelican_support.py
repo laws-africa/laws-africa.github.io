@@ -91,11 +91,6 @@ def load_data() -> Obj:
 
 def build_site() -> Obj:
     data = load_data()
-    posts = sorted(
-        (content_item(path) for path in (CONTENT_DIR / "articles").rglob("*.md")),
-        key=lambda item: sort_date(item.date),
-        reverse=True,
-    )
     pages = [content_item(path) for path in (CONTENT_DIR / "pages").rglob("*.md")]
     publications = sorted(
         (page for page in pages if str(page.save_as or "").startswith("publications/")),
@@ -123,7 +118,6 @@ def build_site() -> Obj:
             "hiring": True,
             "hiring_contributors": False,
             "data": data,
-            "posts": posts,
             "publications": publications,
             "case_studies": case_studies,
             "help": help_pages,
