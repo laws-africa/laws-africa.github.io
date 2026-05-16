@@ -3,7 +3,7 @@ title: 'New: Best practices for publishing legislation online'
 date: '2021-11-16T11:31:00+02:00'
 lead: We've published our best practices for making online legislation user-friendly.
 author: Greg Kempe
-image: /img/posts/chameleon.jpg
+image: /static/img/posts/chameleon.jpg
 header_class: bg-lawsafrica-pale-red
 slug: best-practices-legislation-online
 save_as: 2021/11/16/best-practices-legislation-online.html
@@ -33,7 +33,7 @@ Small choices, such as a good choice of font, decent line spacing, and creating 
 
 For example, the clear indentation makes it a bit easier to understand the details of this single sentence in the [Constitution of South Africa](https://lawlibrary.org.za/akn/za/act/1996/constitution/eng@2013-08-23#sec_6) that includes two sub-paragraphs and three numbered items:
 
-<img src="/img/posts/indentation.png" class="img-fluid" alt="Indentation example" style="max-width: 500px">
+<img src="/static/img/posts/indentation.png" class="img-fluid" alt="Indentation example" style="max-width: 500px">
 
 
 ## Supporting African Governments

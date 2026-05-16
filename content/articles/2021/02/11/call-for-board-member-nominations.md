@@ -4,7 +4,7 @@ date: '2021-02-11T08:26:00+02:00'
 author: Greg Kempe
 lead: Laws.Africa invites nominations for appointment to the non-executive advisory
   board of Laws.Africa.
-image: /uploads/logo-cover.png
+image: /static/uploads/logo-cover.png
 header_class: bg-lawsafrica-pale-red
 slug: call-for-board-member-nominations
 save_as: 2021/02/11/call-for-board-member-nominations.html

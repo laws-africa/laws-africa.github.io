@@ -8,7 +8,7 @@ lead: The Laws of Kenya department at Kenya Law uses Laws.Africa’s Indigo Legi
 blurb: The Laws of Kenya department at Kenya Law uses Laws.Africa’s Indigo Legislation
   Platform to manage, consolidate and publish the Laws of Kenya in digital and print
   formats.
-image: /img/case-studies/kenya-law-logo.png
+image: /static/img/case-studies/kenya-law-logo.png
 header_class: bg-lawsafrica-pale-red
 slug: case-studies-kenyalaw
 save_as: case-studies/kenyalaw/index.html

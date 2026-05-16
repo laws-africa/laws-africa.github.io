@@ -2,7 +2,7 @@
 title: Bergrivier and Cederberg municipal by-laws are now available on openbylaws.org.za
 date: '2020-03-24T08:03:00+02:00'
 author: Greg Kempe
-image: /uploads/cederberg-bergrivier.jpg
+image: /static/uploads/cederberg-bergrivier.jpg
 lead: The by-laws for Bergrivier and Cederberg municipalities are now available on
   openbylaws.org.za.
 header_class: bg-lawsafrica-pale-red

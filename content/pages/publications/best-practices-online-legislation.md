@@ -174,7 +174,7 @@ a document difficult to read.
 
 **Example:**
 
-<img src="/img/posts/indentation.png" class="img-responsive" style="max-width: 500px" alt="Indentation example">
+<img src="/static/img/posts/indentation.png" class="img-responsive" style="max-width: 500px" alt="Indentation example">
 
 **Further reading:**
 
@@ -202,7 +202,7 @@ Allow wide tables and tables with many columns to scroll horizontally on small s
 
 **Example:**
 
-<img src="/img/posts/table-scroll.gif" class="img-responsive" style="max-width: 300px" alt="Scrolling table example">
+<img src="/static/img/posts/table-scroll.gif" class="img-responsive" style="max-width: 300px" alt="Scrolling table example">
 
 ## 4.4 Place footnotes near to where they are referenced
 

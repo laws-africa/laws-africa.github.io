@@ -2,7 +2,7 @@
 title: Do you trust legislation that you find on the Internet?
 date: '2020-06-12T13:43:00+02:00'
 author: Greg Kempe
-image: /uploads/trust-me.jpg
+image: /static/uploads/trust-me.jpg
 lead: How readers determine if laws they find online are trustworthy and up to date.
 header_class: bg-lawsafrica-pale-red
 slug: do-you-trust-legislation-that-you-find-on-the-internet
@@ -32,7 +32,7 @@ These two questions are a good starting point for determining whether what you h
 
 We asked users about how they judge the trustworthiness and completeness of online legislation. We used a [Twitter poll](https://twitter.com/laws_africa/status/1255589099853012998) and a poll on the [openbylaws.org.za](https://openbylaws.org.za) website.
 
-![TweetDeck 2020-06-11 16-29-28.png](/uploads/TweetDeck%202020-06-11%2016-29-28.png)
+![TweetDeck 2020-06-11 16-29-28.png](/static/uploads/TweetDeck%202020-06-11%2016-29-28.png)
 
 ### Trustworthiness
 

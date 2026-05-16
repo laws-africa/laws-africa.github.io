@@ -60,11 +60,11 @@ For example, apps can present only specific sections or subsections of an Act, d
 
 Interactivity can help readers understand legislation. For example, our [OpenByLaws.org.za](https://openbylaws.org.za) project shows popup definitions of defined terms, making it easier for readers to make sense of what they are reading.
 
-![bylaw-houseshop.gif](/uploads/bylaw-houseshop.gif)
+![bylaw-houseshop.gif](/static/uploads/bylaw-houseshop.gif)
 
 Legal research is also supported. Our [Namibian Legislation Glossary](https://laws.africa/2019/09/02/how-we-built-an-automated-glossary-for-namibian-legislation.html) uses Akoma Ntoso to update itself automatically. It pulls together all the defined terms from Namibian statutes in our Legislation Commons and presents them in a way that's easy to read and understand. This helps users and researchers to explore how different terms are used in Namibian statutes, from 1840 to 2020.
 
-![glossary-ac9e5a.png](/uploads/glossary-ac9e5a.png)
+![glossary-ac9e5a.png](/static/uploads/glossary-ac9e5a.png)
 
 # What we’ve achieved
 

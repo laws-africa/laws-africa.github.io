@@ -4,7 +4,7 @@ date: '2021-06-18T16:46:00+02:00'
 author: Edith V
 lead: Announcing AKN4Africa, our recommendations for applying Akoma Ntoso to African
   legal materials.
-image: /uploads/national-theatre-accra.jpg
+image: /static/uploads/national-theatre-accra.jpg
 header_class: bg-lawsafrica-pale-red
 slug: using-akoma-ntoso-with-african-legal-materials
 save_as: 2021/06/18/using-akoma-ntoso-with-african-legal-materials.html

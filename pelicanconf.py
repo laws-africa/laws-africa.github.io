@@ -25,7 +25,13 @@ PLUGINS = ["yaml_frontmatter_reader"]
 
 ARTICLE_PATHS = ["articles"]
 PAGE_PATHS = ["pages"]
-STATIC_PATHS = []
+STATIC_PATHS = ["static"]
+EXTRA_PATH_METADATA = {
+    "static/favicon.ico": {"path": "favicon.ico"},
+    "static/google31ad17a90935c519.html": {"path": "google31ad17a90935c519.html"},
+}
+STATIC_EXCLUDES = [".DS_Store", "*/.DS_Store"]
+IGNORE_FILES = ["**/.*", ".*"]
 USE_FOLDER_AS_CATEGORY = False
 DEFAULT_CATEGORY = "blog"
 WITH_FUTURE_DATES = True

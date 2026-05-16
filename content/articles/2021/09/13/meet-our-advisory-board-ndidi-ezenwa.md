@@ -3,7 +3,7 @@ title: 'Meet our advisory board: Ndidi Ezenwa'
 date: '2021-09-13T11:37:00+02:00'
 author: Greg Kempe
 lead: A brief Q&A with our advisory board member Ndidi Ezenwa.
-image: /uploads/ndidi-header.png
+image: /static/uploads/ndidi-header.png
 header_class: bg-lawsafrica-pale-red
 slug: meet-our-advisory-board-ndidi-ezenwa
 save_as: 2021/09/13/meet-our-advisory-board-ndidi-ezenwa.html

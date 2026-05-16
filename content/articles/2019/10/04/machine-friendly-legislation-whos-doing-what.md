@@ -2,7 +2,7 @@
 title: Machine-friendly legislation – who’s doing what
 date: '2019-10-04T10:24:00+02:00'
 author: Edith V
-image: /uploads/leaves.jpg
+image: /static/uploads/leaves.jpg
 lead: A sample of tools and projects in the field of machine-friendly legislation
 header_class: bg-lawsafrica-pale-red
 slug: machine-friendly-legislation-whos-doing-what

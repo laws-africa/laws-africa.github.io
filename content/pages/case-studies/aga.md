@@ -6,7 +6,7 @@ lead: Laws.Africa and four partners win a major EU grant to strengthen implement
   of the African Union’s democracy and human rights agenda.
 blurb: Laws.Africa and four partners win a major EU grant to strengthen implementation
   of the African Union’s democracy and human rights agenda.
-image: /img/case-studies/aga.jpg
+image: /static/img/case-studies/aga.jpg
 header_class: bg-lawsafrica-pale-red
 slug: case-studies-aga
 save_as: case-studies/aga/index.html

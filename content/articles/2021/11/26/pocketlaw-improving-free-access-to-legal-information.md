@@ -4,7 +4,7 @@ date: '2021-11-26T11:20:00+02:00'
 lead: We've released of a new version of Pocket Law, a desktop application which makes
   African legal information available offline.
 author: Robley Gori
-image: /img/posts/gnu.jpg
+image: /static/img/posts/gnu.jpg
 header_class: bg-lawsafrica-pale-red
 slug: pocketlaw-improving-free-access-to-legal-information
 save_as: 2021/11/26/pocketlaw-improving-free-access-to-legal-information.html
@@ -27,7 +27,7 @@ Lack of free access to legal information is another of the challenges many peopl
 
 Pocket Law is an off-line desktop application for Windows and Mac, that allows users to browse and search caselaw, legislation and other legal materials, found on a Legal Information Institute (LII) website. The project is an initiative by [AfricanLII](https://africanlii.org/) and [Laws.Africa](https://laws.africa) that aims to provide offline access to the collection of legal information that is currently available on the various LII websites of the free access to law community in Africa. Through Pocket Law, we seek to make legal information available and accessible to users with limited or costly internet access.
 
-<img src="/img/posts/pocketlaw-zimlii.png" class="img-fluid" alt="PocketLaw in use" style="max-width: 500px">
+<img src="/static/img/posts/pocketlaw-zimlii.png" class="img-fluid" alt="PocketLaw in use" style="max-width: 500px">
 
 As much as the internet is gaining traction on the continent, barriers such as cost still exist that prevent a majority of people reaping from its benefits and those of freely accessible online legal information. Pocket Law aims to break down some of these barriers and make legal information accessible to even more people by providing an offline solution that mitigates against issues of poor internet accessibility and high costs of data. 
 

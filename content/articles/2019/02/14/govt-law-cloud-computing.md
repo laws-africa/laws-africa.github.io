@@ -5,7 +5,7 @@ author: Greg Kempe
 lead: 'The enormous impact of cloud computing on the pace of business innovation over
   the last ten years bears an important lesson for the law and the government: the
   significant value of shared, re-usable resources.'
-image: /img/posts/bulldozer.jpg
+image: /static/img/posts/bulldozer.jpg
 header_class: bg-lawsafrica-pale-red
 slug: govt-law-cloud-computing
 save_as: 2019/02/14/govt-law-cloud-computing.html

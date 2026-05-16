@@ -10,6 +10,6 @@ url: /contact/
 template: slim
 ---
 
-<img src="/img/social/email.svg" style="margin-right:15px"> Email us at [support@laws.africa](mailto:support@laws.africa)
+<img src="/static/img/social/email.svg" style="margin-right:15px"> Email us at [support@laws.africa](mailto:support@laws.africa)
 
-<img src="/img/social/linkedin.svg" style="margin-right:15px"> Laws.Africa on [LinkedIn](https://www.linkedin.com/company/laws-africa/)
+<img src="/static/img/social/linkedin.svg" style="margin-right:15px"> Laws.Africa on [LinkedIn](https://www.linkedin.com/company/laws-africa/)

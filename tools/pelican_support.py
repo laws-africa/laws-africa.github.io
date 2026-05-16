@@ -19,10 +19,6 @@ CONTENT_DIR = ROOT / "content"
 OUTPUT_DIR = ROOT / ".pelican-output"
 THEME_DIR = ROOT / "theme" / "lawsafrica"
 
-STATIC_DIRS = ["img", "js", "_uploads"]
-STATIC_FILES = ["CNAME", "favicon.ico", "africa.geojson", "google31ad17a90935c519.html"]
-
-
 class Obj(dict):
     """Mapping object with attribute access for template data."""
 
@@ -140,22 +136,6 @@ def finalize_none(value: Any) -> Any:
     return "" if value is None else value
 
 
-def copy_static() -> None:
-    for directory in STATIC_DIRS:
-        source = ROOT / directory
-        if not source.exists():
-            continue
-        dest_name = "uploads" if directory == "_uploads" else directory
-        dest = OUTPUT_DIR / dest_name
-        if dest.exists():
-            shutil.rmtree(dest)
-        shutil.copytree(source, dest, ignore=shutil.ignore_patterns(".DS_Store"))
-    for filename in STATIC_FILES:
-        source = ROOT / filename
-        if source.exists():
-            shutil.copy2(source, OUTPUT_DIR / filename)
-
-
 def compile_sass() -> None:
     css_dir = OUTPUT_DIR / "css"
     css_dir.mkdir(parents=True, exist_ok=True)
@@ -194,7 +174,6 @@ def run_pelican(settings: str) -> None:
 
 def build(settings: str) -> None:
     run_pelican(settings)
-    copy_static()
     compile_sass()
 
 

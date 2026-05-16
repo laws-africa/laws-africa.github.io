@@ -10,7 +10,7 @@ tags:
 - caselaw system
 - software development project
 author: Mariya Badeva-Bright
-image: /uploads/labor-3485805_1920.jpg
+image: /static/uploads/labor-3485805_1920.jpg
 lead: 'Press Release | 6 March 2020 | Nairobi, Kenya and Cape Town, South Africa
 
   '

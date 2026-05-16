@@ -4,8 +4,9 @@ This is a GitHub Pages website for [laws.africa](https://laws.africa).
 
 # Changing content
 
-Pages live under `content/pages/`, blog posts under `content/articles/`, shared
-data under `data/`, and templates under `theme/lawsafrica/templates/`.
+Pages live under `content/pages/`, blog posts under `content/articles/`, static
+assets under `content/static/`, shared data under `data/`, and templates under
+`theme/lawsafrica/templates/`.
 
 ## Choosing Markdown or a Template
 
@@ -124,6 +125,18 @@ Items in `articles`, `site.publications`, and `site.case_studies` are built
 from each file's front matter. Common fields include `title`, `url`, `save_as`,
 `date`, `lead`, `image`, `author`, and `content`, depending on what the source
 file defines.
+
+## Static Assets
+
+Static assets live in `content/static/` and are copied by Pelican through
+`STATIC_PATHS = ["static"]` in `pelicanconf.py`. Put images in
+`content/static/img/`, uploaded media in `content/static/uploads/`, and
+JavaScript in `content/static/js/`; those paths are published as `/static/img/`,
+`/static/uploads/`, and `/static/js/`.
+
+Files that must publish at the site root, such as `favicon.ico` and
+`google31ad17a90935c519.html`, also live in `content/static/` and are mapped to
+root output paths with `EXTRA_PATH_METADATA`.
 
 # Local development
 

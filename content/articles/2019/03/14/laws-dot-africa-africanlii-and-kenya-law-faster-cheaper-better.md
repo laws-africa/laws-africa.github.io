@@ -5,7 +5,7 @@ author: Greg Kempe
 lead: Laws.Africa, AfricanLII and Kenya Law are collaborating to transform how Kenyan
   legislation is managed, consolidated and made available online for free with Akoma
   Ntoso.
-image: /uploads/kenyan-runners.jpg
+image: /static/uploads/kenyan-runners.jpg
 header_class: bg-lawsafrica-pale-red
 slug: laws-dot-africa-africanlii-and-kenya-law-faster-cheaper-better
 save_as: 2019/03/14/laws-dot-africa-africanlii-and-kenya-law-faster-cheaper-better.html

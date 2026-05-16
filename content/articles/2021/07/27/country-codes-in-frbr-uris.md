@@ -3,7 +3,7 @@ title: Country codes in FRBR URIs
 date: '2021-07-27T10:10:00+02:00'
 author: Edith V
 lead: It’s straightforward, until it isn’t!
-image: /uploads/gaborone-skyline.jpg
+image: /static/uploads/gaborone-skyline.jpg
 header_class: bg-lawsafrica-pale-red
 slug: country-codes-in-frbr-uris
 save_as: 2021/07/27/country-codes-in-frbr-uris.html

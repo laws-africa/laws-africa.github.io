@@ -10,7 +10,7 @@ author: Mariya Badeva-Bright
 lead: Laws.Africa partnered with the Uganda Judiciary's ULII to digitise and update
   the Laws of Uganda.  The result is a selection of 98 Acts and 8 Statutory Instruments
   that are now up-to-date and available, for free, at www.ulii.org.
-image: /uploads/Ug_Constitution.PNG
+image: /static/uploads/Ug_Constitution.PNG
 header_class: bg-lawsafrica-pale-red
 slug: uganda-national-legislation-collection
 save_as: 2021/06/30/uganda-national-legislation-collection.html
@@ -46,26 +46,26 @@ You may read, use and re-use the [revised Laws of Uganda on ULII.org](https://ul
 **Photo essay**
 
 **ULII scanned over 1400 gazettes**
-![Uganda scanning (1).png](/uploads/Uganda%20scanning%20(1).png)
+![Uganda scanning (1).png](/static/uploads/Uganda%20scanning%20(1).png)
 
 *Laws.Africa purchased a [CZUR book scanner](https://www.czur.com/product/et16plus) for  ULII. ULII’s Eunice Logose is photographed here scanning gazettes at the Judicial Training Institute of Uganda.*
 
 **State of access to legislation before the project**
-![gazette2.png](/uploads/gazette2.png)
+![gazette2.png](/static/uploads/gazette2.png)
 
 *This is the Anti-Terrorism Act, 2002 as we found and scanned it at the library of the Law Development Centre. The pages show signs of overuse. Amendments are pasted as stickers pointing to gazetted legislation stored on another shelf. [See the original scan](https://drive.google.com/file/d/1tCnllHWkEtuuxThAodKKWuPkiSfUzEdg/view)*
 
 **The digital Elections Act**
-![Elections Act.png](/uploads/Elections%20Act.png)
+![Elections Act.png](/static/uploads/Elections%20Act.png)
 
 *Laws.Africa’s revised legislation incorporates all amendments to legislation, richly annotated and supplemented with links to the gazetted versions of amendment acts. The historical, or point-in-time, versions of legislation are also available to users, free of charge.  [See version on ULII](https://ulii.org/akn/ug/act/2005/16/eng@2020-07-27)*
 
 **A timeline of legislation as enacted in Uganda**
-![timeline3.png](/uploads/timeline3.png)
+![timeline3.png](/static/uploads/timeline3.png)
 
 *Some of the oldest Acts digitised date back to 1902.  We are now also able to track the rate of amendments applied to legislation contained in the Grey book.*
 
 **A Glossary of legal terms for Uganda**
-![glossary2.png](/uploads/glossary2.png)
+![glossary2.png](/static/uploads/glossary2.png)
 
 *We are also now able to read the legislated meaning of over 1900 legal terms and phrases in Uganda.  Defined terms in the Grey Book are marked up, making the creation of this Glossary possible. Read more about the technology behind the [glossary in our blog post here.](https://laws.africa/2019/09/02/how-we-built-an-automated-glossary-for-namibian-legislation.html)*

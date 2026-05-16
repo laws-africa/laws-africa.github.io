@@ -4,7 +4,7 @@ date: '2019-07-15T15:06:00+02:00'
 lead: How openbylaws.org.za uses Laws.Africa and “legislation as data” to automate
   the work of making municipal by-laws freely available.
 author: Greg Kempe
-image: /uploads/cape-town-crane.jpg
+image: /static/uploads/cape-town-crane.jpg
 header_class: bg-lawsafrica-pale-red
 slug: automating-openbylaws-with-laws-africa
 save_as: 2019/07/15/automating-openbylaws-with-laws-africa.html
@@ -23,7 +23,7 @@ Open By-laws uses Laws.Africa to provide rich, interactive functionality to read
 
 Open By-laws uses the [Laws.Africa Content API](https://laws.africa/api/) to automate website updates. Every night, Open By-laws automatically pulls in the latest by-laws from Laws.Africa and publishes them on the openbylaws.org.za website. This includes images, gazette information, inline definitions, and by-laws in HTML, PDF and ePUB formats.
 
-<img src="/uploads/content-api.png" alt="Laws.Africa Content API diagram" class="img-fluid">
+<img src="/static/uploads/content-api.png" alt="Laws.Africa Content API diagram" class="img-fluid">
 
 Traditionally, a website like Open By-laws would be painstakingly maintained by hand. Every change would require an editor to ensure that the headings are correctly formatted, the table of contents is updated, definitions are linked, and that the PDF version matches the webpage version.
 
@@ -31,7 +31,7 @@ The Laws.Africa Content API treats **legislation as data**, which means we can c
 
 In addition, because the legislation is available as structured data (rather than as a Word document or a PDF), Open By-laws can add rich functionality. For example, specially defined terms are linked and their definitions are shown in a pop-up:
 
-<img src="/uploads/bylaw-definitions.gif" alt="Inline definitions popup" class="img-fluid">
+<img src="/static/uploads/bylaw-definitions.gif" alt="Inline definitions popup" class="img-fluid">
 
 ## What else can be done with the content API?
 
@@ -49,7 +49,7 @@ Anyone can become a contributor. Laws.Africa provides training, support and guid
 
 For example, here are the [tasks and by-laws for Cape Town](https://edit.laws.africa/places/za-cpt/).
 
-<img src="/uploads/platform-cpt.png" class="img-fluid">
+<img src="/static/uploads/platform-cpt.png" class="img-fluid">
 
 Contributions feed into the legislation commons which is freely available online, to everyone. [Apply to Laws.Africa to become a contributor](https://laws.africa/jobs) if you'd like to help out.
 

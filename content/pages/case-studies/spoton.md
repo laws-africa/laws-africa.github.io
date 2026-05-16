@@ -8,7 +8,7 @@ lead: SpotOn uses Laws.Africa's legislation data to provide an on-line complianc
 blurb: '[SpotOn](https://spoton-compliance.com/) use Laws.Africa''s legislation data
   to provide an on-line compliance management system to enable clients to comply with
   environmental and health and safety legislation.'
-image: /img/case-studies/spot-on-logo.jpg
+image: /static/img/case-studies/spot-on-logo.jpg
 header_class: bg-lawsafrica-pale-red
 slug: case-studies-spoton
 save_as: case-studies/spoton/index.html

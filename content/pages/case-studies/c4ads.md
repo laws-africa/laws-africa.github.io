@@ -6,7 +6,7 @@ lead: C4ADS partnered with Laws.Africa to digitise African gazettes to support t
   disruption of illicit networks.
 blurb: '[C4ADS](https://c4ads.org/) partnered with Laws.Africa to digitise African
   gazettes to support the disruption of illicit networks.'
-image: /img/case-studies/c4ads-logo.png
+image: /static/img/case-studies/c4ads-logo.png
 header_class: bg-lawsafrica-pale-red
 slug: case-studies-c4ads
 save_as: case-studies/c4ads/index.html

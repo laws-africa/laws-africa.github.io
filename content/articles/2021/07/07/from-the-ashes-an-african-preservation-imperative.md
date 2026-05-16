@@ -5,7 +5,7 @@ author: Mariya Badeva-Bright  and Greg Kempe
 lead: 'The devastating loss of thousands of African gazettes to fire is an urgent
   call to preserve the documents that underpin African legal systems and governance
   structures. '
-image: /uploads/fire-jagger.jpg
+image: /static/uploads/fire-jagger.jpg
 header_class: bg-lawsafrica-pale-red
 slug: from-the-ashes-an-african-preservation-imperative
 save_as: 2021/07/07/from-the-ashes-an-african-preservation-imperative.html
@@ -20,7 +20,7 @@ In April 2021, [a devastating fire broke out in the Jagger Reading Room of the U
 
 Due to a combination of factors, the gazette archives of many African nations are locked in paper format, stored in varied locations, often in foreign countries, and are inaccessible to researchers and citizens. Government Printers often lament the lack of national archives with this critical information.  As a result, libraries such as the Jagger are an essential source of government information, legislative and regulatory information, and help preserve a country’s, and indeed a continent’s, history. 
 
-![fire-book.jpg](/uploads/fire-book.jpg)
+![fire-book.jpg](/static/uploads/fire-book.jpg)
 
 (Photo by Lerato Maduna / UCT News)
 

@@ -4,7 +4,7 @@ date: '2019-08-22T08:50:00+02:00'
 lead: How Cape Agulhas youth found solutions to illegal liquor sales and poor refuse
   removal in their local by-laws.
 author: Greg Kempe
-image: /uploads/trash-bins.jpg
+image: /static/uploads/trash-bins.jpg
 header_class: bg-lawsafrica-pale-red
 slug: using-by-laws-to-tackle-local-service-delivery
 save_as: 2019/08/22/using-by-laws-to-tackle-local-service-delivery.html
@@ -44,7 +44,7 @@ Each group answered six questions:
 
 These questions helped them to frame their problem clearly and identify how the law could support them. They helped participants to answer the question “what do the by-laws say?” This was crucial to determining how to engage with the municipality and law enforcement to explore solutions to their problem.
 
-<img src="/uploads/cam-workshop.jpg" alt="Participants read by-laws together" class="img-fluid">
+<img src="/static/uploads/cam-workshop.jpg" alt="Participants read by-laws together" class="img-fluid">
 
 ## By-laws lay the foundations for discussion
 

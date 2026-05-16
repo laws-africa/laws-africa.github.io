@@ -4,7 +4,7 @@ date: '2019-09-02T20:24:00+02:00'
 lead: How we used legislation-as-data to create an automated glossary to explore over
   3000 defined terms in Namibian law.
 author: Greg Kempe
-image: /uploads/glossary.png
+image: /static/uploads/glossary.png
 extra_js:
 - <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
 - "<script>\n  $(function() {\n    var canvas = document.getElementById('glossary-chart'),\n\

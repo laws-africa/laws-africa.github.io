@@ -5,7 +5,7 @@
   email: greg@laws.africa
   group: core
   profile: greg
-  image: /img/team/greg.jpg
+  image: /static/img/team/greg.jpg
   content: 'Greg is a co-founder of Laws.Africa, where he leads the development of
     legal information systems that provide free, structured access to legislation,
     case law, and government gazettes across multiple African countries. A software
@@ -25,7 +25,7 @@
   email: mariya@laws.africa
   role: Co-founder and Director of Strategy, Growth and Partnerships
   group: core
-  image: /uploads/mariya_new.jpeg
+  image: /static/uploads/mariya_new.jpeg
   profile: mariyab85
   content: 'Mariya Badeva is a co-founder of Laws.Africa and an open-law expert who
     has worked to expand free access to African legal information since 2004. She
@@ -42,7 +42,7 @@
   date: 2018-12-14 13:45:00+02:00
   position: 1
   group: board
-  image: /img/board/vidhu.jpg
+  image: /static/img/board/vidhu.jpg
   content: 'Ms Vidhu Vedalankar brings extensive experience from the NGO and public
     sectors. She has worked in a variety of roles focusing on building the capacity
     of the state to deliver services at scale to the public, in particular to the
@@ -74,7 +74,7 @@
   position: 2
   role: Chief Financial Officer
   group: core
-  image: /img/team/bianca.jpg
+  image: /static/img/team/bianca.jpg
   content: 'Bianca Braun is the Chief Financial Officer at Laws.Africa, where she
     leads financial strategy, operations, and governance across the organisation.
     With over 25 years of international experience, she specialises in integrating
@@ -91,7 +91,7 @@
   date: 2018-12-14 13:45:00+02:00
   position: 2
   group: board
-  image: /img/board/ndidi.jpg
+  image: /static/img/board/ndidi.jpg
   content: Ms. Ndidi Ezenwa is a member of the Advisory Board of Laws.Africa and is
     passionate about the use of technology to improve access to justice. Ndidi is
     the General Counsel at Juven, a private investment firm which invests in technology
@@ -107,7 +107,7 @@
   role: Head of Operations
   email: chiko@laws.africa
   group: core
-  image: /uploads/5f729f6d-b5bc-4b74-92b8-db60614edb2d%20(1).jpg
+  image: /static/uploads/5f729f6d-b5bc-4b74-92b8-db60614edb2d%20(1).jpg
   content: Chikomborero is a lawyer with an LLB degree from the University of Johannesburg,
     and is reading for an LL.M degree. He leads the content team and is excited to
     be working on solving the access to law problem in Africa.
@@ -115,7 +115,7 @@
   date: 2018-12-14 13:45:00+02:00
   position: 3
   group: board
-  image: /img/board/lenaola.jpg
+  image: /static/img/board/lenaola.jpg
   content: 'Justice Isaac Lenaola is a Justice of the Supreme Court of Kenya.  Following
     a successful career at the Kenyan bar, he joined the judicial service in 2003
     and worked as Resident Judge in several seats of the High Court of Kenya.   Until
@@ -151,7 +151,7 @@
   position: 3
   role: Content and Research Lead
   group: core
-  image: /uploads/FB_IMG_1582577310287.jpg
+  image: /static/uploads/FB_IMG_1582577310287.jpg
   profile: 'nickydupreez
 
     '
@@ -164,7 +164,7 @@
   date: 2018-12-14 13:45:00+02:00
   position: 4
   group: board
-  image: /img/board/robert.jpg
+  image: /static/img/board/robert.jpg
   content: Mr. Robert M. Buergenthal has worked for thirty years to implement international
     development programs and support initiatives that create the underlying conditions
     for sustainable global development. Specializing in governance,  justice sector
@@ -188,7 +188,7 @@
   role: Digitalisation Specialist
   email: sibulele@laws.africa
   group: core
-  image: /uploads/Sibulele%20Picture.jpg
+  image: /static/uploads/Sibulele%20Picture.jpg
   content: Sibulele leads the digitization and document management team. She has a
     Post Graduate Diploma in Library and Information services from the University
     of Cape Town. She is passionate about bringing knowledge, managing and safe keeping
@@ -197,7 +197,7 @@
   date: 2023-04-18 11:30:00+02:00
   role: Software Developer
   email: wilson@laws.africa
-  image: /uploads/closeup_wilson.jpg
+  image: /static/uploads/closeup_wilson.jpg
   group: core
   position: 5
   content: Wilson is a software developer based in Nairobi, Kenya. He has a passion
@@ -209,7 +209,7 @@
   position: 8
   role: Junior Product Owner
   email: nelly@laws.africa
-  image: /uploads/Profile%20photo.jpg
+  image: /static/uploads/Profile%20photo.jpg
   group: core
   content: 'Nelly has a background in Quality Assurance and a passion for releasing
     highly functional software products that are responsive and impactful to end users.
@@ -222,7 +222,7 @@
   position: 10
   role: Legislation Content Editor
   group: contributors
-  image: /uploads/Karen%20Shear%20photo.jpg
+  image: /static/uploads/Karen%20Shear%20photo.jpg
   profile: karenshear
   content: 'Karen previously worked in academic librarianship at Wits Medical School
     and Law School libraries. Since 2002 she has worked as a part time consultant
@@ -238,7 +238,7 @@
   role: 'Special Advisor: Partnerships and Purpose'
   email: sade@laws.africa
   group: core
-  image: /uploads/Sade-d0c4f0.jpg
+  image: /static/uploads/Sade-d0c4f0.jpg
   content: 'Sade Lekena is a legal and governance professional who works across corporate,
     philanthropic, and public-interest spaces to advance access to law, ethical leadership,
     and sustainability. At Laws.Africa, she serves as Special Advisor: Partnerships
@@ -250,7 +250,7 @@
   date: 2025-12-04 08:58:00+02:00
   role: Senior Software Engineer
   email: jonathan@laws.africa
-  image: /uploads/PXL_20251204_063621781.PORTRAIT.ORIGINAL~2%20(1)-2d30f4.jpg
+  image: /static/uploads/PXL_20251204_063621781.PORTRAIT.ORIGINAL~2%20(1)-2d30f4.jpg
   group: core
   position: 11
   content: Jonathan is a Software Engineer based in Nairobi, who is passionate about
@@ -264,7 +264,7 @@
   email: linda@laws.africa
   group: core
   position: 11
-  image: /uploads/Linda-82df93.jpg
+  image: /static/uploads/Linda-82df93.jpg
   content: Linda is the East Africa Programmes Manager at Laws.Africa. She has previously
     held the positions of Deputy Head of Law Reporting at the Judiciary to Botswana,
     Legal Editor at Afriwise and Head of Legal Research and Development at the National
@@ -281,7 +281,7 @@
   role: West Africa Representative
   email: aminata@laws.africa
   group: core
-  image: /uploads/aminata.jpg
+  image: /static/uploads/aminata.jpg
   content: 'Aminata Camara Badji is a development professional with over 16 years
     of experience in developing and implementing programs across Africa in areas such
     as governance, education, health, agriculture, and gender equality. She has worked
@@ -300,7 +300,7 @@
   date: 2026-02-16 16:50:00+02:00
   role: Senior Full Stack Developer
   email: dennis@laws.africa
-  image: /uploads/WhatsApp%20Image%202026-02-15%20at%2020.19.02.jpeg
+  image: /static/uploads/WhatsApp%20Image%202026-02-15%20at%2020.19.02.jpeg
   position: 12
   group: core
   content: Dennis is a Senior Full Stack Developer based in Nairobi, Kenya, with extensive
@@ -315,7 +315,7 @@
   date: 2023-04-18 13:32:00+02:00
   group: Contributors
   role: Legislation Content Editor
-  image: /uploads/IMG_2546.jpg
+  image: /static/uploads/IMG_2546.jpg
   profile: christinamihoko
   content: Christina specialises in human rights law and international refugee law.
     She has worked in international organisations, research institutions, and the
@@ -329,7 +329,7 @@
   date: 2024-04-22 13:25:00+02:00
   role: Legislation Content Editor
   group: contributors
-  image: /uploads/ima-782750.jpg
+  image: /static/uploads/ima-782750.jpg
   profile: JeanFrancoisRégisAdoupo
   content: Adoupo Jean Francois Régis holds a Master's degree in Public and International
     Affairs from the University of Montreal, CA; and a Bachelor's degree in Political
@@ -342,7 +342,7 @@
 - title: Keke Maidi
   date: 2023-04-18 13:34:00+02:00
   role: Legislation Content Editor
-  image: /uploads/Keke0006.jpg
+  image: /static/uploads/Keke0006.jpg
   group: Contributors
   profile: kekemaidi
   content: 'Keke is a qualified Librarian with over 20 years experience in the legal
@@ -357,7 +357,7 @@
   date: 2023-04-18 13:35:00+02:00
   group: Contributors
   role: Legislation Content Editor
-  image: /uploads/IMG_20230329.jpg
+  image: /static/uploads/IMG_20230329.jpg
   profile: OlwynGarratt
   content: Olwyn  Garratt began her professional career as a teacher librarian in
     both Johannesburg and Durban, but when she moved to Cape Town in 1995 she found
@@ -372,7 +372,7 @@
   date: 2023-04-18 13:29:00+02:00
   role: Legislation Content Editor
   group: Contributors
-  image: /uploads/Ryan%20Mwaniki%20passport%20photo.jpeg
+  image: /static/uploads/Ryan%20Mwaniki%20passport%20photo.jpeg
   profile: ryanmwaniki
   content: Ryan Mwaniki is a holder of a Bachelor of Laws degree from Strathmore University,
     Nairobi. He is currently pursuing a Post Graduate Diploma from the Kenya School
