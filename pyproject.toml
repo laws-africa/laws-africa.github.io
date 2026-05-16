@@ -15,7 +15,7 @@ dependencies = [
 ]
 
 [project.scripts]
-build-pelican-site = "tools.jekyll_compat:main"
+build-pelican-site = "tools.pelican_support:main"
 
 [tool.setuptools]
 py-modules = []

@@ -1,0 +1,54 @@
+{% set page = article if article is defined else page %}
+{% extends "simple.html" %}
+{% block content %}
+<article>
+
+  <header class="mb-5 py-5 bg-lawsafrica-pale-red">
+    <div class="container">
+      <div class="mb-3">
+        <a href="/help/">← Help</a>
+      </div>
+
+      <h1 class="display-4">{{ page.title }}</h1>
+      {% if page.lead %}
+      <p class="lead mb-3">{{ page.lead }}</p>
+      {% endif %}
+    </div>
+  </header>
+
+  <section class="mb-5 py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 d-none d-md-block">
+          <aside class="sidebar sticky">
+            <h5>Contents</h5>
+            <ul class="list-unstyled api-toc" id="toc"></ul>
+
+            <hr class="my-4">
+
+            <h6>See Also</h6>
+            <ul class="list-unstyled">
+              {% set sorted_pages = site.help |sort(attribute="position") %}
+              {% for p in sorted_pages %}
+                {% if p.help_section == page.help_section and p != page %}
+                  <li>
+                    <a href="{{ p.url }}">{{ p.title }}</a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+
+              <li class="mt-3"><a href="/help/">Laws.Africa Help</a></li>
+            </ul>
+          </aside>
+        </div>
+
+        <div class="col-lg-9 prose" data-tocify="#toc">
+          {{ page.content }}
+        </div>
+      </div>
+    </div>
+  </section>
+
+</article>
+
+{% endblock %}

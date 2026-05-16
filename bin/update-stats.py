@@ -76,7 +76,7 @@ def update_bylaw_stats(country_code, stats):
 
 
 def update_stats():
-    with open("_data/commons.json") as f:
+    with open("data/commons.json") as f:
         stats = json.load(f)
 
     for code in ['na', 'ug', 'zw']:
@@ -85,7 +85,7 @@ def update_stats():
     update_bylaw_stats('za', stats.setdefault('za_bylaws', {}))
     update_covid19_stats(stats['covid19'])
 
-    with open("_data/commons.json", "w") as f:
+    with open("data/commons.json", "w") as f:
         f.write(json.dumps(stats, indent=2, sort_keys=True))
 
 

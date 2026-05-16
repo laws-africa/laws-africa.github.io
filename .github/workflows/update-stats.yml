@@ -26,5 +26,5 @@ jobs:
     - name: Commit changes
       uses: EndBug/add-and-commit@v7
       with:
-        add: _data/commons.json
+        add: data/commons.json
         message: Updated commons stats

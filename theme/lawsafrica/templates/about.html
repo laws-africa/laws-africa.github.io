@@ -1,0 +1,199 @@
+{% set page = article if article is defined else page %}
+{% extends "simple.html" %}
+{% block content %}
+<article>
+
+  <header class="mb-5 py-5 bg-lawsafrica-pale-red">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-6 col-md-4">
+          <img src="/img/logo.png" class="img-fluid" alt="Laws.Africa logo">
+        </div>
+      </div>
+
+      <h1 class="display-4">{{ page.title }}</h1>
+      <p class="lead mb-3">{{ page.lead }}</p>
+
+      <a href="/contact" class="btn btn-primary">Contact us</a>
+    </div>
+  </header>
+
+  <section class="mb-5">
+    <div class="container">
+      <a href="#team" class="btn btn-link mr-4">Team</a>
+      <a href="#contributors" class="btn btn-link mr-4">Contributors</a>
+      <a href="#board" class="btn btn-link mr-4">Advisory Board</a>
+      <a href="#alumni" class="btn btn-link">Alumni</a>
+    </div>
+  </section>
+
+  <section class="mb-5 py-3">
+    <div class="container">
+      {{ page.content }}
+    </div>
+  </section>
+
+  <section class="py-4 bg-light">
+    <div class="container">
+      {% set people = site.people |sort(attribute="position") %}
+
+      <h2 class="mb-3" id="team">The Laws.Africa Team</h2>
+
+      <div class="row">
+        {% for person in people %}
+          {% if person.group == 'core' %}
+          <div class="col-lg-6">
+            <div class="card mb-3">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-4 mb-3">
+                    <img src="{{ person.image }}" alt="{{ person.title }} headshot" class="mr-3 rounded img-fluid">
+                  </div>
+                  <div class="col-md-8">
+                    <h5 class="mt-0 mb-0">{{ person.title }}</h5>
+                    <h6>{{ person.role }}</h6>
+                    {% if person.email %}
+                    <h6><a href="mailto:{{ person.email }}">{{ person.email }}</a></h6>
+                    {% endif %}
+                    <p>{{ person }}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      <h2 class="mt-4 mb-3" id="contributors">Contributors</h2>
+
+      <div class="row">
+        {% for person in people %}
+          {% if person.group == 'contributors' %}
+          <div class="col-lg-6">
+            <div class="card mb-3">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-4 mb-3">
+                    <img src="{{ person.image }}" alt="{{ person.title }} headshot" class="mr-3 rounded img-fluid">
+                  </div>
+                  <div class="col-md-8">
+                    <h5 class="mt-0 mb-0">{{ person.title }}</h5>
+                    <h6>{{ person.role }}</h6>
+                    {% if person.email %}
+                    <h6><a href="mailto:{{ person.email }}">{{ person.email }}</a></h6>
+                    {% endif %}
+                    <p>{{ person }}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      <h2 class="mt-4 mb-3" id="board">Advisory board</h2>
+
+      <div class="row">
+        {% for person in people %}
+          {% if person.group == 'board' %}
+          <div class="col-lg-6">
+            <div class="card mb-3">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-4 mb-3">
+                    <img src="{{ person.image }}" alt="{{ person.title }} headshot" class="mr-3 rounded img-fluid">
+                  </div>
+                  <div class="col-md-8">
+                    <h5 class="mt-0 mb-0">{{ person.title }}</h5>
+                    <p>{{ person }}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      <h2 class="mt-4 mb-3" id="alumni">Alumni</h2>
+
+      <div class="row">
+        {% for person in people %}
+          {% if person.group == 'alumni' %}
+          <div class="col-lg-6">
+            <div class="card mb-3">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-4 mb-3">
+                    <img src="{{ person.image }}" alt="{{ person.title }} headshot" class="mr-3 rounded img-fluid">
+                  </div>
+                  <div class="col-md-8">
+                    <h5 class="mt-0 mb-0">{{ person.title }}</h5>
+                    {% if person.email %}
+                    <h6><a href="mailto:{{ person.email }}">{{ person.email }}</a></h6>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+
+    </div>
+  </section>
+
+  {% if site.hiring %}
+  <section class="mb-3 py-3 bg-lawsafrica-pale-red">
+    <div class="container text-center">
+      <p class="lead">Interested in joining the Laws.Africa team?</p>
+      <a href="/jobs" class="btn btn-primary">See our open positions</a>
+    </div>
+  </section>
+  {% endif %}
+
+  <section class="mb-5 pb-3 pt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Funders</h2>
+
+          <p>We're grateful to our funders for helping us to achieve our goals.</p>
+
+          <div class="row mt-5">
+            <div class="col-6 col-md-4">
+              <a href="https://indigotrust.org.uk/"><img src="/img/indigo-trust-logo.png" alt="The Indigo Trust" class="img-fluid"></a>
+            </div>
+            <div class="col-6 col-md-4">
+              <a href="https://www.sigrid-rausing-trust.org/"><img src="/img/srt-logo.jpg" alt="The Sigrid Rausing Trust" class="img-fluid"></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mb-5 py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h3>With thanks to</h3>
+
+          <div class="row mt-5">
+            <div class="col-6 col-md-4">
+              <a href="https://aws.amazon.com/"><img src="/img/aws-logo.jpg" alt="Powered by AWS" class="img-fluid"></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+</article>
+
+{% endblock %}

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
-from tools.jekyll_compat import (
+from tools.pelican_support import (
+    CONTENT_DIR,
     OUTPUT_DIR,
     THEME_DIR,
     build_site,
@@ -19,7 +20,7 @@ SITEURL = "https://laws.africa"
 TIMEZONE = "Africa/Johannesburg"
 DEFAULT_LANG = "en"
 
-PATH = ".pelican-build/content"
+PATH = str(CONTENT_DIR)
 OUTPUT_PATH = str(OUTPUT_DIR)
 THEME = str(THEME_DIR)
 PLUGIN_PATHS = ["plugins"]

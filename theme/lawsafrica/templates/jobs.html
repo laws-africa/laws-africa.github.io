@@ -1,0 +1,73 @@
+{% set page = article if article is defined else page %}
+{% extends "simple.html" %}
+{% block content %}
+<article>
+
+  <header class="mb-5 py-5 bg-lawsafrica-pale-red">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h1 class="display-4">{{ page.title }}</h1>
+          <p class="lead mb-3">{{ page.lead }}</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="mb-5 py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          {% if page.positions %}
+
+            {% for posn in page.positions %}
+              <div>
+                {% if not loop.first %}
+                  <hr class="my-5">
+                {% endif %}
+
+                <h2>{{ posn.title }}</h2>
+                {{ posn.description|markdownify }}
+
+                {% if posn.responsibilities %}
+                <h3>Responsibilities</h3>
+                {{ posn.responsibilities|markdownify }}
+                {% endif %}
+
+                {% if posn.way_of_working %}
+                <h3>How we work</h3>
+                {{ posn.way_of_working|markdownify }}
+                {% endif %}
+
+                <h3>Requirements</h3>
+                {{ posn.requirements|markdownify }}
+
+                <p>
+                  <b>Position:</b> {{ posn.type }}<br>
+                  {% if posn.salary %}
+                  <b>Remuneration:</b> {{ posn.salary }}<br>
+                  {% endif %}
+                  <b>Location:</b> {{ posn.location }}
+                </p>
+
+                <div>
+                  {% if posn.cta %}
+                    <a href="{{ posn.cta }}" class="btn btn-primary">Apply for this role</a>
+                  {% else %}
+                    <a href="mailto:info@laws.africa" class="btn btn-primary">Email info@laws.africa to apply</a>
+                  {% endif %}
+                </div>
+              </div>
+            {% endfor %}
+
+          {% else %}
+            <p>We don't have any open positions at the moment, please check back at later date.</p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </section>
+
+</article>
+
+{% endblock %}
