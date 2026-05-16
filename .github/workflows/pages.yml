@@ -1,4 +1,4 @@
-name: Build and deploy Pelican site
+name: Build and deploy site
 
 on:
   push:
@@ -32,7 +32,7 @@ jobs:
         run: python -m pip install -e .
 
       - name: Build site
-        run: build-pelican-site -s publishconf.py
+        run: build-pelican-site
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
