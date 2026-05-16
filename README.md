@@ -79,11 +79,11 @@ partials directly:
 
 ```jinja2
 {% set case_study_key = "kenyalaw" %}
-{% include "case_study_by_key.html" %}
+{% include "_case_study_by_key.html" %}
 ```
 
-`case_study_by_key.html` looks up the case study in `site.case_studies` and then
-includes `case_study_mini_card.html`. The key is the case-study output filename
+`_case_study_by_key.html` looks up the case study in `site.case_studies` and then
+includes `_case_study_mini_card.html`. The key is the case-study output filename
 without `.html`, such as `aga`, `c4ads`, `kenyalaw`, or `spoton`.
 
 Pelican does not evaluate Jinja inside Markdown page content by default. If a

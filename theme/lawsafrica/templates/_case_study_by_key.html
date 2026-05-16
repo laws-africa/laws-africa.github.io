@@ -1,5 +1,5 @@
 {% set matches = site.case_studies|where("slug", "case-studies-" ~ case_study_key) %}
 {% if matches %}
   {% set case_study = matches[0] %}
-  {% include "case_study_mini_card.html" %}
+  {% include "_case_study_mini_card.html" %}
 {% endif %}
