@@ -115,17 +115,15 @@ Available values:
   sorted newest first.
 - `site.case_studies`: all pages whose `save_as` starts with `case-studies/`,
   sorted newest first.
-- `site.help`: all pages whose `save_as` starts with `help/`, sorted by
-  `position`.
 - `site.people`: entries from `data/people.yml`, sorted by `position`.
 - `site.data`: shared data loaded from files in `data/`. JSON and YAML files
   are exposed by filename, so `data/commons.json` is available as
   `site.data.commons`.
 
-Items in `articles`, `site.publications`, `site.case_studies`, and `site.help`
-are built from each file's front matter. Common fields include
-`title`, `url`, `save_as`, `date`, `lead`, `image`, `author`, and `content`,
-depending on what the source file defines.
+Items in `articles`, `site.publications`, and `site.case_studies` are built
+from each file's front matter. Common fields include `title`, `url`, `save_as`,
+`date`, `lead`, `image`, `author`, and `content`, depending on what the source
+file defines.
 
 # Local development
 

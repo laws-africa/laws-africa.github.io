@@ -37,7 +37,7 @@ In addition, because the legislation is available as structured data (rather tha
 
 The [Laws.Africa Content API](https://laws.africa/api/) is very powerful. It provides a simple interface to extract and work with machine-friendly legislation, and associated metadata, using the open [Akoma Ntoso XML markup standard](http://www.akomantoso.org/).
 
-Using the Content API, you can include African legislation in your website or app, [build interactive tools](https://laws.africa/help/api/guide-table-of-contents.html) to help users explore legislation relevant to them, or use machine learning to do research and analysis.
+Using the Content API, you can include African legislation in your website or app, build interactive tools to help users explore legislation relevant to them, or use machine learning to do research and analysis.
 
 Find out more about the Laws.Africa Content API at [laws.africa/api](https://laws.africa/api/).
 

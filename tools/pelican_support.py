@@ -102,10 +102,6 @@ def build_site() -> Obj:
         key=lambda item: sort_date(item.date),
         reverse=True,
     )
-    help_pages = sorted(
-        (page for page in pages if str(page.save_as or "").startswith("help/")),
-        key=lambda item: item.get("position", 9999),
-    )
     people = sorted(data.people or [], key=lambda item: item.get("position", 9999))
 
     return objify(
@@ -120,7 +116,6 @@ def build_site() -> Obj:
             "data": data,
             "publications": publications,
             "case_studies": case_studies,
-            "help": help_pages,
             "people": people,
         }
     )
