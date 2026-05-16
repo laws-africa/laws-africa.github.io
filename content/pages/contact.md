@@ -6,7 +6,7 @@ header_class: bg-lawsafrica-pale-red
 lead: Get in touch with us.
 slug: contact
 save_as: contact/index.html
-url: "/contact/"
+url: /contact/
 template: slim
 ---
 

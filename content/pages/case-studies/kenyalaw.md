@@ -1,18 +1,18 @@
 ---
-title: Kenya Law Case Study
-date: 2021-10-27 00:00:00 +02:00
 navbar_item: case-studies
+title: Kenya Law Case Study
+date: '2021-10-27T00:00:00+02:00'
 lead: The Laws of Kenya department at Kenya Law uses Laws.Africa’s Indigo Legislation
   Platform to manage, consolidate and publish the Laws of Kenya in digital and print
   formats.
 blurb: The Laws of Kenya department at Kenya Law uses Laws.Africa’s Indigo Legislation
   Platform to manage, consolidate and publish the Laws of Kenya in digital and print
   formats.
-image: "/static/img/case-studies/kenya-law-logo.png"
+image: /static/img/case-studies/kenya-law-logo.png
 header_class: bg-lawsafrica-pale-red
 slug: case-studies-kenyalaw
 save_as: case-studies/kenyalaw/index.html
-url: "/case-studies/kenyalaw/"
+url: /case-studies/kenyalaw/
 template: case-study
 ---
 

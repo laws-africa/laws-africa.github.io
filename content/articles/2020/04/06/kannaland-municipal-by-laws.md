@@ -1,13 +1,13 @@
 ---
 title: Kannaland municipal by-laws are now available on openbylaws.org.za
-date: 2020-04-06 15:02:00 +02:00
+date: '2020-04-06T15:02:00+02:00'
 author: Greg Kempe
 lead: The by-laws for Kannaland municipality are now available on openbylaws.org.za.
-image: "/static/uploads/kannaland.jpg"
+image: /static/uploads/kannaland.jpg
 header_class: bg-lawsafrica-pale-red
 slug: kannaland-municipal-by-laws
 save_as: 2020/04/06/kannaland-municipal-by-laws.html
-url: "/2020/04/06/kannaland-municipal-by-laws.html"
+url: /2020/04/06/kannaland-municipal-by-laws.html
 template: blog-post
 category: blog
 ---

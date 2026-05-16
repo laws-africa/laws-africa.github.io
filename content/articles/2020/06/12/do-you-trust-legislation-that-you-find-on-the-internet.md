@@ -1,13 +1,13 @@
 ---
 title: Do you trust legislation that you find on the Internet?
-date: 2020-06-12 13:43:00 +02:00
+date: '2020-06-12T13:43:00+02:00'
 author: Greg Kempe
-image: "/static/uploads/trust-me.jpg"
+image: /static/uploads/trust-me.jpg
 lead: How readers determine if laws they find online are trustworthy and up to date.
 header_class: bg-lawsafrica-pale-red
 slug: do-you-trust-legislation-that-you-find-on-the-internet
 save_as: 2020/06/12/do-you-trust-legislation-that-you-find-on-the-internet.html
-url: "/2020/06/12/do-you-trust-legislation-that-you-find-on-the-internet.html"
+url: /2020/06/12/do-you-trust-legislation-that-you-find-on-the-internet.html
 template: blog-post
 category: blog
 ---

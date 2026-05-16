@@ -1,16 +1,16 @@
 ---
-title: 'Press Release: AU African Governance Architecture Project'
-date: 2020-12-18 00:00:00 +02:00
 navbar_item: case-studies
+title: 'Press Release: AU African Governance Architecture Project'
+date: '2020-12-18T00:00:00+02:00'
 lead: Laws.Africa and four partners win a major EU grant to strengthen implementation
   of the African Union’s democracy and human rights agenda.
 blurb: Laws.Africa and four partners win a major EU grant to strengthen implementation
   of the African Union’s democracy and human rights agenda.
-image: "/static/img/case-studies/aga.jpg"
+image: /static/img/case-studies/aga.jpg
 header_class: bg-lawsafrica-pale-red
 slug: case-studies-aga
 save_as: case-studies/aga/index.html
-url: "/case-studies/aga/"
+url: /case-studies/aga/
 template: case-study
 ---
 

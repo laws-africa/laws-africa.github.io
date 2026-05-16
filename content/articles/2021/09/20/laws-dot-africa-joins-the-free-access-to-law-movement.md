@@ -1,13 +1,13 @@
 ---
 title: Laws.Africa joins the Free Access to Law Movement
-date: 2021-09-20 09:31:00 +02:00
+date: '2021-09-20T09:31:00+02:00'
 lead: We're now an official member of the global Free Access to Law Movement.
 author: Greg Kempe
-image: "/static/uploads/vicfalls.jpg"
+image: /static/uploads/vicfalls.jpg
 header_class: bg-lawsafrica-pale-red
 slug: laws-dot-africa-joins-the-free-access-to-law-movement
 save_as: 2021/09/20/laws-dot-africa-joins-the-free-access-to-law-movement.html
-url: "/2021/09/20/laws-dot-africa-joins-the-free-access-to-law-movement.html"
+url: /2021/09/20/laws-dot-africa-joins-the-free-access-to-law-movement.html
 template: blog-post
 category: blog
 ---

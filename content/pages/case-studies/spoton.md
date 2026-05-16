@@ -1,18 +1,18 @@
 ---
-title: SpotOn Case Study
-date: 2021-09-21 00:00:00 +02:00
 navbar_item: case-studies
+title: SpotOn Case Study
+date: '2021-09-21T00:00:00+02:00'
 lead: SpotOn uses Laws.Africa's legislation data to provide an on-line compliance
   management system to enable clients to comply with environmental and health and
   safety legislation.
-blurb: "[SpotOn](https://spoton-compliance.com/) use Laws.Africa's legislation data
+blurb: '[SpotOn](https://spoton-compliance.com/) use Laws.Africa''s legislation data
   to provide an on-line compliance management system to enable clients to comply with
-  environmental and health and safety legislation."
-image: "/static/img/case-studies/spot-on-logo.jpg"
+  environmental and health and safety legislation.'
+image: /static/img/case-studies/spot-on-logo.jpg
 header_class: bg-lawsafrica-pale-red
 slug: case-studies-spoton
 save_as: case-studies/spoton/index.html
-url: "/case-studies/spoton/"
+url: /case-studies/spoton/
 template: case-study
 ---
 

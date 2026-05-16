@@ -6,7 +6,7 @@ navbar_item: api
 header_class: bg-lawsafrica-pale-red
 slug: api-detail
 save_as: api/detail/index.html
-url: "/api/detail/"
+url: /api/detail/
 template: slim
 ---
 

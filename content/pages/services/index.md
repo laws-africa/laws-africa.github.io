@@ -6,7 +6,6 @@ navbar_item: services
 header_class: bg-lawsafrica-pale-red
 slug: services-index
 save_as: services/index.html
-url: "/services/"
+url: /services/
 template: services
 ---
-

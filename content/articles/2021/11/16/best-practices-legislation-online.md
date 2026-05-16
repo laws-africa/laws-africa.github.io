@@ -1,13 +1,13 @@
 ---
 title: 'New: Best practices for publishing legislation online'
-date: 2021-11-16 11:31:00 +02:00
+date: '2021-11-16T11:31:00+02:00'
 lead: We've published our best practices for making online legislation user-friendly.
 author: Greg Kempe
-image: "/static/img/posts/chameleon.jpg"
+image: /static/img/posts/chameleon.jpg
 header_class: bg-lawsafrica-pale-red
 slug: best-practices-legislation-online
 save_as: 2021/11/16/best-practices-legislation-online.html
-url: "/2021/11/16/best-practices-legislation-online.html"
+url: /2021/11/16/best-practices-legislation-online.html
 template: blog-post
 category: blog
 ---

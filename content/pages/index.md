@@ -1,5 +1,4 @@
 ---
-title: ''
 navbar_item: home
 portals:
 - name: Gazettes.Africa
@@ -51,9 +50,9 @@ portals:
   url: https://zimlii.org
   logo: zimlii-logo.png
 header_class: bg-lawsafrica-pale-red
+title: ''
 slug: index
 save_as: index.html
-url: "/"
+url: /
 template: home
 ---
-

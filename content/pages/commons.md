@@ -6,7 +6,7 @@ header_class: bg-lawsafrica-pale-red
 lead: African legislation in HTML, PDF and Akoma Ntoso XML. Creative commons licensed.
 slug: commons
 save_as: commons/index.html
-url: "/commons/"
+url: /commons/
 template: commons
 ---
 

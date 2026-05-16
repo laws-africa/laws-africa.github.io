@@ -1,7 +1,7 @@
 ---
 title: African LIIs and Laws.Africa are building the largest free and open access
   repository of African gazettes
-date: 2020-01-14 11:14:00 +02:00
+date: '2020-01-14T11:14:00+02:00'
 tags:
 - gazettes
 - commons
@@ -11,14 +11,14 @@ tags:
 - government gazette
 - collaboration
 author: Mariya Badeva-Bright
-image: "/static/uploads/gazettes.png"
+image: /static/uploads/gazettes.png
 lead: 'We collect, digitize and publish African government gazettes because legal
   certainty demands that public information is accessible, authoritative and available
   for verification. '
 header_class: bg-lawsafrica-pale-red
 slug: african-liis-and-laws-dot-africa-are-building-the-largest-free-and-open-access-repository-of-african-gazettes
 save_as: 2020/01/14/african-liis-and-laws-dot-africa-are-building-the-largest-free-and-open-access-repository-of-african-gazettes.html
-url: "/2020/01/14/african-liis-and-laws-dot-africa-are-building-the-largest-free-and-open-access-repository-of-african-gazettes.html"
+url: /2020/01/14/african-liis-and-laws-dot-africa-are-building-the-largest-free-and-open-access-repository-of-african-gazettes.html
 template: blog-post
 category: blog
 ---
