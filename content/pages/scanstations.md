@@ -49,20 +49,6 @@ stations:
   location: Victoria, Seychelles
   launch_date: null
   coords: -4.6191, 55.4513
-map_js:
-- <script defer src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
-  crossorigin=""></script>
-- "<script defer>\n  var map = L.map('map').setView([15.0, 20.0], 2);\n\n  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',\
-  \ {\n    maxZoom: 19,\n    attribution: '&copy; <a href=\"http://www.openstreetmap.org/copyright\"\
-  >OpenStreetMap</a>'\n  }).addTo(map);\n\n  const stations = Array.from(document.getElementsByClassName('station'))\n\
-  \n  function scrollToElement (element) {\n    stations.forEach(station => {\n  \
-  \    station.classList.remove('bg-lawsafrica-pale-red')\n    })\n    element.classList.add('bg-lawsafrica-pale-red');\n\
-  \    const rect = element.getBoundingClientRect();\n    const targetPosition = Math.floor(rect.top\
-  \ - element.offsetTop - element.offsetHeight);\n    window.scrollTo({\n      top:\
-  \ targetPosition,\n      behavior: 'smooth'\n    });\n  }\n\n  stations.forEach(station\
-  \ => {\n    var marker = L.marker(station.dataset.coords.split(',')).addTo(map)\n\
-  \    station.classList.remove('bg-lawsafrica-pale-red')\n    marker.on('click',\
-  \ function () {\n      scrollToElement(station)\n    });\n  })\n</script>"
 header_class: bg-lawsafrica-pale-red
 slug: scanstations
 save_as: scanstations.html

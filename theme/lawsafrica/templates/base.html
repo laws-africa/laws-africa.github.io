@@ -75,12 +75,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/css/main.css" />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
-      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
-      crossorigin=""
-    />
+    {% block extra_head %}{% endblock %}
     <!-- matomo -->
     <script>
       var _paq = window._paq = window._paq || [];
@@ -96,12 +91,6 @@
         g.async=true; g.src='//cdn.matomo.cloud/lawsafrica.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
       })();
     </script>
-
-    <script
-      src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
-      integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
-      crossorigin=""
-    ></script>
 
     <script
       type="module"
@@ -133,6 +122,6 @@
     <script src="/js/app.js"></script>
 
     {% for script in page.extra_js %} {{ script }} {% endfor %}
-    {% for script in page.map_js %} {{ script }} {% endfor %}
+    {% block extra_scripts %}{% endblock %}
   </body>
 </html>
