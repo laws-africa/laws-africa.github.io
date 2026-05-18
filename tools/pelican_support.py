@@ -191,6 +191,16 @@ def copy_bootstrap_js() -> None:
     shutil.copy2(source, dest)
 
 
+def copy_bootstrap_icons_fonts() -> None:
+    source = ROOT / "node_modules" / "bootstrap-icons" / "font" / "fonts"
+    if not source.exists():
+        raise RuntimeError("Bootstrap Icons fonts not found. Run npm install.")
+    dest = OUTPUT_DIR / "static" / "vendor" / "bootstrap-icons" / "fonts"
+    if dest.exists():
+        shutil.rmtree(dest)
+    shutil.copytree(source, dest)
+
+
 def run_pelican(settings: str) -> None:
     command = [sys.executable, "-m", "pelican", str(CONTENT_DIR), "-s", settings]
     subprocess.run(command, cwd=ROOT, check=True)
@@ -200,6 +210,7 @@ def build(settings: str) -> None:
     run_pelican(settings)
     compile_sass()
     copy_bootstrap_js()
+    copy_bootstrap_icons_fonts()
 
 
 def main() -> None:

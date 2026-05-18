@@ -48,6 +48,9 @@ $theme-colors: map-merge(
 @import "bootstrap/scss/helpers";
 @import "bootstrap/scss/utilities/api";
 
+$bootstrap-icons-font-dir: "/static/vendor/bootstrap-icons/fonts";
+@import "bootstrap-icons/font/bootstrap-icons";
+
 @import "core";
 @import "docs";
 @import "utilities";
