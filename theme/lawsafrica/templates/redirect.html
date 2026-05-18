@@ -1,0 +1,17 @@
+{% set page = article if article is defined else page %}
+{% extends "simple.html" %}
+{% block extra_head %}
+  {{ super() }}
+  <meta http-equiv="refresh" content="0; url={{ page.redirect_url }}">
+  <link rel="canonical" href="{{ site.url }}{{ page.redirect_url }}">
+{% endblock %}
+{% block content %}
+<div class="py-5">
+  <div class="container">
+    <h1>{{ page.title }}</h1>
+    <p class="lead">
+      This page has moved to <a href="{{ page.redirect_url }}">{{ page.redirect_url }}</a>.
+    </p>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,271 @@
+{% set page = article if article is defined else page %}
+{% extends "simple.html" %}
+{% block content %}
+<header class="py-5 bg-lawsafrica-pale-red">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9">
+        <h1 class="display-4">
+          Laws.Africa Legal Knowledge Platform
+        </h1>
+        <p class="lead mb-4">
+          Build legal AI grounded in African legislation and case law.
+        </p>
+        <div class="d-flex flex-wrap gap-2">
+          <a class="btn btn-primary" href="https://platform.laws.africa/">Start for free</a>
+          <a class="btn btn-outline-dark" href="https://developers.laws.africa/" rel="noreferrer" target="_blank">
+            Developer docs
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="py-5">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-5">
+        <h2>Legal knowledge grounding is essential for trustworthy legal AI</h2>
+        <p class="lead">
+          Laws.Africa gives your product a maintained legal knowledge layer, so your team can focus on search,
+          workflows and AI experiences from day one.
+        </p>
+      </div>
+      <div class="col-lg-7">
+        <div class="row g-4">
+          <div class="col-md-6">
+            <h3 class="h5"><i class="bi bi-collection text-primary me-2" aria-hidden="true"></i>Maintained collections</h3>
+            <p>Work with African legislation and case law gathered into reliable collections for software products.</p>
+          </div>
+          <div class="col-md-6">
+            <h3 class="h5"><i class="bi bi-file-earmark-code text-primary me-2" aria-hidden="true"></i>Structured legal data</h3>
+            <p>Use machine-readable legal knowledge with metadata and formats that fit product and AI workflows.</p>
+          </div>
+          <div class="col-md-6">
+            <h3 class="h5"><i class="bi bi-arrow-repeat text-primary me-2" aria-hidden="true"></i>Kept up to date</h3>
+            <p>Build on legal information that is maintained as laws, amendments and collections change.</p>
+          </div>
+          <div class="col-md-6">
+            <h3 class="h5"><i class="bi bi-shield-check text-primary me-2" aria-hidden="true"></i>Trustworthy AI grounding</h3>
+            <p>Ground search, agents and legal AI systems in authoritative sources with clear legal context.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-5" id="pricing">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2>Prototype, build, scale</h2>
+      <p class="lead mb-0">Start with a free sandbox, launch with one country, and scale when you need more coverage, higher usage or full content access.</p>
+    </div>
+
+    <div class="row row-cols-1 row-cols-lg-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body d-flex flex-column">
+            <div class="mb-3">
+              <i class="bi bi-terminal h2 text-primary" aria-hidden="true"></i>
+            </div>
+            <h3 class="h4">Sandbox</h3>
+            <h4 class="h3">Free</h4>
+            <p>Test queries, inspect responses and prototype with maintained African legal knowledge.</p>
+            <ul>
+              <li>Single country</li>
+              <li>Legislation and judgments Knowledge Base API</li>
+              <li>Cape Town by-laws via the Content API</li>
+              <li>Strict rate limits; not for production</li>
+            </ul>
+            <div class="mt-auto">
+              <a class="btn btn-primary w-100" href="https://platform.laws.africa/">Start for free</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 border-primary">
+          <div class="card-body d-flex flex-column">
+            <div class="mb-3">
+              <i class="bi bi-hammer h2 text-primary" aria-hidden="true"></i>
+            </div>
+            <h3 class="h4">Build</h3>
+            <h4 class="h3">From ZAR 4,200 / month</h4>
+            <p>Launch a production workflow for one country on trusted legal data.</p>
+            <ul>
+              <li>Single country</li>
+              <li>Legislation and judgments Knowledge Base API</li>
+              <li>Cape Town by-laws via the Content API</li>
+              <li>Higher rate limits</li>
+            </ul>
+            <div class="mt-auto">
+              <a class="btn btn-primary w-100" href="https://platform.laws.africa/">Start building</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body d-flex flex-column">
+            <div class="mb-3">
+              <i class="bi bi-building-up h2 text-primary" aria-hidden="true"></i>
+            </div>
+            <h3 class="h4">Scale</h3>
+            <h4 class="h3">Custom pricing</h4>
+            <p>Expand across countries, content types and higher-volume legal AI or compliance workflows.</p>
+            <ul>
+              <li>Multiple countries and content types</li>
+              <li>Legislation and judgments Knowledge Base API</li>
+              <li>Content API access for full legislation collections</li>
+              <li>Unlimited usage</li>
+            </ul>
+            <div class="mt-auto">
+              <a class="btn btn-primary w-100" href="mailto:support@laws.africa">Talk to us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-5 my-5 bg-light">
+  <div class="container">
+    <div class="row g-4 align-items-start">
+      <div class="col-lg-5">
+        <h2>Choose the API that matches your product</h2>
+        <p class="lead">
+          Choose the Knowledge Base API when your product needs reliable answers, search results or AI grounding.
+          Choose the Content API when you need full legislation collections inside your own systems.
+        </p>
+      </div>
+      <div class="col-lg-7">
+        <div>
+          <div class="mb-4">
+            <h3 class="h5"><i class="bi bi-search text-primary me-2" aria-hidden="true"></i>Knowledge Base API</h3>
+            <p>
+              Query authoritative African legal information for AI grounding, RAG, legal agents, search and workflow
+              tools. Laws.Africa handles ingestion, indexing and updates.
+            </p>
+          </div>
+          <div>
+            <h3 class="h5"><i class="bi bi-database text-primary me-2" aria-hidden="true"></i>Content API</h3>
+            <p>
+              Pull full legislation collections into your own systems with Akoma Ntoso XML, HTML, PDF and metadata. Use it for
+              internal databases, deep integration, compliance platforms and offline processing.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-5 my-5">
+  <div class="container">
+    <div class="row g-4 align-items-center">
+      <div class="col-lg-7">
+        <h2>Data Packs</h2>
+        <p class="lead">
+          Need the documents, not an integration? Buy specific legislation files once and download them in the formats
+          your workflow needs.
+        </p>
+        <p>
+          Data Packs are one-off purchases for specific laws and formats. They are useful for compliance consultants,
+          researchers, internal legal teams and small vendors that need full text access without ongoing updates.
+        </p>
+      </div>
+      <div class="col-lg-5">
+        <ul class="list-group">
+          <li class="list-group-item"><i class="bi bi-bag-check text-primary me-2" aria-hidden="true"></i>One-off purchase</li>
+          <li class="list-group-item"><i class="bi bi-files text-primary me-2" aria-hidden="true"></i>PDF, HTML and Akoma Ntoso XML format options</li>
+          <li class="list-group-item"><i class="bi bi-plug text-primary me-2" aria-hidden="true"></i>No API integration required</li>
+          <li class="list-group-item"><i class="bi bi-receipt text-primary me-2" aria-hidden="true"></i>Priced per document and format</li>
+        </ul>
+        <a class="btn btn-primary mt-3" href="https://platform.laws.africa/">Explore Data Packs</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-5 my-5 bg-light">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-4">
+        <h2>Built for developers</h2>
+        <p class="lead">
+          Evaluate the APIs quickly, test real queries and give your team a clear path from prototype to production.
+        </p>
+      </div>
+      <div class="col-lg-8">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <h3 class="h5"><i class="bi bi-journal-code text-primary me-2" aria-hidden="true"></i>Documentation</h3>
+            <p>Clear guides help teams evaluate responses, understand limits and integrate confidently.</p>
+          </div>
+          <div class="col-md-4">
+            <h3 class="h5"><i class="bi bi-play-circle text-primary me-2" aria-hidden="true"></i>Playground</h3>
+            <p>Test queries and inspect outputs before committing to an implementation path.</p>
+          </div>
+          <div class="col-md-4">
+            <h3 class="h5"><i class="bi bi-cpu text-primary me-2" aria-hidden="true"></i>AI workflows</h3>
+            <p>Use the platform with Claude, Codex, agent frameworks and retrieval pipelines.</p>
+          </div>
+        </div>
+        <a class="btn btn-outline-primary mt-3" href="https://developers.laws.africa/" rel="noreferrer" target="_blank">
+          Read the developer guide
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-5 my-5">
+  <div class="container">
+    <h2 class="mb-4">Questions teams ask before they build</h2>
+    <div class="row g-4">
+      <div class="col-md-6">
+        <h3 class="h5">How do upgrades work?</h3>
+        <p>Start in Sandbox, move to Build when you need production access, and move to Scale for multiple countries or deeper integrations.</p>
+      </div>
+      <div class="col-md-6">
+        <h3 class="h5">Can I change countries?</h3>
+        <p>Sandbox and Build are country-scoped. Choose the country that matches your current product or evaluation need.</p>
+      </div>
+      <div class="col-md-6">
+        <h3 class="h5">What happens when I hit limits?</h3>
+        <p>Limits protect shared infrastructure. Upgrade when you need higher usage, production reliability or broader coverage.</p>
+      </div>
+      <div class="col-md-6">
+        <h3 class="h5">What formats are supported?</h3>
+        <p>The Content API supports structured legislation formats such as Akoma Ntoso XML and HTML, with PDF where available.</p>
+      </div>
+      <div class="col-md-6">
+        <h3 class="h5">Do I need the Content API?</h3>
+        <p>Use the Knowledge Base API for AI grounding, search and retrieval. Use the Content API when you need full local copies.</p>
+      </div>
+      <div class="col-md-6">
+        <h3 class="h5">Can I use this with AI systems?</h3>
+        <p>Yes. The platform is designed to ground AI and agent workflows in maintained, authoritative African legal knowledge.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-5 my-5 bg-lawsafrica-pale-red">
+  <div class="container text-center">
+    <h2>Start free. Build on legal knowledge you can trust.</h2>
+    <p class="lead">Build on trustworthy African legal knowledge without maintaining the legal data pipeline yourself.</p>
+    <div class="d-flex flex-wrap gap-2 justify-content-center">
+      <a class="btn btn-primary" href="https://platform.laws.africa/">Start for free</a>
+      <a class="btn btn-outline-dark" href="https://developers.laws.africa/" rel="noreferrer" target="_blank">
+        Developer docs
+      </a>
+    </div>
+  </div>
+</section>
+{% endblock %}

@@ -17,6 +17,6 @@ Laws.Africa curates the Legislation Commons, a growing collection of African leg
 * **Creative commons** licensed for non-commercial uses, and flexible terms for commercial applications.
 * **Continuously updated** by the Laws.Africa editorial team.
 
-Use the Commons through the [Laws.Africa Content API](/api) or you can [email us](mailto:info@laws.africa) for more details.
+Use the Commons through the [Laws.Africa Legal Knowledge Platform](/platform) or you can [email us](mailto:info@laws.africa) for more details.
 
-<a href="/api" class="btn btn-primary">About the Content API</a>
+<a href="/platform" class="btn btn-primary">About the Legal Knowledge Platform</a>
