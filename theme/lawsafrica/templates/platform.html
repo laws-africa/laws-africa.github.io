@@ -59,19 +59,19 @@
 
     <div class="row row-cols-1 row-cols-lg-3 g-4">
       <div class="col">
-        <div class="card h-100 platform-plan-card--sandbox">
+        <div class="card h-100 bg-plan--sandbox">
           <div class="card-body d-flex flex-column">
             <div class="mb-3">
               <i class="bi bi-terminal h2" aria-hidden="true"></i>
             </div>
             <h3 class="h4">Sandbox</h3>
+            <p>Protyping and experimentation</p>
             <h4 class="h3">Free</h4>
-            <p>Test queries, inspect responses and prototype with maintained African legal knowledge.</p>
             <ul>
               <li>Single country</li>
-              <li>Legislation and judgments Knowledge Base API</li>
+              <li>Legislation and judgments Knowledge Bases</li>
               <li>Cape Town by-laws via the Content API</li>
-              <li>Strict rate limits; not for production</li>
+              <li><a href="#compare-rate-limits">Strict rate limits</a></li>
             </ul>
             <div class="mt-auto">
               <a class="btn btn-primary w-100" href="https://platform.laws.africa/">Start for free</a>
@@ -81,19 +81,19 @@
       </div>
 
       <div class="col">
-        <div class="card h-100 platform-plan-card--build">
+        <div class="card h-100 bg-plan--build">
           <div class="card-body d-flex flex-column">
             <div class="mb-3">
               <i class="bi bi-hammer h2" aria-hidden="true"></i>
             </div>
             <h3 class="h4">Build</h3>
+            <p>Production workflows</p>
             <h4 class="h3">From ZAR 4,200 / month</h4>
-            <p>Launch a production workflow for one country on trusted legal data.</p>
             <ul>
               <li>Single country</li>
-              <li>Legislation and judgments Knowledge Base API</li>
+              <li>Legislation and judgments Knowledge Bases</li>
               <li>Cape Town by-laws via the Content API</li>
-              <li>Higher rate limits</li>
+              <li><a href="#compare-rate-limits">Higher rate limits</a></li>
             </ul>
             <div class="mt-auto">
               <a class="btn btn-primary w-100" href="https://platform.laws.africa/">Start building</a>
@@ -103,18 +103,18 @@
       </div>
 
       <div class="col">
-        <div class="card h-100 platform-plan-card--scale">
+        <div class="card h-100 bg-plan--scale">
           <div class="card-body d-flex flex-column">
             <div class="mb-3">
               <i class="bi bi-building-up h2" aria-hidden="true"></i>
             </div>
             <h3 class="h4">Scale</h3>
-            <h4 class="h3">Custom pricing</h4>
-            <p>Expand across countries, content types and higher-volume legal AI or compliance workflows.</p>
+            <p>Multiple countries and full legislation content</p>
+            <h4 class="h3">From ZAR 6,700 / month</h4>
             <ul>
               <li>Multiple countries and content types</li>
-              <li>Legislation and judgments Knowledge Base API</li>
-              <li>Content API access for full legislation collections</li>
+              <li>Legislation and judgments Knowledge Bases</li>
+              <li>Legislation Content API starting at ZAR 42,000 per month billed annually</li>
               <li>Unlimited usage</li>
             </ul>
             <div class="mt-auto">
@@ -124,6 +124,7 @@
         </div>
       </div>
     </div>
+    <div class="text-center my-3"><a href="#compare">Compare plans</a></div>
   </div>
 </section>
 
@@ -133,14 +134,14 @@
       <div class="col-lg-5">
         <h2>Choose the API that matches your product</h2>
         <p class="lead">
-          Choose the Knowledge Base API when your product needs reliable answers, search results or AI grounding.
+          Choose Knowledge Bases when your product needs reliable answers, search results or AI grounding.
           Choose the Content API when you need full legislation collections inside your own systems.
         </p>
       </div>
       <div class="col-lg-7">
         <div>
           <div class="mb-4">
-            <h3 class="h5"><i class="bi bi-search text-primary me-2" aria-hidden="true"></i>Knowledge Base API</h3>
+            <h3 class="h5"><i class="bi bi-search text-primary me-2" aria-hidden="true"></i>Knowledge Bases</h3>
             <p>
               Query authoritative African legal information for AI grounding, RAG, legal agents, search and workflow
               tools. Laws.Africa handles ingestion, indexing and updates.
@@ -160,6 +161,153 @@
 </section>
 
 <section class="py-5 my-5">
+  <div class="container">
+    <h2 class="mb-4" id="compare">Compare plans</h2>
+
+    <div class="table-responsive">
+      <table class="table align-middle">
+        <thead class="table-light">
+          <tr>
+            <th scope="col" class="bg-white"></th>
+            <th scope="col" class="bg-plan--sandbox" style="width: 22%">Sandbox</th>
+            <th scope="col" class="bg-plan--build" style="width: 22%">Build</th>
+            <th scope="col" class="bg-plan--scale" style="width: 22%">Scale</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" class="fw-normal">Number of countries</th>
+            <td>One country</td>
+            <td>One country</td>
+            <td>Multiple countries</td>
+          </tr>
+          <tr>
+            <th scope="row" colspan="4" class="bg-light">Knowledge Bases</th>
+          </tr>
+          <tr>
+            <th scope="row" class="fw-normal">Ongoing updates</th>
+            <td><i class="bi bi-check-lg"></i></td>
+            <td><i class="bi bi-check-lg"></i></td>
+            <td><i class="bi bi-check-lg"></i></td>
+          </tr>
+          <tr>
+            <th scope="row" class="fw-normal">Public links</th>
+            <td><i class="bi bi-check-lg"></i></td>
+            <td><i class="bi bi-check-lg"></i></td>
+            <td><i class="bi bi-check-lg"></i></td>
+          </tr>
+          <tr id="compare-rate-limits">
+            <th scope="row" class="fw-normal">Call rate limits</th>
+            <td class="text-nowrap">
+              30 calls / minute<br>
+              80 calls / hour<br>
+              320 calls / day
+            </td>
+            <td class="text-nowrap">
+              80 calls / minute<br>
+              400 calls / hour<br>
+              3200 calls / day
+            </td>
+            <td>Unlimited</td>
+          </tr>
+          <tr>
+            <th scope="row" colspan="4" class="bg-light">Knowledge Bases: Judgments</th>
+          </tr>
+          <tr>
+            <th scope="row" class="fw-normal">Flynotes / topics</th>
+            <td><i class="bi bi-check-lg"></i></td>
+            <td><i class="bi bi-check-lg"></i></td>
+            <td><i class="bi bi-check-lg"></i></td>
+          </tr>
+          <tr>
+            <th scope="row" class="fw-normal">One-line case summaries</th>
+            <td><i class="bi bi-check-lg"></i></td>
+            <td><i class="bi bi-check-lg"></i></td>
+            <td><i class="bi bi-check-lg"></i></td>
+          </tr>
+          <tr>
+            <th scope="row" class="fw-normal">Full case summaries</th>
+            <td><i class="bi bi-check-lg"></i></td>
+            <td><i class="bi bi-check-lg"></i></td>
+            <td><i class="bi bi-check-lg"></i></td>
+          </tr>
+          <tr>
+            <th scope="row" colspan="4" class="bg-light">Knowledge Bases: Legislation</th>
+          </tr>
+          <tr>
+            <th scope="row" class="fw-normal">Latest versions</th>
+            <td><i class="bi bi-check-lg"></i></td>
+            <td><i class="bi bi-check-lg"></i></td>
+            <td><i class="bi bi-check-lg"></i></td>
+          </tr>
+          <tr>
+            <th scope="row" class="fw-normal">Provision-level matches</th>
+            <td><i class="bi bi-check-lg"></i></td>
+            <td><i class="bi bi-check-lg"></i></td>
+            <td><i class="bi bi-check-lg"></i></td>
+          </tr>
+          <tr>
+            <th scope="row" colspan="4" class="bg-light">Legislation Content API</th>
+          </tr>
+          <tr>
+            <th scope="row" class="fw-normal">Preview: Cape Town By-laws</th>
+            <td><i class="bi bi-check-lg"></i></td>
+            <td><i class="bi bi-check-lg"></i></td>
+            <td><i class="bi bi-check-lg"></i></td>
+          </tr>
+          <tr>
+            <th scope="row" class="fw-normal">Latest versions</th>
+            <td>﹣</td>
+            <td>﹣</td>
+            <td><i class="bi bi-check-lg"></i></td>
+          </tr>
+          <tr>
+            <th scope="row" class="fw-normal">Historical versions</th>
+            <td>﹣</td>
+            <td>﹣</td>
+            <td><i class="bi bi-check-lg"></i></td>
+          </tr>
+          <tr>
+            <th scope="row" class="fw-normal">Formats</th>
+            <td>﹣</td>
+            <td>﹣</td>
+            <td>PDF, HTML, Akoma Ntoso XML</td>
+          </tr>
+          <tr>
+            <th scope="row" class="fw-normal">Lifecycle metadata</th>
+            <td>﹣</td>
+            <td>﹣</td>
+            <td>Publication, commencements, amendments, repeals</td>
+          </tr>
+          <tr>
+            <th scope="row" colspan="4" class="bg-light">Pricing<sup>*</sup></th>
+          </tr>
+          <tr id="compare-price">
+            <th scope="row" class="fw-normal">Knowledge Bases</th>
+            <td>Free</td>
+            <td>
+              ZAR 4,200 per Knowledge Base per month
+            </td>
+            <td>
+              ZAR 6,700 per Knowledge Base per country per month
+            </td>
+          </tr>
+          <tr>
+            <th scope="row" class="fw-normal">Legislation Content API</th>
+            <td>﹣</td>
+            <td>﹣</td>
+            <td>
+              From <span class="text-nowrap">ZAR 42,000</span> per country per month, billed annually
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="small"><sup>*</sup>Prices exclude VAT.</div>
+    </div>
+  </div>
+</section>
+
+<section class="py-5 my-5 bg-light">
   <div class="container">
     <div class="row g-4">
       <div class="col-lg-4">
@@ -191,7 +339,7 @@
   </div>
 </section>
 
-<section class="py-5 my-5 bg-light">
+<section class="py-5 my-5">
   <div class="container">
     <div class="row g-4">
       <div class="col-lg-4">
@@ -207,7 +355,7 @@
         <h3 class="h5">What formats are supported?</h3>
         <p>The Content API supports structured legislation formats such as Akoma Ntoso XML and HTML, with PDF where available.</p>
         <h3 class="h5">Do I need the Content API?</h3>
-        <p>Use the Knowledge Base API for AI grounding, search and retrieval. Use the Content API when you need full local copies.</p>
+        <p>Use the Knowledge Base for AI grounding, search and retrieval. Use the Content API when you need full local copies.</p>
         <h3 class="h5">Can I use this with AI systems?</h3>
         <p>Yes. The platform is designed to ground AI and agent workflows in maintained, authoritative African legal knowledge.</p>
       </div>

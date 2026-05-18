@@ -2,14 +2,17 @@
   background-color: $pale-red;
 }
 
-.platform-plan-card--sandbox {
+.bg-plan--sandbox {
   background-color: #e5ecf5;
+  --bs-table-bg: #e5ecf5;
 }
 
-.platform-plan-card--build {
+.bg-plan--build {
   background-color: #fad7d5;
+  --bs-table-bg: #fad7d5;
 }
 
-.platform-plan-card--scale {
+.bg-plan--scale {
   background-color: #f4f4f4;
+  --bs-table-bg: #f4f4f4;
 }
