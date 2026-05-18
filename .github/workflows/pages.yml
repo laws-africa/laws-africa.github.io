@@ -28,8 +28,16 @@ jobs:
           python-version: "3.12"
           cache: pip
 
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
       - name: Install dependencies
-        run: python -m pip install -e .
+        run: |
+          python -m pip install -e .
+          npm install
 
       - name: Build site
         run: build-pelican-site
