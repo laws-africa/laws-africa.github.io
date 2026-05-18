@@ -144,8 +144,23 @@ def compile_sass() -> None:
     output = css_dir / "main.css"
 
     commands = [
-        ["sassquatch", "--load-path", str(scss_dir), f"{scss}:{output}"],
-        ["sass", "--load-path", str(scss_dir), str(scss), str(output)],
+        [
+            "sassquatch",
+            "--load-path",
+            str(scss_dir),
+            "--load-path",
+            str(ROOT / "node_modules"),
+            f"{scss}:{output}",
+        ],
+        [
+            "sass",
+            "--load-path",
+            str(scss_dir),
+            "--load-path",
+            str(ROOT / "node_modules"),
+            str(scss),
+            str(output),
+        ],
     ]
     for command in commands:
         if shutil.which(command[0]):
@@ -160,6 +175,22 @@ def compile_sass() -> None:
     raise RuntimeError("No Sass compiler found. Install sassquatch or Dart Sass.")
 
 
+def copy_bootstrap_js() -> None:
+    source = (
+        ROOT
+        / "node_modules"
+        / "bootstrap"
+        / "dist"
+        / "js"
+        / "bootstrap.bundle.min.js"
+    )
+    if not source.exists():
+        raise RuntimeError("Bootstrap JavaScript not found. Run npm install.")
+    dest = OUTPUT_DIR / "static" / "vendor" / "bootstrap" / "bootstrap.bundle.min.js"
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(source, dest)
+
+
 def run_pelican(settings: str) -> None:
     command = [sys.executable, "-m", "pelican", str(CONTENT_DIR), "-s", settings]
     subprocess.run(command, cwd=ROOT, check=True)
@@ -168,6 +199,7 @@ def run_pelican(settings: str) -> None:
 def build(settings: str) -> None:
     run_pelican(settings)
     compile_sass()
+    copy_bootstrap_js()
 
 
 def main() -> None:

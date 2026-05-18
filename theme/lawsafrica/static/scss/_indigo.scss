@@ -1,5 +1,5 @@
 .bg-indigo-pale-blue {
-  background-color: lighten($indigo-blue, 60%);
+  background-color: tint-color($indigo-blue, 60%);
 }
 
 .feature-icon {

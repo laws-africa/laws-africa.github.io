@@ -47,7 +47,7 @@
           <ul class="list-inline">
             <li class="list-inline-item">Versions:</li>
             {% for ver in versions %}
-              <li class="list-inline-item {% if ver.date == page.date %}font-weight-bold{% endif %}">
+              <li class="list-inline-item {% if ver.date == page.date %}fw-bold{% endif %}">
                 {% if ver.date == page.date %}
                   {{ ver.date|strftime("%e %b %Y") }}
                 {% else %}
