@@ -1,11 +1,11 @@
 {
   "covid19": {
-    "as_at_date": "2026-04-30",
+    "as_at_date": "2026-05-08",
     "n_countries": 9,
-    "n_principal": 3442
+    "n_principal": 3447
   },
   "na": {
-    "as_at_date": "2026-04-30",
+    "as_at_date": "2026-05-08",
     "n_principal": 443,
     "n_stubs": 1667
   },
@@ -30,7 +30,7 @@
   "ug": {
     "as_at_date": "2024-03-01",
     "n_principal": 435,
-    "n_stubs": 742
+    "n_stubs": 764
   },
   "za_bylaws": {
     "as_at_date": "2026-05-08",
