@@ -65,6 +65,11 @@ $bootstrap-icons-font-dir: "/static/vendor/bootstrap-icons/fonts";
   background-color: lightgrey;
 }
 
-.btn.btn-primary {
+.btn-primary {
   --bs-btn-color: white;
+  --bs-btn-hover-color: white;
+}
+
+.btn-outline-primary {
+  --bs-btn-hover-color: white;
 }
