@@ -29,6 +29,7 @@ STATIC_PATHS = ["static"]
 EXTRA_PATH_METADATA = {
     "static/favicon.ico": {"path": "favicon.ico"},
     "static/google31ad17a90935c519.html": {"path": "google31ad17a90935c519.html"},
+    "static/robots.txt": {"path": "robots.txt"},
 }
 STATIC_EXCLUDES = [".DS_Store", "*/.DS_Store"]
 IGNORE_FILES = ["**/.*", ".*"]
