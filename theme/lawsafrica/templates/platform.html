@@ -54,7 +54,7 @@
       <p class="lead mb-0">Start with a free sandbox, launch with one country, and scale when you need more coverage, higher usage or full content access.</p>
     </div>
 
-    <div class="row row-cols-1 row-cols-lg-3 g-4">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 g-4">
       <div class="col">
         <div class="card h-100 bg-plan--sandbox">
           <div class="card-body d-flex flex-column">
@@ -62,7 +62,7 @@
               <i class="bi bi-terminal h2" aria-hidden="true"></i>
             </div>
             <h3 class="h4">Sandbox</h3>
-            <p>Protyping and experimentation</p>
+            <p>Prototyping and experimentation</p>
             <h4 class="h3">Free</h4>
             <ul>
               <li>Single country</li>
@@ -113,6 +113,28 @@
               <li>Legislation and judgments Knowledge Bases</li>
               <li>Legislation Content API starting at ZAR 42,000 per month billed annually</li>
               <li>10,000 calls per day</li>
+            </ul>
+            <div class="mt-auto">
+              <a class="btn btn-primary w-100" href="mailto:support@laws.africa">Talk to us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 bg-plan--enterprise">
+          <div class="card-body d-flex flex-column">
+            <div class="mb-3">
+              <i class="bi bi-buildings h2" aria-hidden="true"></i>
+            </div>
+            <h3 class="h4">Enterprise</h3>
+            <p>Custom requirements and support</p>
+            <h4 class="h3">Custom</h4>
+            <ul>
+              <li>Multiple countries and content types</li>
+              <li>Legislation and judgments Knowledge Bases</li>
+              <li>Legislation Content API starting at ZAR 42,000 per month billed annually</li>
+              <li>Custom call limits</li>
             </ul>
             <div class="mt-auto">
               <a class="btn btn-primary w-100" href="mailto:support@laws.africa">Talk to us</a>
@@ -202,9 +224,10 @@
         <thead class="table-light">
         <tr>
           <th scope="col" class="bg-white"></th>
-          <th scope="col" class="bg-plan--sandbox" style="width: 22%">Sandbox</th>
-          <th scope="col" class="bg-plan--build" style="width: 22%">Build</th>
-          <th scope="col" class="bg-plan--scale" style="width: 22%">Scale</th>
+          <th scope="col" class="bg-plan--sandbox" style="width: 18%">Sandbox</th>
+          <th scope="col" class="bg-plan--build" style="width: 18%">Build</th>
+          <th scope="col" class="bg-plan--scale" style="width: 18%">Scale</th>
+          <th scope="col" class="bg-plan--enterprise" style="width: 18%">Enterprise</th>
         </tr>
         </thead>
         <tbody>
@@ -213,18 +236,21 @@
           <td>One country</td>
           <td>One country</td>
           <td>Multiple countries</td>
+          <td>Multiple countries</td>
         </tr>
         <tr>
-          <th scope="row" colspan="4" class="bg-light">Knowledge Bases</th>
+          <th scope="row" colspan="5" class="bg-light">Knowledge Bases</th>
         </tr>
         <tr>
           <th scope="row" class="fw-normal">Ongoing updates</th>
           <td><i class="bi bi-check-lg"></i></td>
           <td><i class="bi bi-check-lg"></i></td>
           <td><i class="bi bi-check-lg"></i></td>
+          <td><i class="bi bi-check-lg"></i></td>
         </tr>
         <tr>
           <th scope="row" class="fw-normal">Public links</th>
+          <td><i class="bi bi-check-lg"></i></td>
           <td><i class="bi bi-check-lg"></i></td>
           <td><i class="bi bi-check-lg"></i></td>
           <td><i class="bi bi-check-lg"></i></td>
@@ -243,12 +269,14 @@
             500 calls / minute<br>
             10,000 calls / day
           </td>
+          <td>Custom</td>
         </tr>
         <tr>
-          <th scope="row" colspan="4" class="bg-light">Knowledge Bases: Judgments</th>
+          <th scope="row" colspan="5" class="bg-light">Knowledge Bases: Judgments</th>
         </tr>
         <tr>
           <th scope="row" class="fw-normal">Flynotes / topics</th>
+          <td><i class="bi bi-check-lg"></i></td>
           <td><i class="bi bi-check-lg"></i></td>
           <td><i class="bi bi-check-lg"></i></td>
           <td><i class="bi bi-check-lg"></i></td>
@@ -258,18 +286,21 @@
           <td><i class="bi bi-check-lg"></i></td>
           <td><i class="bi bi-check-lg"></i></td>
           <td><i class="bi bi-check-lg"></i></td>
+          <td><i class="bi bi-check-lg"></i></td>
         </tr>
         <tr>
           <th scope="row" class="fw-normal">Full case summaries</th>
           <td><i class="bi bi-check-lg"></i></td>
           <td><i class="bi bi-check-lg"></i></td>
           <td><i class="bi bi-check-lg"></i></td>
+          <td><i class="bi bi-check-lg"></i></td>
         </tr>
         <tr>
-          <th scope="row" colspan="4" class="bg-light">Knowledge Bases: Legislation</th>
+          <th scope="row" colspan="5" class="bg-light">Knowledge Bases: Legislation</th>
         </tr>
         <tr>
           <th scope="row" class="fw-normal">Latest versions</th>
+          <td><i class="bi bi-check-lg"></i></td>
           <td><i class="bi bi-check-lg"></i></td>
           <td><i class="bi bi-check-lg"></i></td>
           <td><i class="bi bi-check-lg"></i></td>
@@ -279,12 +310,14 @@
           <td><i class="bi bi-check-lg"></i></td>
           <td><i class="bi bi-check-lg"></i></td>
           <td><i class="bi bi-check-lg"></i></td>
+          <td><i class="bi bi-check-lg"></i></td>
         </tr>
         <tr>
-          <th scope="row" colspan="4" class="bg-light">Content API</th>
+          <th scope="row" colspan="5" class="bg-light">Content API</th>
         </tr>
         <tr>
           <th scope="row" class="fw-normal">Preview: Cape Town By-laws</th>
+          <td><i class="bi bi-check-lg"></i></td>
           <td><i class="bi bi-check-lg"></i></td>
           <td><i class="bi bi-check-lg"></i></td>
           <td><i class="bi bi-check-lg"></i></td>
@@ -294,11 +327,13 @@
           <td>﹣</td>
           <td>﹣</td>
           <td><i class="bi bi-check-lg"></i></td>
+          <td><i class="bi bi-check-lg"></i></td>
         </tr>
         <tr>
           <th scope="row" class="fw-normal">Historical legislation versions</th>
           <td>﹣</td>
           <td>﹣</td>
+          <td><i class="bi bi-check-lg"></i></td>
           <td><i class="bi bi-check-lg"></i></td>
         </tr>
         <tr>
@@ -306,11 +341,13 @@
           <td>﹣</td>
           <td>﹣</td>
           <td>PDF, HTML, Akoma Ntoso XML</td>
+          <td>PDF, HTML, Akoma Ntoso XML</td>
         </tr>
         <tr>
           <th scope="row" class="fw-normal">Legislation lifecycle metadata</th>
           <td>﹣</td>
           <td>﹣</td>
+          <td>Publication, commencements, amendments, repeals</td>
           <td>Publication, commencements, amendments, repeals</td>
         </tr>
         <tr>
@@ -318,9 +355,10 @@
           <td>﹣</td>
           <td>﹣</td>
           <td><i class="bi bi-check-lg"></i></td>
+          <td><i class="bi bi-check-lg"></i></td>
         </tr>
         <tr>
-          <th scope="row" colspan="4" class="bg-light">Pricing<sup>*</sup></th>
+          <th scope="row" colspan="5" class="bg-light">Pricing<sup>*</sup></th>
         </tr>
         <tr id="compare-price">
           <th scope="row" class="fw-normal"><a href="#kb">Knowledge Bases</a></th>
@@ -331,6 +369,7 @@
           <td>
             ZAR 6,700 per Knowledge Base per country per month
           </td>
+          <td>Custom</td>
         </tr>
         <tr>
           <th scope="row" class="fw-normal"><a href="#content-api">Content API</a></th>
@@ -339,6 +378,7 @@
           <td>
             From <span class="text-nowrap">ZAR 42,000</span> per country per month, billed annually
           </td>
+          <td>Custom</td>
         </tr>
         </tbody>
       </table>
