@@ -30,7 +30,7 @@
   "ug": {
     "as_at_date": "2024-03-01",
     "n_principal": 436,
-    "n_stubs": 900
+    "n_stubs": 902
   },
   "za_bylaws": {
     "as_at_date": "2026-05-29",
@@ -40,6 +40,6 @@
   "zw": {
     "as_at_date": "2024-12-31",
     "n_principal": 398,
-    "n_stubs": 406
+    "n_stubs": 407
   }
 }
