@@ -107,7 +107,7 @@ def build_site() -> Obj:
             "description": "Laws.Africa unlocks the value of African digital legal information in support of the rule of law, access to justice, and innovation.",
             "url": "https://laws.africa",
             "timezone": "Africa/Johannesburg",
-            "hiring": True,
+            "hiring": False,
             "hiring_contributors": False,
             "data": data,
             "publications": publications,
