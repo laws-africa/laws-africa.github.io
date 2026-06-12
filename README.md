@@ -118,8 +118,8 @@ Available values:
   sorted newest first.
 - `site.people`: entries from `data/people.yml`, sorted by `position`.
 - `site.data`: shared data loaded from files in `data/`. JSON and YAML files
-  are exposed by filename, so `data/commons.json` is available as
-  `site.data.commons`.
+  are exposed by filename, so `data/people.yml` is available as
+  `site.data.people`.
 
 Items in `articles`, `site.publications`, and `site.case_studies` are built
 from each file's front matter. Common fields include `title`, `url`, `save_as`,
@@ -156,7 +156,3 @@ To make code or style changes, you'll need to edit the site locally.
 
 The source content lives in `content/`, the Pelican theme lives in
 `theme/lawsafrica/`, and build output is written to `.pelican-output/`.
-
-# Updating stats on the legislation commons
-
-Every night, GitHub Actions runs and updates `data/commons.json` with stats from Laws.Africa and commits it back into the master branch, which updates the website.

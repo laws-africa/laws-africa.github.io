@@ -33,7 +33,7 @@ The [Indigo Platform](https://laws.africa/indigo/) is our world-class, open sour
 Indigo enables a new approach to free access to law in Africa:
 
 * It enables national governments to maintain their own legislation collections;
-* It underlies our [Legislation Commons](https://laws.africa/commons), a Creative-Commons licensed collection of African legislation;
+* It underlies our [Legal Knowledge Platform](/platform/), including Creative-Commons licensed collections of African legislation;
 * It produces machine-friendly Akoma Ntoso XML to enable legislation reuse, unlocking innovation;
 * It **significantly** reduces the time and cost of converting legislation into Akoma Ntoso: a complex Act with hundreds of sections can be converted in one to two hours.
 
@@ -75,6 +75,6 @@ Founded in late 2018, Laws.Africa has achieved much in its first 18 months, than
 
 
 * The open source Indigo platform is available on GitHub at [github.com/laws-africa/indigo](https://github.com/laws-africa/indigo)
-* Information on the Laws.Africa Legislation Commons is available at [laws.africa/commons](https://laws.africa/commons)
+* Information on the Laws.Africa Legal Knowledge Platform is available at [laws.africa/platform/](/platform/)
 * By-laws for 6 South African municiplaties (and growing!) are freely available at [openbylaws.org.za](https://openbylaws.org.za)
 * Full national Namibian Legislation is available at [Namiblii.org](https://namiblii.org)
