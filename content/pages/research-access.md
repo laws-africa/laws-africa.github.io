@@ -39,9 +39,12 @@ Researchers must:
 * credit Laws.Africa in resulting publications, reports, presentations, datasets, and code
 * not redistribute Laws.Africa source content, credentials, or API responses
 * not use the data for commercial products, private client work, model training, or fine-tuning unless separately agreed in writing
+* comply with applicable national data protection and privacy laws
 * protect the data and delete it, or confirm continued safeguarding, when the project ends
 
 Free research access is not available for commercial product development, private client work, undisclosed sponsored work, or projects where the output will remain private.
+
+In some cases, access may also depend on permission or approval from relevant authorities in the country concerned.
 
 ## Apply
 
