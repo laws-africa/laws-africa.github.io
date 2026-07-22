@@ -52,4 +52,4 @@ If your project meets these conditions, complete the research access request for
 
 Submitting a request does not guarantee access. If your project is commercial or requires ongoing production access, please use the [Laws.Africa Legal Knowledge Platform](/platform/) instead.
 
-<a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSc8QYfPqYD66pzehH-E3mQaOfx8_Qmz0u15cJdZQzbGKR4krw/viewform?usp=header">Request research access</a>
+<a class="btn btn-primary" href="https://super-delphinium-168.notion.site/bbe55c8c2853488999c60ee3c443dee1">Request research access</a>
