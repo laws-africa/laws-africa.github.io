@@ -142,8 +142,22 @@ def compile_sass() -> None:
     scss_dir = THEME_DIR / "static" / "scss"
     scss = scss_dir / "main.scss"
     output = css_dir / "main.css"
+    local_sass = ROOT / "node_modules" / ".bin" / ("sass.cmd" if sys.platform == "win32" else "sass")
 
+    dart_sass_args = [
+        "--load-path",
+        str(scss_dir),
+        "--load-path",
+        str(ROOT / "node_modules"),
+        str(scss),
+        str(output),
+    ]
     commands = [
+        [str(local_sass), *dart_sass_args],
+        [
+            "sass",
+            *dart_sass_args,
+        ],
         [
             "sassquatch",
             "--load-path",
@@ -151,15 +165,6 @@ def compile_sass() -> None:
             "--load-path",
             str(ROOT / "node_modules"),
             f"{scss}:{output}",
-        ],
-        [
-            "sass",
-            "--load-path",
-            str(scss_dir),
-            "--load-path",
-            str(ROOT / "node_modules"),
-            str(scss),
-            str(output),
         ],
     ]
     for command in commands:

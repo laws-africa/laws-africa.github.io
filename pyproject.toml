@@ -11,7 +11,6 @@ dependencies = [
   "PyYAML>=6,<7",
   "python-dateutil>=2.9,<3",
   "Markdown>=3.6",
-  "sassquatch>=0.2",
 ]
 
 [project.scripts]
