@@ -47,7 +47,10 @@
                   {% if posn.salary %}
                   <b>Remuneration:</b> {{ posn.salary }}<br>
                   {% endif %}
-                  <b>Location:</b> {{ posn.location }}
+                  <b>Location:</b> {{ posn.location }}{% if posn.start_date %}<br>{% endif %}
+                  {% if posn.start_date %}
+                  <b>Start date:</b> {{ posn.start_date }}
+                  {% endif %}
                 </p>
 
                 <div>

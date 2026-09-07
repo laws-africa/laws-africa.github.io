@@ -4,6 +4,138 @@ position: 10
 lead: Join the Laws.Africa team and help make African legislation freely available
   to everyone.
 positions:
+- title: Software Developer (Python / Django)
+  description: 'Laws.Africa is seeking a Software Developer to design, build, and
+    support websites and software that advance access to legal information. You
+    will work with frontend developers and colleagues to deliver reliable products
+    with a strong user experience.
+
+    You must be available for meetings from 09:00 to 17:00 SAST. The role reports
+    to the Chief Technology Officer.
+
+    '
+  responsibilities: '* Design, implement, and support websites and software using
+    Python, Django, and other appropriate technologies
+
+    * Use agile development methods to deliver high-quality software efficiently,
+    on time, and within available resources
+
+    * Collaborate with frontend developers so backend and frontend components work
+    effectively together
+
+    * Apply and promote good software development practices, and advocate for users
+    throughout development
+
+    * Contribute to relevant organisational activities and travel when required
+
+    '
+  requirements: '* Practical experience developing web applications with Python
+    and Django
+
+    * Ability to integrate backend and frontend components, diagnose problems,
+    and maintain dependable software
+
+    * Experience of collaborative, agile development and a commitment to code
+    quality and usability
+
+    * Clear communication, independent working skills, and an interest in improving
+    access to legal information
+
+    '
+  location: South Africa or Kenya (remote)
+  type: Fixed-term consultancy
+  salary: Dependent on experience
+  start_date: 1 October 2026
+  cta: 'mailto:jobs@laws.africa?subject=Software%20Developer'
+- title: Project Manager
+  description: 'Laws.Africa is seeking a Project Manager to plan and coordinate
+    our activities and programmes, manage delivery against budgets and timelines,
+    and work with clients and partners to achieve agreed results.
+
+    You must be available from 09:00 to 17:00 SAST. The role reports to the Director
+    of Strategy, Growth & Partnerships.
+
+    '
+  responsibilities: '* Plan and coordinate programmes and project activities to
+    achieve agreed scope and deliverables
+
+    * Track progress, prepare written updates, and identify and manage delivery risks
+
+    * Monitor budgets and milestones to support timely, cost-effective delivery
+
+    * Meet clients and stakeholders and represent Laws.Africa at events and workshops
+
+    * Organise and deliver events and workshops, and travel as required
+
+    '
+  requirements: '* An LLB or a degree in a directly related field from a recognised
+    institution
+
+    * A project management qualification or certification
+
+    * At least five years of relevant work experience
+
+    * Excellent written and spoken communication and negotiation skills, with strong
+    analytical, strategic thinking, and leadership abilities
+
+    * Integrity, initiative, creative thinking, and a results-focused approach;
+    ability to work within budgets and timelines, learn, and share knowledge
+
+    * A postgraduate degree and a strong track record in legal information publishing
+    are advantages
+
+    '
+  location: South Africa or Kenya (remote)
+  type: Fixed-term consultancy
+  salary: Dependent on experience
+  start_date: 1 October 2026
+  cta: 'mailto:jobs@laws.africa?subject=Project%20Manager'
+- title: Project Manager – Product Owner
+  description: 'Laws.Africa is seeking a Project Manager – Product Owner to connect
+    user needs with software delivery and help ensure projects remain within scope,
+    on time, and within budget.
+
+    You must be available for meetings from 09:00 to 17:00 SAST. The role reports
+    to the Chief Technology Officer.
+
+    '
+  responsibilities: '* Gather and document requirements through stakeholder
+    engagement, user research, and feedback
+
+    * Help maintain and prioritise a clearly defined product backlog and contribute
+    to the product roadmap
+
+    * Run sprint planning and work with developers to align tasks with product
+    priorities and requirements
+
+    * Check delivered features against acceptance criteria and quality expectations
+
+    * Keep stakeholders informed of progress and user feedback, and maintain useful,
+    accessible product documentation
+
+    * Provide product support and training, advocate for a high-quality user
+    experience, and travel when required
+
+    '
+  requirements: '* Practical experience coordinating digital projects or supporting
+    product ownership
+
+    * Ability to translate user needs into clear requirements and prioritised work
+
+    * Working understanding of agile delivery, sprint planning, and acceptance criteria
+
+    * Strong organisation, documentation, and communication skills, including the
+    ability to work with technical and non-technical colleagues
+
+    * A user-focused approach, confidence providing support and training, and an
+    interest in accessible legal information
+
+    '
+  location: South Africa or Kenya (remote)
+  type: Fixed-term consultancy
+  salary: Dependent on experience
+  start_date: 1 October 2026
+  cta: 'mailto:jobs@laws.africa?subject=Project%20Manager%20%E2%80%93%20Product%20Owner'
 - title: Training Manager
   description: 'Laws.Africa is hiring a Training Manager to own and deliver training,
     customer education, and user-facing learning materials across our platforms
