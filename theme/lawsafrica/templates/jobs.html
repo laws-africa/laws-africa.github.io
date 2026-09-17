@@ -42,6 +42,22 @@
                 <h3>Requirements</h3>
                 {{ posn.requirements|markdownify }}
 
+                {% if posn.nice_to_have %}
+                <h3>Useful, but not required</h3>
+                {{ posn.nice_to_have|markdownify }}
+                {% endif %}
+
+                {% if posn.application %}
+                <h3>How to apply</h3>
+                {% if posn.application_intro %}
+                {{ posn.application_intro|markdownify }}
+                {% endif %}
+                {{ posn.application|markdownify }}
+                {% if posn.application_note %}
+                {{ posn.application_note|markdownify }}
+                {% endif %}
+                {% endif %}
+
                 <p>
                   <b>Position:</b> {{ posn.type }}<br>
                   {% if posn.salary %}
