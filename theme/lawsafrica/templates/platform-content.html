@@ -1,0 +1,213 @@
+{% set page = article if article is defined else page %}
+{% extends "simple.html" %}
+{% block content %}
+<header class="py-5 bg-lawsafrica-pale-red">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9">
+        <p class="mb-3">
+          <a class="link-dark" href="/platform/"><i class="bi bi-arrow-left me-1" aria-hidden="true"></i>Legal Knowledge Platform</a>
+        </p>
+        <h1 class="display-4">Legislation content — priced per country, per year</h1>
+        <p class="lead mb-0">
+          Laws.Africa maintains national legislation collections and delivers them into your systems as text, HTML,
+          PDF or Akoma Ntoso XML. Your order sets the country, package, formats and permitted use.
+        </p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="py-5 bg-light">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="h3"><i class="bi bi-calendar-check text-primary" aria-hidden="true"></i></div>
+        <h2 class="h5">Flat annual licence</h2>
+        <p class="mb-0">One price per country, per year. No per-call, per-seat or per-document charges, and no overage.</p>
+      </div>
+      <div class="col-md-4">
+        <div class="h3"><i class="bi bi-globe2 text-primary" aria-hidden="true"></i></div>
+        <h2 class="h5">Multiple countries</h2>
+        <p class="mb-0">Country licences are added together. There are no volume discounts.</p>
+      </div>
+      <div class="col-md-4">
+        <div class="h3"><i class="bi bi-hourglass-split text-primary" aria-hidden="true"></i></div>
+        <h2 class="h5">At expiry</h2>
+        <p class="mb-0">Access, updates and permitted use end on expiry unless your order says otherwise.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-5">
+  <div class="container">
+    <div class="row row-cols-1 row-cols-lg-3 g-4">
+      <div class="col">
+        <article class="card h-100 bg-plan--sandbox">
+          <div class="card-body">
+            <h2 class="h3">Index</h2>
+            <p>For a local corpus that feeds retrieval, embeddings or search.</p>
+            <p class="h3">R500k <small class="d-block fs-6 fw-normal text-body-secondary">per country / year</small></p>
+            <ul class="mb-0">
+              <li>Current legislation in clean text</li>
+              <li>Canonical identifiers, citations and provenance</li>
+              <li>A link to each Act’s public page (not the files)</li>
+              <li>Scheduled releases; cadence set in your order</li>
+              <li>Text only. No HTML, PDF or XML, and no display in your product.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+      <div class="col">
+        <article class="card h-100 bg-plan--build position-relative">
+          <div class="card-body">
+            <span class="badge text-bg-dark position-absolute top-0 end-0 m-3">Recommended</span>
+            <h2 class="h3">Integrate</h2>
+            <p>When your users read the law inside your product.</p>
+            <p class="h3">R1.5m <small class="d-block fs-6 fw-normal text-body-secondary">per country / year</small></p>
+            <ul class="mb-0">
+              <li>Everything in Index</li>
+              <li>Readable HTML and source PDFs</li>
+              <li>The right to display legislation in your product</li>
+              <li>Updates maintained and delivered through the API</li>
+              <li>Webhooks when the law changes</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+      <div class="col">
+        <article class="card h-100 bg-plan--scale">
+          <div class="card-body">
+            <h2 class="h3">Analyse</h2>
+            <p>Built for teams that analyse, transform or render law themselves.</p>
+            <p class="h3">R2m <small class="d-block fs-6 fw-normal text-body-secondary">per country / year</small></p>
+            <ul class="mb-0">
+              <li>Everything in Integrate</li>
+              <li>Akoma Ntoso XML</li>
+              <li>Full lifecycle metadata</li>
+              <li>Version and amendment relationships</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <div class="col-lg-8 mx-auto">
+      <p class="lead text-center my-5">
+        Most teams weigh this against doing it themselves: sourcing every Act, consolidating each amendment and
+        re-checking currency; for a whole country, every year, indefinitely.
+      </p>
+    </div>
+
+    <div class="col-lg-8 mx-auto">
+      <div class="card bg-light">
+        <div class="card-body">
+          <div class="row align-items-center g-3">
+            <div class="col-md-8">
+              <h2 class="h4">Add History to Analyse</h2>
+              <p class="mb-0">
+                Every available historical expression and point in time, for audit, change analysis and time-aware legal AI.
+              </p>
+            </div>
+            <div class="col-md-4 text-md-end">
+              <p class="h3 mb-0">R3m <small class="d-block fs-6 fw-normal text-body-secondary">per country / year</small></p>
+              <p class="small mb-0">Analyse R2m + History R1m</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-5 bg-light">
+  <div class="container">
+    <div class="mb-5">
+      <h2>What you’re licensing, and what you can build with it.</h2>
+    </div>
+
+    <div class="row g-4 mb-4">
+      <div class="col-md-6">
+        <h3 class="h5">Available now</h3>
+        <p class="mb-0">
+          South Africa includes available national and provincial legislation, plus the municipal by-laws we hold. We
+          maintain collections in six African jurisdictions, and can supply several more that we scope and quote individually.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <h3 class="h5">In every plan</h3>
+        <p class="mb-0">
+          Canonical identifiers, jurisdiction, source provenance and a public source link, so your product can always
+          cite the law it relies on and show where it came from.
+        </p>
+      </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <h3 class="h5">Named product and derived data</h3>
+        <p>
+          Content is licensed for one named product or environment, including all of your own customers who use it.
+          Protected internal indexes, chunks, embeddings and caches are allowed where necessary for that product.
+          Training or fine-tuning a model on the collection needs written approval.
+        </p>
+      </div>
+      <div class="col">
+        <h3 class="h5">Source transparency</h3>
+        <p>
+          Outputs that rely on supplied legislation must carry a usable citation, a link to the canonical public text
+          and a visible “Legislation data supplied by Laws.Africa” credit. A data-sources page must describe the
+          collection and our role.
+        </p>
+      </div>
+      <div class="col">
+        <h3 class="h5">Commercial reuse</h3>
+        <p>
+          Build value-added products. Not raw content for resale, onward data feeds, a competing legal database or a
+          substitute for this service. White-labelling your product for another business to run as its own is a separate
+          arrangement — ask us early.
+        </p>
+      </div>
+      <div class="col">
+        <h3 class="h5">Terms and pricing</h3>
+        <p>
+          Prices exclude VAT. Licences are annual and normally paid in advance. Content API access is sales-assisted:
+          support, delivery and standard terms are confirmed before we provision.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-5">
+  <div class="container">
+    <div class="alert alert-secondary mb-4" role="note">
+      <strong>Public access to primary law remains free.</strong> The Content API is for teams that need a maintained
+      country collection inside their own systems. Paying for it never restricts what anyone can read on the public
+      legal-information sites we support.
+    </div>
+
+    <div class="alert alert-light border mb-5" role="note">
+      <strong>Not sure this is the right shape?</strong> <a href="/platform/#kb">Knowledge Bases</a> give you managed
+      retrieval, search and AI grounding without holding a corpus yourself. Or, a single current Act as a static PDF,
+      HTML and XML asset is R3,500 once-off. <a href="/contact/">Contact us</a> and we’ll help you choose the right option.
+    </div>
+
+    <div class="row justify-content-center text-center">
+      <div class="col-lg-8">
+        <h2>Request a coverage report for your country.</h2>
+        <p class="lead">
+          Tell us the country, the product you’re building and how current the law has to be. We’ll come back with what
+          we hold, which package fits and what it costs.
+        </p>
+        <a class="btn btn-primary" href="/contact/">Talk to us</a>
+        <p class="small text-body-secondary mt-4 mb-0">
+          This guide covers legislation collections only. Other content needs and limited-use cases are scoped
+          separately. It is a product overview, not an order form or licence agreement.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
